@@ -353,21 +353,18 @@ def call_claude_oauth(prompt: str) -> str | None:
     if not token:
         return None
     try:
-        # 把 prompt 写入临时文件避免 shell 转义问题
-        prompt_file = "/tmp/pitch_prompt.txt"
-        with open(prompt_file, "w", encoding="utf-8") as f:
-            f.write(prompt)
-
         result = subprocess.run(
-            ["claude", "-p", "--output-format", "text", f"@{prompt_file}"],
+            ["claude", "-p", "--output-format", "text"],
+            input=prompt,
             capture_output=True, text=True, timeout=120,
             env={**os.environ, "CLAUDE_CODE_OAUTH_TOKEN": token}
         )
-        if result.returncode == 0:
-            return result.stdout.strip()
+        output = result.stdout.strip()
+        if result.returncode == 0 and output:
+            return output
         else:
-            print(f"[WARN] claude CLI 错误: {result.stderr[:300]}")
-            return None
+            print(f"[WARN] claude CLI rc={result.returncode} stdout={output[:200]} stderr={result.stderr[:200]}")
+            return output if output else None
     except FileNotFoundError:
         print("[ERROR] claude CLI 未安装。GitHub Actions 已在 workflow 中安装，本地请运行: npm install -g @anthropic-ai/claude-code")
         return None
