@@ -1397,7 +1397,7 @@
     </div>
 
     <!-- 思格新能源 — 聆讯 2026-03-29 (每经确认) -->
-    <div class="ipo-item" onclick="showPitch('_stub_sige')" data-month="2026-04" data-week="2026-W17" data-phase="pipeline">
+    <div class="ipo-item" onclick="showPitch('_stub_e6809de6')" data-month="2026-04" data-week="2026-W17" data-phase="pipeline">
       <div class="ipo-badge badge-buy" style="font-size:7.5px;letter-spacing:0">聆讯✓</div>
       <div class="ipo-meta">
         <div class="ipo-name">思格新能源</div>
@@ -2907,13 +2907,75 @@ function toggleArchive(el) {
   el.textContent = isOpen ? '▸ 已上市归档' : '▾ 已上市归档';
 }
 
+// ─── 动态加载 data/pitches/*.json ───────────────────────
+async function loadDynamicPitches() {
+  try {
+    const resp = await fetch('data/sidebar.json');
+    if (!resp.ok) return;
+    const sidebar = await resp.json();
+
+    // 收集所有 key（招股中 + 聆讯 + 归档）
+    const allEntries = [
+      ...(sidebar.activeSubscription || []),
+      ...(sidebar.hearingPassed || []),
+      ...(sidebar.archived || []),
+    ];
+
+    for (const entry of allEntries) {
+      const key = entry.key;
+      if (!key) continue;
+      try {
+        const pr = await fetch(`data/pitches/${key}.json`);
+        if (!pr.ok) continue;
+        const pitch = await pr.json();
+        // 跳过无效数据（如之前的错误 JSON）
+        if (pitch.type === 'error') continue;
+        // 合并到全局 pitches，动态数据覆盖硬编码 stub
+        pitches[key] = pitch;
+
+        // 如果 sidebar 中没有对应条目，动态插入
+        if (!document.querySelector(`[onclick*="showPitch('${key}')"]`)) {
+          const ratingClass = pitch.rating === 'BUY' ? 'badge-buy' : pitch.rating === 'WATCH' ? 'badge-watch' : 'badge-skip';
+          const scoreColor = pitch.rating === 'BUY' ? 'var(--green)' : pitch.rating === 'WATCH' ? 'var(--yellow)' : 'var(--red)';
+          const phase = (sidebar.activeSubscription || []).some(e => e.key === key) ? 'subscribe' : 'listing';
+          const phaseLabel = phase === 'subscribe' ? '<span class="ipo-date-phase phase-sub">招股中</span>' : '';
+          const html = `
+            <div class="ipo-item" onclick="showPitch('${key}')" data-phase="${phase}">
+              <div class="ipo-badge ${ratingClass}">${pitch.rating || '—'}</div>
+              <div class="ipo-meta">
+                <div class="ipo-name">${pitch.name || entry.name || ''}</div>
+                <div class="ipo-ticker">${pitch.ticker || entry.ticker || 'TBD'} · ${pitch.sector || ''}</div>
+                <div class="ipo-date-row">${phaseLabel}</div>
+              </div>
+              <div class="ipo-score" style="color:${scoreColor}">${pitch.score ?? '—'}</div>
+            </div>`;
+          const ipoList = document.getElementById('ipoList');
+          if (ipoList) ipoList.insertAdjacentHTML('afterbegin', html);
+        }
+      } catch (e) { /* skip individual pitch load errors */ }
+    }
+
+    // 更新 sidebar header 日期
+    if (sidebar.lastUpdated && sidebar.lastUpdated !== 'init') {
+      const dateEl = document.querySelector('.header-date span');
+      if (dateEl) dateEl.textContent = sidebar.lastUpdated + ' HKT';
+    }
+  } catch (e) {
+    console.log('sidebar.json not available, using hardcoded data');
+  }
+}
+
 // Init — auto-open archive and show huayan pitch on load
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
   // Open archive by default so recent pitches are accessible
   const archiveList = document.getElementById('archiveList');
   const archiveToggle = document.getElementById('archiveToggle');
   if (archiveList) archiveList.style.display = 'block';
   if (archiveToggle) archiveToggle.textContent = '▾ 已上市归档';
+
+  // 加载动态生成的 pitch 数据
+  await loadDynamicPitches();
+
   // Show the most recent featured pitch
   showPitch('huayan');
   // Mark the huayan item in archive as active
