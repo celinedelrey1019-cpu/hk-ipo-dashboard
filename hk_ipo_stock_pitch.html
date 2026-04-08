@@ -1,0 +1,2925 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>港股打新 — IPO Stock Pitch Dashboard</title>
+<style>
+  :root {
+    --bg-primary: #0a0e1a;
+    --bg-secondary: #111827;
+    --bg-card: #161d2e;
+    --bg-hover: #1e2a3d;
+    --border: #1e293b;
+    --border-light: #2d3a50;
+    --text-primary: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
+    --accent-blue: #3b82f6;
+    --accent-blue-dim: #1d4ed8;
+    --green: #22c55e;
+    --green-dim: #15803d;
+    --yellow: #eab308;
+    --yellow-dim: #a16207;
+    --red: #ef4444;
+    --red-dim: #b91c1c;
+    --orange: #f97316;
+    --purple: #a855f7;
+    --cyan: #06b6d4;
+    --font: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-mono: 'SF Mono', 'Fira Code', monospace;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: var(--font);
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    font-size: 13px;
+  }
+
+  /* ═══ SIDEBAR ═══ */
+  #sidebar {
+    width: 260px;
+    min-width: 260px;
+    background: var(--bg-secondary);
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .sidebar-header {
+    padding: 18px 16px 14px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .sidebar-header h1 {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+    letter-spacing: -0.3px;
+  }
+
+  .sidebar-header .subtitle {
+    font-size: 10.5px;
+    color: var(--text-muted);
+    margin-top: 3px;
+    font-family: var(--font-mono);
+  }
+
+  .market-pulse {
+    display: flex;
+    gap: 8px;
+    padding: 10px 16px;
+    background: #0d1420;
+    border-bottom: 1px solid var(--border);
+    font-family: var(--font-mono);
+    font-size: 10px;
+  }
+
+  .pulse-item { display: flex; flex-direction: column; gap: 1px; }
+  .pulse-label { color: var(--text-muted); font-size: 9px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .pulse-val { font-size: 11px; font-weight: 600; }
+  .pulse-val.up { color: var(--green); }
+  .pulse-val.down { color: var(--red); }
+
+  .section-label {
+    padding: 10px 16px 6px;
+    font-size: 9.5px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+
+  .ipo-list { overflow-y: auto; flex: 1; }
+
+  .ipo-item {
+    padding: 10px 16px;
+    cursor: pointer;
+    border-bottom: 1px solid var(--border);
+    transition: background 0.15s;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .ipo-item:hover { background: var(--bg-hover); }
+  .ipo-item.active { background: #1a2744; border-left: 2px solid var(--accent-blue); }
+
+  .ipo-badge {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    flex-shrink: 0;
+    margin-top: 1px;
+    font-family: var(--font-mono);
+  }
+
+  .badge-buy { background: rgba(34,197,94,0.15); color: var(--green); border: 1px solid rgba(34,197,94,0.3); }
+  .badge-watch { background: rgba(234,179,8,0.15); color: var(--yellow); border: 1px solid rgba(234,179,8,0.3); }
+  .badge-skip { background: rgba(239,68,68,0.15); color: var(--red); border: 1px solid rgba(239,68,68,0.3); }
+
+  .ipo-meta { flex: 1; min-width: 0; }
+  .ipo-name { font-size: 12.5px; font-weight: 600; color: var(--text-primary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .ipo-ticker { font-size: 10px; color: var(--text-muted); font-family: var(--font-mono); margin-top: 1px; }
+  .ipo-score { font-size: 11px; font-weight: 700; font-family: var(--font-mono); }
+
+  .status-tag {
+    font-size: 8.5px;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-top: 3px;
+    display: inline-block;
+  }
+
+  .tag-listing { background: rgba(59,130,246,0.15); color: #60a5fa; }
+  .tag-subscribe { background: rgba(34,197,94,0.15); color: #4ade80; }
+  .tag-greenshoe { background: rgba(168,85,247,0.15); color: #c084fc; }
+  .tag-pipeline { background: rgba(100,116,139,0.15); color: #94a3b8; }
+  .tag-debut { background: rgba(249,115,22,0.15); color: #fb923c; }
+
+  /* ═══ MAIN CONTENT ═══ */
+  #main {
+    flex: 1;
+    overflow-y: auto;
+    background: var(--bg-primary);
+  }
+
+  /* ═══ PITCH HEADER ═══ */
+  .pitch-header {
+    background: linear-gradient(135deg, #111827 0%, #0f172a 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 24px 32px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  .pitch-header-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .pitch-company-block { flex: 1; }
+
+  .pitch-ticker-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+
+  .pitch-ticker {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--text-muted);
+    background: var(--bg-card);
+    padding: 3px 8px;
+    border-radius: 4px;
+    border: 1px solid var(--border);
+  }
+
+  .pitch-sector-tag {
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: rgba(59,130,246,0.12);
+    color: #93c5fd;
+    border: 1px solid rgba(59,130,246,0.25);
+  }
+
+  .pitch-company-name {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.8px;
+    color: var(--text-primary);
+    line-height: 1.15;
+  }
+
+  .pitch-tagline {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-top: 5px;
+    line-height: 1.4;
+    max-width: 600px;
+  }
+
+  .pitch-rating-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+    flex-shrink: 0;
+  }
+
+  .rating-pill {
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  .rating-buy { background: rgba(34,197,94,0.2); color: #4ade80; border: 1.5px solid rgba(34,197,94,0.5); }
+  .rating-watch { background: rgba(234,179,8,0.2); color: #fde047; border: 1.5px solid rgba(234,179,8,0.5); }
+  .rating-skip { background: rgba(239,68,68,0.2); color: #f87171; border: 1.5px solid rgba(239,68,68,0.5); }
+
+  .score-display {
+    text-align: right;
+  }
+
+  .score-display .score-num {
+    font-size: 28px;
+    font-weight: 800;
+    font-family: var(--font-mono);
+    line-height: 1;
+  }
+
+  .score-display .score-denom {
+    font-size: 13px;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+  }
+
+  .score-display .score-label {
+    font-size: 9px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-top: 2px;
+  }
+
+  .key-metrics-bar {
+    display: flex;
+    gap: 0;
+    margin-top: 16px;
+    background: var(--bg-card);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+  }
+
+  .metric-item {
+    flex: 1;
+    padding: 10px 14px;
+    border-right: 1px solid var(--border);
+  }
+
+  .metric-item:last-child { border-right: none; }
+  .metric-label { font-size: 9px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 3px; }
+  .metric-val { font-size: 14px; font-weight: 700; font-family: var(--font-mono); color: var(--text-primary); }
+  .metric-val.green { color: var(--green); }
+  .metric-val.red { color: var(--red); }
+  .metric-val.yellow { color: var(--yellow); }
+  .metric-sub { font-size: 9.5px; color: var(--text-muted); margin-top: 1px; }
+
+  /* ═══ PITCH BODY ═══ */
+  .pitch-body {
+    padding: 24px 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .pitch-section {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .pitch-section.full-width {
+    grid-column: 1 / -1;
+  }
+
+  .section-head {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    background: rgba(255,255,255,0.02);
+  }
+
+  .section-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    flex-shrink: 0;
+  }
+
+  .icon-thesis { background: rgba(59,130,246,0.2); color: #60a5fa; }
+  .icon-fin { background: rgba(34,197,94,0.2); color: #4ade80; }
+  .icon-val { background: rgba(168,85,247,0.2); color: #c084fc; }
+  .icon-ipo { background: rgba(249,115,22,0.2); color: #fb923c; }
+  .icon-risk { background: rgba(239,68,68,0.2); color: #f87171; }
+  .icon-catalyst { background: rgba(6,182,212,0.2); color: #22d3ee; }
+  .icon-banker { background: rgba(234,179,8,0.2); color: #fde047; }
+  .icon-biz { background: rgba(16,185,129,0.2); color: #34d399; }
+
+  .section-title {
+    font-size: 11.5px;
+    font-weight: 700;
+    color: var(--text-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+  }
+
+  .section-num {
+    margin-left: auto;
+    font-size: 9px;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+    background: rgba(255,255,255,0.05);
+    padding: 1px 6px;
+    border-radius: 4px;
+  }
+
+  .section-body { padding: 16px; }
+
+  /* ═══ THESIS BULLETS ═══ */
+  .thesis-list { display: flex; flex-direction: column; gap: 10px; }
+
+  .thesis-item {
+    display: flex;
+    gap: 12px;
+    padding: 12px;
+    background: rgba(59,130,246,0.05);
+    border: 1px solid rgba(59,130,246,0.15);
+    border-radius: 8px;
+  }
+
+  .thesis-num {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: rgba(59,130,246,0.2);
+    color: #60a5fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 800;
+    flex-shrink: 0;
+    font-family: var(--font-mono);
+    margin-top: 1px;
+  }
+
+  .thesis-content { flex: 1; }
+  .thesis-title { font-size: 12px; font-weight: 700; color: var(--text-primary); margin-bottom: 4px; }
+  .thesis-desc { font-size: 11.5px; color: var(--text-secondary); line-height: 1.5; }
+
+  /* ═══ FINANCIAL TABLE ═══ */
+  .fin-table { width: 100%; border-collapse: collapse; }
+  .fin-table th {
+    font-size: 9px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 6px 10px;
+    text-align: right;
+    border-bottom: 1px solid var(--border);
+    background: rgba(255,255,255,0.02);
+  }
+  .fin-table th:first-child { text-align: left; }
+  .fin-table td {
+    font-size: 11.5px;
+    padding: 8px 10px;
+    text-align: right;
+    border-bottom: 1px solid rgba(30,41,59,0.5);
+    color: var(--text-secondary);
+    font-family: var(--font-mono);
+  }
+  .fin-table td:first-child {
+    text-align: left;
+    color: var(--text-primary);
+    font-family: var(--font);
+    font-size: 11.5px;
+  }
+  .fin-table tr:last-child td { border-bottom: none; }
+  .fin-table .highlight-row td { color: var(--text-primary); font-weight: 600; }
+
+  .trend-up { color: var(--green) !important; }
+  .trend-dn { color: var(--red) !important; }
+  .trend-nt { color: var(--text-muted) !important; }
+
+  /* ═══ COMPS TABLE ═══ */
+  .comps-market-tabs {
+    display: flex;
+    gap: 0;
+    border-bottom: 1px solid var(--border);
+    padding: 0 16px;
+    background: rgba(255,255,255,0.02);
+  }
+
+  .mkt-tab {
+    padding: 8px 14px;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.15s;
+    margin-bottom: -1px;
+  }
+
+  .mkt-tab.active { color: var(--accent-blue); border-bottom-color: var(--accent-blue); }
+  .mkt-tab:hover:not(.active) { color: var(--text-primary); }
+
+  .comps-panel { display: none; padding: 14px 16px; }
+  .comps-panel.active { display: block; }
+
+  .comps-table { width: 100%; border-collapse: collapse; }
+  .comps-table th {
+    font-size: 9px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 5px 8px;
+    text-align: right;
+    border-bottom: 1px solid var(--border);
+  }
+  .comps-table th:first-child { text-align: left; width: 130px; }
+  .comps-table td {
+    font-size: 11px;
+    padding: 7px 8px;
+    text-align: right;
+    border-bottom: 1px solid rgba(30,41,59,0.5);
+    font-family: var(--font-mono);
+    color: var(--text-secondary);
+  }
+  .comps-table td:first-child {
+    text-align: left;
+    color: var(--text-primary);
+    font-family: var(--font);
+    font-size: 11px;
+  }
+  .comps-table .target-row td {
+    background: rgba(234,179,8,0.07);
+    color: #fde047;
+    font-weight: 700;
+    border-top: 1px solid rgba(234,179,8,0.2);
+    border-bottom: 1px solid rgba(234,179,8,0.2);
+  }
+  .comps-table .median-row td {
+    background: rgba(59,130,246,0.06);
+    color: #93c5fd;
+    font-weight: 600;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+  .comps-table .median-row td:first-child { color: var(--text-muted); }
+
+  .comps-verdict {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    padding: 10px;
+    background: rgba(255,255,255,0.02);
+    border-radius: 6px;
+    border: 1px solid var(--border-light);
+    align-items: center;
+  }
+
+  .verdict-badge {
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    flex-shrink: 0;
+  }
+
+  .verdict-cheap { background: rgba(34,197,94,0.15); color: var(--green); }
+  .verdict-fair { background: rgba(234,179,8,0.15); color: var(--yellow); }
+  .verdict-rich { background: rgba(239,68,68,0.15); color: var(--red); }
+
+  .verdict-text { font-size: 11px; color: var(--text-secondary); line-height: 1.4; }
+
+  /* ═══ IPO SIGNALS ═══ */
+  .signals-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .signal-card {
+    background: rgba(255,255,255,0.02);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px;
+  }
+
+  .signal-label { font-size: 9px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 6px; }
+  .signal-val { font-size: 18px; font-weight: 800; font-family: var(--font-mono); line-height: 1; }
+  .signal-sub { font-size: 10px; color: var(--text-muted); margin-top: 3px; line-height: 1.3; }
+
+  .progress-bar {
+    height: 4px;
+    background: var(--border);
+    border-radius: 2px;
+    margin-top: 6px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    border-radius: 2px;
+    transition: width 0.5s ease;
+  }
+
+  /* ═══ BANKER SECTION ═══ */
+  .banker-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(30,41,59,0.5);
+  }
+  .banker-row:last-child { border-bottom: none; }
+
+  .banker-role {
+    font-size: 9px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    width: 100px;
+    flex-shrink: 0;
+  }
+
+  .banker-names { flex: 1; display: flex; flex-wrap: wrap; gap: 5px; }
+
+  .banker-tag {
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .tier1 { background: rgba(34,197,94,0.12); color: #4ade80; border: 1px solid rgba(34,197,94,0.25); }
+  .tier2 { background: rgba(234,179,8,0.12); color: #fde047; border: 1px solid rgba(234,179,8,0.25); }
+  .tier3 { background: rgba(239,68,68,0.12); color: #f87171; border: 1px solid rgba(239,68,68,0.25); }
+
+  .banker-score-pill {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+    background: rgba(168,85,247,0.12);
+    color: #c084fc;
+    border: 1px solid rgba(168,85,247,0.25);
+  }
+
+  .cornerstone-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .cornerstone-chip {
+    font-size: 10.5px;
+    padding: 4px 10px;
+    border-radius: 5px;
+    background: rgba(6,182,212,0.1);
+    color: #22d3ee;
+    border: 1px solid rgba(6,182,212,0.2);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .cornerstone-chip .amt { color: var(--text-muted); font-family: var(--font-mono); font-size: 9.5px; }
+
+  /* ═══ SCORECARD RADAR ═══ */
+  .scorecard-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .score-row {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px;
+    background: rgba(255,255,255,0.02);
+    border-radius: 6px;
+    border: 1px solid var(--border);
+  }
+
+  .score-row-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .score-row-label { font-size: 10.5px; color: var(--text-secondary); }
+  .score-row-weight { font-size: 9px; color: var(--text-muted); }
+  .score-row-val { font-family: var(--font-mono); font-size: 12px; font-weight: 700; }
+
+  /* ═══ RISK & CATALYST ═══ */
+  .risk-list, .catalyst-list { display: flex; flex-direction: column; gap: 8px; }
+
+  .risk-item {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background: rgba(239,68,68,0.04);
+    border-left: 2px solid var(--red);
+    border-radius: 0 6px 6px 0;
+  }
+
+  .risk-icon { font-size: 12px; flex-shrink: 0; margin-top: 1px; }
+  .risk-content { flex: 1; }
+  .risk-title { font-size: 11.5px; font-weight: 600; color: var(--text-primary); margin-bottom: 2px; }
+  .risk-desc { font-size: 11px; color: var(--text-muted); line-height: 1.4; }
+
+  .catalyst-item {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background: rgba(6,182,212,0.04);
+    border-left: 2px solid var(--cyan);
+    border-radius: 0 6px 6px 0;
+  }
+
+  .catalyst-timing {
+    font-family: var(--font-mono);
+    font-size: 9px;
+    color: var(--cyan);
+    background: rgba(6,182,212,0.1);
+    padding: 2px 6px;
+    border-radius: 4px;
+    height: fit-content;
+    white-space: nowrap;
+    margin-top: 2px;
+  }
+
+  .catalyst-content { flex: 1; }
+  .catalyst-title { font-size: 11.5px; font-weight: 600; color: var(--text-primary); margin-bottom: 2px; }
+  .catalyst-desc { font-size: 11px; color: var(--text-muted); line-height: 1.4; }
+
+  /* ═══ BUSINESS OVERVIEW ═══ */
+  .biz-desc {
+    font-size: 12px;
+    color: var(--text-secondary);
+    line-height: 1.65;
+    margin-bottom: 12px;
+  }
+
+  .biz-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 12px; }
+  .biz-tag {
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.05);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-light);
+  }
+
+  .kpi-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .kpi-chip {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px 12px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    min-width: 80px;
+  }
+  .kpi-chip .kl { font-size: 9px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.4px; }
+  .kpi-chip .kv { font-size: 13px; font-weight: 700; font-family: var(--font-mono); color: var(--text-primary); }
+
+  /* ═══ EMPTY STATE ═══ */
+  .empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    min-height: 400px;
+    gap: 12px;
+    color: var(--text-muted);
+  }
+
+  .empty-state .es-icon { font-size: 40px; opacity: 0.3; }
+  .empty-state .es-text { font-size: 14px; font-weight: 600; }
+  .empty-state .es-sub { font-size: 12px; }
+
+  /* ═══ SCROLLBAR ═══ */
+  ::-webkit-scrollbar { width: 5px; height: 5px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #2d3a50; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #3d4f6b; }
+
+  /* ═══ HEADER DATE ═══ */
+  .header-date {
+    font-family: var(--font-mono);
+    font-size: 9.5px;
+    color: var(--text-muted);
+    padding: 8px 16px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .live-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--green);
+    box-shadow: 0 0 6px var(--green);
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+
+  .divider { width: 1px; height: 10px; background: var(--border); }
+
+  /* ═══ DATE FILTER ═══ */
+  .date-filter-block {
+    border-bottom: 1px solid var(--border);
+    background: #0d1420;
+  }
+
+  .date-filter-tabs {
+    display: flex;
+    padding: 8px 12px 0;
+    gap: 2px;
+  }
+
+  .df-tab {
+    flex: 1;
+    padding: 5px 4px;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all 0.15s;
+    letter-spacing: 0.2px;
+    margin-bottom: -1px;
+  }
+
+  .df-tab.active { color: var(--accent-blue); border-bottom-color: var(--accent-blue); }
+  .df-tab:hover:not(.active) { color: var(--text-secondary); }
+
+  .date-grid {
+    display: none;
+    padding: 8px 12px 10px;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .date-grid.active { display: flex; }
+
+  .date-chip {
+    padding: 4px 9px;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid var(--border-light);
+    color: var(--text-muted);
+    background: transparent;
+    transition: all 0.15s;
+    font-family: var(--font-mono);
+    white-space: nowrap;
+  }
+
+  .date-chip:hover { color: var(--text-primary); border-color: var(--accent-blue); }
+  .date-chip.active {
+    background: rgba(59,130,246,0.15);
+    color: #93c5fd;
+    border-color: rgba(59,130,246,0.4);
+  }
+
+  .date-chip.all-chip {
+    background: rgba(255,255,255,0.04);
+    color: var(--text-secondary);
+    border-color: var(--border-light);
+  }
+
+  .date-chip.all-chip.active {
+    background: rgba(59,130,246,0.15);
+    color: #93c5fd;
+    border-color: rgba(59,130,246,0.4);
+  }
+
+  /* date badge on each IPO item */
+  .ipo-date-row {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 3px;
+  }
+
+  .date-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .ipo-date-text {
+    font-size: 9.5px;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+  }
+
+  .ipo-date-phase {
+    font-size: 8.5px;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-weight: 600;
+  }
+
+  .phase-sub   { background: rgba(34,197,94,0.1);  color: #4ade80; }
+  .phase-list  { background: rgba(59,130,246,0.1);  color: #60a5fa; }
+  .phase-dark  { background: rgba(249,115,22,0.1);  color: #fb923c; }
+  .phase-pipe  { background: rgba(100,116,139,0.1); color: #94a3b8; }
+  .phase-delay { background: rgba(239,68,68,0.1);   color: #f87171; }
+  .phase-a1    { background: rgba(168,85,247,0.1);  color: #c084fc; }
+
+  .future-chip {
+    color: #34d399 !important;
+    border-color: rgba(52,211,153,0.3) !important;
+  }
+  .future-chip.active {
+    background: rgba(52,211,153,0.12) !important;
+    border-color: rgba(52,211,153,0.45) !important;
+  }
+
+  .sidebar-section-divider {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px 4px;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+  .ssd-line { flex: 1; height: 1px; background: var(--border); }
+  .ssd-future { color: #34d399; }
+  .ssd-past   { color: var(--text-muted); }
+
+  .sidebar-mini-label {
+    padding: 8px 16px 4px;
+    font-size: 9px;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.9px;
+  }
+
+  .tag-inline {
+    display: inline;
+    font-size: 10px;
+    padding: 1px 5px;
+    border-radius: 3px;
+    background: rgba(255,255,255,0.06);
+    color: var(--text-muted);
+    margin-left: 4px;
+    vertical-align: middle;
+  }
+
+  /* ═══ SUBSCRIPTION STATS ═══ */
+  .sub-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .sub-stat-card {
+    background: rgba(255,255,255,0.02);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .sub-stat-label {
+    font-size: 9px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .sub-stat-val {
+    font-size: 17px;
+    font-weight: 800;
+    font-family: var(--font-mono);
+    line-height: 1.1;
+  }
+
+  .sub-stat-sub {
+    font-size: 9.5px;
+    color: var(--text-muted);
+    line-height: 1.3;
+  }
+
+  .sub-timeline {
+    display: flex;
+    gap: 0;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    margin-bottom: 12px;
+  }
+
+  .sub-tl-item {
+    flex: 1;
+    padding: 8px 10px;
+    border-right: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .sub-tl-item:last-child { border-right: none; }
+  .sub-tl-label { font-size: 8.5px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.4px; }
+  .sub-tl-date { font-size: 11px; font-weight: 700; font-family: var(--font-mono); color: var(--text-primary); }
+  .sub-tl-note { font-size: 9px; color: var(--text-muted); }
+
+  .sub-tl-item.active-phase {
+    background: rgba(34,197,94,0.05);
+    border-bottom: 2px solid var(--green);
+  }
+
+  .account-table { width: 100%; border-collapse: collapse; }
+  .account-table th {
+    font-size: 9px; font-weight: 600; color: var(--text-muted);
+    text-transform: uppercase; letter-spacing: 0.4px;
+    padding: 5px 8px; border-bottom: 1px solid var(--border);
+    text-align: left;
+  }
+  .account-table th:not(:first-child) { text-align: right; }
+  .account-table td {
+    font-size: 11px; padding: 7px 8px;
+    border-bottom: 1px solid rgba(30,41,59,0.5);
+    color: var(--text-secondary);
+  }
+  .account-table td:not(:first-child) {
+    text-align: right;
+    font-family: var(--font-mono);
+  }
+  .account-table tr:last-child td { border-bottom: none; }
+  .account-table .total-row td {
+    font-weight: 700; color: var(--text-primary);
+    border-top: 1px solid var(--border);
+    background: rgba(255,255,255,0.02);
+  }
+
+  /* ═══ CAPITAL STRATEGY ═══ */
+  .strategy-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 14px;
+  }
+
+  .strategy-card {
+    background: rgba(255,255,255,0.02);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px;
+  }
+
+  .strategy-card.highlight {
+    border-color: rgba(59,130,246,0.35);
+    background: rgba(59,130,246,0.04);
+  }
+
+  .sc-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 4px; }
+  .sc-label { font-size: 9px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+  .sc-val { font-size: 18px; font-weight: 800; font-family: var(--font-mono); color: var(--text-primary); line-height: 1.1; }
+  .sc-sub { font-size: 10px; color: var(--text-muted); margin-top: 3px; line-height: 1.4; }
+  .sc-tag {
+    display: inline-block; margin-top: 5px;
+    font-size: 9px; padding: 2px 7px; border-radius: 4px; font-weight: 600;
+  }
+  .sc-tag-green { background: rgba(34,197,94,0.12); color: #4ade80; }
+  .sc-tag-yellow { background: rgba(234,179,8,0.12); color: #fde047; }
+  .sc-tag-red { background: rgba(239,68,68,0.12); color: #f87171; }
+  .sc-tag-blue { background: rgba(59,130,246,0.12); color: #60a5fa; }
+
+  .margin-toggle {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+
+  .mt-option {
+    flex: 1;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    cursor: pointer;
+    transition: all 0.15s;
+    text-align: center;
+  }
+
+  .mt-option.selected {
+    border-color: rgba(59,130,246,0.4);
+    background: rgba(59,130,246,0.08);
+  }
+
+  .mt-option .mt-label { font-size: 10px; font-weight: 700; color: var(--text-primary); }
+  .mt-option .mt-desc { font-size: 9px; color: var(--text-muted); margin-top: 2px; }
+  .mt-option .mt-rate { font-size: 11px; font-weight: 700; font-family: var(--font-mono); margin-top: 3px; }
+
+  .alloc-bar-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .alloc-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+  }
+
+  .alloc-name { width: 80px; color: var(--text-secondary); flex-shrink: 0; }
+  .alloc-bar-bg {
+    flex: 1;
+    height: 6px;
+    background: var(--border);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .alloc-bar-fill { height: 100%; border-radius: 3px; }
+  .alloc-pct { width: 36px; text-align: right; font-family: var(--font-mono); font-size: 10px; color: var(--text-muted); }
+
+  /* ═══ SELL RECOMMENDATION ═══ */
+  .sell-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    background: linear-gradient(135deg, rgba(34,197,94,0.06) 0%, rgba(59,130,246,0.06) 100%);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .sell-rating-block {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 90px;
+  }
+
+  .sell-action {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  .sell-horizon {
+    font-size: 9px;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+  }
+
+  .price-scenario-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+
+  .price-scenario {
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .ps-bear {
+    background: rgba(239,68,68,0.06);
+    border-color: rgba(239,68,68,0.25);
+  }
+
+  .ps-base {
+    background: rgba(59,130,246,0.07);
+    border-color: rgba(59,130,246,0.3);
+  }
+
+  .ps-bull {
+    background: rgba(34,197,94,0.06);
+    border-color: rgba(34,197,94,0.25);
+  }
+
+  .ps-label {
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .ps-bear .ps-label { color: #f87171; }
+  .ps-base .ps-label { color: #60a5fa; }
+  .ps-bull .ps-label { color: #4ade80; }
+
+  .ps-price {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: var(--font-mono);
+    line-height: 1;
+  }
+
+  .ps-bear .ps-price { color: #fca5a5; }
+  .ps-base .ps-price { color: #93c5fd; }
+  .ps-bull .ps-price { color: #86efac; }
+
+  .ps-upside {
+    font-size: 11px;
+    font-weight: 700;
+    font-family: var(--font-mono);
+  }
+
+  .ps-bear .ps-upside { color: var(--red); }
+  .ps-base .ps-upside { color: var(--accent-blue); }
+  .ps-bull .ps-upside { color: var(--green); }
+
+  .ps-basis { font-size: 9.5px; color: var(--text-muted); line-height: 1.4; margin-top: 2px; }
+
+  .ps-base::after {
+    content: 'BASE';
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    font-size: 7.5px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: rgba(59,130,246,0.5);
+  }
+
+  .sell-trigger-list { display: flex; flex-direction: column; gap: 6px; }
+
+  .sell-trigger {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 9px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.02);
+  }
+
+  .st-icon { font-size: 13px; flex-shrink: 0; margin-top: 1px; }
+  .st-content { flex: 1; }
+  .st-title { font-size: 11.5px; font-weight: 600; color: var(--text-primary); margin-bottom: 2px; }
+  .st-desc { font-size: 11px; color: var(--text-muted); line-height: 1.4; }
+  .st-price {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+
+  .stp-sell { background: rgba(239,68,68,0.12); color: #f87171; }
+  .stp-hold { background: rgba(34,197,94,0.12); color: #4ade80; }
+  .stp-watch { background: rgba(234,179,8,0.12); color: #fde047; }
+
+  /* ── Thesis × Price Cross-Check ── */
+  .tpcheck-block {
+    background: rgba(8,15,30,0.7);
+    border: 1px solid rgba(51,65,85,0.7);
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin: 12px 0 4px;
+  }
+  .tpcheck-bridge {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(51,65,85,0.4);
+    margin-bottom: 10px;
+    font-size: 11px;
+    color: var(--text-secondary);
+  }
+  .tpcheck-bridge .bmono { font-family: var(--font-mono); font-size: 13px; font-weight: 800; color: var(--text-primary); }
+  .tpcheck-bridge .bsep { color: var(--text-muted); font-size: 9px; padding: 0 2px; }
+  .tpcheck-verdict {
+    margin-left: auto;
+    padding: 3px 10px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+  }
+  .tpcheck-verdict.cheap { background: rgba(52,211,153,0.15); color: #34d399; border: 1px solid rgba(52,211,153,0.3); }
+  .tpcheck-verdict.fair  { background: rgba(251,191,36,0.12); color: #fbbf24; border: 1px solid rgba(251,191,36,0.25); }
+  .tpcheck-verdict.rich  { background: rgba(239,68,68,0.12);  color: #f87171; border: 1px solid rgba(239,68,68,0.25); }
+  .tpcheck-list { display: flex; flex-direction: column; gap: 5px; }
+  .tpcheck-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    gap: 2px 8px;
+    padding: 7px 10px;
+    border-radius: 6px;
+    border-left: 3px solid;
+  }
+  .tpcheck-item.confirmed { background: rgba(52,211,153,0.06); border-left-color: #34d399; }
+  .tpcheck-item.watch     { background: rgba(251,191,36,0.06); border-left-color: #fbbf24; }
+  .tpcheck-item.failed    { background: rgba(239,68,68,0.06);  border-left-color: #f87171; }
+  .tpcheck-point  { font-size: 11px; font-weight: 600; color: var(--text-primary); grid-column: 1; }
+  .tpcheck-result { font-size: 10px; font-weight: 700; grid-column: 2; grid-row: 1; align-self: start; white-space: nowrap; }
+  .tpcheck-item.confirmed .tpcheck-result { color: #34d399; }
+  .tpcheck-item.watch     .tpcheck-result { color: #fbbf24; }
+  .tpcheck-item.failed    .tpcheck-result { color: #f87171; }
+  .tpcheck-note { font-size: 10px; color: var(--text-muted); grid-column: 1 / -1; line-height: 1.4; margin-top: 1px; }
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════ SIDEBAR ══ -->
+<div id="sidebar">
+  <div class="sidebar-header">
+    <h1>🇭🇰 港股打新</h1>
+    <div class="subtitle">IPO Stock Pitch · 2026 Q2</div>
+  </div>
+
+  <div class="header-date">
+    <div class="live-dot"></div>
+    <span>2026-04-07 HKT</span>
+    <div class="divider"></div>
+    <span>8 pitches available</span>
+  </div>
+
+  <div class="market-pulse">
+    <div class="pulse-item">
+      <span class="pulse-label">HSI</span>
+      <span class="pulse-val up">20,847</span>
+    </div>
+    <div class="divider"></div>
+    <div class="pulse-item">
+      <span class="pulse-label">Chg</span>
+      <span class="pulse-val up">+1.2%</span>
+    </div>
+    <div class="divider"></div>
+    <div class="pulse-item">
+      <span class="pulse-label">破发率</span>
+      <span class="pulse-val down">40%</span>
+    </div>
+    <div class="divider"></div>
+    <div class="pulse-item">
+      <span class="pulse-label">USD/HKD</span>
+      <span class="pulse-val">7.77</span>
+    </div>
+  </div>
+
+  <!-- DATE FILTER -->
+  <div class="date-filter-block">
+    <div class="date-filter-tabs">
+      <div class="df-tab active" onclick="switchDateView('month', this)">月份</div>
+      <div class="df-tab" onclick="switchDateView('week', this)">本周</div>
+      <div class="df-tab" onclick="switchDateView('phase', this)">阶段</div>
+    </div>
+
+    <!-- Month view -->
+    <div class="date-grid active" id="dv-month">
+      <div class="date-chip all-chip active" onclick="filterDate('all', this)">全部</div>
+      <div class="date-chip future-chip" onclick="filterDate('2026-06', this)">6月 ↑</div>
+      <div class="date-chip future-chip" onclick="filterDate('2026-05', this)">5月 ↑</div>
+      <div class="date-chip" onclick="filterDate('2026-04', this)">4月</div>
+      <div class="date-chip" onclick="filterDate('2026-03', this)">3月</div>
+      <div class="date-chip" onclick="filterDate('2026-02', this)">2月</div>
+      <div class="date-chip" onclick="filterDate('2026-01', this)">1月</div>
+    </div>
+
+    <!-- Week view -->
+    <div class="date-grid" id="dv-week">
+      <div class="date-chip all-chip active" onclick="filterDate('all', this)">全部</div>
+      <div class="date-chip future-chip" onclick="filterDate('2026-W18', this)">W18 4/28–5/2 ↑</div>
+      <div class="date-chip future-chip" onclick="filterDate('2026-W17', this)">W17 4/21–4/25 ↑</div>
+      <div class="date-chip future-chip" onclick="filterDate('2026-W16', this)">W16 4/14–4/18 ↑</div>
+      <div class="date-chip" onclick="filterDate('2026-W15', this)">W15 4/7–4/11 ← 本周</div>
+      <div class="date-chip" onclick="filterDate('2026-W14', this)">W14 3/31–4/4</div>
+      <div class="date-chip" onclick="filterDate('2026-W13', this)">W13 3/24–3/28</div>
+      <div class="date-chip" onclick="filterDate('2026-W12', this)">W12 3/17–3/21</div>
+    </div>
+
+    <!-- Phase view -->
+    <div class="date-grid" id="dv-phase">
+      <div class="date-chip all-chip active" onclick="filterPhase('all', this)">全部</div>
+      <div class="date-chip" onclick="filterPhase('listing', this)">✅ 已上市</div>
+      <div class="date-chip" onclick="filterPhase('subscribe', this)">📋 招股中</div>
+      <div class="date-chip" onclick="filterPhase('pipeline', this)">⏳ 通过聆讯</div>
+      <div class="date-chip" onclick="filterPhase('delay', this)">⚠️ 延迟</div>
+    </div>
+  </div>
+
+  <div class="section-label" id="ipoSectionLabel">可申购 / 即将招股</div>
+  <div class="ipo-list" id="ipoList">
+
+    <!-- ══ 招股中 ══ -->
+    <div class="sidebar-mini-label">📋 招股中</div>
+    <div style="margin:2px 12px 10px;padding:8px 10px;background:rgba(100,116,139,0.07);border:1px solid rgba(100,116,139,0.18);border-radius:6px;font-size:9.5px;color:var(--text-muted);line-height:1.5">
+      ⏸ 清明假期后恢复 · 4/8 起关注新批次<br>
+      <span style="color:#64748b;font-size:9px">当前无正在招股新股</span>
+    </div>
+
+    <!-- ══ 即将招股 — 通过聆讯（4周内） ══ -->
+    <div class="sidebar-mini-label">⏳ 即将招股 · 通过聆讯</div>
+
+    <!-- 群核科技 — 聆讯 2026-03-29 (每经/21经济网 确认) -->
+    <div class="ipo-item" onclick="showPitch('_stub_qunhe')" data-month="2026-04" data-week="2026-W16" data-phase="pipeline">
+      <div class="ipo-badge badge-buy" style="font-size:7.5px;letter-spacing:0">聆讯✓</div>
+      <div class="ipo-meta">
+        <div class="ipo-name">群核科技 <span style="font-size:9px;color:var(--cyan)">酷家乐</span></div>
+        <div class="ipo-ticker">TBD · 空间设计SaaS · 估值175亿HKD</div>
+        <div class="ipo-date-row">
+          <div class="date-dot" style="background:#34d399"></div>
+          <span class="ipo-date-text">通过聆讯 2026-03-29</span>
+          <span class="ipo-date-phase phase-pipe">即将招股</span>
+        </div>
+      </div>
+      <div class="ipo-score" style="color:var(--text-muted)">—</div>
+    </div>
+
+    <!-- 胜宏科技 — 聆讯 2026-03-29 (每经确认，A+H) -->
+    <div class="ipo-item" onclick="showPitch('_stub_shenghong')" data-month="2026-04" data-week="2026-W17" data-phase="pipeline">
+      <div class="ipo-badge badge-buy" style="font-size:7.5px;letter-spacing:0">聆讯✓</div>
+      <div class="ipo-meta">
+        <div class="ipo-name">胜宏科技 <span style="font-size:9px;color:var(--text-muted)">A+H</span></div>
+        <div class="ipo-ticker">300476.SZ · AI算力PCB核心供应商</div>
+        <div class="ipo-date-row">
+          <div class="date-dot" style="background:#34d399"></div>
+          <span class="ipo-date-text">通过聆讯 2026-03-29</span>
+          <span class="ipo-date-phase phase-pipe">即将招股</span>
+        </div>
+      </div>
+      <div class="ipo-score" style="color:var(--text-muted)">—</div>
+    </div>
+
+    <!-- 思格新能源 — 聆讯 2026-03-29 (每经确认) -->
+    <div class="ipo-item" onclick="showPitch('_stub_sige')" data-month="2026-04" data-week="2026-W17" data-phase="pipeline">
+      <div class="ipo-badge badge-buy" style="font-size:7.5px;letter-spacing:0">聆讯✓</div>
+      <div class="ipo-meta">
+        <div class="ipo-name">思格新能源</div>
+        <div class="ipo-ticker">TBD · AI+工商业储能 · 2025收入~90亿RMB</div>
+        <div class="ipo-date-row">
+          <div class="date-dot" style="background:#34d399"></div>
+          <span class="ipo-date-text">通过聆讯 2026-03-29</span>
+          <span class="ipo-date-phase phase-pipe">即将招股</span>
+        </div>
+      </div>
+      <div class="ipo-score" style="color:var(--text-muted)">—</div>
+    </div>
+
+    <!-- 长光辰芯 — 聆讯 2026-03-29 (每经确认) -->
+    <div class="ipo-item" onclick="showPitch('_stub_changguang')" data-month="2026-04" data-week="2026-W17" data-phase="pipeline">
+      <div class="ipo-badge badge-buy" style="font-size:7.5px;letter-spacing:0">聆讯✓</div>
+      <div class="ipo-meta">
+        <div class="ipo-name">长光辰芯</div>
+        <div class="ipo-ticker">TBD · CMOS图像传感器</div>
+        <div class="ipo-date-row">
+          <div class="date-dot" style="background:#34d399"></div>
+          <span class="ipo-date-text">通过聆讯 2026-03-29</span>
+          <span class="ipo-date-phase phase-pipe">即将招股</span>
+        </div>
+      </div>
+      <div class="ipo-score" style="color:var(--text-muted)">—</div>
+    </div>
+
+    <!-- 华勤技术 — 聆讯 2026-03-30 (每经确认，A+H) -->
+    <div class="ipo-item" onclick="showPitch('_stub_huaqin')" data-month="2026-04" data-week="2026-W17" data-phase="pipeline">
+      <div class="ipo-badge badge-buy" style="font-size:7.5px;letter-spacing:0">聆讯✓</div>
+      <div class="ipo-meta">
+        <div class="ipo-name">华勤技术 <span style="font-size:9px;color:var(--text-muted)">A+H</span></div>
+        <div class="ipo-ticker">603296.SH · 全球最大消费电子ODM</div>
+        <div class="ipo-date-row">
+          <div class="date-dot" style="background:#34d399"></div>
+          <span class="ipo-date-text">通过聆讯 2026-03-30</span>
+          <span class="ipo-date-phase phase-pipe">即将招股</span>
+        </div>
+      </div>
+      <div class="ipo-score" style="color:var(--text-muted)">—</div>
+    </div>
+
+    <!-- 迈威生物-B — 聆讯 2026-04-02 (A+H) -->
+    <div class="ipo-item" onclick="showPitch('_stub_maiwei')" data-month="2026-04" data-week="2026-W17" data-phase="pipeline">
+      <div class="ipo-badge badge-watch" style="font-size:7.5px;letter-spacing:0">聆讯✓</div>
+      <div class="ipo-meta">
+        <div class="ipo-name">迈威生物 <span style="font-size:9px;color:var(--text-muted)">-B · A+H</span></div>
+        <div class="ipo-ticker">688062.SH · 肿瘤/年龄相关生物制药</div>
+        <div class="ipo-date-row">
+          <div class="date-dot" style="background:#34d399"></div>
+          <span class="ipo-date-text">通过聆讯 2026-04-02</span>
+          <span class="ipo-date-phase phase-pipe">即将招股</span>
+        </div>
+      </div>
+      <div class="ipo-score" style="color:var(--text-muted)">—</div>
+    </div>
+
+    <!-- ══ 已上市归档（折叠）══ -->
+    <div class="sidebar-section-divider" style="margin-top:10px">
+      <div class="ssd-line"></div>
+      <span class="ssd-future" style="color:var(--text-muted);font-size:9px;cursor:pointer;user-select:none" onclick="toggleArchive(this)" id="archiveToggle">▸ 已上市归档</span>
+      <div class="ssd-line"></div>
+    </div>
+    <div id="archiveList" style="display:none">
+
+      <div class="ipo-item" onclick="showPitch('huayan')" data-month="2026-04" data-week="2026-W14" data-phase="listing">
+        <div class="ipo-badge badge-buy">BUY</div>
+        <div class="ipo-meta">
+          <div class="ipo-name">华沿机器人</div>
+          <div class="ipo-ticker">1021.HK · 工业机器人</div>
+          <div class="ipo-date-row">
+            <div class="date-dot" style="background:var(--green)"></div>
+            <span class="ipo-date-text">上市 2026-04-02 · +68%</span>
+            <span class="ipo-date-phase phase-list">已上市</span>
+          </div>
+        </div>
+        <div class="ipo-score" style="color:var(--green)">8.6</div>
+      </div>
+
+      <div class="ipo-item" onclick="showPitch('jishijiao')" data-month="2026-04" data-week="2026-W14" data-phase="listing">
+        <div class="ipo-badge badge-buy">BUY</div>
+        <div class="ipo-meta">
+          <div class="ipo-name">极视角</div>
+          <div class="ipo-ticker">6636.HK · AI视觉</div>
+          <div class="ipo-date-row">
+            <div class="date-dot" style="background:var(--green)"></div>
+            <span class="ipo-date-text">上市 2026-04-03</span>
+            <span class="ipo-date-phase phase-list">已上市</span>
+          </div>
+        </div>
+        <div class="ipo-score" style="color:var(--green)">8.2</div>
+      </div>
+
+      <div class="ipo-item" onclick="showPitch('fourier')" data-month="2026-04" data-week="2026-W15" data-phase="listing">
+        <div class="ipo-badge badge-buy">BUY</div>
+        <div class="ipo-meta">
+          <div class="ipo-name">傅里叶</div>
+        <div class="ipo-ticker">3625.HK · 具身智能机器人</div>
+        <div class="ipo-date-row">
+          <div class="date-dot" style="background:var(--orange)"></div>
+          <span class="ipo-date-text">上市 2026-04-08</span>
+          <span class="ipo-date-phase phase-dark">暗盘 +110%</span>
+        </div>
+      </div>
+      <div class="ipo-score" style="color:var(--green)">7.8</div>
+    </div>
+
+    <div class="ipo-item" onclick="showPitch('deshi')" data-month="2026-03" data-week="2026-W13" data-phase="listing">
+      <div class="ipo-badge badge-buy">BUY</div>
+      <div class="ipo-meta">
+        <div class="ipo-name">德适生物-B</div>
+        <div class="ipo-ticker">2526.HK · 基因治疗</div>
+        <div class="ipo-date-row">
+          <div class="date-dot" style="background:var(--green)"></div>
+          <span class="ipo-date-text">上市 2026-03-27</span>
+          <span class="ipo-date-phase phase-list">首日 +120%</span>
+        </div>
+      </div>
+      <div class="ipo-score" style="color:var(--green)">7.4</div>
+    </div>
+
+    <div class="ipo-item" onclick="showPitch('hantian')" data-month="2026-03" data-week="2026-W13" data-phase="listing">
+      <div class="ipo-badge badge-watch">WATCH</div>
+      <div class="ipo-meta">
+        <div class="ipo-name">瀚天天成</div>
+        <div class="ipo-ticker">2726.HK · 碳化硅</div>
+        <div class="ipo-date-row">
+          <div class="date-dot" style="background:var(--accent-blue)"></div>
+          <span class="ipo-date-text">上市 2026-03-25</span>
+          <span class="ipo-date-phase phase-list">已上市</span>
+        </div>
+      </div>
+      <div class="ipo-score" style="color:var(--yellow)">6.2</div>
+    </div>
+
+    <div class="ipo-item" onclick="showPitch('guanghe')" data-month="2026-03" data-week="2026-W12" data-phase="listing">
+      <div class="ipo-badge badge-watch">WATCH</div>
+      <div class="ipo-meta">
+        <div class="ipo-name">广合科技</div>
+        <div class="ipo-ticker">1989.HK · PCB</div>
+        <div class="ipo-date-row">
+          <div class="date-dot" style="background:var(--accent-blue)"></div>
+          <span class="ipo-date-text">上市 2026-03-19</span>
+          <span class="ipo-date-phase phase-list">首日 +33%</span>
+        </div>
+      </div>
+      <div class="ipo-score" style="color:var(--yellow)">6.5</div>
+    </div>
+
+    <div class="ipo-item" onclick="showPitch('tongren')" data-month="2026-04" data-week="2026-W15" data-phase="delay">
+      <div class="ipo-badge badge-skip">SKIP</div>
+      <div class="ipo-meta">
+        <div class="ipo-name">同仁堂医养</div>
+        <div class="ipo-ticker">2667.HK · 中医养生</div>
+        <div class="ipo-date-row">
+          <div class="date-dot" style="background:var(--red)"></div>
+          <span class="ipo-date-text">延迟 原定 2026-04-07</span>
+          <span class="ipo-date-phase phase-delay">延迟上市</span>
+        </div>
+      </div>
+      <div class="ipo-score" style="color:var(--red)">4.1</div>
+    </div>
+
+    <div class="ipo-item" onclick="showPitch('tongsf')" data-month="2026-02" data-week="2026-W12" data-phase="listing">
+      <div class="ipo-badge badge-skip">SKIP</div>
+      <div class="ipo-meta">
+        <div class="ipo-name">铜师傅</div>
+        <div class="ipo-ticker">0664.HK · 铜工艺品</div>
+        <div class="ipo-date-row">
+          <div class="date-dot" style="background:var(--red)"></div>
+          <span class="ipo-date-text">上市 2026-02-28</span>
+          <span class="ipo-date-phase phase-list">首日 -49%</span>
+        </div>
+      </div>
+      <div class="ipo-score" style="color:var(--red)">2.3</div>
+    </div>
+
+    </div><!-- /archiveList -->
+
+  </div><!-- /ipo-list -->
+</div><!-- /sidebar -->
+
+<!-- ══════════════════════════════════════════ MAIN ══ -->
+<div id="main">
+  <div id="pitchContainer"></div>
+</div>
+
+<script>
+// ─────────────────────────────────────────────────────────
+// DATA
+// ─────────────────────────────────────────────────────────
+const pitches = {
+
+  huayan: {
+    name: "华沿机器人",
+    ticker: "1021.HK",
+    exchange: "香港主板",
+    sector: "工业机器人 / 智能制造",
+    tagline: "国内协作机器人领军企业，深耕汽车及3C电子装配场景，技术壁垒与国产替代双重驱动",
+    rating: "BUY",
+    score: 8.6,
+    scoreColor: "var(--green)",
+    metrics: [
+      { label: "IPO价格", val: "HK$28.80", sub: "发行区间上限" },
+      { label: "市值", val: "HK$34.6亿", sub: "发行后" },
+      { label: "孖展超购", val: "4,097x", valClass: "green", sub: "公开发售" },
+      { label: "保荐人", val: "8/10 🟢", sub: "中金+德意志" },
+      { label: "首日表现", val: "+68.4%", valClass: "green", sub: "暗盘 +52%" },
+      { label: "AH折价", val: "N/A", sub: "纯港股" },
+    ],
+    thesis: [
+      { title: "国产协作机器人市场格局重构，华沿具备规模化先发壁垒", desc: "全球cobot市场2025–2030 CAGR 34%，中国进入快速替代阶段（外资份额从58%→预计2027年<40%）。华沿已建立12,000台装机量形成的服务网络壁垒，切换成本高，且在汽车（47%）+ 3C（31%）双核驱动下收入增速持续领先行业均值2–3x。" },
+      { title: "盈利拐点已过，毛利率改善驱动FCF正向飞轮", desc: "FY2024收入HK$12.5亿（+39.8% YoY），毛利率提升至43.2%（+4.1pp），净利润从亏损扭盈至HK$2.3亿，FCF首次转正。规模效应叠加高毛利服务收入占比提升，NTM净利润预期增速64%，是当前估值的核心支撑。" },
+      { title: "公开发售超购4,097x印证机构与散户同步高度认可", desc: "公开发售超购4,097x，跻身近年港股前五；国际配售机构覆盖23.6x，说明全球主流长线机构（Fidelity、Capital Group等）已完成深度调研并建仓。机构认可是最有力的独立尽职调查信号，区别于单纯情绪炒作。" },
+    ],
+    financials: {
+      headers: ["指标", "FY2023", "FY2024", "NTM预测", "YoY"],
+      rows: [
+        ["收入 (HK$mm)", "892", "1,247", "1,810", "+45%", "trend-up"],
+        ["毛利率", "39.1%", "43.2%", "44.5%", "+1.3pp", "trend-up"],
+        ["EBITDA (HK$mm)", "156", "298", "460", "+54%", "trend-up"],
+        ["净利润 (HK$mm)", "(23)", "231", "380", "+64%", "trend-up"],
+        ["净利率", "NM", "18.5%", "21.0%", "+2.5pp", "trend-up"],
+        ["EPS (HK$)", "NM", "0.19", "0.32", "+68%", "trend-up"],
+      ]
+    },
+    comps: {
+      hk: {
+        rows: [
+          { name: "汇川技术", ticker: "300124.SZ", rel: "强相关", peLtm: "58.4x", pe: "52.3x", ps: "8.4x", evEbitda: "35.2x", verdict: null },
+          { name: "绿的谐波", ticker: "688017.SH", rel: "强相关", peLtm: "68.2x", pe: "58.6x", ps: "14.2x", evEbitda: "42.4x", verdict: null },
+          { name: "微创机器人", ticker: "2252.HK", rel: "强相关", peLtm: "NM", pe: "NM", ps: "28.4x", evEbitda: "NM", verdict: null },
+          { name: "埃斯顿", ticker: "002747.SZ", rel: "中相关", peLtm: "54.6x", pe: "48.3x", ps: "4.6x", evEbitda: "32.1x", verdict: null },
+          { name: "机器人 (新松)", ticker: "300024.SZ", rel: "中相关", peLtm: "NM", pe: "NM", ps: "3.1x", evEbitda: "NM", verdict: null },
+          { name: "拓斯达", ticker: "300607.SZ", rel: "中相关", peLtm: "40.8x", pe: "35.2x", ps: "2.8x", evEbitda: "22.4x", verdict: null },
+          { name: "新时达", ticker: "002527.SZ", rel: "中相关", peLtm: "52.1x", pe: "44.8x", ps: "2.4x", evEbitda: "28.6x", verdict: null },
+          { name: "大族激光", ticker: "002008.SZ", rel: "弱相关", peLtm: "48.6x", pe: "42.1x", ps: "3.2x", evEbitda: "26.3x", verdict: null },
+          { name: "海康威视", ticker: "002415.SZ", rel: "弱相关", peLtm: "21.4x", pe: "18.2x", ps: "2.9x", evEbitda: "12.4x", verdict: null },
+          { name: "科沃斯", ticker: "603486.SH", rel: "弱相关", peLtm: "44.2x", pe: "38.4x", ps: "4.1x", evEbitda: "24.2x", verdict: null },
+          { name: "华沿机器人 ★", ticker: "1021.HK", rel: "TARGET", peLtm: "NM", pe: "90.0x", ps: "19.1x", evEbitda: "62.0x", verdict: null },
+          { name: "中位数 (可比)", ticker: "", rel: "", peLtm: "51.4x", pe: "46.6x", ps: "4.4x", evEbitda: "27.3x", verdict: null },
+        ],
+        verdict: { type: "rich", text: "港股/港股通对标：IPO P/S 19.1x vs. 可比中位数 4.4x，溢价3.3x。溢价主要来自超高增速预期（NTM+45% vs. 同业均值+12%）及协作机器人（cobot）细分赛道稀缺性。PEG=2.0x，成长调整后估值压力可接受。" }
+      },
+      a: {
+        rows: [
+          { name: "汇川技术", ticker: "300124.SZ", rel: "强相关", peLtm: "58.4x", pe: "52.3x", ps: "8.4x", evEbitda: "35.2x", verdict: null },
+          { name: "绿的谐波", ticker: "688017.SH", rel: "强相关", peLtm: "68.2x", pe: "58.6x", ps: "14.2x", evEbitda: "42.4x", verdict: null },
+          { name: "埃斯顿", ticker: "002747.SZ", rel: "强相关", peLtm: "54.6x", pe: "48.3x", ps: "4.6x", evEbitda: "32.1x", verdict: null },
+          { name: "机器人 (新松)", ticker: "300024.SZ", rel: "中相关", peLtm: "NM", pe: "NM", ps: "3.1x", evEbitda: "NM", verdict: null },
+          { name: "拓斯达", ticker: "300607.SZ", rel: "中相关", peLtm: "40.8x", pe: "35.2x", ps: "2.8x", evEbitda: "22.4x", verdict: null },
+          { name: "新时达", ticker: "002527.SZ", rel: "中相关", peLtm: "52.1x", pe: "44.8x", ps: "2.4x", evEbitda: "28.6x", verdict: null },
+          { name: "博实股份", ticker: "002698.SZ", rel: "中相关", peLtm: "33.2x", pe: "28.6x", ps: "2.1x", evEbitda: "18.2x", verdict: null },
+          { name: "三花智控", ticker: "002050.SZ", rel: "弱相关", peLtm: "30.6x", pe: "26.4x", ps: "2.1x", evEbitda: "14.6x", verdict: null },
+          { name: "科大讯飞", ticker: "002230.SZ", rel: "弱相关", peLtm: "NM", pe: "68.2x", ps: "4.8x", evEbitda: "NM", verdict: null },
+          { name: "海康威视", ticker: "002415.SZ", rel: "弱相关", peLtm: "21.4x", pe: "18.2x", ps: "2.9x", evEbitda: "12.4x", verdict: null },
+          { name: "华沿机器人 ★", ticker: "1021.HK", rel: "TARGET", peLtm: "NM", pe: "90.0x", ps: "19.1x", evEbitda: "62.0x", verdict: null },
+          { name: "中位数 (A股)", ticker: "", rel: "", peLtm: "46.3x", pe: "46.6x", ps: "3.8x", evEbitda: "25.4x", verdict: null },
+        ],
+        verdict: { type: "rich", text: "A股对标：IPO P/E 90x vs. A股中位数 46.6x，溢价约93%，折射港股上市稀缺性溢价+AI赋能概念。如以P/S衡量，A股工业机器人头部中位数3.8x vs. 目标19.1x，差异显著。" }
+      },
+      us: {
+        rows: [
+          { name: "Teradyne", ticker: "TER", rel: "强相关", peLtm: "44.6x", pe: "38.2x", ps: "6.1x", evEbitda: "22.4x", verdict: null },
+          { name: "Cognex", ticker: "CGNX", rel: "强相关", peLtm: "62.8x", pe: "52.4x", ps: "9.2x", evEbitda: "34.8x", verdict: null },
+          { name: "ABB", ticker: "ABB", rel: "强相关", peLtm: "24.8x", pe: "22.1x", ps: "2.4x", evEbitda: "14.2x", verdict: null },
+          { name: "Rockwell Automation", ticker: "ROK", rel: "中相关", peLtm: "32.4x", pe: "28.4x", ps: "3.2x", evEbitda: "20.1x", verdict: null },
+          { name: "Emerson Electric", ticker: "EMR", rel: "中相关", peLtm: "28.2x", pe: "24.6x", ps: "3.1x", evEbitda: "16.4x", verdict: null },
+          { name: "Zebra Technologies", ticker: "ZBRA", rel: "中相关", peLtm: "38.4x", pe: "32.8x", ps: "2.8x", evEbitda: "22.6x", verdict: null },
+          { name: "Intuitive Surgical", ticker: "ISRG", rel: "弱相关", peLtm: "76.2x", pe: "68.4x", ps: "18.2x", evEbitda: "48.2x", verdict: null },
+          { name: "Symbotic", ticker: "SYM", rel: "弱相关", peLtm: "NM", pe: "NM", ps: "4.2x", evEbitda: "NM", verdict: null },
+          { name: "Roper Technologies", ticker: "ROP", rel: "弱相关", peLtm: "48.4x", pe: "42.1x", ps: "8.4x", evEbitda: "28.4x", verdict: null },
+          { name: "Azenta", ticker: "AZTA", rel: "弱相关", peLtm: "NM", pe: "NM", ps: "2.8x", evEbitda: "NM", verdict: null },
+          { name: "华沿机器人 ★", ticker: "1021.HK", rel: "TARGET", peLtm: "NM", pe: "90.0x", ps: "19.1x", evEbitda: "62.0x", verdict: null },
+          { name: "中位数 (美股)", ticker: "", rel: "", peLtm: "40.4x", pe: "35.5x", ps: "5.2x", evEbitda: "22.5x", verdict: null },
+        ],
+        verdict: { type: "rich", text: "美股对标：美股工业自动化P/S中位数5.2x，华沿19.1x溢价2.7x。但Teradyne（Universal Robots母公司）P/S 6.1x已部分验证cobot赛道溢价。超高增速（+45%）足以支撑相对美股的成长溢价。" }
+      }
+    },
+    ipoSignals: [
+      { label: "孖展超购倍数", val: "4,097x", valColor: "var(--green)", sub: "公开发售 · 2026年港股前五", progress: 100, progressColor: "var(--green)" },
+      { label: "国际配售覆盖", val: "23.6x", valColor: "var(--green)", sub: "机构认购覆盖倍数 · 极强需求", progress: 94, progressColor: "var(--green)" },
+      { label: "定价位置", val: "区间上限", valColor: "var(--green)", sub: "HK$28.80 定于发行区间上限", progress: 100, progressColor: "var(--green)" },
+      { label: "暗盘溢价", val: "+52.1%", valColor: "var(--green)", sub: "暗盘 HK$43.80 · 次日+68.4%印证", progress: 90, progressColor: "var(--green)" },
+    ],
+    cornerstones: [
+      { name: "高瓴资本", amt: "HK$1.2亿", pct: "8.1%" },
+      { name: "腾讯投资", amt: "HK$0.8亿", pct: "5.4%" },
+      { name: "国家制造业基金", amt: "HK$0.5亿", pct: "3.4%" },
+    ],
+    bankers: {
+      sponsors: [{ name: "中金国际", tier: 1 }, { name: "德意志银行", tier: 2 }],
+      coordinators: [{ name: "中金国际", tier: 1 }, { name: "德意志银行", tier: 2 }, { name: "花旗", tier: 2 }],
+      bookrunners: [{ name: "中金国际", tier: 1 }, { name: "德意志银行", tier: 2 }, { name: "花旗", tier: 2 }, { name: "海通国际", tier: 2 }],
+      stabilizer: [{ name: "中金国际", tier: 1 }],
+      sponsorScore: "8/10",
+      anchors: [
+        { name: "Fidelity International (富达)", region: "英国", commitment: "HK$0.9亿", note: "长期持有风格" },
+        { name: "GIC", region: "新加坡", commitment: "HK$0.6亿", note: "主权财富基金" },
+        { name: "Capital Group", region: "美国", commitment: "HK$0.5亿", note: "主动管理旗舰" },
+        { name: "Baillie Gifford", region: "英国", commitment: "HK$0.4亿", note: "成长股专家" },
+        { name: "高盛资产管理", region: "美国", commitment: "HK$0.3亿", note: "量化/主动混合" },
+      ]
+    },
+    scorecard: [
+      { label: "基本面质量 (F)", weight: "35%", score: 9.1, max: 10, color: "var(--green)", note: "商业模式可持续性 · 财务健康度 · 竞争壁垒" },
+      { label: "IPO结构 (S)", weight: "30%", score: 9.5, max: 10, color: "var(--green)", note: "超购倍数 · 定价位置 · 保荐人 · 基石/Anchor" },
+      { label: "估值合理性 (V)", weight: "20%", score: 7.5, max: 10, color: "var(--green)", note: "可比估值倍数 · PEG · 下行保护" },
+      { label: "市场时机 (M)", weight: "15%", score: 8.2, max: 10, color: "var(--green)", note: "板块周期位置 · 宏观环境 · 同期竞争新股" },
+    ],
+    risks: [
+      { icon: "⚠️", title: "估值过高风险", desc: "IPO P/S 19x远超港股同类中位数，若2025年增速不达45%预期，估值修正幅度可达30–40%。" },
+      { icon: "🏭", title: "客户集中度风险", desc: "前五大客户贡献收入约62%，其中前两大（汽车整车厂）合计占38%，客户流失影响显著。" },
+      { icon: "🌏", title: "地缘政治 & 供应链", desc: "核心芯片及传感器仍依赖进口，中美科技摩擦若升级，供应链断裂风险上升。" },
+    ],
+    catalysts: [
+      { timing: "Q2–Q3 2026", title: "新整车厂客户公告 — 客户集中度风险定价修正", desc: "当前前两大客户占收入38%是最大折价因子。若公司公告第三大整车厂（宝马/长安/广汽系）或海外新客户（欧洲Tier 1），市场将重新定价集中度风险，估值有望从19x P/S扩张至22–25x。监控：季度新客户披露。" },
+      { timing: "Aug 2026", title: "1H 2026 中报收入增速 — 超预期触发目标价上调", desc: "核心观察点是上半年收入是否超过市场预期45%增速（尤其是海外+3C分部），以及毛利率能否保持在43%+。若上半年收入 >HK$8.5亿且毛利率43%+，机构将上调全年预测触发估值扩张。收入加速是比利润更重要的观察指标。" },
+      { timing: "Q3–Q4 2026", title: "视觉+力觉感知新品发布 — AI cobot升维叙事", desc: "若华沿发布集成大模型推理能力的下一代协作机器人产品（路径规划+自适应抓取），产品定位将从传统工业机器人升维至AI原生机器人，支持更高估值倍数。对标Teradyne（UR）e-Series升级带来的估值重评。" },
+      { timing: "政策窗口", title: "工信部国产机器人采购目录发布", desc: "若工信部发布工业机器人政府采购国产化指导目录并将华沿纳入，将直接释放政府/国企端增量订单（预计+5–10%年收入），且具备多年可见度。该政策催化与AI/机器人整体规划相互强化。" },
+    ],
+    bizDesc: "华沿机器人成立于2015年，专注于6轴协作机器人（cobot）的研发、制造与销售。FY2024收入HK$12.5亿（+39.8% YoY），为港股协作机器人赛道规模最大的纯标的，装机量累计12,000台。收入主要来自汽车整车及零部件装配（47%）、3C电子制造（31%）及金属加工（14%）。公司采用直销+代理商混合模式，国内设8个区域服务中心，海外收入占比约18%并持续扩张，已进入欧洲、东南亚市场。",
+    bizTags: ["协作机器人", "AI+智造", "国产替代", "汽车/3C客户", "海外扩张"],
+    kpis: [
+      { label: "FY2024收入", val: "HK$12.5亿" },
+      { label: "装机量", val: "1.2万台" },
+      { label: "研发占比", val: "11.2%" },
+      { label: "专利", val: "312项" },
+    ],
+    valuation: {
+      method: "EV/Revenue (NTM) — 主要方法；P/E辅助（盈利初期参考价值有限）",
+      entryNote: "IPO发行价 HK$28.80 · 总市值 HK$34.6亿 · NTM P/S ≈ 19.1x（基于NTM收入HK$18.1亿）",
+      compAnchorLogic: "港股工业自动化龙头汇川技术 P/S 8.4x × 成长溢价 2.3x（华沿NTM增速45% ÷ 汇川12% = 3.75x，取保守折扣0.6）≈ 发行价P/S 19.1x，与市场定价基本吻合。",
+      pegNote: "PEG = 发行P/E 90x ÷ NTM净利润增速64% ≈ 1.41x，处于成长股合理区间（PEG<1.5x为投行经验值）。",
+      targets: [
+        { scenario: "熊市", price: "HK$38", ps: "12.0x NTM", basis: "增速不达预期（<30%），市场给予港股cobot行业均值P/S，股价回撤-34%" },
+        { scenario: "基础", price: "HK$52", ps: "16.5x NTM", basis: "增速达预期（45%），P/S维持上市时折扣，12个月目标价 +80.6%" },
+        { scenario: "牛市", price: "HK$68", ps: "21.5x NTM", basis: "新客户公告+AI升维叙事，P/S扩张至汇川AI溢价上限，+136%" },
+      ],
+      keyAssumptions: ["NTM收入增速45%（FY2024–FY2025E）", "毛利率稳定在43–45%", "无重大客户流失/集中度风险事件"]
+    },
+    subStats: {
+      timeline: [
+        { label: "招股开始", date: "2026-03-20", note: "国际配售同步", active: false },
+        { label: "招股截止", date: "2026-03-25", note: "17:00 HKT", active: false },
+        { label: "定价", date: "2026-03-26", note: "HK$28.80 / 上限", active: false },
+        { label: "暗盘", date: "2026-03-29", note: "+52% → HK$43.80", active: false },
+        { label: "上市日", date: "2026-03-30", note: "首日 +68.4%", active: false },
+      ],
+      cards: [
+        { label: "孖展超购", val: "4,097x", sub: "公开发售 · HKEX配售公告", color: "var(--green)" },
+        { label: "国际配售", val: "23.6x", sub: "机构认购覆盖", color: "var(--accent-blue)" },
+        { label: "定价位置", val: "上限定价", sub: "HK$28.80 / 发行区间上限", color: "var(--green)" },
+        { label: "暗盘溢价", val: "+52.1%", sub: "暗盘 HK$43.80 vs 发行价", color: "var(--green)" },
+      ]
+    },
+    capitalStrategy: {
+      recommendation: "最大化申购",
+      ipoPrice: "HK$28.80",
+      lotSize: 500,
+      lotValue: "HK$14,400",
+      totalAccounts: 4,
+      totalLots: 15,
+      totalCapital: "HK$43,200",
+      marginRec: "建议使用孖展",
+      marginNote: "超购4000x+情况下，孖展成本（约0.08% / 5天）远低于预期中签收益，ROI显著正。富途/老虎均提供零息孖展活动。",
+      marginOption: "yes",
+      allocationBars: [
+        { name: "富途", pct: 33, color: "#f97316" },
+        { name: "老虎", pct: 33, color: "#3b82f6" },
+        { name: "盈透", pct: 22, color: "#a855f7" },
+        { name: "汇丰", pct: 12, color: "#06b6d4" },
+      ],
+      strategyCards: [
+        { label: "建议申购手数/账户", val: "5手", sub: "超购4000x+ → 多账户分散最大化中签概率", tag: "最大申购", tagClass: "sc-tag-green" },
+        { label: "单账户资金需求", val: "HK$1,440", sub: "使用10x孖展，自有资金仅需每手$1,440（10%保证金）", tag: "孖展推荐", tagClass: "sc-tag-blue" },
+        { label: "预期中签率", val: "~0.1%", sub: "4,097x超购下每账户中签约0–1手，多账户叠加至2–4手", tag: "低中签", tagClass: "sc-tag-yellow" },
+        { label: "总资金效率", val: "ROI ~47%", sub: "首日+68%，孖展成本0.08%，净收益HK$9,792 / 10手", tag: "高效率", tagClass: "sc-tag-green" },
+      ],
+      note: "⚠️ 资金冲突提示：本周无其他重叠招股，孖展资金可全额投入。若同期有多只新股，需按Scorecard评分分配孖展额度。"
+    },
+    sellRec: {
+      action: "首日高开减持 50%",
+      horizon: "建议持有期：上市当日",
+      actionColor: "var(--green)",
+      ipoPrice: 28.80,
+      thesisVsPrice: {
+        metric: "P/S",
+        ipoImplied: "6.2x",
+        compsMedian: "8.4x",
+        vs: "折价 −26%",
+        verdict: "偏低估 CHEAP",
+        verdictClass: "cheap",
+        checks: [
+          {
+            point: "AI机器人赛道稀缺性溢价 (F: 9.1/10 核心驱动)",
+            result: "✓ 超预期验证",
+            note: "首日+68.4%，市场充分定价了稀缺性溢价；实际收盘价HK$48.50超出Base case目标HK$52的93%，F维度高评分获印证。",
+            ok: true
+          },
+          {
+            point: "A+H折价 41% 提供安全边际 (V: 7.5/10)",
+            result: "✓ 验证",
+            note: "发行价HK$28.80相较A股折价41%，隐含P/S 6.2x显著低于Comps中位8.4x（折价26%）；安全边际充足，下行保护如预期有效。",
+            ok: true
+          },
+          {
+            point: "IPO结构强势 (S: 9.5/10): 孖展4,097x + 上限定价",
+            result: "✓ 完全验证",
+            note: "4,097x超购彻底印证S维度满分结构；中签即浮盈，暗盘+52.1%提供额外退出窗口，首日高流动性支撑顺畅减持。",
+            ok: true
+          },
+          {
+            point: "亏损期估值压缩风险 (V: 警示项)",
+            result: "⚠ 持续关注",
+            note: "公司仍处亏损，EV/EBITDA为NM；长持面临估值回归风险 — 维持打新首日减持策略，不建议持股等待基本面兑现。",
+            ok: null
+          },
+        ]
+      },
+      scenarios: [
+        {
+          type: "bear",
+          label: "熊市情景",
+          price: "HK$38.00",
+          upside: "+31.9%",
+          basis: "若大市走弱或机器人板块回调，支撑位在历史可比估值下限 P/S 12x"
+        },
+        {
+          type: "base",
+          label: "基础情景",
+          price: "HK$52.00",
+          upside: "+80.6%",
+          basis: "Comps港股中位数 P/S 6.2x → 成长溢价1.5x调整，目标价 HK$52，对应当前首日收盘"
+        },
+        {
+          type: "bull",
+          label: "牛市情景",
+          price: "HK$68.00",
+          upside: "+136%",
+          basis: "AI机器人板块情绪持续升温，对标汇川技术 P/S 8.2x + AI赋能溢价，目标价 HK$68"
+        },
+      ],
+      triggers: [
+        {
+          icon: "🎯",
+          title: "首日开盘 +30% 以上 → 减持 50%",
+          desc: "锁定主要收益，剩余50%持仓等待更高目标。历史上超购4000x+标的首日平均+65%，开盘30%已是良好执行价。",
+          price: "≥ HK$37.44",
+          priceClass: "stp-sell"
+        },
+        {
+          icon: "📊",
+          title: "首日收盘前 → 清仓剩余持仓（Base case）",
+          desc: "港股打新核心逻辑是吃首日溢价，非长期持有。除非有明确催化剂，收盘前全数退出，避免次日回调风险。",
+          price: "目标 HK$52",
+          priceClass: "stp-sell"
+        },
+        {
+          icon: "🛑",
+          title: "破发止损线：跌破发行价 -5%",
+          desc: "若首日异常弱势跌破HK$27.36，立即全额止损离场，不要抄底。系统评级高但市场情绪可瞬间逆转。",
+          price: "< HK$27.36",
+          priceClass: "stp-sell"
+        },
+        {
+          icon: "💎",
+          title: "如持有过夜：目标 HK$68 Bull case",
+          desc: "若相信AI机器人主题持续，可保留10–20%仓位博Bull case，设止损HK$38（Bear case支撑位）。",
+          price: "目标 HK$68",
+          priceClass: "stp-hold"
+        },
+      ]
+    }
+  },
+
+  fourier: {
+    name: "傅里叶",
+    ticker: "3625.HK",
+    exchange: "香港主板",
+    sector: "具身智能 / 康复机器人",
+    tagline: "全球具身智能机器人先行者，康复+人形双轨并行，GPT时代最具想象力的机器人赛道标的",
+    rating: "BUY",
+    score: 7.8,
+    scoreColor: "var(--green)",
+    metrics: [
+      { label: "IPO价格", val: "HK$18.30", sub: "发行区间中位" },
+      { label: "市值", val: "HK$22.1亿", sub: "发行后" },
+      { label: "孖展超购", val: "1,243x", valClass: "green", sub: "公开发售" },
+      { label: "保荐人", val: "3/10 🔴", sub: "国泰海通+东方" },
+      { label: "暗盘表现", val: "+110%", valClass: "green", sub: "赛道热度 override" },
+      { label: "P/S (LTM)", val: "28.2x", sub: "vs. 港股中位 12x" },
+    ],
+    thesis: [
+      { title: "康复机器人盈利锚 × 人形机器人长期期权 — 双引擎估值逻辑", desc: "FY2024康复机器人收入HK$0.78亿（YoY+34%，毛利率58%），提供当期盈利基础；GR-1人形机器人处于商业化早期（累计出货约30台），一旦量产交付节点确认，将触发市场对潜在TAM（全球人形机器人市场2030E>US$300亿）的重新定价。两条线互相支撑，基本面不完全依赖人形机器人叙事。" },
+      { title: "全球化渠道壁垒已建立，海外收入41%为国内同业最高", desc: "已在德国（欧洲总部）、美国、日本设立子公司，康复外骨骼产品获CE（欧盟）和FDA（美国）双认证——这是极高的监管准入壁垒，绝大多数国内竞争者无法在5年内复制。海外医疗机构渠道的黏性和复购率远高于国内。" },
+      { title: "赛道情绪与基本面共振窗口稀缺，公开发售1,243x超购验证市场认可", desc: "具身智能赛道处于2026年政策发酵 + 大模型赋能双重催化阶段；港股人形机器人纯标的极度稀缺。公开发售超购1,243x + 暗盘+110%，显示散户与机构对稀缺赛道共识极强，是情绪与基本面罕见重合的认购窗口。" },
+    ],
+    financials: {
+      headers: ["指标", "FY2023", "FY2024", "NTM预测", "YoY"],
+      rows: [
+        ["收入 (HK$mm)", "58", "78", "145", "+86%", "trend-up"],
+        ["毛利率", "51.3%", "58.2%", "55.0%", "-3.2pp", "trend-nt"],
+        ["EBITDA (HK$mm)", "(18)", "(12)", "(5)", "亏损收窄", "trend-up"],
+        ["净利润 (HK$mm)", "(28)", "(19)", "(10)", "亏损收窄", "trend-up"],
+        ["净利率", "NM", "NM", "NM", "—", "trend-nt"],
+        ["EPS (HK$)", "NM", "NM", "NM", "—", "trend-nt"],
+      ]
+    },
+    comps: {
+      hk: {
+        rows: [
+          { name: "优必选", ticker: "9880.HK", rel: "强相关", peLtm: "NM", pe: "NM", ps: "9.2x", evEbitda: "NM", verdict: null },
+          { name: "越疆机器人", ticker: "9963.HK", rel: "强相关", peLtm: "NM", pe: "NM", ps: "15.2x", evEbitda: "NM", verdict: null },
+          { name: "微创机器人", ticker: "2252.HK", rel: "强相关", peLtm: "NM", pe: "NM", ps: "28.4x", evEbitda: "NM", verdict: null },
+          { name: "汇川技术", ticker: "300124.SZ", rel: "中相关", peLtm: "58.4x", pe: "52.3x", ps: "8.4x", evEbitda: "35.2x", verdict: null },
+          { name: "伟思医疗", ticker: "688580.SH", rel: "中相关", peLtm: "48.6x", pe: "42.8x", ps: "8.4x", evEbitda: "28.4x", verdict: null },
+          { name: "翔宇医疗", ticker: "688626.SH", rel: "中相关", peLtm: "44.2x", pe: "38.4x", ps: "6.8x", evEbitda: "24.2x", verdict: null },
+          { name: "迈瑞医疗", ticker: "300760.SZ", rel: "弱相关", peLtm: "28.4x", pe: "24.2x", ps: "8.4x", evEbitda: "16.4x", verdict: null },
+          { name: "科大讯飞", ticker: "002230.SZ", rel: "弱相关", peLtm: "NM", pe: "68.2x", ps: "4.8x", evEbitda: "NM", verdict: null },
+          { name: "三花智控 (致动器)", ticker: "002050.SZ", rel: "弱相关", peLtm: "30.6x", pe: "26.4x", ps: "2.1x", evEbitda: "14.6x", verdict: null },
+          { name: "心玮医疗", ticker: "1942.HK", rel: "弱相关", peLtm: "NM", pe: "NM", ps: "12.4x", evEbitda: "NM", verdict: null },
+          { name: "傅里叶 ★", ticker: "3625.HK", rel: "TARGET", peLtm: "NM", pe: "NM", ps: "28.2x", evEbitda: "NM", verdict: null },
+          { name: "中位数 (可比)", ticker: "", rel: "", peLtm: "44.2x", pe: "38.4x", ps: "8.4x", evEbitda: "20.3x", verdict: null },
+        ],
+        verdict: { type: "fair", text: "港股/港股通对标：P/S 28.2x 处于医疗机器人（28.4x）与康复医疗（6.8–8.4x）之间。傅里叶的人形机器人叙事赋予额外溢价，但与微创机器人（28.4x）基本持平，定价合理。" }
+      },
+      a: {
+        rows: [
+          { name: "伟思医疗 (康复设备)", ticker: "688580.SH", rel: "强相关", peLtm: "48.6x", pe: "42.8x", ps: "8.4x", evEbitda: "28.4x", verdict: null },
+          { name: "翔宇医疗", ticker: "688626.SH", rel: "强相关", peLtm: "44.2x", pe: "38.4x", ps: "6.8x", evEbitda: "24.2x", verdict: null },
+          { name: "奥佳华", ticker: "002614.SZ", rel: "中相关", peLtm: "26.4x", pe: "22.6x", ps: "1.8x", evEbitda: "12.4x", verdict: null },
+          { name: "汇川技术", ticker: "300124.SZ", rel: "中相关", peLtm: "58.4x", pe: "52.3x", ps: "8.4x", evEbitda: "35.2x", verdict: null },
+          { name: "机器人 (新松)", ticker: "300024.SZ", rel: "中相关", peLtm: "NM", pe: "NM", ps: "3.1x", evEbitda: "NM", verdict: null },
+          { name: "大博医疗", ticker: "002901.SZ", rel: "中相关", peLtm: "37.6x", pe: "32.4x", ps: "4.8x", evEbitda: "20.2x", verdict: null },
+          { name: "威高骨科", ticker: "688161.SH", rel: "中相关", peLtm: "33.2x", pe: "28.6x", ps: "5.2x", evEbitda: "16.4x", verdict: null },
+          { name: "迈瑞医疗", ticker: "300760.SZ", rel: "弱相关", peLtm: "28.4x", pe: "24.2x", ps: "8.4x", evEbitda: "16.4x", verdict: null },
+          { name: "乐普医疗", ticker: "300003.SZ", rel: "弱相关", peLtm: "21.6x", pe: "18.4x", ps: "2.8x", evEbitda: "10.2x", verdict: null },
+          { name: "科大讯飞 (AI溢价锚)", ticker: "002230.SZ", rel: "弱相关", peLtm: "NM", pe: "68.2x", ps: "4.8x", evEbitda: "NM", verdict: null },
+          { name: "傅里叶 ★", ticker: "3625.HK", rel: "TARGET", peLtm: "NM", pe: "NM", ps: "28.2x", evEbitda: "NM", verdict: null },
+          { name: "中位数 (A股)", ticker: "", rel: "", peLtm: "37.6x", pe: "32.4x", ps: "5.0x", evEbitda: "18.3x", verdict: null },
+        ],
+        verdict: { type: "rich", text: "A股对标：P/S 28.2x高于A股中位数5.0x约5.6倍。差距主要反映：①港股机器人赛道稀缺性溢价；②人形机器人概念暂无A股直接对标；③2026年政策红利预期。" }
+      },
+      us: {
+        rows: [
+          { name: "Intuitive Surgical", ticker: "ISRG", rel: "强相关", peLtm: "76.2x", pe: "68.4x", ps: "18.2x", evEbitda: "48.2x", verdict: null },
+          { name: "ReWalk Robotics", ticker: "RWLK", rel: "强相关", peLtm: "NM", pe: "NM", ps: "8.4x", evEbitda: "NM", verdict: null },
+          { name: "Ekso Bionics", ticker: "EKSO", rel: "强相关", peLtm: "NM", pe: "NM", ps: "4.2x", evEbitda: "NM", verdict: null },
+          { name: "Cyberdyne (外骨骼)", ticker: "7779.T", rel: "强相关", peLtm: "NM", pe: "NM", ps: "12.8x", evEbitda: "NM", verdict: null },
+          { name: "Teradyne (UR母公司)", ticker: "TER", rel: "中相关", peLtm: "44.6x", pe: "38.2x", ps: "6.1x", evEbitda: "22.4x", verdict: null },
+          { name: "ABB", ticker: "ABB", rel: "中相关", peLtm: "24.8x", pe: "22.1x", ps: "2.4x", evEbitda: "14.2x", verdict: null },
+          { name: "Stryker (医疗器械)", ticker: "SYK", rel: "弱相关", peLtm: "32.6x", pe: "28.4x", ps: "4.8x", evEbitda: "20.2x", verdict: null },
+          { name: "Boston Scientific", ticker: "BSX", rel: "弱相关", peLtm: "38.2x", pe: "32.4x", ps: "6.4x", evEbitda: "24.4x", verdict: null },
+          { name: "Medtronic", ticker: "MDT", rel: "弱相关", peLtm: "21.4x", pe: "18.4x", ps: "3.2x", evEbitda: "14.2x", verdict: null },
+          { name: "Smith & Nephew", ticker: "SNN", rel: "弱相关", peLtm: "26.4x", pe: "22.6x", ps: "2.8x", evEbitda: "12.4x", verdict: null },
+          { name: "傅里叶 ★", ticker: "3625.HK", rel: "TARGET", peLtm: "NM", pe: "NM", ps: "28.2x", evEbitda: "NM", verdict: null },
+          { name: "中位数 (美股)", ticker: "", rel: "", peLtm: "28.8x", pe: "25.5x", ps: "6.3x", evEbitda: "17.3x", verdict: null },
+        ],
+        verdict: { type: "fair", text: "美股对标：Intuitive Surgical P/S 18.2x 是最接近的医疗机器人估值锚，傅里叶28.2x略高。外骨骼直接对标（ReWalk/Ekso）估值均偏低，但两者均无人形机器人叙事。整体估值处于医疗机器人合理区间上沿。" }
+      }
+    },
+    ipoSignals: [
+      { label: "孖展超购倍数", val: "1,243x", valColor: "var(--green)", sub: "公开发售 · 热度较高", progress: 72, progressColor: "var(--green)" },
+      { label: "国际配售覆盖", val: "8.4x", valColor: "var(--accent-blue)", sub: "机构认购覆盖 · 保荐弱但AI赛道补位", progress: 56, progressColor: "var(--accent-blue)" },
+      { label: "定价位置", val: "区间中位", valColor: "var(--yellow)", sub: "HK$18.30 定于发行区间中位", progress: 60, progressColor: "var(--yellow)" },
+      { label: "暗盘溢价", val: "+110%", valColor: "var(--green)", sub: "暗盘 HK$38.43 · 赛道情绪全面引爆", progress: 100, progressColor: "var(--green)" },
+    ],
+    cornerstones: [
+      { name: "某产业基金（未披露）", amt: "HK$0.3亿", pct: "3.8%" },
+    ],
+    bankers: {
+      sponsors: [{ name: "国泰海通", tier: 2 }, { name: "东方证券", tier: 3 }],
+      coordinators: [{ name: "国泰海通", tier: 2 }],
+      bookrunners: [{ name: "国泰海通", tier: 2 }, { name: "东方证券", tier: 3 }, { name: "招银国际", tier: 2 }],
+      stabilizer: [{ name: "国泰海通", tier: 2 }],
+      sponsorScore: "3/10",
+      anchors: [
+        { name: "ARK Investment (方舟)", region: "美国", commitment: "HK$0.5亿", note: "科技主题ETF，人形机器人重仓" },
+        { name: "Softbank Vision Fund", region: "日本", commitment: "HK$0.4亿", note: "战略性机器人布局" },
+        { name: "Wellington Management", region: "美国", commitment: "HK$0.3亿", note: "主动管理成长策略" },
+        { name: "Matthews Asia", region: "美国", commitment: "HK$0.2亿", note: "亚洲新兴市场专注" },
+      ]
+    },
+    scorecard: [
+      { label: "基本面质量 (F)", weight: "35%", score: 7.5, max: 10, color: "var(--green)", note: "商业模式可持续性 · 财务健康度 · 竞争壁垒" },
+      { label: "IPO结构 (S)", weight: "30%", score: 6.5, max: 10, color: "var(--yellow)", note: "超购倍数 · 定价位置 · 保荐人 · 基石/Anchor" },
+      { label: "估值合理性 (V)", weight: "20%", score: 6.8, max: 10, color: "var(--yellow)", note: "可比估值倍数 · PEG · 下行保护" },
+      { label: "市场时机 (M)", weight: "15%", score: 9.5, max: 10, color: "var(--green)", note: "板块周期位置 · 宏观环境 · 同期竞争新股" },
+    ],
+    risks: [
+      { icon: "💸", title: "持续亏损，烧钱速度快", desc: "2024年净亏损HK$1900万，Cash Runway约18个月，若人形机器人商业化延期，需在12个月内再融资。" },
+      { icon: "⚔️", title: "人形机器人赛道竞争急剧加剧", desc: "Tesla Optimus、Figure AI、宇树（Unitree）H1等竞争对手已宣布2025–2026年批量量产计划，若行业出现规模效应竞争，GR-1单价将面临下调压力，当前高毛利率（60%+）存在快速收窄风险。" },
+      { icon: "🤖", title: "人形机器人量产时间表不确定", desc: "GR-1人形机器人量产节点多次推迟，若2025年交付不达100台目标，市场情绪可能快速逆转。" },
+    ],
+    catalysts: [
+      { timing: "Q2 2026", title: "GR-1量产交付100台里程碑 — 商业化能力去风险化", desc: "公司目前累计出货约30台，100台是重要的商业化里程碑，证明量产能力而非实验室项目。监控：季度交付量披露（需关注招股书后的季报）。达成100台将触发机构上调目标价，因为量产风险是当前最大折价因子。" },
+      { timing: "H2 2026", title: "欧美医疗机构批量采购合同 — 海外变现能力兑现", desc: "若公告与三甲医院集团、连锁养老机构或国际医疗设备经销商签署批量采购协议（≥50台），将证明欧美渠道壁垒的真实变现价值。这是当前P/S 28x最重要的基本面支撑兑现点，单一合同可带动1H 2027收入+30%以上。" },
+      { timing: "持续监控", title: "具身大模型实质性合作公告 — AI叙事兑现", desc: "与国内AI大厂（百度文心、阿里通义、商汤日日新）或海外（OpenAI Embodied/Figure/Physical Intelligence）签署技术合作，GR-1接入大模型推理能力，将彻底改变市场对公司技术壁垒的认知。注意：需区分真实技术合作（代码/模型集成）vs. 签署意向书（MOU）——后者不应作为催化剂。" },
+      { timing: "Aug 2026", title: "1H 2026 中报收入增速 — 是否印证86% YoY增速可持续", desc: "核心观察：1H 2026 收入是否 >HK$0.55亿（即维持86% YoY），且GR-1收入在总收入中占比是否提升（从当前<5%开始放量）。若康复机器人收入增速下滑而GR-1尚未填补，可能触发负向重评。" },
+    ],
+    bizDesc: "傅里叶智能成立于2015年，以康复机器人起家，是全球首批实现人形机器人（GR-1）商业化小批量出货的公司之一。公司在康复外骨骼和人形机器人两条产品线并行发展，已在德国、美国、日本建立当地分公司，产品获得CE和FDA双重认证，海外收入占比41%，是国内机器人企业国际化程度最高的公司之一。",
+    bizTags: ["具身智能", "人形机器人", "康复外骨骼", "CE/FDA双认证", "海外41%收入"],
+    kpis: [
+      { label: "FY2024收入", val: "HK$0.78亿" },
+      { label: "GR-1出货量", val: "~30台" },
+      { label: "海外收入占比", val: "41%" },
+      { label: "研发投入占比", val: "28.4%" },
+    ],
+    valuation: {
+      method: "EV/Revenue (NTM) — 亏损公司无法用P/E；P/S与赛道可比公司对标",
+      entryNote: "IPO发行价 HK$18.30 · 总市值约HK$14.5亿 · NTM P/S ≈ 28.2x（基于NTM收入预测HK$1.45亿）",
+      compAnchorLogic: "直接对标：微创机器人（医疗机器人）P/S 28.4x ≈ 发行价P/S 28.2x。赛道对标上限：Intuitive Surgical P/S 18.2x（盈利）；下限：ReWalk/Ekso 4–8x（无人形机器人叙事）。当前定价嵌入了较大的GR-1期权价值，合理性取决于量产节点兑现。",
+      pegNote: "公司持续亏损，P/E及PEG均无法计算。估值以P/S + 赛道稀缺溢价为主，下行风险：若GR-1量产延期>6个月，P/S可能快速回落至优必选/越疆区间（9–15x），对应首日+110%暗盘价显著高于合理区间，打新首日必须有明确退出计划。",
+      targets: [
+        { scenario: "熊市", price: "HK$22", ps: "—", basis: "GR-1量产推迟，市场回落至港股AI机器人P/S下限（优必选9.2x × 赛道折扣），-20.2% vs IPO" },
+        { scenario: "基础", price: "HK$38", ps: "28.2x NTM", basis: "量产节点如期推进，P/S维持微创机器人水平，+107.7% vs IPO（暗盘价即基础情景）" },
+        { scenario: "牛市", price: "HK$58", ps: "43.0x NTM", basis: "GR-1批量交付+大模型合作公告，P/S扩张至科大讯飞AI溢价区间，+217% vs IPO" },
+      ],
+      keyAssumptions: ["FY2025E收入增速86%（HK$1.45亿）", "GR-1量产按计划推进（100台/2026年）", "无下行风险事件（FDA召回/量产爆炸性失败）"]
+    },
+    subStats: {
+      timeline: [
+        { label: "招股开始", date: "2026-03-20", note: "国际配售同步", active: false },
+        { label: "招股截止", date: "2026-03-25", note: "17:00 HKT", active: false },
+        { label: "定价", date: "2026-03-26", note: "HK$18.30 / 中位", active: false },
+        { label: "暗盘", date: "2026-03-29", note: "+110% → HK$38.43", active: false },
+        { label: "上市日", date: "2026-03-30", note: "AI机器人狂热", active: false },
+      ],
+      cards: [
+        { label: "孖展超购", val: "1,243x", sub: "公开发售 · HKEX配售公告", color: "var(--green)" },
+        { label: "国际配售", val: "8.4x", sub: "机构认购覆盖", color: "var(--accent-blue)" },
+        { label: "定价位置", val: "中位定价", sub: "HK$18.30 / 发行区间中位", color: "var(--yellow)" },
+        { label: "暗盘溢价", val: "+110%", sub: "暗盘 HK$38.43 vs 发行价", color: "var(--green)" },
+      ]
+    },
+    capitalStrategy: {
+      recommendation: "积极申购",
+      ipoPrice: "HK$18.30",
+      lotSize: 500,
+      lotValue: "HK$9,150",
+      totalAccounts: 3,
+      totalLots: 13,
+      totalCapital: "HK$27,450",
+      marginRec: "建议使用孖展",
+      marginNote: "超购1243x，孖展成本仍远低于预期收益。暗盘+110%印证判断正确，若能申购到手回报极高。",
+      marginOption: "yes",
+      allocationBars: [
+        { name: "富途", pct: 38, color: "#f97316" },
+        { name: "老虎", pct: 38, color: "#3b82f6" },
+        { name: "盈透", pct: 24, color: "#a855f7" },
+      ],
+      strategyCards: [
+        { label: "建议申购手数/账户", val: "5手", sub: "超购1243x，多账户最大化中签机会", tag: "积极申购", tagClass: "sc-tag-green" },
+        { label: "单账户资金需求", val: "HK$915", sub: "10x孖展下每手仅需HK$915自有资金", tag: "孖展推荐", tagClass: "sc-tag-blue" },
+        { label: "预期中签率", val: "~0.08%", sub: "3账户合计预期2–3手，AI赛道情绪驱动超购1243x", tag: "低中签", tagClass: "sc-tag-yellow" },
+        { label: "总资金效率", val: "ROI ~107%", sub: "暗盘+110%，孖展成本<0.1%，实际净收益远超预期", tag: "超高效率", tagClass: "sc-tag-green" },
+      ],
+      note: "⚠️ 亏损期公司，赛道情绪驱动（超购1243x）+ 暗盘+110%。赛道稀缺性驱动，建议暗盘即减持大部分仓位，控制隔夜持仓风险。"
+    },
+    sellRec: {
+      action: "暗盘 / 首日高开即减持",
+      horizon: "建议持有期：暗盘当日或上市首日",
+      actionColor: "var(--orange)",
+      ipoPrice: 18.30,
+      thesisVsPrice: {
+        metric: "P/S",
+        ipoImplied: "12.4x",
+        compsMedian: "18.6x",
+        vs: "折价 −33%",
+        verdict: "偏低估 CHEAP",
+        verdictClass: "cheap",
+        checks: [
+          {
+            point: "具身智能赛道情绪催化 (M: 9.5/10 首要驱动)",
+            result: "✓ 大幅超预期",
+            note: "暗盘+110%、孖展1,243x完全印证M维度超高评分；赛道情绪是首要驱动力，远超基本面估值对应水平。",
+            ok: true
+          },
+          {
+            point: "中位定价保守策略 (S: 6.5/10) → 定价折让创造空间",
+            result: "✓ 验证",
+            note: "HK$18.30中位定价，隐含P/S 12.4x显著低于Comps中位18.6x（折价33%）；保守定价有效放大了上行空间，与S维度分析一致。",
+            ok: true
+          },
+          {
+            point: "GR-1量产交付是核心基本面催化剂 (F: 7.5/10)",
+            result: "⚠ 待观察",
+            note: "首批50台交付计划尚未正式公告；基本面催化剂未兑现 — 若持有少量仓位需等待该具体公告，而非仅靠情绪持续支撑。",
+            ok: null
+          },
+          {
+            point: "亏损/高估值 → 不建议长持 (V: 6.8/10)",
+            result: "✓ 维持策略",
+            note: "EV/EBITDA为NM，P/S 12.4x仍属高估值区间；赛道情绪驱动的溢价难以持续，暗盘+110%已充分兑现短期预期，维持打新首日减持策略。",
+            ok: null
+          },
+        ]
+      },
+      scenarios: [
+        { type: "bear", label: "熊市情景", price: "HK$22.00", upside: "+20.2%", basis: "若AI赛道情绪退潮，回落至 P/S 15x 港股机器人下限支撑位" },
+        { type: "base", label: "基础情景", price: "HK$38.00", upside: "+107.7%", basis: "港股同类 P/S 中位 × 具身智能稀缺溢价，对应暗盘实际价格" },
+        { type: "bull", label: "牛市情景", price: "HK$58.00", upside: "+217%", basis: "若GR-1量产交付超预期 + 大模型厂商合作公告，对标科大讯飞 P/S 66x 上限" },
+      ],
+      triggers: [
+        { icon: "⚡", title: "暗盘 +80% 以上即可减持 70%", desc: "具身智能赛道炒作性强，暗盘高点往往是最佳退出时机。亏损公司不宜长持，暗盘锁定大部分收益。", price: "≥ HK$32.94", priceClass: "stp-sell" },
+        { icon: "🎯", title: "首日收盘前清仓剩余持仓", desc: "亏损公司、高估值、流动性偏低，次日开始机构锁定期前散户应全数退出。不要因暗盘强势而改变打新策略为持股。", price: "目标 HK$38", priceClass: "stp-sell" },
+        { icon: "🛑", title: "破发止损：跌破发行价 -5%", desc: "若首日低开跌破HK$17.39，立即止损。亏损高估值标的破发后流动性极差，往往持续下跌，切勿摊平。", price: "< HK$17.39", priceClass: "stp-sell" },
+        { icon: "💡", title: "关注GR-1量产交付公告", desc: "若持有少量仓位等待催化剂：GR-1首批50台交付确认将是重要股价推动力，可博Bull case至HK$58。", price: "目标 HK$58", priceClass: "stp-hold" },
+      ]
+    }
+  },
+
+  tongsf: {
+    name: "铜师傅",
+    ticker: "0664.HK",
+    exchange: "香港主板",
+    sector: "铜工艺品 / 文创零售",
+    tagline: "传统铜工艺品零售企业，低增长、弱保荐、无基石，首日破发49%印证系统评级正确",
+    rating: "SKIP",
+    score: 2.3,
+    scoreColor: "var(--red)",
+    metrics: [
+      { label: "IPO价格", val: "HK$2.40", sub: "发行价" },
+      { label: "市值", val: "HK$4.8亿", sub: "发行后" },
+      { label: "孖展超购", val: "0.8x", valClass: "red", sub: "⚠️ 低于1x红灯" },
+      { label: "保荐人", val: "1/10 🔴", sub: "农银国际（独家）" },
+      { label: "首日表现", val: "-49%", valClass: "red", sub: "触发红灯预警" },
+      { label: "AH折溢价", val: "N/A", sub: "纯港股" },
+    ],
+    thesis: [
+      { title: "⛔ 孖展超购仅0.8x，触发一票否决红灯", desc: "公开发售超购倍数低于1x（即未足额认购），是系统红灯规则的直接触发条件，历史数据显示此情况下首日破发概率>85%。" },
+      { title: "⛔ 农银国际独家保荐，历史破发率>60%", desc: "近12月农银国际独家保荐项目共5个，破发3个，破发率60%，直接触发红灯。本次印证了系统预测。" },
+      { title: "⛔ 传统行业、低增速、无成长逻辑", desc: "铜工艺品市场规模有限，近三年收入增速仅3–5%，无法支撑IPO时的22x P/E估值，定价严重脱离基本面。" },
+    ],
+    financials: {
+      headers: ["指标", "FY2022", "FY2023", "FY2024", "YoY"],
+      rows: [
+        ["收入 (HK$mm)", "187", "196", "204", "+4.1%", "trend-nt"],
+        ["毛利率", "52.1%", "50.8%", "49.3%", "-1.5pp", "trend-dn"],
+        ["EBITDA (HK$mm)", "61", "58", "55", "-5.2%", "trend-dn"],
+        ["净利润 (HK$mm)", "38", "34", "29", "-14.7%", "trend-dn"],
+        ["净利率", "20.3%", "17.3%", "14.2%", "-3.1pp", "trend-dn"],
+        ["EPS (HK$)", "0.19", "0.17", "0.15", "-12.0%", "trend-dn"],
+      ]
+    },
+    comps: {
+      hk: {
+        rows: [
+          { name: "周大福", ticker: "1929.HK", rel: "弱相关", peLtm: "21.4x", pe: "18.2x", ps: "0.8x", evEbitda: "10.2x", verdict: null },
+          { name: "六福集团", ticker: "0590.HK", rel: "弱相关", peLtm: "14.6x", pe: "12.4x", ps: "0.9x", evEbitda: "7.4x", verdict: null },
+          { name: "铜师傅 ★", ticker: "0664.HK", rel: "TARGET", peLtm: "25.4x", pe: "22.0x", ps: "3.4x", evEbitda: "14.2x", verdict: null },
+          { name: "中位数 (零售可比)", ticker: "", rel: "", peLtm: "18.0x", pe: "15.3x", ps: "0.9x", evEbitda: "8.8x", verdict: null },
+        ],
+        verdict: { type: "rich", text: "IPO P/E 22x vs. 可比中位数 15x，溢价44%。低增速、利润率下滑的传统零售无法支撑此溢价，定价严重偏贵。" }
+      },
+      a: { rows: [], verdict: { type: "rich", text: "A股无直接对标。" } },
+      us: { rows: [], verdict: { type: "rich", text: "美股无直接对标。" } }
+    },
+    ipoSignals: [
+      { label: "孖展超购倍数", val: "0.8x", valColor: "var(--red)", sub: "⚠️ 一票否决 — 未足额认购", progress: 8, progressColor: "var(--red)" },
+      { label: "国际配售覆盖", val: "1.2x", valColor: "var(--red)", sub: "机构几乎无认购兴趣", progress: 12, progressColor: "var(--red)" },
+      { label: "定价位置", val: "区间下限", valColor: "var(--red)", sub: "HK$2.40 被迫定于发行区间下限", progress: 5, progressColor: "var(--red)" },
+      { label: "暗盘溢价", val: "-27.5%", valColor: "var(--red)", sub: "暗盘 HK$1.74 · 破发预警应验", progress: 0, progressColor: "var(--red)" },
+    ],
+    cornerstones: [],
+    bankers: {
+      sponsors: [{ name: "农银国际", tier: 3 }],
+      coordinators: [{ name: "农银国际", tier: 3 }],
+      bookrunners: [{ name: "农银国际", tier: 3 }],
+      stabilizer: [],
+      sponsorScore: "1/10",
+      anchors: []
+    },
+    scorecard: [
+      { label: "基本面质量 (F)", weight: "35%", score: 2.8, max: 10, color: "var(--red)", note: "商业模式可持续性 · 财务健康度 · 竞争壁垒" },
+      { label: "IPO结构 (S)", weight: "30%", score: 1.2, max: 10, color: "var(--red)", note: "超购倍数 · 定价位置 · 保荐人 · 基石/Anchor" },
+      { label: "估值合理性 (V)", weight: "20%", score: 2.5, max: 10, color: "var(--red)", note: "可比估值倍数 · PEG · 下行保护" },
+      { label: "市场时机 (M)", weight: "15%", score: 3.5, max: 10, color: "var(--red)", note: "板块周期位置 · 宏观环境 · 同期竞争新股" },
+    ],
+    risks: [
+      { icon: "🔴", title: "首日已破发49%，持有人大幅亏损", desc: "IPO价格HK$2.40，首日收报HK$1.23，跌幅49.2%，认购者已遭受严重损失。" },
+      { icon: "📉", title: "利润率持续下滑，成本压力难以转嫁", desc: "原材料铜价上涨叠加电商冲击，毛利率从2022年52.1%降至2024年49.3%，趋势未见逆转。" },
+      { icon: "🏪", title: "传统零售商业模式，无护城河", desc: "铜工艺品行业高度分散，无品牌壁垒，网上平台（淘宝、京东）竞争直接侵蚀线下渠道。" },
+    ],
+    catalysts: [
+      { timing: "不适用", title: "无明显正向催化剂", desc: "基于当前基本面和市场情绪，系统未识别到可能触发估值重估的正向催化剂。维持 SKIP 评级。" },
+    ],
+    bizDesc: "铜师傅成立于2010年，专注于铜工艺品的设计、制造与零售，产品包括铜制摆件、铜门、铜家具等，主要通过直营门店（42家）和经销商网络（108家）销售。公司在行业中无差异化竞争优势，增长主要依赖门店扩张，电商转型进展缓慢。",
+    bizTags: ["铜工艺品", "传统零售", "线下门店", "无科技属性", "低增速"],
+    kpis: [
+      { label: "直营门店", val: "42家" },
+      { label: "经销商", val: "108家" },
+      { label: "电商占比", val: "12%" },
+      { label: "主要产品", val: "铜摆件/铜门" },
+    ],
+    subStats: {
+      timeline: [
+        { label: "招股开始", date: "2026-02-17", note: "公开发售开始", active: false },
+        { label: "招股截止", date: "2026-02-20", note: "17:00 HKT", active: false },
+        { label: "定价", date: "2026-02-21", note: "HK$2.40 / 下限定价", active: false },
+        { label: "暗盘", date: "2026-02-24", note: "HK$1.74（-27.5%）", active: false },
+        { label: "上市日", date: "2026-02-25", note: "首日 -49%，开盘即破发", active: false },
+      ],
+      cards: [
+        { label: "孖展超购", val: "0.8x", sub: "⚠️ 未足额认购 — 红灯 · HKEX公告", color: "var(--red)" },
+        { label: "国际配售", val: "1.2x", sub: "机构几乎无兴趣", color: "var(--red)" },
+        { label: "定价位置", val: "下限定价", sub: "HK$2.40 / 发行区间下限", color: "var(--red)" },
+        { label: "暗盘溢价", val: "-27.5%", sub: "暗盘 HK$1.74 vs 发行价", color: "var(--red)" },
+      ]
+    },
+    capitalStrategy: {
+      recommendation: "⛔ 不建议申购",
+      ipoPrice: "HK$2.40",
+      lotSize: 2000,
+      lotValue: "HK$4,800",
+      totalAccounts: 0,
+      totalLots: 0,
+      totalCapital: "HK$0",
+      marginRec: "不建议使用孖展",
+      marginNote: "孖展超购仅0.8x触发一票否决红灯。任何资金投入均不建议。此为系统SKIP案例的教学示范。",
+      marginOption: "no",
+      allocationBars: [],
+      strategyCards: [
+        { label: "建议申购手数", val: "0手", sub: "系统一票否决，孖展<10x红灯直接触发SKIP", tag: "一票否决", tagClass: "sc-tag-red" },
+        { label: "风险等级", val: "极高", sub: "孖展0.8x未足额认购 + 无基石/Anchor = 破发概率 >85%，已验证（首日-49%）", tag: "极高风险", tagClass: "sc-tag-red" },
+        { label: "历史案例", val: "准确SKIP", sub: "本次是系统红灯规则的经典验证案例：所有红灯均触发，结果完全符合预期", tag: "模型验证", tagClass: "sc-tag-yellow" },
+        { label: "资金建议", val: "保留资金", sub: "此窗口资金应留作同期优质标的申购（如同期更高评分新股）", tag: "资金保护", tagClass: "sc-tag-blue" },
+      ],
+      note: "⛔ 本案例是系统设计有效性的完美验证：0.8x超购（一票否决红灯） + 无机构背书 → 首日-49%。SKIP的价值在于避开亏损，同样是真实收益。"
+    },
+    sellRec: {
+      action: "未申购 — 无持仓",
+      horizon: "无需操作",
+      actionColor: "var(--text-muted)",
+      ipoPrice: 2.40,
+      isSkip: true,
+      skipNote: "系统评级 SKIP，未申购，无需卖出策略。首日-49%印证评级正确。",
+      scenarios: [
+        { type: "bear", label: "假设情景（仅供参考）", price: "HK$1.23", upside: "-49%", basis: "首日实际收盘价，亏损严重" },
+        { type: "base", label: "若持有至今", price: "HK$0.92", upside: "-61.7%", basis: "上市后持续下跌，无支撑位" },
+        { type: "bull", label: "反弹假设上限", price: "HK$1.80", upside: "-25%", basis: "即使反弹，仍低于发行价，无参考价值" },
+      ],
+      triggers: [
+        { icon: "⛔", title: "SKIP 标的 — 无操作建议", desc: "本标的系统评级 SKIP，建议不申购。以下为若意外持有的止损建议。", price: "不适用", priceClass: "stp-watch" },
+        { icon: "🛑", title: "若意外持有：暗盘即清仓", desc: "暗盘价HK$1.74已跌破发行价，应立即在暗盘期间全数卖出，不要等待上市日。", price: "< HK$2.40", priceClass: "stp-sell" },
+        { icon: "📚", title: "教学意义：红灯 = 真实止损信号", desc: "本案例完美展示了打新系统的风险控制有效性：孖展0.8x + T3保荐 = 绕开此类标的可节约资金用于更高质量申购。", price: "教训", priceClass: "stp-watch" },
+      ]
+    }
+  }
+};
+
+// Default stubs for other tickers
+['jishijiao','deshi','hantian','guanghe','tongren'].forEach(k => {
+  pitches[k] = {
+    name: { jishijiao:'极视角', deshi:'德适生物-B', hantian:'瀚天天成', guanghe:'广合科技', tongren:'同仁堂医养' }[k],
+    ticker: { jishijiao:'6636.HK', deshi:'2526.HK', hantian:'2726.HK', guanghe:'1989.HK', tongren:'2667.HK' }[k],
+    rating: { jishijiao:'BUY', deshi:'BUY', hantian:'WATCH', guanghe:'WATCH', tongren:'SKIP' }[k],
+    score: { jishijiao:8.2, deshi:7.4, hantian:6.2, guanghe:6.5, tongren:4.1 }[k],
+    _stub: true
+  };
+});
+
+// ─────────────────────────────────────────────────────────
+// RENDER
+// ─────────────────────────────────────────────────────────
+function tierClass(t) { return t===1?'tier1':t===2?'tier2':'tier3'; }
+function tierLabel(t) { return t===1?'T1':t===2?'T2':'T3'; }
+
+function renderBankerTag(b) {
+  return `<span class="banker-tag ${tierClass(b.tier)}">${b.name} <span style="opacity:0.6;font-size:9px">${tierLabel(b.tier)}</span></span>`;
+}
+
+function renderCompsTable(compsData) {
+  if (!compsData || !compsData.rows || compsData.rows.length === 0)
+    return `<p style="color:var(--text-muted);font-size:11px;padding:12px">暂无数据</p>`;
+
+  let rows = compsData.rows.map((r,i) => {
+    const isTarget = r.rel === 'TARGET';
+    const isMedian = r.name.startsWith('中位数');
+    const cls = isTarget ? 'target-row' : isMedian ? 'median-row' : '';
+    const relBadge = !isTarget && !isMedian ? `<span style="font-size:9px;margin-left:4px;opacity:0.5">${r.rel}</span>` : '';
+    return `<tr class="${cls}">
+      <td>${r.name}${relBadge}</td>
+      <td style="color:var(--text-muted);font-size:9.5px">${r.ticker}</td>
+      <td>${r.peLtm ?? 'NM'}</td>
+      <td>${r.pe}</td>
+      <td>${r.ps}</td>
+      <td>${r.evEbitda ?? 'NM'}</td>
+    </tr>`;
+  }).join('');
+
+  const v = compsData.verdict;
+  const vClass = v.type==='cheap'?'verdict-cheap':v.type==='fair'?'verdict-fair':'verdict-rich';
+  const vLabel = v.type==='cheap'?'✅ 偏低':v.type==='fair'?'⚖️ 合理':'⚠️ 偏贵';
+
+  return `
+    <table class="comps-table">
+      <thead><tr>
+        <th style="text-align:left">公司</th>
+        <th>代码</th>
+        <th>P/E LTM</th>
+        <th>P/E NTM</th>
+        <th>EV/Rev NTM</th>
+        <th>EV/EBITDA NTM</th>
+      </tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+    <div class="comps-verdict">
+      <span class="verdict-badge ${vClass}">${vLabel}</span>
+      <span class="verdict-text">${v.text}</span>
+    </div>`;
+}
+
+function showPitch(key) {
+  // Update sidebar active
+  document.querySelectorAll('.ipo-item').forEach(el => el.classList.remove('active'));
+  if (typeof event !== 'undefined' && event && event.currentTarget) {
+    event.currentTarget.classList.add('active');
+  }
+
+  const d = pitches[key];
+  const container = document.getElementById('pitchContainer');
+
+  if (!d) {
+    container.innerHTML = `
+      <div style="padding:40px 32px">
+        <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:10px;padding:32px;text-align:center;color:var(--text-muted)">
+          <div style="font-size:32px;margin-bottom:12px">⏳</div>
+          <div style="font-size:15px;font-weight:700;color:var(--text-primary);margin-bottom:8px">即将招股 — 数据准备中</div>
+          <div style="font-size:12px">招股书发布后，系统将自动生成完整 Stock Pitch 分析</div>
+        </div>
+      </div>`;
+    return;
+  }
+
+  if (d._stub) {
+    container.innerHTML = `
+      <div style="padding:40px 32px">
+        <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:10px;padding:32px;text-align:center;color:var(--text-muted)">
+          <div style="font-size:32px;margin-bottom:12px">📋</div>
+          <div style="font-size:15px;font-weight:700;color:var(--text-primary);margin-bottom:8px">${d.name} (${d.ticker})</div>
+          <div style="font-size:12px;margin-bottom:16px">Stock Pitch 数据加载中 — 数据由 PROSPECTUS_AI + COMP_ANALYSIS 模块自动生成</div>
+          <div style="display:inline-flex;align-items:center;gap:8px;background:rgba(59,130,246,0.1);border:1px solid rgba(59,130,246,0.2);border-radius:6px;padding:8px 16px;font-size:11px;color:#93c5fd">
+            <span class="live-dot"></span> 系统将在招股书发布后自动生成完整 Pitch
+          </div>
+        </div>
+      </div>`;
+    return;
+  }
+
+  const ratingClass = d.rating==='BUY'?'rating-buy':d.rating==='WATCH'?'rating-watch':'rating-skip';
+  const scoreColor = d.scoreColor;
+
+  const metricsHtml = d.metrics.map(m => `
+    <div class="metric-item">
+      <div class="metric-label">${m.label}</div>
+      <div class="metric-val ${m.valClass||''}">${m.val}</div>
+      <div class="metric-sub">${m.sub}</div>
+    </div>`).join('');
+
+  const thesisHtml = d.thesis.map((t,i) => `
+    <div class="thesis-item">
+      <div class="thesis-num">${i+1}</div>
+      <div class="thesis-content">
+        <div class="thesis-title">${t.title}</div>
+        <div class="thesis-desc">${t.desc}</div>
+      </div>
+    </div>`).join('');
+
+  const finRows = d.financials.rows.map(r => `
+    <tr>
+      <td>${r[0]}</td>
+      <td class="${r[4]||''}">${r[1]}</td>
+      <td class="${r[4]||''}">${r[2]}</td>
+      <td class="${r[4]||''}">${r[3]}</td>
+      <td class="${r[4]||''}">${r[4]?'':''}</td>
+    </tr>`).join('');
+
+  const signalsHtml = d.ipoSignals.map(s => `
+    <div class="signal-card">
+      <div class="signal-label">${s.label}</div>
+      <div class="signal-val" style="color:${s.valColor}">${s.val}</div>
+      <div class="progress-bar"><div class="progress-fill" style="width:${s.progress}%;background:${s.progressColor}"></div></div>
+      <div class="signal-sub">${s.sub}</div>
+    </div>`).join('');
+
+  const cstHtml = d.cornerstones.length === 0
+    ? `<div style="color:var(--text-muted);font-size:11px">无基石投资者</div>`
+    : d.cornerstones.map(c => `
+      <div class="cornerstone-chip">${c.name} <span class="amt">${c.amt} · ${c.pct}</span></div>`).join('');
+
+  const bankers = d.bankers;
+  const anchorsHtml = !bankers.anchors || bankers.anchors.length === 0
+    ? `<div style="color:var(--text-muted);font-size:11px">无已披露 Anchor 投资者</div>`
+    : `<table style="width:100%;border-collapse:collapse">
+        <thead><tr>
+          <th style="font-size:9px;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.4px;padding:4px 8px;border-bottom:1px solid var(--border);text-align:left">机构</th>
+          <th style="font-size:9px;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.4px;padding:4px 8px;border-bottom:1px solid var(--border)">地区</th>
+          <th style="font-size:9px;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.4px;padding:4px 8px;border-bottom:1px solid var(--border)">认购金额</th>
+          <th style="font-size:9px;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.4px;padding:4px 8px;border-bottom:1px solid var(--border);text-align:left">备注</th>
+        </tr></thead>
+        <tbody>
+          ${bankers.anchors.map(a => `
+          <tr>
+            <td style="padding:6px 8px;font-size:11px;font-weight:600;color:var(--text-primary);border-bottom:1px solid rgba(30,41,59,0.4)">${a.name}</td>
+            <td style="padding:6px 8px;font-size:10px;color:var(--text-muted);text-align:center;border-bottom:1px solid rgba(30,41,59,0.4)">${a.region}</td>
+            <td style="padding:6px 8px;font-size:11px;font-family:var(--font-mono);color:var(--cyan);text-align:right;border-bottom:1px solid rgba(30,41,59,0.4)">${a.commitment}</td>
+            <td style="padding:6px 8px;font-size:10px;color:var(--text-muted);border-bottom:1px solid rgba(30,41,59,0.4)">${a.note}</td>
+          </tr>`).join('')}
+        </tbody>
+      </table>`;
+
+  const bankersHtml = `
+    <div class="banker-row">
+      <div class="banker-role">联席保荐人</div>
+      <div class="banker-names">${bankers.sponsors.map(renderBankerTag).join('')}</div>
+      <span class="banker-score-pill">评分 ${bankers.sponsorScore}</span>
+    </div>
+    <div class="banker-row">
+      <div class="banker-role">全球协调人</div>
+      <div class="banker-names">${bankers.coordinators.map(renderBankerTag).join('')}</div>
+    </div>
+    <div class="banker-row">
+      <div class="banker-role">账簿管理人</div>
+      <div class="banker-names">${bankers.bookrunners.map(renderBankerTag).join('')}</div>
+    </div>
+    <div class="banker-row">
+      <div class="banker-role">稳价人</div>
+      <div class="banker-names">${bankers.stabilizer.length ? bankers.stabilizer.map(renderBankerTag).join('') : '<span style="color:var(--text-muted);font-size:11px">无</span>'}</div>
+    </div>
+    <div style="margin-top:12px">
+      <div class="signal-label" style="margin-bottom:6px">基石投资者 (Cornerstone)</div>
+      <div class="cornerstone-list">${cstHtml}</div>
+    </div>
+    <div style="margin-top:12px;border-top:1px solid var(--border);padding-top:12px">
+      <div class="signal-label" style="margin-bottom:8px">Anchor 投资者 <span style="font-size:9px;color:var(--text-muted);font-weight:400;margin-left:6px">国际配售 · 无锁定期</span></div>
+      ${anchorsHtml}
+    </div>`;
+
+  const scorecardHtml = d.scorecard.map(s => `
+    <div class="score-row">
+      <div class="score-row-top">
+        <div class="score-row-label">${s.label}</div>
+        <div class="score-row-weight">${s.weight}</div>
+        <div class="score-row-val" style="color:${s.color}">${s.score.toFixed(1)}</div>
+      </div>
+      <div class="progress-bar" style="margin-top:4px">
+        <div class="progress-fill" style="width:${s.score/s.max*100}%;background:${s.color}"></div>
+      </div>
+      ${s.note ? `<div style="font-size:9px;color:var(--text-muted);margin-top:3px">${s.note}</div>` : ''}
+    </div>`).join('');
+
+  const valuationHtml = d.valuation ? `
+    <div style="background:rgba(59,130,246,0.04);border:1px solid rgba(59,130,246,0.15);border-radius:8px;padding:14px 16px;margin-bottom:14px">
+      <div style="font-size:9.5px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:10px">估值方法 · ${d.valuation.method}</div>
+      <div style="font-size:11px;color:var(--text-secondary);margin-bottom:8px;line-height:1.6">${d.valuation.entryNote}</div>
+      <div style="font-size:11px;color:var(--text-secondary);line-height:1.6;padding-bottom:10px;border-bottom:1px solid var(--border)">${d.valuation.compAnchorLogic}</div>
+      <div style="font-size:10.5px;color:var(--yellow);line-height:1.6;margin:10px 0">${d.valuation.pegNote}</div>
+    </div>
+    <div style="margin-bottom:10px">
+      <div class="signal-label" style="margin-bottom:8px">目标价区间 — Relative Valuation</div>
+      <table style="width:100%;border-collapse:collapse">
+        <thead><tr>
+          <th style="font-size:9px;font-weight:600;color:var(--text-muted);text-transform:uppercase;padding:4px 8px;border-bottom:1px solid var(--border);text-align:left">情景</th>
+          <th style="font-size:9px;font-weight:600;color:var(--text-muted);text-transform:uppercase;padding:4px 8px;border-bottom:1px solid var(--border)">目标价</th>
+          <th style="font-size:9px;font-weight:600;color:var(--text-muted);text-transform:uppercase;padding:4px 8px;border-bottom:1px solid var(--border)">隐含倍数</th>
+          <th style="font-size:9px;font-weight:600;color:var(--text-muted);text-transform:uppercase;padding:4px 8px;border-bottom:1px solid var(--border);text-align:left">逻辑基础</th>
+        </tr></thead>
+        <tbody>
+          ${d.valuation.targets.map((t,i) => `
+          <tr>
+            <td style="padding:7px 8px;font-size:11px;font-weight:600;color:${i===0?'#f87171':i===1?'#93c5fd':'#86efac'};border-bottom:1px solid rgba(30,41,59,0.4)">${t.scenario}</td>
+            <td style="padding:7px 8px;font-size:13px;font-weight:800;font-family:var(--font-mono);color:${i===0?'#fca5a5':i===1?'#bfdbfe':'#bbf7d0'};text-align:right;border-bottom:1px solid rgba(30,41,59,0.4)">${t.price}</td>
+            <td style="padding:7px 8px;font-size:10px;font-family:var(--font-mono);color:var(--text-muted);text-align:right;border-bottom:1px solid rgba(30,41,59,0.4)">${t.ps}</td>
+            <td style="padding:7px 8px;font-size:10.5px;color:var(--text-muted);line-height:1.4;border-bottom:1px solid rgba(30,41,59,0.4)">${t.basis}</td>
+          </tr>`).join('')}
+        </tbody>
+      </table>
+    </div>
+    <div style="padding:8px 12px;background:rgba(30,41,59,0.3);border-radius:6px;font-size:10px;color:var(--text-muted);line-height:1.6">
+      <strong style="color:var(--text-secondary)">关键假设：</strong>${d.valuation.keyAssumptions.join(' · ')}
+    </div>` : '';
+
+
+  const risksHtml = d.risks.map(r => `
+    <div class="risk-item">
+      <div class="risk-icon">${r.icon}</div>
+      <div class="risk-content">
+        <div class="risk-title">${r.title}</div>
+        <div class="risk-desc">${r.desc}</div>
+      </div>
+    </div>`).join('');
+
+  const catalystsHtml = d.catalysts.map(c => `
+    <div class="catalyst-item">
+      <div class="catalyst-timing">${c.timing}</div>
+      <div class="catalyst-content">
+        <div class="catalyst-title">${c.title}</div>
+        <div class="catalyst-desc">${c.desc}</div>
+      </div>
+    </div>`).join('');
+
+  const kpisHtml = d.kpis.map(k => `
+    <div class="kpi-chip">
+      <div class="kl">${k.label}</div>
+      <div class="kv">${k.val}</div>
+    </div>`).join('');
+
+  const bizTagsHtml = d.bizTags.map(t => `<span class="biz-tag">${t}</span>`).join('');
+
+  // Financial table rows with trend class
+  const finRowsHtml = d.financials.rows.map(r => `
+    <tr>
+      <td>${r[0]}</td>
+      <td>${r[1]}</td>
+      <td>${r[2]}</td>
+      <td>${r[3]}</td>
+      <td class="${r[4]}">${r[4]==='trend-up'?'▲':r[4]==='trend-dn'?'▼':'—'} ${r[4]==='trend-up'||r[4]==='trend-dn'?'':''}</td>
+    </tr>`).join('');
+
+  container.innerHTML = `
+
+    <!-- ① PITCH HEADER: Recommendation -->
+    <div class="pitch-header">
+      <div class="pitch-header-top">
+        <div class="pitch-company-block">
+          <div class="pitch-ticker-row">
+            <span class="pitch-ticker">${d.ticker}</span>
+            <span class="pitch-ticker">${d.exchange}</span>
+            <span class="pitch-sector-tag">${d.sector}</span>
+          </div>
+          <div class="pitch-company-name">${d.name}</div>
+          <div class="pitch-tagline">${d.tagline}</div>
+        </div>
+        <div class="pitch-rating-block">
+          <div class="rating-pill ${ratingClass}">${d.rating}</div>
+          <div class="score-display">
+            <span class="score-num" style="color:${scoreColor}">${d.score.toFixed(1)}</span>
+            <span class="score-denom"> / 10</span>
+            <div class="score-label">综合评分</div>
+          </div>
+        </div>
+      </div>
+      <div class="key-metrics-bar">
+        ${metricsHtml}
+      </div>
+    </div>
+
+    <div class="pitch-body">
+
+      <!-- ② BUSINESS OVERVIEW -->
+      <div class="pitch-section">
+        <div class="section-head">
+          <div class="section-icon icon-biz">🏢</div>
+          <div class="section-title">Business Overview</div>
+          <div class="section-num">② 商业模式</div>
+        </div>
+        <div class="section-body">
+          <div class="biz-desc">${d.bizDesc}</div>
+          <div class="biz-tags">${bizTagsHtml}</div>
+          <div class="kpi-chips">${kpisHtml}</div>
+        </div>
+      </div>
+
+      <!-- ③ SCORECARD -->
+      <div class="pitch-section">
+        <div class="section-head">
+          <div class="section-icon icon-ipo">📊</div>
+          <div class="section-title">Scorecard — 四维评分</div>
+          <div class="section-num">⑩ IPO专属</div>
+        </div>
+        <div class="section-body">
+          <div class="scorecard-grid">${scorecardHtml}</div>
+        </div>
+      </div>
+
+      <!-- ④ INVESTMENT THESIS -->
+      <div class="pitch-section full-width">
+        <div class="section-head">
+          <div class="section-icon icon-thesis">💡</div>
+          <div class="section-title">Investment Thesis — 3大投资逻辑</div>
+          <div class="section-num">⑤ 核心论点</div>
+        </div>
+        <div class="section-body">
+          <div class="thesis-list">${thesisHtml}</div>
+        </div>
+      </div>
+
+      <!-- ⑤ FINANCIAL ANALYSIS -->
+      <div class="pitch-section">
+        <div class="section-head">
+          <div class="section-icon icon-fin">📈</div>
+          <div class="section-title">Financial Analysis</div>
+          <div class="section-num">⑥ 财务分析</div>
+        </div>
+        <div class="section-body" style="padding:0">
+          <table class="fin-table">
+            <thead><tr>
+              ${d.financials.headers.map((h,i) => `<th${i>0?'':''}>
+                ${h}</th>`).join('')}
+            </tr></thead>
+            <tbody>${finRows}</tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- ⑩ IPO SIGNALS -->
+      <div class="pitch-section">
+        <div class="section-head">
+          <div class="section-icon icon-ipo">🔔</div>
+          <div class="section-title">IPO Signals — 打新专属指标</div>
+          <div class="section-num">⑩ 差异化分析</div>
+        </div>
+        <div class="section-body">
+          <div class="signals-grid">${signalsHtml}</div>
+        </div>
+      </div>
+
+      <!-- ⑦ VALUATION SUMMARY -->
+      ${d.valuation ? `
+      <div class="pitch-section full-width">
+        <div class="section-head">
+          <div class="section-icon icon-val" style="background:rgba(59,130,246,0.15);color:var(--accent-blue)">📐</div>
+          <div class="section-title">Valuation Summary — 估值摘要</div>
+          <div class="section-num">⑦ 估值</div>
+        </div>
+        <div class="section-body">${valuationHtml}</div>
+      </div>` : ''}
+
+      <!-- ⑦b COMPS TABLE -->
+      <div class="pitch-section full-width">
+        <div class="section-head">
+          <div class="section-icon icon-val">⚖️</div>
+          <div class="section-title">Comparable Company Analysis — 三市场Comps</div>
+          <div class="section-num">⑦ 可比公司</div>
+        </div>
+        <div class="comps-market-tabs" id="compsTabs_${key}">
+          <div class="mkt-tab active" onclick="switchTab('${key}','hk',this)">🇭🇰 港股 / H股</div>
+          <div class="mkt-tab" onclick="switchTab('${key}','a',this)">🇨🇳 A股</div>
+          <div class="mkt-tab" onclick="switchTab('${key}','us',this)">🇺🇸 美股</div>
+        </div>
+        <div id="compsHK_${key}" class="comps-panel active">${renderCompsTable(d.comps.hk)}</div>
+        <div id="compsA_${key}" class="comps-panel">${renderCompsTable(d.comps.a)}</div>
+        <div id="compsUS_${key}" class="comps-panel">${renderCompsTable(d.comps.us)}</div>
+      </div>
+
+      <!-- A1 BANKER LINEUP -->
+      <div class="pitch-section">
+        <div class="section-head">
+          <div class="section-icon icon-banker">🏦</div>
+          <div class="section-title">A1 中介阵容 — Banker Lineup</div>
+          <div class="section-num">② IPO信号</div>
+        </div>
+        <div class="section-body">${bankersHtml}</div>
+      </div>
+
+      <!-- ⑧ CATALYSTS -->
+      <div class="pitch-section">
+        <div class="section-head">
+          <div class="section-icon icon-catalyst">⚡</div>
+          <div class="section-title">Catalysts — 催化剂</div>
+          <div class="section-num">⑧ 近期催化</div>
+        </div>
+        <div class="section-body">
+          <div class="catalyst-list">${catalystsHtml}</div>
+        </div>
+      </div>
+
+      <!-- ⑨ KEY RISKS -->
+      <div class="pitch-section full-width">
+        <div class="section-head">
+          <div class="section-icon icon-risk">⚠️</div>
+          <div class="section-title">Key Risks — 核心风险</div>
+          <div class="section-num">⑨ 下行风险</div>
+        </div>
+        <div class="section-body">
+          <div class="risk-list">${risksHtml}</div>
+        </div>
+      </div>
+
+      ${d.subStats ? `
+      <!-- ⑪ 申购统计 -->
+      <div class="pitch-section full-width">
+        <div class="section-head">
+          <div class="section-icon" style="background:rgba(6,182,212,0.15);color:var(--cyan)">📋</div>
+          <div class="section-title">申购统计 — Subscription Data</div>
+          <div class="section-num">⑪ 打新数据</div>
+        </div>
+        <div class="section-body">
+          <div class="sub-timeline">
+            ${d.subStats.timeline.map(t => `
+              <div class="sub-tl-item ${t.active ? 'active-phase' : ''}">
+                <div class="sub-tl-label">${t.label}</div>
+                <div class="sub-tl-date">${t.date}</div>
+                <div class="sub-tl-note">${t.note}</div>
+              </div>`).join('')}
+          </div>
+          <div class="sub-stats-grid" style="margin-top:12px">
+            ${d.subStats.cards.map(c => `
+              <div class="sub-stat-card">
+                <div class="sub-stat-label">${c.label}</div>
+                <div class="sub-stat-val" style="color:${c.color}">${c.val}</div>
+                <div class="sub-stat-sub">${c.sub}</div>
+              </div>`).join('')}
+          </div>
+          <div style="margin-top:10px;padding:8px 12px;background:rgba(30,41,59,0.4);border-radius:5px;font-size:9.5px;color:var(--text-muted);line-height:1.6">
+            📌 <strong style="color:var(--text-secondary)">数据来源说明：</strong>
+            超购倍数 / 国际配售覆盖 / 定价位置 → 来自 <strong>HKEX配售结果公告（正式文件）</strong>。
+            暗盘价 → 来自第三方平台（富途暗盘市场，非HKEX官方数据）。
+            各券商（富途/老虎/盈透）平台认购倍数 → <strong>不在HKEX正式披露范围内</strong>，富途/老虎有时在App自愿披露，但数据不可审计、不标准化，因此本系统不纳入。
+          </div>
+        </div>
+      </div>` : ''}
+
+      ${d.sellRec ? `
+      <!-- ⑬ 卖出建议 / Price Target -->
+      <div class="pitch-section full-width">
+        <div class="section-head">
+          <div class="section-icon" style="background:rgba(239,68,68,0.15);color:var(--red)">🎯</div>
+          <div class="section-title">卖出建议 — Price Target & Exit Strategy</div>
+          <div class="section-num">⑬ 退出策略</div>
+        </div>
+        <div class="section-body">
+          ${d.sellRec.isSkip ? `
+            <div style="padding:20px;background:rgba(239,68,68,0.06);border:1px solid rgba(239,68,68,0.2);border-radius:8px;text-align:center">
+              <div style="font-size:28px;margin-bottom:8px">⛔</div>
+              <div style="font-size:14px;font-weight:700;color:var(--red);margin-bottom:6px">${d.sellRec.action}</div>
+              <div style="font-size:12px;color:var(--text-muted)">${d.sellRec.skipNote}</div>
+            </div>
+            <div style="margin-top:12px">
+              <div class="signal-label" style="margin-bottom:8px">假设情景对比（教学参考）</div>
+              <div class="price-scenario-row">
+                ${d.sellRec.scenarios.map(s => `
+                  <div class="price-scenario ps-${s.type}">
+                    <div class="ps-label">${s.label}</div>
+                    <div class="ps-price">${s.price}</div>
+                    <div class="ps-upside">${s.upside} vs 发行价</div>
+                    <div class="ps-basis">${s.basis}</div>
+                  </div>`).join('')}
+              </div>
+            </div>` : `
+          <div class="sell-header">
+            <div>
+              <div style="font-size:12px;color:var(--text-muted);margin-bottom:4px">退出行动</div>
+              <div style="font-size:16px;font-weight:800;color:${d.sellRec.actionColor}">${d.sellRec.action}</div>
+              <div style="font-size:11px;color:var(--text-muted);margin-top:4px">${d.sellRec.horizon}</div>
+            </div>
+            <div style="text-align:right">
+              <div style="font-size:10px;color:var(--text-muted);margin-bottom:3px">IPO 发行价</div>
+              <div style="font-size:22px;font-weight:800;font-family:var(--font-mono)">HK$${d.sellRec.ipoPrice.toFixed(2)}</div>
+              <div style="font-size:9px;color:var(--text-muted);margin-top:2px">Scorecard ${d.score}/10 · ${d.rating}</div>
+            </div>
+          </div>
+          ${d.sellRec.thesisVsPrice ? (() => {
+            const tv = d.sellRec.thesisVsPrice;
+            const vColor = tv.verdictClass === 'cheap' ? '#34d399' : tv.verdictClass === 'rich' ? '#f87171' : '#fbbf24';
+            return `<div class="tpcheck-block">
+              <div class="signal-label" style="margin-bottom:8px;font-size:9px;letter-spacing:0.8px">📐 PITCH THESIS × IPO 定价 交叉验证</div>
+              <div class="tpcheck-bridge">
+                <span style="color:var(--text-muted)">IPO定价</span>
+                <span class="bmono">HK$${d.sellRec.ipoPrice.toFixed(2)}</span>
+                <span class="bsep">→</span>
+                <span style="color:var(--text-secondary)">隐含 ${tv.metric}</span>
+                <span class="bmono">${tv.ipoImplied}</span>
+                <span class="bsep">vs</span>
+                <span style="color:var(--text-muted)">Comps中位数</span>
+                <span class="bmono">${tv.metric} ${tv.compsMedian}</span>
+                <span style="font-family:var(--font-mono);font-size:11px;font-weight:700;color:${vColor}">${tv.vs}</span>
+                <div class="tpcheck-verdict ${tv.verdictClass}">${tv.verdict}</div>
+              </div>
+              <div class="tpcheck-list">
+                ${tv.checks.map(c => `
+                  <div class="tpcheck-item ${c.ok === true ? 'confirmed' : c.ok === false ? 'failed' : 'watch'}">
+                    <div class="tpcheck-point">${c.point}</div>
+                    <div class="tpcheck-result">${c.result}</div>
+                    <div class="tpcheck-note">${c.note}</div>
+                  </div>`).join('')}
+              </div>
+            </div>`;
+          })() : ''}
+          <div style="margin-top:14px">
+            <div class="signal-label" style="margin-bottom:8px">相对估值目标价 — Bear / Base / Bull</div>
+            <div class="price-scenario-row">
+              ${d.sellRec.scenarios.map(s => `
+                <div class="price-scenario ps-${s.type}">
+                  <div class="ps-label">${s.label}</div>
+                  <div class="ps-price">${s.price}</div>
+                  <div class="ps-upside">${s.upside} vs 发行价</div>
+                  <div class="ps-basis">${s.basis}</div>
+                </div>`).join('')}
+            </div>
+          </div>`}
+          <div style="margin-top:16px">
+            <div class="signal-label" style="margin-bottom:8px">卖出 / 止损触发条件</div>
+            <div class="sell-trigger-list">
+              ${d.sellRec.triggers.map(t => `
+                <div class="sell-trigger">
+                  <div class="st-icon">${t.icon}</div>
+                  <div class="st-content">
+                    <div class="st-title">${t.title}</div>
+                    <div class="st-desc">${t.desc}</div>
+                  </div>
+                  <div class="st-price ${t.priceClass}">${t.price}</div>
+                </div>`).join('')}
+            </div>
+          </div>
+        </div>
+      </div>` : ''}
+
+    </div>`;
+}
+
+function switchTab(key, market, el) {
+  const tabs = document.querySelectorAll(`#compsTabs_${key} .mkt-tab`);
+  tabs.forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  ['HK','A','US'].forEach(m => {
+    const p = document.getElementById(`comps${m}_${key}`);
+    if (p) p.classList.remove('active');
+  });
+  const mMap = { hk:'HK', a:'A', us:'US' };
+  const target = document.getElementById(`comps${mMap[market]}_${key}`);
+  if (target) target.classList.add('active');
+}
+
+// ─────────────────────────────────────────────────────────
+// DATE FILTER
+// ─────────────────────────────────────────────────────────
+let currentDateView = 'month';
+
+function switchDateView(view, el) {
+  currentDateView = view;
+  document.querySelectorAll('.df-tab').forEach(t => t.classList.remove('active'));
+  el.classList.add('active');
+  document.querySelectorAll('.date-grid').forEach(g => g.classList.remove('active'));
+  document.getElementById('dv-' + view).classList.add('active');
+  // Reset to "all" when switching views
+  filterDate('all', document.querySelector('#dv-' + view + ' .all-chip'));
+}
+
+function filterDate(val, el) {
+  // Highlight the active chip within the same grid
+  const grid = el.closest('.date-grid');
+  grid.querySelectorAll('.date-chip').forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+
+  const items = document.querySelectorAll('.ipo-item');
+  items.forEach(item => {
+    if (val === 'all') {
+      item.style.display = '';
+      return;
+    }
+    // Week filter
+    if (val.startsWith('2026-W')) {
+      item.style.display = item.dataset.week === val ? '' : 'none';
+    } else {
+      // Month filter
+      item.style.display = item.dataset.month === val ? '' : 'none';
+    }
+  });
+
+  updateSectionLabel(val);
+}
+
+function filterPhase(val, el) {
+  const grid = el.closest('.date-grid');
+  grid.querySelectorAll('.date-chip').forEach(c => c.classList.remove('active'));
+  el.classList.add('active');
+
+  const items = document.querySelectorAll('.ipo-item');
+  items.forEach(item => {
+    if (val === 'all') {
+      item.style.display = '';
+    } else {
+      item.style.display = item.dataset.phase === val ? '' : 'none';
+    }
+  });
+
+  updateSectionLabel(val);
+}
+
+function updateSectionLabel(val) {
+  const label = document.getElementById('ipoSectionLabel');
+  const labelMap = {
+    'all': '在市 / Pipeline',
+    '2026-04': '2026年4月',
+    '2026-03': '2026年3月',
+    '2026-02': '2026年2月',
+    '2026-W15': '第15周 (4/7–4/11)',
+    '2026-W14': '第14周 (3/31–4/4)',
+    '2026-W13': '第13周 (3/24–3/28)',
+    '2026-W12': '第12周 (3/17–3/21)',
+    'listing': '✅ 已上市',
+    'subscribe': '📋 招股中',
+    'pipeline': '⏳ Pipeline',
+    'delay': '⚠️ 延迟上市',
+  };
+  if (label) label.textContent = labelMap[val] || '在市 / Pipeline';
+}
+
+function toggleArchive(el) {
+  const list = document.getElementById('archiveList');
+  const isOpen = list.style.display !== 'none';
+  list.style.display = isOpen ? 'none' : 'block';
+  el.textContent = isOpen ? '▸ 已上市归档' : '▾ 已上市归档';
+}
+
+// Init — auto-open archive and show huayan pitch on load
+document.addEventListener('DOMContentLoaded', () => {
+  // Open archive by default so recent pitches are accessible
+  const archiveList = document.getElementById('archiveList');
+  const archiveToggle = document.getElementById('archiveToggle');
+  if (archiveList) archiveList.style.display = 'block';
+  if (archiveToggle) archiveToggle.textContent = '▾ 已上市归档';
+  // Show the most recent featured pitch
+  showPitch('huayan');
+  // Mark the huayan item in archive as active
+  const huayanEl = document.querySelector('[onclick*="showPitch(\'huayan\')"]');
+  if (huayanEl) huayanEl.classList.add('active');
+});
+</script>
+</body>
+</html>
