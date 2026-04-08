@@ -99,9 +99,14 @@ def fetch_etnet_ipo() -> list[dict]:
         raw_data = json.loads(match.group(1))
         entries = []
         for year_month, stocks in raw_data.items():
-            if not isinstance(stocks, list):
+            # etnet 格式: {年月: {股票代码: {字段...}}}
+            if isinstance(stocks, dict):
+                stock_list = stocks.values()
+            elif isinstance(stocks, list):
+                stock_list = stocks
+            else:
                 continue
-            for stock in stocks:
+            for stock in stock_list:
                 entry = _normalize_etnet(stock, year_month)
                 if entry and _within_3months(entry.get("listingDate", "")):
                     entries.append(entry)
@@ -116,15 +121,17 @@ def fetch_etnet_ipo() -> list[dict]:
 
 def _normalize_etnet(stock: dict, year_month: str) -> dict | None:
     """标准化 etnet 单条 IPO 记录。"""
-    code = str(stock.get("Code", "")).zfill(5)
-    name = stock.get("Name", "") or stock.get("Name_en", "")
+    code = str(stock.get("code", "")).zfill(5)
+    name = stock.get("name", "") or stock.get("nameeng", "")
     if not name:
         return None
 
-    listing_raw = stock.get("List date", "")               # "2026/04/16"
+    listing_raw = stock.get("listdate", "")                # "2026/04/16"
     listing_date = listing_raw.replace("/", "-") if listing_raw else ""
 
-    status_label = stock.get("Status label", "")           # "5日後截止" / "招股中" 等
+    # label 含 HTML: '<span class="mr-s label ">5日後截止</span>'
+    label_html = stock.get("label", "")
+    status_label = re.sub(r'<[^>]+>', '', label_html).strip()
     phase = _infer_phase_etnet(status_label, listing_date)
 
     return {
@@ -158,9 +165,9 @@ def _infer_phase_etnet(status_label: str, listing_date: str) -> str:
             return "pipeline"
 
     label = status_label.lower()
-    if any(k in label for k in ["截止", "招股", "認購", "认购"]):
+    if any(k in label for k in ["截止", "招股", "認購", "认购", "後截止"]):
         return "subscribe"
-    if any(k in label for k in ["半新", "上市", "掛牌"]):
+    if any(k in label for k in ["半新", "上市", "掛牌", "解禁"]):
         return "listing"
     return "pipeline"
 
@@ -175,7 +182,7 @@ def fetch_akshare_ipo() -> list[dict]:
     """
     try:
         import akshare as ak
-        df = ak.stock_hk_ipo_em()   # 返回 DataFrame
+        df = ak.stock_ipo_hk_ths()  # 返回 DataFrame（同花顺港股 IPO）
         entries = []
         for _, row in df.iterrows():
             name        = str(row.get("股票简称", ""))
