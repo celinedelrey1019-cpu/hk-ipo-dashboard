@@ -525,7 +525,19 @@ def _render_sidebar_item(entry: dict, phase: str) -> str:
         phase_tag = '<span class="ipo-date-phase phase-pipe">即将招股</span>'
         date_text = f"预计上市 {listing}" if listing else ""
 
-    return f"""    <div class="ipo-item" onclick="showPitch('{key}')" data-phase="{phase}">
+    # 计算 data-month / data-week 供前端筛选器使用
+    data_month = ""
+    data_week = ""
+    if listing:
+        try:
+            dt = datetime.strptime(listing[:10], "%Y-%m-%d")
+            data_month = dt.strftime("%Y-%m")
+            iso = dt.isocalendar()
+            data_week = f"{iso[0]}-W{iso[1]:02d}"
+        except ValueError:
+            pass
+
+    return f"""    <div class="ipo-item" onclick="showPitch('{key}')" data-phase="{phase}" data-month="{data_month}" data-week="{data_week}">
       <div class="ipo-badge {badge_class}" style="font-size:7.5px;letter-spacing:0">{badge_text}</div>
       <div class="ipo-meta">
         <div class="ipo-name">{name}</div>
@@ -584,6 +596,28 @@ def update_index_html(active_sub: list, hearing: list) -> None:
         f'{total} pitches available',
         html, count=1
     )
+
+    # ── 注入 pitch JSON 数据到 JS ──
+    PITCHES_BEGIN = "// AUTO:PITCHES:BEGIN"
+    PITCHES_END   = "// AUTO:PITCHES:END"
+    if PITCHES_BEGIN in html and PITCHES_END in html:
+        pitch_lines = []
+        for f in sorted(PITCHES_DIR.glob("*.json")):
+            try:
+                pdata = json.loads(f.read_text(encoding="utf-8"))
+                if pdata.get("type") == "error":
+                    continue
+                key = f.stem
+                pitch_lines.append(f"pitches['{key}'] = {json.dumps(pdata, ensure_ascii=False)};")
+            except Exception:
+                pass
+        inject = "\n".join(pitch_lines) if pitch_lines else ""
+        html = re.sub(
+            rf"{re.escape(PITCHES_BEGIN)}.*?{re.escape(PITCHES_END)}",
+            f"{PITCHES_BEGIN}\n{inject}\n{PITCHES_END}",
+            html, flags=re.DOTALL
+        )
+        print(f"[OK] index.html 注入 {len(pitch_lines)} 个 pitch 数据")
 
     INDEX_HTML.write_text(html, encoding="utf-8")
     print(f"[OK] index.html 侧栏已更新（招股中 {len(active_sub)}，Pipeline {min(len(hearing),10)}）")
