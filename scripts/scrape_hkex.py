@@ -52,46 +52,172 @@ def detect_ai_backend() -> str:
     return "none"
 
 
-# ─── 1. 富途 IPO 日历 ──────────────────────────────────────────────────────────
+# ─── 1. IPO 数据抓取（多源，无需登录）────────────────────────────────────────
+#
+#  ❌ 富途 OpenAPI — 需要 FutuOpenD 网关程序，无法在 GitHub Actions 直接调用
+#  ✅ etnet.com.hk  — IPO 日历数据嵌在页面 JS 里，免登录，直接解析
+#  ✅ AKShare       — Python 库封装港股 IPO 接口，pip install akshare
+#  ✅ HKEX News     — 官方新股公告，免登录静态 HTML
+# ─────────────────────────────────────────────────────────────────────────────
 
-def fetch_futu_ipo() -> list[dict]:
-    endpoints = [
-        "https://www.futunn.com/api/quote/v2/subscribe-info-list?market=hk&type=0&pageSize=50&page=0",
-    ]
-    for url in endpoints:
-        try:
-            resp = requests.get(url, headers=HEADERS, timeout=12)
-            if resp.status_code == 200:
-                raw = resp.json()
-                items = (raw.get("data") or {}).get("list") or []
-                if items:
-                    print(f"[OK] 富途: {len(items)} 条")
-                    return [_normalize_futu(i) for i in items if i]
-        except Exception as e:
-            print(f"[WARN] 富途抓取失败: {e}")
+def fetch_ipo_data() -> list[dict]:
+    """
+    依次尝试各数据源，返回标准化 IPO 条目列表。
+    优先级: etnet → AKShare → HKEX News
+    """
+    entries = fetch_etnet_ipo()
+    if entries:
+        return entries
+
+    entries = fetch_akshare_ipo()
+    if entries:
+        return entries
+
+    print("[WARN] 所有数据源均失败，返回空列表")
     return []
 
 
-def _normalize_futu(item: dict) -> dict:
-    STATUS_MAP = {1: "pipeline", 2: "subscribe", 3: "pricing", 4: "listing"}
+# ── 数据源 A: etnet.com.hk ────────────────────────────────────────────────────
+
+def fetch_etnet_ipo() -> list[dict]:
+    """
+    抓取 etnet IPO 日历。
+    数据以 JSON 形式嵌在页面 JS 变量 full_yearmonth_array 中，无需登录。
+    字段: 股票代码、公司名（中英）、上市日期、招股状态标签
+    """
+    url = "https://www.etnet.com.hk/www/tc/stocks/ipo-calendar.php"
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=15)
+        resp.raise_for_status()
+
+        # 提取页面内嵌的 JSON 数据
+        match = re.search(r'full_yearmonth_array\s*=\s*(\{.+?\});', resp.text, re.DOTALL)
+        if not match:
+            print("[WARN] etnet: 未找到 full_yearmonth_array")
+            return []
+
+        raw_data = json.loads(match.group(1))
+        entries = []
+        for year_month, stocks in raw_data.items():
+            if not isinstance(stocks, list):
+                continue
+            for stock in stocks:
+                entry = _normalize_etnet(stock, year_month)
+                if entry and _within_3months(entry.get("listingDate", "")):
+                    entries.append(entry)
+
+        print(f"[OK] etnet: {len(entries)} 条（3个月窗口内）")
+        return entries
+
+    except Exception as e:
+        print(f"[WARN] etnet 抓取失败: {e}")
+        return []
+
+
+def _normalize_etnet(stock: dict, year_month: str) -> dict | None:
+    """标准化 etnet 单条 IPO 记录。"""
+    code = str(stock.get("Code", "")).zfill(5)
+    name = stock.get("Name", "") or stock.get("Name_en", "")
+    if not name:
+        return None
+
+    listing_raw = stock.get("List date", "")               # "2026/04/16"
+    listing_date = listing_raw.replace("/", "-") if listing_raw else ""
+
+    status_label = stock.get("Status label", "")           # "5日後截止" / "招股中" 等
+    phase = _infer_phase_etnet(status_label, listing_date)
+
     return {
-        "key":         "_stub_" + _slug(item.get("name", "")),
-        "name":        item.get("name", ""),
-        "ticker":      item.get("stockCode") or "TBD",
-        "aShare":      item.get("aShareCode", ""),
-        "sector":      item.get("industry") or item.get("sector", ""),
-        "phase":       STATUS_MAP.get(item.get("status", 0), "pipeline"),
-        "hearingDate": item.get("hearingDate", ""),
-        "subStart":    item.get("subscribeStartDate", ""),
-        "subEnd":      item.get("subscribeEndDate", ""),
-        "listingDate": item.get("listingDate", ""),
-        "ipoLow":      item.get("ipoLowPrice"),
-        "ipoHigh":     item.get("ipoHighPrice"),
-        "ipoPrice":    item.get("ipoPrice"),
-        "mktCapNote":  item.get("ipoMarketCap", ""),
-        "source":      "futu",
+        "key":         "_stub_" + _slug(name),
+        "name":        name,
+        "ticker":      f"{code}.HK" if code else "TBD",
+        "aShare":      "",
+        "sector":      "",
+        "phase":       phase,
+        "hearingDate": "",
+        "subStart":    "",
+        "subEnd":      "",
+        "listingDate": listing_date,
+        "ipoLow":      None,
+        "ipoHigh":     None,
+        "ipoPrice":    None,
+        "mktCapNote":  "",
+        "statusLabel": status_label,
+        "source":      "etnet",
         "sourceDate":  TODAY,
     }
+
+
+def _infer_phase_etnet(status_label: str, listing_date: str) -> str:
+    """根据 etnet 状态标签推断 pipeline/subscribe/listing 阶段。"""
+    if not status_label and listing_date:
+        try:
+            ld = datetime.strptime(listing_date, "%Y-%m-%d").replace(tzinfo=HKT)
+            return "listing" if ld <= datetime.now(HKT) else "pipeline"
+        except ValueError:
+            return "pipeline"
+
+    label = status_label.lower()
+    if any(k in label for k in ["截止", "招股", "認購", "认购"]):
+        return "subscribe"
+    if any(k in label for k in ["半新", "上市", "掛牌"]):
+        return "listing"
+    return "pipeline"
+
+
+# ── 数据源 B: AKShare ─────────────────────────────────────────────────────────
+
+def fetch_akshare_ipo() -> list[dict]:
+    """
+    通过 AKShare 获取港股 IPO 数据。
+    pip install akshare
+    相关接口: stock_hk_ipo_em() — 东方财富港股 IPO 数据
+    """
+    try:
+        import akshare as ak
+        df = ak.stock_hk_ipo_em()   # 返回 DataFrame
+        entries = []
+        for _, row in df.iterrows():
+            name        = str(row.get("股票简称", ""))
+            code        = str(row.get("股票代码", ""))
+            status      = str(row.get("状态", ""))
+            listing_raw = str(row.get("上市日期", ""))
+            sub_start   = str(row.get("招股开始日期", ""))
+            sub_end     = str(row.get("招股截止日期", ""))
+            ipo_price   = row.get("发行价格")
+            listing_date = listing_raw[:10] if listing_raw != "nan" else ""
+
+            phase = "pipeline"
+            if "招股" in status or "认购" in status:
+                phase = "subscribe"
+            elif "上市" in status or listing_date and datetime.strptime(
+                    listing_date, "%Y-%m-%d").replace(tzinfo=HKT) <= datetime.now(HKT):
+                phase = "listing"
+
+            entry = {
+                "key":         "_stub_" + _slug(name),
+                "name":        name,
+                "ticker":      f"{code}.HK" if code else "TBD",
+                "phase":       phase,
+                "listingDate": listing_date,
+                "subStart":    sub_start[:10] if sub_start != "nan" else "",
+                "subEnd":      sub_end[:10]   if sub_end   != "nan" else "",
+                "ipoPrice":    float(ipo_price) if ipo_price and str(ipo_price) != "nan" else None,
+                "source":      "akshare",
+                "sourceDate":  TODAY,
+            }
+            if _within_3months(listing_date or sub_start[:10] if sub_start != "nan" else ""):
+                entries.append(entry)
+
+        print(f"[OK] AKShare: {len(entries)} 条")
+        return entries
+
+    except ImportError:
+        print("[WARN] akshare 未安装: pip install akshare")
+        return []
+    except Exception as e:
+        print(f"[WARN] AKShare 失败: {e}")
+        return []
 
 
 # ─── 2. 新进入招股的公司 ───────────────────────────────────────────────────────
@@ -352,10 +478,10 @@ def main():
     print(f"  港股打新每日更新 — {TODAY}  [{detect_ai_backend()}]")
     print(f"{'='*52}\n")
 
-    # 抓取
-    entries = fetch_futu_ipo()
+    # 抓取（etnet → AKShare，无需任何账号）
+    entries = fetch_ipo_data()
     if not entries:
-        print("[WARN] 富途无数据，退出")
+        print("[WARN] 所有数据源无数据，退出")
         sys.exit(0)
 
     # 分组 + 窗口过滤
