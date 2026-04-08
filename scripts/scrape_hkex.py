@@ -155,6 +155,37 @@ def _normalize_etnet(stock: dict, year_month: str) -> dict | None:
     }
 
 
+def _fetch_etnet_sub_dates(code: str) -> tuple[str, str]:
+    """从 etnet 详情页抓取招股起止日期。返回 (subStart, subEnd)。"""
+    url = f"https://www.etnet.com.hk/www/tc/stocks/ipo-info.php?code={code}"
+    try:
+        resp = requests.get(url, headers=HEADERS, timeout=10)
+        if resp.status_code != 200:
+            return "", ""
+        # 提取所有日期
+        dates = re.findall(r'(\d{4}/\d{2}/\d{2})\s*(.*?)(?:<|$)', resp.text)
+        sub_start, sub_end = "", ""
+        for date_str, context in dates:
+            d = date_str.replace("/", "-")
+            ctx = re.sub(r'<[^>]+>', '', context).strip().lower()
+            if "截止" in ctx or "截止認購" in ctx:
+                sub_end = d
+            elif not sub_start and d != sub_end:
+                # 第一个非截止日期通常是招股开始日或上市日
+                pass
+        # 备选: 找所有日期排序，倒数第二个通常是招股开始
+        all_dates = sorted(set(d.replace("/", "-") for d, _ in dates))
+        if sub_end and len(all_dates) >= 3:
+            # 招股开始日 = 截止日前面那个日期
+            idx = all_dates.index(sub_end) if sub_end in all_dates else -1
+            if idx > 0:
+                sub_start = all_dates[idx - 1]
+        return sub_start, sub_end
+    except Exception as e:
+        print(f"[WARN] etnet 详情页抓取失败 ({code}): {e}")
+        return "", ""
+
+
 def _infer_phase_etnet(status_label: str, listing_date: str) -> str:
     """根据 etnet 状态标签推断 pipeline/subscribe/listing 阶段。"""
     if not status_label and listing_date:
@@ -648,6 +679,17 @@ def main():
     print(f"招股中: {len(active_sub)} 家（{len(new_subs)} 家需生成分析）")
     print(f"通过聆讯: {len(hearing)} 家\n")
 
+    # 补充招股日期（从 etnet 详情页）
+    for company in active_sub:
+        if not company.get("subStart") and company.get("ticker", "").endswith(".HK"):
+            code = company["ticker"].replace(".HK", "")
+            sub_start, sub_end = _fetch_etnet_sub_dates(code)
+            if sub_start or sub_end:
+                company["subStart"] = sub_start
+                company["subEnd"] = sub_end
+                print(f"[OK] {company['name']} 招股日期: {sub_start} 至 {sub_end}")
+            time.sleep(1)
+
     # 自动生成 pitch 分析
     generated = []
     for company in new_subs:
@@ -661,6 +703,25 @@ def main():
             save_pitch(company["key"], pitch)
             generated.append(company["name"])
         time.sleep(3)
+
+    # 更新已有 pitch 的招股日期（如之前缺失）
+    for company in active_sub:
+        pitch_file = PITCHES_DIR / f"{company['key']}.json"
+        if pitch_file.exists() and (company.get("subStart") or company.get("subEnd")):
+            try:
+                pdata = json.loads(pitch_file.read_text(encoding="utf-8"))
+                updated = False
+                if not pdata.get("subStart") and company.get("subStart"):
+                    pdata["subStart"] = company["subStart"]
+                    updated = True
+                if not pdata.get("subEnd") and company.get("subEnd"):
+                    pdata["subEnd"] = company["subEnd"]
+                    updated = True
+                if updated:
+                    pitch_file.write_text(json.dumps(pdata, ensure_ascii=False, indent=2), encoding="utf-8")
+                    print(f"[OK] {company['name']} pitch 补充招股日期")
+            except Exception:
+                pass
 
     # 归档新上市
     existing = load_existing_sidebar()
