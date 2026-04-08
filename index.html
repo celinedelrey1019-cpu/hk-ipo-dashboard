@@ -1358,9 +1358,20 @@
 
     <!-- ══ 招股中 ══ -->
     <div class="sidebar-mini-label">📋 招股中</div>
-    <div style="margin:2px 12px 10px;padding:8px 10px;background:rgba(100,116,139,0.07);border:1px solid rgba(100,116,139,0.18);border-radius:6px;font-size:9.5px;color:var(--text-muted);line-height:1.5">
-      ⏸ 清明假期后恢复 · 4/8 起关注新批次<br>
-      <span style="color:#64748b;font-size:9px">当前无正在招股新股</span>
+
+    <!-- 思格新能 SIGENERGY — 正在招股，5日后截止 -->
+    <div class="ipo-item" onclick="showPitch('_stub_e6809de6')" data-month="2026-04" data-week="2026-W16" data-phase="subscribe">
+      <div class="ipo-badge badge-watch" style="font-size:7.5px;letter-spacing:0">招股中</div>
+      <div class="ipo-meta">
+        <div class="ipo-name">思格新能 <span style="font-size:9px;color:var(--yellow)">SIGENERGY</span></div>
+        <div class="ipo-ticker">06656.HK · AI+工商业储能 · 2025收入~90亿RMB</div>
+        <div class="ipo-date-row">
+          <div class="date-dot" style="background:var(--yellow)"></div>
+          <span class="ipo-date-text">上市日 2026-04-16</span>
+          <span class="ipo-date-phase phase-sub">5日后截止</span>
+        </div>
+      </div>
+      <div class="ipo-score" style="color:var(--yellow)">5.5</div>
     </div>
 
     <!-- ══ 即将招股 — 通过聆讯（4周内） ══ -->
@@ -1387,21 +1398,6 @@
       <div class="ipo-meta">
         <div class="ipo-name">胜宏科技 <span style="font-size:9px;color:var(--text-muted)">A+H</span></div>
         <div class="ipo-ticker">300476.SZ · AI算力PCB核心供应商</div>
-        <div class="ipo-date-row">
-          <div class="date-dot" style="background:#34d399"></div>
-          <span class="ipo-date-text">通过聆讯 2026-03-29</span>
-          <span class="ipo-date-phase phase-pipe">即将招股</span>
-        </div>
-      </div>
-      <div class="ipo-score" style="color:var(--text-muted)">—</div>
-    </div>
-
-    <!-- 思格新能源 — 聆讯 2026-03-29 (每经确认) -->
-    <div class="ipo-item" onclick="showPitch('_stub_e6809de6')" data-month="2026-04" data-week="2026-W17" data-phase="pipeline">
-      <div class="ipo-badge badge-buy" style="font-size:7.5px;letter-spacing:0">聆讯✓</div>
-      <div class="ipo-meta">
-        <div class="ipo-name">思格新能源</div>
-        <div class="ipo-ticker">TBD · AI+工商业储能 · 2025收入~90亿RMB</div>
         <div class="ipo-date-row">
           <div class="date-dot" style="background:#34d399"></div>
           <span class="ipo-date-text">通过聆讯 2026-03-29</span>
@@ -2313,6 +2309,164 @@ function renderCompsTable(compsData) {
     </div>`;
 }
 
+function renderAutoPitch(key, d, container) {
+  const ratingClass = d.rating==='BUY'?'rating-buy':d.rating==='WATCH'?'rating-watch':'rating-skip';
+  const scoreColor = d.scoreColor || (d.rating==='BUY'?'var(--green)':d.rating==='WATCH'?'var(--yellow)':'var(--red)');
+  const score = typeof d.score === 'number' ? d.score.toFixed(1) : (d.score || '—');
+
+  const scorecardHtml = (d.scorecard || []).map(s => `
+    <div class="score-row">
+      <div class="score-row-top">
+        <div class="score-row-label">${s.label}</div>
+        <div class="score-row-weight">${s.weight}</div>
+        <div class="score-row-val" style="color:${s.color || 'var(--text-primary)'}">${typeof s.score === 'number' ? s.score.toFixed(1) : s.score}</div>
+      </div>
+      <div class="progress-bar" style="margin-top:4px">
+        <div class="progress-fill" style="width:${(s.score||0)/(s.max||10)*100}%;background:${s.color || 'var(--accent-blue)'}"></div>
+      </div>
+      ${s.note ? `<div style="font-size:9px;color:var(--text-muted);margin-top:3px">${s.note}</div>` : ''}
+    </div>`).join('');
+
+  const thesisHtml = (d.thesis || []).map((t,i) => `
+    <div class="thesis-item">
+      <div class="thesis-num">${i+1}</div>
+      <div class="thesis-content">
+        <div class="thesis-title">${t.title}</div>
+        <div class="thesis-desc">${t.desc}</div>
+      </div>
+    </div>`).join('');
+
+  const risksHtml = (d.keyRisks || []).map(r => `
+    <div class="risk-item">
+      <div class="risk-icon">${r.icon || '⚠️'}</div>
+      <div class="risk-content">
+        <div class="risk-title">${r.title}</div>
+        <div class="risk-desc">${r.desc}</div>
+      </div>
+    </div>`).join('');
+
+  const compsHtml = d.comps && d.comps.hk ? renderCompsTable(d.comps.hk) : '<p style="color:var(--text-muted);font-size:11px;padding:12px">暂无数据</p>';
+  const compsAHtml = d.comps && d.comps.a ? renderCompsTable(d.comps.a) : '<p style="color:var(--text-muted);font-size:11px;padding:12px">暂无数据</p>';
+
+  const scenariosHtml = d.sellRec && d.sellRec.scenarios ? d.sellRec.scenarios.map(s => `
+    <div class="price-scenario ps-${s.type}">
+      <div class="ps-label">${s.label}</div>
+      <div class="ps-price">${s.price}</div>
+      <div class="ps-upside">${s.upside} vs 发行价</div>
+      <div class="ps-basis">${s.basis}</div>
+    </div>`).join('') : '';
+
+  const triggersHtml = d.sellRec && d.sellRec.triggers ? d.sellRec.triggers.map(t => `
+    <div class="sell-trigger">
+      <div class="st-icon">${t.icon}</div>
+      <div class="st-content">
+        <div class="st-title">${t.title}</div>
+        <div class="st-desc">${t.desc}</div>
+      </div>
+      <div class="st-price ${t.priceClass || ''}">${t.price}</div>
+    </div>`).join('') : '';
+
+  container.innerHTML = `
+    <!-- PITCH HEADER -->
+    <div class="pitch-header">
+      <div class="pitch-header-top">
+        <div class="pitch-company-block">
+          <div class="pitch-ticker-row">
+            <span class="pitch-ticker">${d.ticker || 'TBD'}</span>
+            <span class="pitch-ticker">${d.exchange || '香港主板'}</span>
+            <span class="pitch-sector-tag">${d.sector || ''}</span>
+          </div>
+          <div class="pitch-company-name">${d.name}</div>
+          <div class="pitch-tagline">${d.tagline || ''}</div>
+        </div>
+        <div class="pitch-rating-block">
+          <div class="rating-pill ${ratingClass}">${d.rating || '—'}</div>
+          <div class="score-display">
+            <span class="score-num" style="color:${scoreColor}">${score}</span>
+            <span class="score-denom"> / 10</span>
+            <div class="score-label">综合评分</div>
+          </div>
+        </div>
+      </div>
+      <div class="key-metrics-bar">
+        <div class="metric-item"><div class="metric-label">招股日期</div><div class="metric-val">${d.subStart || '—'}</div><div class="metric-sub">至 ${d.subEnd || '—'}</div></div>
+        <div class="metric-item"><div class="metric-label">生成日期</div><div class="metric-val">${d.generatedAt || '—'}</div><div class="metric-sub">by ${d.generatedBy || 'AI'}</div></div>
+      </div>
+    </div>
+    <div class="pitch-body">
+      <!-- SCORECARD -->
+      ${scorecardHtml ? `
+      <div class="pitch-section">
+        <div class="section-head">
+          <div class="section-icon icon-ipo">📊</div>
+          <div class="section-title">Scorecard — 四维评分</div>
+        </div>
+        <div class="section-body"><div class="scorecard-grid">${scorecardHtml}</div></div>
+      </div>` : ''}
+
+      <!-- INVESTMENT THESIS -->
+      ${thesisHtml ? `
+      <div class="pitch-section full-width">
+        <div class="section-head">
+          <div class="section-icon icon-thesis">💡</div>
+          <div class="section-title">Investment Thesis — 投资逻辑</div>
+        </div>
+        <div class="section-body"><div class="thesis-list">${thesisHtml}</div></div>
+      </div>` : ''}
+
+      <!-- COMPS -->
+      <div class="pitch-section full-width">
+        <div class="section-head">
+          <div class="section-icon icon-val">⚖️</div>
+          <div class="section-title">Comparable Company Analysis</div>
+        </div>
+        <div class="comps-market-tabs" id="compsTabs_${key}">
+          <div class="mkt-tab active" onclick="switchTab('${key}','hk',this)">🇭🇰 港股</div>
+          <div class="mkt-tab" onclick="switchTab('${key}','a',this)">🇨🇳 A股</div>
+        </div>
+        <div id="compsHK_${key}" class="comps-panel active">${compsHtml}</div>
+        <div id="compsA_${key}" class="comps-panel">${compsAHtml}</div>
+        <div id="compsUS_${key}" class="comps-panel" style="display:none"></div>
+      </div>
+
+      <!-- KEY RISKS -->
+      ${risksHtml ? `
+      <div class="pitch-section full-width">
+        <div class="section-head">
+          <div class="section-icon icon-risk">⚠️</div>
+          <div class="section-title">Key Risks — 核心风险</div>
+        </div>
+        <div class="section-body"><div class="risk-list">${risksHtml}</div></div>
+      </div>` : ''}
+
+      <!-- SELL REC -->
+      ${d.sellRec ? `
+      <div class="pitch-section full-width">
+        <div class="section-head">
+          <div class="section-icon" style="background:rgba(239,68,68,0.15);color:var(--red)">🎯</div>
+          <div class="section-title">卖出建议 — Exit Strategy</div>
+        </div>
+        <div class="section-body">
+          <div class="sell-header">
+            <div>
+              <div style="font-size:12px;color:var(--text-muted);margin-bottom:4px">退出行动</div>
+              <div style="font-size:16px;font-weight:800;color:${d.sellRec.actionColor || 'var(--text-primary)'}">${d.sellRec.action || '—'}</div>
+              <div style="font-size:11px;color:var(--text-muted);margin-top:4px">${d.sellRec.horizon || ''}</div>
+            </div>
+          </div>
+          ${scenariosHtml ? `<div style="margin-top:14px"><div class="signal-label" style="margin-bottom:8px">Bear / Base / Bull</div><div class="price-scenario-row">${scenariosHtml}</div></div>` : ''}
+          ${triggersHtml ? `<div style="margin-top:16px"><div class="signal-label" style="margin-bottom:8px">触发条件</div><div class="sell-trigger-list">${triggersHtml}</div></div>` : ''}
+        </div>
+      </div>` : ''}
+
+      <div class="pitch-section" style="background:rgba(59,130,246,0.04);border:1px solid rgba(59,130,246,0.15)">
+        <div class="section-body" style="text-align:center;padding:16px;font-size:11px;color:var(--text-muted)">
+          🤖 本分析由 Claude AI 于 ${d.generatedAt || '—'} 自动生成，仅供参考，不构成投资建议
+        </div>
+      </div>
+    </div>`;
+}
+
 function showPitch(key) {
   // Update sidebar active
   document.querySelectorAll('.ipo-item').forEach(el => el.classList.remove('active'));
@@ -2347,6 +2501,12 @@ function showPitch(key) {
           </div>
         </div>
       </div>`;
+    return;
+  }
+
+  // ── 自动生成的 pitch（来自 data/pitches/*.json）使用简化渲染 ──
+  if (d.generatedBy && !d.metrics) {
+    renderAutoPitch(key, d, container);
     return;
   }
 
