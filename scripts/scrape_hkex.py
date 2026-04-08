@@ -475,6 +475,120 @@ def save_sidebar(active_sub: list, hearing: list, archived: list) -> None:
     print("[OK] sidebar.json 已更新")
 
 
+# ─── 6b. 自动更新 index.html 侧栏 ───────────────────────────────────────────
+
+INDEX_HTML = ROOT / "index.html"
+
+# 侧栏占位标记（在 index.html 中标识可替换区域）
+SUBSCRIBE_BEGIN = "<!-- AUTO:SUBSCRIBE:BEGIN -->"
+SUBSCRIBE_END   = "<!-- AUTO:SUBSCRIBE:END -->"
+PIPELINE_BEGIN  = "<!-- AUTO:PIPELINE:BEGIN -->"
+PIPELINE_END    = "<!-- AUTO:PIPELINE:END -->"
+
+
+def _render_sidebar_item(entry: dict, phase: str) -> str:
+    """生成单个 sidebar ipo-item HTML。"""
+    key = entry["key"]
+    name = entry["name"]
+    ticker = entry.get("ticker", "TBD")
+    status = entry.get("statusLabel", "")
+    listing = entry.get("listingDate", "")
+
+    # 尝试读取已生成的 pitch 获取评分
+    pitch_file = PITCHES_DIR / f"{key}.json"
+    rating, score, score_color = "—", "—", "var(--text-muted)"
+    if pitch_file.exists():
+        try:
+            p = json.loads(pitch_file.read_text(encoding="utf-8"))
+            if p.get("type") != "error":
+                rating = p.get("rating", "—")
+                score = p.get("score", "—")
+                if isinstance(score, (int, float)):
+                    score = f"{score:.1f}"
+                score_color = (
+                    "var(--green)" if rating == "BUY"
+                    else "var(--yellow)" if rating == "WATCH"
+                    else "var(--red)" if rating == "SKIP"
+                    else "var(--text-muted)"
+                )
+        except Exception:
+            pass
+
+    if phase == "subscribe":
+        badge_class = "badge-watch" if rating in ("—", "WATCH") else "badge-buy" if rating == "BUY" else "badge-skip"
+        badge_text = "招股中"
+        phase_tag = f'<span class="ipo-date-phase phase-sub">{status or "招股中"}</span>'
+        date_text = f"上市日 {listing}" if listing else ""
+    else:
+        badge_class = "badge-buy"
+        badge_text = "聆讯✓"
+        phase_tag = '<span class="ipo-date-phase phase-pipe">即将招股</span>'
+        date_text = f"预计上市 {listing}" if listing else ""
+
+    return f"""    <div class="ipo-item" onclick="showPitch('{key}')" data-phase="{phase}">
+      <div class="ipo-badge {badge_class}" style="font-size:7.5px;letter-spacing:0">{badge_text}</div>
+      <div class="ipo-meta">
+        <div class="ipo-name">{name}</div>
+        <div class="ipo-ticker">{ticker}</div>
+        <div class="ipo-date-row">
+          <span class="ipo-date-text">{date_text}</span>
+          {phase_tag}
+        </div>
+      </div>
+      <div class="ipo-score" style="color:{score_color}">{score}</div>
+    </div>"""
+
+
+def update_index_html(active_sub: list, hearing: list) -> None:
+    """更新 index.html 侧栏中 招股中 和 Pipeline 的自动区域。"""
+    if not INDEX_HTML.exists():
+        print("[WARN] index.html 不存在，跳过侧栏更新")
+        return
+
+    html = INDEX_HTML.read_text(encoding="utf-8")
+
+    # ── 更新「招股中」区域 ──
+    if SUBSCRIBE_BEGIN in html and SUBSCRIBE_END in html:
+        if active_sub:
+            items = "\n".join(_render_sidebar_item(e, "subscribe") for e in active_sub)
+        else:
+            items = '    <div style="margin:2px 12px 10px;padding:8px 10px;background:rgba(100,116,139,0.07);border:1px solid rgba(100,116,139,0.18);border-radius:6px;font-size:9.5px;color:var(--text-muted);line-height:1.5">当前无正在招股新股</div>'
+        html = re.sub(
+            rf"{re.escape(SUBSCRIBE_BEGIN)}.*?{re.escape(SUBSCRIBE_END)}",
+            f"{SUBSCRIBE_BEGIN}\n{items}\n    {SUBSCRIBE_END}",
+            html, flags=re.DOTALL
+        )
+
+    # ── 更新「即将招股」区域（只显示前 10 条 pipeline）──
+    if PIPELINE_BEGIN in html and PIPELINE_END in html:
+        top_pipeline = hearing[:10]
+        if top_pipeline:
+            items = "\n".join(_render_sidebar_item(e, "pipeline") for e in top_pipeline)
+        else:
+            items = '    <div style="margin:2px 12px 10px;padding:8px 10px;background:rgba(100,116,139,0.07);border:1px solid rgba(100,116,139,0.18);border-radius:6px;font-size:9.5px;color:var(--text-muted);line-height:1.5">暂无通过聆讯的新股</div>'
+        html = re.sub(
+            rf"{re.escape(PIPELINE_BEGIN)}.*?{re.escape(PIPELINE_END)}",
+            f"{PIPELINE_BEGIN}\n{items}\n    {PIPELINE_END}",
+            html, flags=re.DOTALL
+        )
+
+    # ── 更新日期和计数 ──
+    html = re.sub(
+        r'(<span>)\d{4}-\d{2}-\d{2} HKT(</span>)',
+        rf'\g<1>{TODAY} HKT\g<2>',
+        html, count=1
+    )
+    total = len(active_sub) + len(hearing)
+    html = re.sub(
+        r'\d+ pitches available',
+        f'{total} pitches available',
+        html, count=1
+    )
+
+    INDEX_HTML.write_text(html, encoding="utf-8")
+    print(f"[OK] index.html 侧栏已更新（招股中 {len(active_sub)}，Pipeline {min(len(hearing),10)}）")
+
+
 # ─── 7. 主流程 ─────────────────────────────────────────────────────────────────
 
 def main():
@@ -526,6 +640,9 @@ def main():
             print(f"[ARCHIVE] {item['name']}")
 
     save_sidebar(active_sub, hearing, archived)
+
+    # 更新 index.html 侧栏
+    update_index_html(active_sub, hearing)
 
     # 摘要
     print(f"\n{'─'*40}")
