@@ -1,0 +1,14 @@
+{
+  "type": "error",
+  "error": {
+    "type": "authentication_error",
+    "message": "Invalid bearer token"
+  },
+  "request_id": "req_011CZqzDecPdLYLNystPRgrn",
+  "generatedAt": "2026-04-08",
+  "generatedBy": "claude-oauth",
+  "ticker": "06656.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
