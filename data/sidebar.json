@@ -61,6 +61,25 @@
   ],
   "hearingPassed": [
     {
+      "key": "_stub_e995b7e9",
+      "name": "長風藥業",
+      "ticker": "02652.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-10-08",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "最新派息公布",
+      "source": "etnet",
+      "sourceDate": "2026-04-09"
+    },
+    {
       "key": "_stub_e58d9ae6",
       "name": "博泰車聯",
       "ticker": "02889.HK",
