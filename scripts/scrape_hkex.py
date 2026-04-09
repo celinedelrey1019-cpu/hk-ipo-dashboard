@@ -297,6 +297,7 @@ def fetch_company_background(name: str, sector: str) -> str:
 
 def build_prompt(company: dict, background: str) -> str:
     return f"""你是专业的港股打新分析师，使用 MECE 评分框架（F/S/V/M）评估 IPO 投资价值。
+请基于 A1 招股文件中的实际财务数据进行分析。
 
 ## 公司信息
 公司名称: {company['name']}
@@ -321,7 +322,7 @@ A股代码: {company.get('aShare', '—')}
   "scoreColor": "var(--green) 或 var(--yellow) 或 var(--red)",
   "tagline": "一句话核心投资逻辑，中文，30字以内",
   "scorecard": [
-    {{"label": "基本面质量 (F)", "weight": "35%", "score": 0.0, "max": 10, "color": "var(--green)", "note": "说明"}},
+    {{"label": "基本面质量 (F)", "weight": "35%", "score": 0.0, "max": 10, "color": "var(--green)", "note": "基于A1文件中实际财务数据的具体分析"}},
     {{"label": "IPO结构 (S)",    "weight": "30%", "score": 0.0, "max": 10, "color": "var(--green)", "note": "说明"}},
     {{"label": "估值合理性 (V)", "weight": "20%", "score": 0.0, "max": 10, "color": "var(--yellow)", "note": "说明"}},
     {{"label": "市场时机 (M)",   "weight": "15%", "score": 0.0, "max": 10, "color": "var(--green)", "note": "说明"}}
@@ -332,17 +333,36 @@ A股代码: {company.get('aShare', '—')}
     {{"title": "投资逻辑3", "desc": "详细说明"}}
   ],
   "keyRisks": [
-    {{"icon": "⚠️", "title": "风险1", "desc": "说明"}},
-    {{"icon": "⚠️", "title": "风险2", "desc": "说明"}}
+    {{"icon": "⚠️", "title": "具体业务风险", "desc": "必须是该公司特有的、具体的风险，例如客户集中度、技术路线被替代、产能利用率下降等"}},
+    {{"icon": "⚠️", "title": "具体财务/行业风险", "desc": "例如毛利率持续下滑趋势、应收账款周转恶化、行业产能过剩导致价格战等"}}
   ],
   "comps": {{
     "hk": {{
       "rows": [
-        {{"name": "可比公司", "ticker": "XXXX.HK", "rel": "强相关", "peLtm": "NM", "pe": "52x", "ps": "8x", "evEbitda": "NM", "verdict": null}}
+        {{"name": "公司名", "ticker": "XXXX.HK", "rel": "强相关/中相关/弱相关", "peLtm": "LTM P/E", "pe": "NTM P/E", "psLtm": "LTM P/S", "ps": "NTM P/S", "evEbitda": "NTM EV/EBITDA", "verdict": null}}
       ],
-      "verdict": {{"type": "cheap", "text": "IPO隐含倍数 vs Comps说明"}}
+      "verdict": {{"type": "cheap/fair/rich", "text": "港股市场comps小结"}}
     }},
-    "a": {{"rows": [], "verdict": {{"type": "fair", "text": "A股对比"}}}}
+    "a": {{
+      "rows": [
+        {{"name": "公司名", "ticker": "XXXXXX.SZ/SH", "rel": "强相关/中相关/弱相关", "peLtm": "LTM P/E", "pe": "NTM P/E", "psLtm": "LTM P/S", "ps": "NTM P/S", "evEbitda": "NTM EV/EBITDA", "verdict": null}}
+      ],
+      "verdict": {{"type": "cheap/fair/rich", "text": "A股市场comps小结"}}
+    }},
+    "us": {{
+      "rows": [
+        {{"name": "公司名", "ticker": "TICKER", "rel": "强相关/中相关/弱相关", "peLtm": "LTM P/E", "pe": "NTM P/E", "psLtm": "LTM P/S", "ps": "NTM P/S", "evEbitda": "NTM EV/EBITDA", "verdict": null}}
+      ],
+      "verdict": {{"type": "cheap/fair/rich", "text": "美股市场comps小结"}}
+    }},
+    "crossMarketVerdict": {{
+      "text": "如果IPO价格已公布：结合港股/A股/美股三市场Comps中位数，IPO隐含P/S Xx vs 三市场中位P/S Yx，折溢价分析。如果IPO价格未公布：待IPO定价公布后更新跨市场估值对比。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "三市场中位P/S",
+      "medianPE": "三市场中位P/E",
+      "premiumDiscount": "待IPO定价后计算"
+    }}
   }},
   "sellRec": {{
     "action": "退出建议",
@@ -351,13 +371,13 @@ A股代码: {company.get('aShare', '—')}
     "ipoPrice": 0.0,
     "thesisVsPrice": {{
       "metric": "P/S",
-      "ipoImplied": "Xx",
+      "ipoImplied": "Xx（待定价后填入）",
       "compsMedian": "Yx",
-      "vs": "折价 −Z%",
-      "verdict": "偏低估 CHEAP",
-      "verdictClass": "cheap",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
       "checks": [
-        {{"point": "论点 (F/S/V/M 参考)", "result": "✓ 验证", "note": "说明", "ok": true}}
+        {{"point": "论点 (F/S/V/M 参考)", "result": "✓ 或 ✗", "note": "说明", "ok": true}}
       ]
     }},
     "scenarios": [
@@ -372,8 +392,12 @@ A股代码: {company.get('aShare', '—')}
   }}
 }}
 
-评分规则: 总分 = F×0.35 + S×0.30 + V×0.20 + M×0.15。BUY≥7.0，WATCH 5-6.9，SKIP<5.0 或孖展<10x。
-禁止: 不写保荐人差、锁定期到期、定期业绩作为催化剂，comps 不含 P/B。"""
+## 重要规则
+- 评分规则: 总分 = F×0.35 + S×0.30 + V×0.20 + M×0.15。BUY≥7.0，WATCH 5-6.9，SKIP<5.0 或孖展<10x
+- Comps 要求: 港股、A股、美股每个市场必须找 10 家可比公司，标明相关性（强相关/中相关/弱相关），包含 LTM 和 NTM 的 P/E、P/S
+- crossMarketVerdict: 如果 IPO 价格未公布，写明"待IPO定价公布后更新"；价格已公布则计算隐含倍数 vs 三市场中位数的折溢价
+- keyRisks 禁止: 不得写"信息披露不足"、"汇率风险"等泛泛而谈的风险。必须是该公司/行业特有的具体风险，基于 A1 招股文件中的实际数据
+- 其他禁止: 不写保荐人差、锁定期到期、定期业绩作为催化剂，comps 不含 P/B"""
 
 
 # ─── 5. AI 调用（三种后端） ────────────────────────────────────────────────────

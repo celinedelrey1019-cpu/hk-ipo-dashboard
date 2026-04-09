@@ -2403,8 +2403,9 @@ function renderCompsTable(compsData) {
       <td>${r.name}${relBadge}</td>
       <td style="color:var(--text-muted);font-size:9.5px">${r.ticker}</td>
       <td>${r.peLtm ?? 'NM'}</td>
-      <td>${r.pe}</td>
-      <td>${r.ps}</td>
+      <td>${r.pe ?? 'NM'}</td>
+      <td>${r.psLtm ?? r.ps ?? 'NM'}</td>
+      <td>${r.ps ?? 'NM'}</td>
       <td>${r.evEbitda ?? 'NM'}</td>
     </tr>`;
   }).join('');
@@ -2420,7 +2421,8 @@ function renderCompsTable(compsData) {
         <th>代码</th>
         <th>P/E LTM</th>
         <th>P/E NTM</th>
-        <th>EV/Rev NTM</th>
+        <th>P/S LTM</th>
+        <th>P/S NTM</th>
         <th>EV/EBITDA NTM</th>
       </tr></thead>
       <tbody>${rows}</tbody>
@@ -2469,6 +2471,15 @@ function renderAutoPitch(key, d, container) {
 
   const compsHtml = d.comps && d.comps.hk ? renderCompsTable(d.comps.hk) : '<p style="color:var(--text-muted);font-size:11px;padding:12px">暂无数据</p>';
   const compsAHtml = d.comps && d.comps.a ? renderCompsTable(d.comps.a) : '<p style="color:var(--text-muted);font-size:11px;padding:12px">暂无数据</p>';
+  const compsUSHtml = d.comps && d.comps.us ? renderCompsTable(d.comps.us) : '<p style="color:var(--text-muted);font-size:11px;padding:12px">暂无数据</p>';
+
+  const cmv = d.comps && d.comps.crossMarketVerdict;
+  const crossMarketHtml = cmv ? `
+    <div style="margin-top:12px;padding:14px 16px;background:rgba(59,130,246,0.04);border:1px solid rgba(59,130,246,0.15);border-radius:8px">
+      <div style="font-size:9.5px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px">跨市场估值总结 · Cross-Market Verdict</div>
+      <div style="font-size:11px;color:var(--text-secondary);line-height:1.6">${cmv.text}</div>
+      ${cmv.ipoImpliedPS ? `<div style="margin-top:8px;font-size:10px;color:var(--cyan);font-family:var(--font-mono)">IPO隐含 P/S: ${cmv.ipoImpliedPS} · P/E: ${cmv.ipoImpliedPE || 'N/A'} | 三市场中位 P/S: ${cmv.medianPS} · P/E: ${cmv.medianPE} | 折溢价: ${cmv.premiumDiscount}</div>` : ''}
+    </div>` : '';
 
   const scenariosHtml = d.sellRec && d.sellRec.scenarios ? d.sellRec.scenarios.map(s => `
     <div class="price-scenario ps-${s.type}">
@@ -2545,10 +2556,12 @@ function renderAutoPitch(key, d, container) {
         <div class="comps-market-tabs" id="compsTabs_${key}">
           <div class="mkt-tab active" onclick="switchTab('${key}','hk',this)">🇭🇰 港股</div>
           <div class="mkt-tab" onclick="switchTab('${key}','a',this)">🇨🇳 A股</div>
+          <div class="mkt-tab" onclick="switchTab('${key}','us',this)">🇺🇸 美股</div>
         </div>
         <div id="compsHK_${key}" class="comps-panel active">${compsHtml}</div>
         <div id="compsA_${key}" class="comps-panel">${compsAHtml}</div>
-        <div id="compsUS_${key}" class="comps-panel" style="display:none"></div>
+        <div id="compsUS_${key}" class="comps-panel">${compsUSHtml}</div>
+        ${crossMarketHtml}
       </div>
 
       <!-- KEY RISKS -->
