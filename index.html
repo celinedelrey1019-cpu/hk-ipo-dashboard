@@ -6,26 +6,26 @@
 <title>港股打新 — IPO Stock Pitch Dashboard</title>
 <style>
   :root {
-    --bg-primary: #0a0e1a;
-    --bg-secondary: #111827;
-    --bg-card: #161d2e;
-    --bg-hover: #1e2a3d;
-    --border: #1e293b;
-    --border-light: #2d3a50;
-    --text-primary: #f1f5f9;
-    --text-secondary: #94a3b8;
-    --text-muted: #64748b;
-    --accent-blue: #3b82f6;
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8fafc;
+    --bg-card: #ffffff;
+    --bg-hover: #f1f5f9;
+    --border: #e2e8f0;
+    --border-light: #cbd5e1;
+    --text-primary: #1e293b;
+    --text-secondary: #475569;
+    --text-muted: #94a3b8;
+    --accent-blue: #2563eb;
     --accent-blue-dim: #1d4ed8;
-    --green: #22c55e;
+    --green: #16a34a;
     --green-dim: #15803d;
-    --yellow: #eab308;
+    --yellow: #ca8a04;
     --yellow-dim: #a16207;
-    --red: #ef4444;
+    --red: #dc2626;
     --red-dim: #b91c1c;
-    --orange: #f97316;
-    --purple: #a855f7;
-    --cyan: #06b6d4;
+    --orange: #ea580c;
+    --purple: #9333ea;
+    --cyan: #0891b2;
     --font: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     --font-mono: 'SF Mono', 'Fira Code', monospace;
   }
@@ -110,7 +110,7 @@
   }
 
   .ipo-item:hover { background: var(--bg-hover); }
-  .ipo-item.active { background: #1a2744; border-left: 2px solid var(--accent-blue); }
+  .ipo-item.active { background: #e0e7ff; border-left: 2px solid var(--accent-blue); }
 
   .ipo-badge {
     width: 28px;
@@ -162,7 +162,7 @@
 
   /* ═══ PITCH HEADER ═══ */
   .pitch-header {
-    background: linear-gradient(135deg, #111827 0%, #0f172a 100%);
+    background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
     border-bottom: 1px solid var(--border);
     padding: 24px 32px 20px;
     position: sticky;
@@ -189,33 +189,33 @@
   .pitch-ticker {
     font-family: var(--font-mono);
     font-size: 12px;
-    color: var(--text-muted);
-    background: var(--bg-card);
+    color: rgba(255,255,255,0.7);
+    background: rgba(255,255,255,0.15);
     padding: 3px 8px;
     border-radius: 4px;
-    border: 1px solid var(--border);
+    border: 1px solid rgba(255,255,255,0.2);
   }
 
   .pitch-sector-tag {
     font-size: 10px;
     padding: 2px 8px;
     border-radius: 4px;
-    background: rgba(59,130,246,0.12);
-    color: #93c5fd;
-    border: 1px solid rgba(59,130,246,0.25);
+    background: rgba(255,255,255,0.15);
+    color: #ffffff;
+    border: 1px solid rgba(255,255,255,0.25);
   }
 
   .pitch-company-name {
     font-size: 24px;
     font-weight: 800;
     letter-spacing: -0.8px;
-    color: var(--text-primary);
+    color: #ffffff;
     line-height: 1.15;
   }
 
   .pitch-tagline {
     font-size: 13px;
-    color: var(--text-secondary);
+    color: rgba(255,255,255,0.8);
     margin-top: 5px;
     line-height: 1.4;
     max-width: 600px;
@@ -238,9 +238,9 @@
     text-transform: uppercase;
   }
 
-  .rating-buy { background: rgba(34,197,94,0.2); color: #4ade80; border: 1.5px solid rgba(34,197,94,0.5); }
-  .rating-watch { background: rgba(234,179,8,0.2); color: #fde047; border: 1.5px solid rgba(234,179,8,0.5); }
-  .rating-skip { background: rgba(239,68,68,0.2); color: #f87171; border: 1.5px solid rgba(239,68,68,0.5); }
+  .rating-buy { background: rgba(22,163,74,0.1); color: #15803d; border: 1.5px solid rgba(22,163,74,0.4); }
+  .rating-watch { background: rgba(202,138,4,0.1); color: #a16207; border: 1.5px solid rgba(202,138,4,0.4); }
+  .rating-skip { background: rgba(220,38,38,0.1); color: #dc2626; border: 1.5px solid rgba(220,38,38,0.4); }
 
   .score-display {
     text-align: right;
@@ -255,13 +255,13 @@
 
   .score-display .score-denom {
     font-size: 13px;
-    color: var(--text-muted);
+    color: rgba(255,255,255,0.6);
     font-family: var(--font-mono);
   }
 
   .score-display .score-label {
     font-size: 9px;
-    color: var(--text-muted);
+    color: rgba(255,255,255,0.6);
     text-transform: uppercase;
     letter-spacing: 0.8px;
     margin-top: 2px;
@@ -271,25 +271,25 @@
     display: flex;
     gap: 0;
     margin-top: 16px;
-    background: var(--bg-card);
+    background: rgba(255,255,255,0.1);
     border-radius: 8px;
-    border: 1px solid var(--border);
+    border: 1px solid rgba(255,255,255,0.2);
     overflow: hidden;
   }
 
   .metric-item {
     flex: 1;
     padding: 10px 14px;
-    border-right: 1px solid var(--border);
+    border-right: 1px solid rgba(255,255,255,0.15);
   }
 
   .metric-item:last-child { border-right: none; }
-  .metric-label { font-size: 9px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 3px; }
-  .metric-val { font-size: 14px; font-weight: 700; font-family: var(--font-mono); color: var(--text-primary); }
-  .metric-val.green { color: var(--green); }
-  .metric-val.red { color: var(--red); }
-  .metric-val.yellow { color: var(--yellow); }
-  .metric-sub { font-size: 9.5px; color: var(--text-muted); margin-top: 1px; }
+  .metric-label { font-size: 9px; color: rgba(255,255,255,0.6); text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 3px; }
+  .metric-val { font-size: 14px; font-weight: 700; font-family: var(--font-mono); color: #ffffff; }
+  .metric-val.green { color: #86efac; }
+  .metric-val.red { color: #fca5a5; }
+  .metric-val.yellow { color: #fde68a; }
+  .metric-sub { font-size: 9.5px; color: rgba(255,255,255,0.5); margin-top: 1px; }
 
   /* ═══ PITCH BODY ═══ */
   .pitch-body {
@@ -409,7 +409,7 @@
     font-size: 11.5px;
     padding: 8px 10px;
     text-align: right;
-    border-bottom: 1px solid rgba(30,41,59,0.5);
+    border-bottom: 1px solid rgba(226,232,240,0.8);
     color: var(--text-secondary);
     font-family: var(--font-mono);
   }
@@ -468,7 +468,7 @@
     font-size: 11px;
     padding: 7px 8px;
     text-align: right;
-    border-bottom: 1px solid rgba(30,41,59,0.5);
+    border-bottom: 1px solid rgba(226,232,240,0.8);
     font-family: var(--font-mono);
     color: var(--text-secondary);
   }
@@ -559,7 +559,7 @@
     align-items: center;
     gap: 10px;
     padding: 8px 0;
-    border-bottom: 1px solid rgba(30,41,59,0.5);
+    border-bottom: 1px solid rgba(226,232,240,0.8);
   }
   .banker-row:last-child { border-bottom: none; }
 
@@ -987,7 +987,7 @@
   .account-table th:not(:first-child) { text-align: right; }
   .account-table td {
     font-size: 11px; padding: 7px 8px;
-    border-bottom: 1px solid rgba(30,41,59,0.5);
+    border-bottom: 1px solid rgba(226,232,240,0.8);
     color: var(--text-secondary);
   }
   .account-table td:not(:first-child) {
@@ -2699,10 +2699,10 @@ function showPitch(key) {
         <tbody>
           ${bankers.anchors.map(a => `
           <tr>
-            <td style="padding:6px 8px;font-size:11px;font-weight:600;color:var(--text-primary);border-bottom:1px solid rgba(30,41,59,0.4)">${a.name}</td>
-            <td style="padding:6px 8px;font-size:10px;color:var(--text-muted);text-align:center;border-bottom:1px solid rgba(30,41,59,0.4)">${a.region}</td>
-            <td style="padding:6px 8px;font-size:11px;font-family:var(--font-mono);color:var(--cyan);text-align:right;border-bottom:1px solid rgba(30,41,59,0.4)">${a.commitment}</td>
-            <td style="padding:6px 8px;font-size:10px;color:var(--text-muted);border-bottom:1px solid rgba(30,41,59,0.4)">${a.note}</td>
+            <td style="padding:6px 8px;font-size:11px;font-weight:600;color:var(--text-primary);border-bottom:1px solid rgba(226,232,240,0.6)">${a.name}</td>
+            <td style="padding:6px 8px;font-size:10px;color:var(--text-muted);text-align:center;border-bottom:1px solid rgba(226,232,240,0.6)">${a.region}</td>
+            <td style="padding:6px 8px;font-size:11px;font-family:var(--font-mono);color:var(--cyan);text-align:right;border-bottom:1px solid rgba(226,232,240,0.6)">${a.commitment}</td>
+            <td style="padding:6px 8px;font-size:10px;color:var(--text-muted);border-bottom:1px solid rgba(226,232,240,0.6)">${a.note}</td>
           </tr>`).join('')}
         </tbody>
       </table>`;
@@ -2766,15 +2766,15 @@ function showPitch(key) {
         <tbody>
           ${d.valuation.targets.map((t,i) => `
           <tr>
-            <td style="padding:7px 8px;font-size:11px;font-weight:600;color:${i===0?'#f87171':i===1?'#93c5fd':'#86efac'};border-bottom:1px solid rgba(30,41,59,0.4)">${t.scenario}</td>
-            <td style="padding:7px 8px;font-size:13px;font-weight:800;font-family:var(--font-mono);color:${i===0?'#fca5a5':i===1?'#bfdbfe':'#bbf7d0'};text-align:right;border-bottom:1px solid rgba(30,41,59,0.4)">${t.price}</td>
-            <td style="padding:7px 8px;font-size:10px;font-family:var(--font-mono);color:var(--text-muted);text-align:right;border-bottom:1px solid rgba(30,41,59,0.4)">${t.ps}</td>
-            <td style="padding:7px 8px;font-size:10.5px;color:var(--text-muted);line-height:1.4;border-bottom:1px solid rgba(30,41,59,0.4)">${t.basis}</td>
+            <td style="padding:7px 8px;font-size:11px;font-weight:600;color:${i===0?'#f87171':i===1?'#93c5fd':'#86efac'};border-bottom:1px solid rgba(226,232,240,0.6)">${t.scenario}</td>
+            <td style="padding:7px 8px;font-size:13px;font-weight:800;font-family:var(--font-mono);color:${i===0?'#fca5a5':i===1?'#bfdbfe':'#bbf7d0'};text-align:right;border-bottom:1px solid rgba(226,232,240,0.6)">${t.price}</td>
+            <td style="padding:7px 8px;font-size:10px;font-family:var(--font-mono);color:var(--text-muted);text-align:right;border-bottom:1px solid rgba(226,232,240,0.6)">${t.ps}</td>
+            <td style="padding:7px 8px;font-size:10.5px;color:var(--text-muted);line-height:1.4;border-bottom:1px solid rgba(226,232,240,0.6)">${t.basis}</td>
           </tr>`).join('')}
         </tbody>
       </table>
     </div>
-    <div style="padding:8px 12px;background:rgba(30,41,59,0.3);border-radius:6px;font-size:10px;color:var(--text-muted);line-height:1.6">
+    <div style="padding:8px 12px;background:rgba(241,245,249,0.8);border-radius:6px;font-size:10px;color:var(--text-muted);line-height:1.6">
       <strong style="color:var(--text-secondary)">关键假设：</strong>${d.valuation.keyAssumptions.join(' · ')}
     </div>` : '';
 
@@ -3000,7 +3000,7 @@ function showPitch(key) {
                 <div class="sub-stat-sub">${c.sub}</div>
               </div>`).join('')}
           </div>
-          <div style="margin-top:10px;padding:8px 12px;background:rgba(30,41,59,0.4);border-radius:5px;font-size:9.5px;color:var(--text-muted);line-height:1.6">
+          <div style="margin-top:10px;padding:8px 12px;background:rgba(226,232,240,0.6);border-radius:5px;font-size:9.5px;color:var(--text-muted);line-height:1.6">
             📌 <strong style="color:var(--text-secondary)">数据来源说明：</strong>
             超购倍数 / 国际配售覆盖 / 定价位置 → 来自 <strong>HKEX配售结果公告（正式文件）</strong>。
             暗盘价 → 来自第三方平台（富途暗盘市场，非HKEX官方数据）。
