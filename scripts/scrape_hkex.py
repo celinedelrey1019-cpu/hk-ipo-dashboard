@@ -387,7 +387,7 @@ def call_claude_oauth(prompt: str) -> str | None:
         result = subprocess.run(
             ["claude", "-p", "--output-format", "text"],
             input=prompt,
-            capture_output=True, text=True, timeout=300,
+            capture_output=True, text=True, timeout=1200,
             env={**os.environ, "CLAUDE_CODE_OAUTH_TOKEN": token}
         )
         output = result.stdout.strip()
