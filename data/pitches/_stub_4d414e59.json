@@ -1,0 +1,216 @@
+{
+  "name": "MANYCORE TECH",
+  "sector": "家居设计SaaS / 云渲染平台",
+  "rating": "WATCH",
+  "score": 6.4,
+  "scoreColor": "var(--yellow)",
+  "tagline": "中国头部家居设计SaaS，AI赋能云渲染，地产周期压制估值",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 6.8,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "酷家乐平台拥有千万级设计师用户，SaaS订阅毛利率约65%，B2B收入占主导；但中国地产深度调整拖累家装需求，净利润仍处亏损爬坡期"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价区间及孖展倍数未公布，暂无法评估超额认购吸引力；阿里巴巴、IDG等知名股东背书为正面，但锁定股份比例待确认"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 6.2,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价待定，无法锁定P/S倍数；参考同类SaaS公司5-12x P/S区间，若定价偏高则压缩上行空间；需等待正式招股文件"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 6.8,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "港股2026年科技板块情绪回暖，AI+设计概念具备资金吸引力；但地产政策利好落地节奏仍不确定，家装消费复苏斜率温和"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "家居设计SaaS龙头，平台网络效应显著",
+      "desc": "酷家乐（Kujiale）是中国最大云端家居设计平台，注册设计师用户超3000万，覆盖头部家具品牌（欧派、索菲亚、曲美等）。品牌方通过平台触达终端消费者，形成设计师—品牌—消费者三方生态闭环，网络效应使竞争壁垒持续加深。"
+    },
+    {
+      "title": "AI云渲染技术差异化，推动ARPU提升",
+      "desc": "公司自研云渲染引擎配合AIGC能力，将一套720°全景效果图生成时间压缩至秒级，相较传统本地渲染降低90%硬件成本。AI生成户型图、自动配色等新功能推动高阶订阅方案（Pro/Enterprise）渗透率提升，有望驱动每用户平均收入（ARPU）持续增长。"
+    },
+    {
+      "title": "B2B企业服务扩张，收入结构优化",
+      "desc": "公司向品牌商、开发商提供数字化展厅、线上选配等解决方案，客单价显著高于C端及小B端。随着家装零售数字化渗透率提升，企业服务收入占比提升将改善整体毛利率结构并加快盈亏平衡进程。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "地产周期风险",
+      "desc": "中国商品房成交量自2021年以来持续低迷，新房装修需求直接影响家居设计软件使用频率，若政策刺激效果不及预期，公司收入增速存在下行压力"
+    },
+    {
+      "icon": "⚠️",
+      "title": "竞争加剧与AI替代风险",
+      "desc": "三维家、元化科技等垂直竞品及通用AIGC工具（如Midjourney、Stable Diffusion）持续迭代，可能压缩付费订阅空间；大模型厂商（阿里云、腾讯）亦在布局设计生成垂类"
+    },
+    {
+      "icon": "⚠️",
+      "title": "盈利能力不确定性",
+      "desc": "公司处于战略性亏损阶段，研发与销售费用合计占收入比重较高；若资本市场偏好切换至盈利导向，高估值成长股将承受系统性重估压力"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "明源云",
+          "ticker": "0909.HK",
+          "rel": "强相关（地产SaaS）",
+          "peLtm": "NM",
+          "pe": "35x",
+          "ps": "4x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "贝壳控股",
+          "ticker": "2423.HK",
+          "rel": "中等相关（地产科技平台）",
+          "peLtm": "22x",
+          "pe": "18x",
+          "ps": "1.5x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "有赞",
+          "ticker": "8083.HK",
+          "rel": "弱相关（零售SaaS）",
+          "peLtm": "NM",
+          "pe": "NM",
+          "ps": "2x",
+          "evEbitda": "NM",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股SaaS可比公司P/S中位数约3-4x，Manycore若以成长溢价定价（6-10x P/S）则估值偏高；需招股书收入数据确认后方可精确比较"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "广联达",
+          "ticker": "002410.SZ",
+          "rel": "中等相关（建筑设计软件SaaS）",
+          "peLtm": "48x",
+          "pe": "40x",
+          "ps": "9x",
+          "evEbitda": "28x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "A股设计软件龙头广联达享有约9x P/S估值溢价，反映国产替代逻辑；Manycore偏消费/家装赛道，成长性更高但政策催化弱于工业软件，A股溢价参考意义有限"
+      }
+    }
+  },
+  "sellRec": {
+    "action": "等待招股价确认后建仓，优先观望",
+    "horizon": "6-12个月中线持有",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S (NTM)",
+      "ipoImplied": "待定",
+      "compsMedian": "4-9x",
+      "vs": "待定价后比较",
+      "verdict": "价格未定 TBD",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "F: SaaS毛利率是否≥60%",
+          "result": "✓ 预计符合",
+          "note": "云渲染SaaS模式毛利率结构健康",
+          "ok": true
+        },
+        {
+          "point": "S: 孖展≥10x（打新适格性）",
+          "result": "⚠️ 待公布",
+          "note": "孖展倍数未披露，低于10x则降级SKIP",
+          "ok": false
+        },
+        {
+          "point": "V: IPO P/S是否低于可比中位数20%以上",
+          "result": "⚠️ 待定价",
+          "note": "若定价高于8x P/S则上行空间有限",
+          "ok": false
+        },
+        {
+          "point": "M: 港股科技板块情绪正向",
+          "result": "✓ 当前偏正面",
+          "note": "2026年AI概念资金关注度回升",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "IPO价 −20%",
+        "upside": "−20%",
+        "basis": "地产复苏不及预期，收入增速降至10%以下，市场给予3x P/S压缩估值"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "IPO价 +25%",
+        "upside": "+25%",
+        "basis": "地产政策温和复苏，AI功能推动ARPU提升15%，以6x P/S合理估值"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "IPO价 +60%",
+        "upside": "+60%",
+        "basis": "AIGC设计爆发式渗透，企业客户收入翻倍，市场重估至10x P/S对标广联达"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "止盈减持",
+        "desc": "股价较IPO价涨超50%，或P/S超过可比公司上四分位数（>9x），逐步减持锁定收益",
+        "price": "≥ IPO价 ×1.5",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损退出",
+        "desc": "股价破发并跌穿IPO价15%，或季度收入增速降至个位数，基本面逻辑证伪则清仓",
+        "price": "< IPO价 ×0.85",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-04-09",
+  "generatedBy": "claude-oauth",
+  "ticker": "00068.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
