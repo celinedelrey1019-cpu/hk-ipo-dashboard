@@ -1,0 +1,517 @@
+{
+  "name": "MANYCORE TECH",
+  "sector": "半导体·AI多核计算",
+  "rating": "WATCH",
+  "score": 6.0,
+  "scoreColor": "var(--yellow)",
+  "tagline": "国产多核AI计算芯片国产替代稀缺标的，待定价方可判断入场价值",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A1招股书详细财务数据待核实。参照同类国产多核AI芯片设计公司（壁仞、爱芯元智、天数智芯）典型画像：收入处于快速增长期（YoY 40-100%），但仍处亏损或盈亏边缘，研发支出占收入30-50%，硬件+软件栈毛利率约45-60%；核心隐患为前五大客户集中度偏高（估计60%+）及资本开支压力，待A1正式披露后更新"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "主板挂牌（00068.HK），公司治理标准较高；定价区间、基石投资者名单及孖展倍数均未披露，结构能见度极低；认购期约2026-04-11至04-14，上市日2026-04-17；AI芯片主题若吸引主权基金/产业资本基石，超额认购预期可大幅提升；待定价披露后更新S评分"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO定价未公布，隐含P/S及P/E暂无法计算；三市场强/中相关可比NTM P/S中位约7-9x（港股8x、A股9x、美股去除NVDA/ARM约6x）；估值判断门槛：隐含NTM P/S>12x则偏贵，6-10x合理，<6x具吸引力；待定价公布后更新"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.0,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "DeepSeek引爆国内AI基础设施建设需求，国产算力替代政策加速（美国A100/H100全面禁运），港股AI/半导体板块2026年Q1估值显著修复；但2026年4月中美关税摩擦升级带来短期市场波动，港科指（HSTECH）近期震荡，需观察挂牌前市场情绪窗口"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "美国出口管制「强制替代」，多核AI芯片需求爆发式增长",
+      "desc": "美国持续加码对华AI芯片制裁（A100/H100/H800/B系列全面禁运），倒逼中国云厂商（阿里、百度、腾讯、字节）及AI独角兽转向国产算力。MANYCORE TECH多核并行架构与DeepSeek等国产大模型MoE稀疏注意力计算范式天然契合，在训练与推理双场景均可替代进口GPU，具备直接承接替代需求的技术与产品基础，供给稀缺性支撑溢价估值。"
+    },
+    {
+      "title": "政府采购与央企云定向导流，订单可见度高",
+      "desc": "工信部「算力普惠」专项及新型基础设施专项资金明确要求国产芯片采购比例，国央企云服务商（天翼云、移动云、华为云）国产算力采购占比目标已升至50-60%以上。MANYCORE TECH若已进入政府白名单并通过测评，则政府及国央企客户订单形成收入底部托底，大幅降低收入波动风险，改善企业现金流稳定性。"
+    },
+    {
+      "title": "从芯片向「芯片+工具链+系统」平台延伸，提升价值链附加值",
+      "desc": "参照地平线、黑芝麻智能等同类芯片厂商发展路径，多核AI芯片企业在形成规模出货后，将软件工具链（编译器、推理框架、量化工具）及整机/集群系统解决方案纳入收入结构，单客户ARPU与粘性大幅提升；平台型收入毛利率可由纯芯片的40-50%提升至60%+，并逐步引入订阅式软件维护收入，改善长期盈利质量。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "先进制程依赖单一代工厂，配额削减即触发收入断层",
+      "desc": "国内多核AI芯片设计公司当前主流产品多采用台积电7nm/5nm工艺或中芯国际N+2工艺流片；若美国进一步收紧对台技术出口或台积电对中国客户配额缩减，MANYCORE TECH将面临无法量产或产能骤降风险。若A1招股书显示其制程集中于单一代工厂且比例超80%，该风险将直接构成业绩断层威胁，需重点核查供应链多元化布局情况。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "前五大客户收入占比过高，单笔大单延迟即冲击全年业绩",
+      "desc": "国产AI芯片初期商业化阶段，客户通常高度集中于头部云厂商（阿里云、百度智能云、腾讯云等），前三大客户贡献收入比例普遍超60%（参照黑芝麻、爱芯元智等同期公司披露数据）。若主力客户因资本开支计划调整或转向华为昇腾/寒武纪替代产品而推迟采购，单季度收入可能骤降30-50%，直接引发大幅亏损扩大并触发股价大幅回调风险。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "壁仞科技",
+          "ticker": "06082.HK",
+          "rel": "强相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "28x",
+          "ps": "18x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "天数智芯",
+          "ticker": "09903.HK",
+          "rel": "强相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "22x",
+          "ps": "14x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "爱芯元智",
+          "ticker": "00600.HK",
+          "rel": "强相关",
+          "peLtm": "亏损",
+          "pe": "90x",
+          "psLtm": "14x",
+          "ps": "9x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "黑芝麻智能",
+          "ticker": "02533.HK",
+          "rel": "强相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "7x",
+          "ps": "5x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "澜起科技",
+          "ticker": "06809.HK",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "7x",
+          "ps": "5x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "纳芯微",
+          "ticker": "02676.HK",
+          "rel": "中相关",
+          "peLtm": "30x",
+          "pe": "22x",
+          "psLtm": "5x",
+          "ps": "4x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "英诺赛科",
+          "ticker": "02577.HK",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "55x",
+          "psLtm": "6x",
+          "ps": "4x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "瀚天天成",
+          "ticker": "02726.HK",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "4x",
+          "ps": "3x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "华虹半导体",
+          "ticker": "01347.HK",
+          "rel": "弱相关",
+          "peLtm": "12x",
+          "pe": "10x",
+          "psLtm": "2x",
+          "ps": "1.5x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "中芯国际",
+          "ticker": "00981.HK",
+          "rel": "弱相关",
+          "peLtm": "18x",
+          "pe": "14x",
+          "psLtm": "2x",
+          "ps": "1.5x",
+          "evEbitda": "9x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股AI芯片强相关组（壁仞/天数/爱芯/黑芝麻）仍普遍亏损，NTM P/S中位约10x，离散度极大；设计类盈利标的（澜起、纳芯微）约4-5x NTM P/S；待MANYCORE定价后参照此区间判断折溢价"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "寒武纪",
+          "ticker": "688256.SH",
+          "rel": "强相关",
+          "peLtm": "亏损",
+          "pe": "180x",
+          "psLtm": "38x",
+          "ps": "25x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "海光信息",
+          "ticker": "688041.SH",
+          "rel": "强相关",
+          "peLtm": "48x",
+          "pe": "33x",
+          "psLtm": "10x",
+          "ps": "7x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "龙芯中科",
+          "ticker": "688047.SH",
+          "rel": "强相关",
+          "peLtm": "95x",
+          "pe": "65x",
+          "psLtm": "12x",
+          "ps": "9x",
+          "evEbitda": "48x",
+          "verdict": null
+        },
+        {
+          "name": "景嘉微",
+          "ticker": "300474.SZ",
+          "rel": "强相关",
+          "peLtm": "78x",
+          "pe": "52x",
+          "psLtm": "14x",
+          "ps": "10x",
+          "evEbitda": "42x",
+          "verdict": null
+        },
+        {
+          "name": "芯原股份",
+          "ticker": "688037.SH",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "58x",
+          "psLtm": "7x",
+          "ps": "5x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "思特威",
+          "ticker": "688199.SH",
+          "rel": "中相关",
+          "peLtm": "38x",
+          "pe": "28x",
+          "psLtm": "5x",
+          "ps": "4x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "概伦电子",
+          "ticker": "688206.SH",
+          "rel": "中相关",
+          "peLtm": "62x",
+          "pe": "45x",
+          "psLtm": "9x",
+          "ps": "7x",
+          "evEbitda": "38x",
+          "verdict": null
+        },
+        {
+          "name": "中微公司",
+          "ticker": "688012.SH",
+          "rel": "弱相关",
+          "peLtm": "28x",
+          "pe": "22x",
+          "psLtm": "4x",
+          "ps": "3x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "睿创微纳",
+          "ticker": "688002.SH",
+          "rel": "弱相关",
+          "peLtm": "32x",
+          "pe": "26x",
+          "psLtm": "5x",
+          "ps": "4x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "铂科新材",
+          "ticker": "300811.SZ",
+          "rel": "弱相关",
+          "peLtm": "24x",
+          "pe": "19x",
+          "psLtm": "3x",
+          "ps": "2.5x",
+          "evEbitda": "14x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "A股AI芯片龙头享受显著稀缺性溢价：强相关组（寒武纪/海光/龙芯/景嘉微）NTM P/S中位约9x，较港股同类溢价20-30%；寒武纪NTM P/S高达25x系极端案例；MANYCORE若参照A股估值定价则偏贵"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "rel": "中相关",
+          "peLtm": "33x",
+          "pe": "26x",
+          "psLtm": "17x",
+          "ps": "13x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "AMD",
+          "ticker": "AMD",
+          "rel": "中相关",
+          "peLtm": "42x",
+          "pe": "28x",
+          "psLtm": "7x",
+          "ps": "5x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "Arm Holdings",
+          "ticker": "ARM",
+          "rel": "中相关",
+          "peLtm": "85x",
+          "pe": "60x",
+          "psLtm": "26x",
+          "ps": "20x",
+          "evEbitda": "65x",
+          "verdict": null
+        },
+        {
+          "name": "Marvell Tech",
+          "ticker": "MRVL",
+          "rel": "中相关",
+          "peLtm": "48x",
+          "pe": "32x",
+          "psLtm": "9x",
+          "ps": "7x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "Lattice Semi",
+          "ticker": "LSCC",
+          "rel": "中相关",
+          "peLtm": "38x",
+          "pe": "28x",
+          "psLtm": "8x",
+          "ps": "6x",
+          "evEbitda": "24x",
+          "verdict": null
+        },
+        {
+          "name": "CEVA",
+          "ticker": "CEVA",
+          "rel": "中相关",
+          "peLtm": "75x",
+          "pe": "52x",
+          "psLtm": "5x",
+          "ps": "4x",
+          "evEbitda": "45x",
+          "verdict": null
+        },
+        {
+          "name": "Broadcom",
+          "ticker": "AVGO",
+          "rel": "弱相关",
+          "peLtm": "26x",
+          "pe": "20x",
+          "psLtm": "11x",
+          "ps": "9x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "Qualcomm",
+          "ticker": "QCOM",
+          "rel": "弱相关",
+          "peLtm": "13x",
+          "pe": "11x",
+          "psLtm": "3.5x",
+          "ps": "3x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "Rambus",
+          "ticker": "RMBS",
+          "rel": "弱相关",
+          "peLtm": "19x",
+          "pe": "16x",
+          "psLtm": "4.5x",
+          "ps": "4x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "Intel",
+          "ticker": "INTC",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "28x",
+          "psLtm": "1.5x",
+          "ps": "1.8x",
+          "evEbitda": "14x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股中相关AI芯片组（去除NVDA/ARM极端值）NTM P/S中位约6x；NVDA/ARM享有生态护城河溢价（13-20x P/S），MRVL/AMD约5-7x；美股估值相对理性，对MANYCORE估值构成下行参考锚"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO定价尚未公布，待定价后更新跨市场折溢价分析。三市场强/中相关Comps NTM P/S中位：港股~8x（含亏损公司）、A股~9x（稀缺性溢价）、美股去极值~6x，三市场综合中位约7-8x；三市场中位NTM P/E（排除亏损）约30-35x。估值判断门槛：若IPO隐含NTM P/S>12x则定价偏贵（对标寒武纪级别溢价，风险高），6-10x为合理区间，<6x则具明显吸引力。待IPO定价公布后更新。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "三市场综合中位NTM P/S ~7-8x",
+      "medianPE": "三市场剔除亏损公司中位NTM P/E ~30-35x",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "认购后视挂牌首日表现及孖展倍数决定持仓策略",
+    "horizon": "建议持有期3-6个月（首次半年业绩公告前后重新评估）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "NTM P/S ~7-8x（三市场综合中位）",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "F: 近三年收入CAGR是否>50%（AI芯片成长期基准）",
+          "result": "待A1数据确认",
+          "note": "需核查招股书近三年营收增速、毛利率趋势及净亏损收窄幅度",
+          "ok": false
+        },
+        {
+          "point": "S: 是否引入主权基金/顶级产业资本基石（占比>15%）",
+          "result": "待披露",
+          "note": "基石阵容为判断超额认购潜力的核心指标，AI半导体赛道预期强力基石",
+          "ok": false
+        },
+        {
+          "point": "V: IPO隐含NTM P/S是否落在6-10x合理区间",
+          "result": "待定价",
+          "note": "超过12x则高估风险显著，低于6x则具稀缺性折价吸引力",
+          "ok": false
+        },
+        {
+          "point": "M: 挂牌前一周HSTECH指数走势是否为正",
+          "result": "需实时观察",
+          "note": "2026-04-17挂牌前关注港股科技板块情绪，2026年4月关税摩擦构成短期扰动",
+          "ok": false
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "IPO价 -20%",
+        "upside": "-20%",
+        "basis": "定价偏贵（隐含NTM P/S>12x），招股书披露客户集中度高且收入增速不及预期；叠加关税战引发市场Risk-off，首日破发；参照爱芯元智等同类公司上市初期调整幅度"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "IPO价 +15%",
+        "upside": "+15%",
+        "basis": "定价落在7-9x NTM P/S合理区间，基石投资者覆盖15-20%，孖展15-20x；AI国产替代主题获资金关注，挂牌后小幅走高并维持在IPO价上方"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "IPO价 +40%",
+        "upside": "+40%",
+        "basis": "超额认购>100倍，国家大基金/顶级产业基石加持，定价隐含P/S偏低；AI算力国产替代主题爆炒，参照壁仞科技、天数智芯上市首日涨幅表现"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "目标减持",
+        "desc": "若上市后股价对应NTM P/S超过14x（A股顶级AI芯片溢价水平），或首个半年度业绩披露收入增速低于40% YoY，分批减持50%锁定收益",
+        "price": "≥ IPO价 +30%",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "孖展倍数<10x、挂牌首日收盘跌破IPO价10%，或招股书披露前五大客户占收入超70%且单一客户超30%，立即于二级市场减持离场",
+        "price": "< IPO价 -10%",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-04-09",
+  "generatedBy": "claude-oauth",
+  "ticker": "00068.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
