@@ -1,44 +1,6 @@
 {
-  "lastUpdated": "2026-04-14",
+  "lastUpdated": "2026-04-15",
   "activeSubscription": [
-    {
-      "key": "_stub_4d414e59",
-      "name": "MANYCORE TECH",
-      "ticker": "00068.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-04-17",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-04-14"
-    },
-    {
-      "key": "_stub_e995b7e5",
-      "name": "長光辰芯",
-      "ticker": "03277.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-04-17",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-04-14"
-    },
     {
       "key": "_stub_e58b9de5",
       "name": "勝宏科技",
@@ -54,9 +16,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後截止",
+      "statusLabel": "明午截止",
       "source": "etnet",
-      "sourceDate": "2026-04-14"
+      "sourceDate": "2026-04-15"
+    },
+    {
+      "key": "_stub_e88fafe5",
+      "name": "華勤技術",
+      "ticker": "03296.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "subscribe",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-04-23",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "5日後截止",
+      "source": "etnet",
+      "sourceDate": "2026-04-15"
     }
   ],
   "hearingPassed": [
@@ -75,9 +56,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-04-14"
+      "sourceDate": "2026-04-15"
     },
     {
       "key": "_stub_e5afa7e5",
@@ -94,9 +75,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-04-14"
+      "sourceDate": "2026-04-15"
     },
     {
       "key": "_stub_e9889ee9",
@@ -115,7 +96,26 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-04-14"
+      "sourceDate": "2026-04-15"
+    },
+    {
+      "key": "_stub_e5b08fe8",
+      "name": "小菜園",
+      "ticker": "00999.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2024-12-20",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "7日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-04-15"
     },
     {
       "key": "_stub_e694bfe5",
@@ -134,7 +134,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-04-14"
+      "sourceDate": "2026-04-15"
     }
   ],
   "archived": [
@@ -1585,6 +1585,20 @@
       "name": "ＥＤＡ集團控股",
       "ticker": "02505.HK",
       "listingDate": "2024-05-28",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_4d414e59",
+      "name": "MANYCORE TECH",
+      "ticker": "00068.HK",
+      "listingDate": "2026-04-17",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e995b7e5",
+      "name": "長光辰芯",
+      "ticker": "03277.HK",
+      "listingDate": "2026-04-17",
       "result": "待更新"
     }
   ]
