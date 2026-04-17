@@ -1,25 +1,6 @@
 {
-  "lastUpdated": "2026-04-16",
+  "lastUpdated": "2026-04-17",
   "activeSubscription": [
-    {
-      "key": "_stub_e58b9de5",
-      "name": "勝宏科技",
-      "ticker": "02476.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-04-21",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-04-16"
-    },
     {
       "key": "_stub_e88fafe5",
       "name": "華勤技術",
@@ -35,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後截止",
+      "statusLabel": "3日後截止",
       "source": "etnet",
-      "sourceDate": "2026-04-16"
+      "sourceDate": "2026-04-17"
     }
   ],
   "hearingPassed": [
@@ -58,7 +39,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-04-16"
+      "sourceDate": "2026-04-17"
     },
     {
       "key": "_stub_e5afa7e5",
@@ -77,7 +58,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-04-16"
+      "sourceDate": "2026-04-17"
     },
     {
       "key": "_stub_e9889ee9",
@@ -96,7 +77,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-04-16"
+      "sourceDate": "2026-04-17"
     },
     {
       "key": "_stub_e5b08fe8",
@@ -113,9 +94,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-04-16"
+      "sourceDate": "2026-04-17"
     },
     {
       "key": "_stub_e694bfe5",
@@ -134,7 +115,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-04-16"
+      "sourceDate": "2026-04-17"
     }
   ],
   "archived": [
@@ -1599,6 +1580,13 @@
       "name": "長光辰芯",
       "ticker": "03277.HK",
       "listingDate": "2026-04-17",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e58b9de5",
+      "name": "勝宏科技",
+      "ticker": "02476.HK",
+      "listingDate": "2026-04-21",
       "result": "待更新"
     }
   ]
