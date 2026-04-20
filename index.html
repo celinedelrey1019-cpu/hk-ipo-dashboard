@@ -99,6 +99,23 @@
 
   .ipo-list { overflow-y: auto; flex: 1; }
 
+  .strategy-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 10px;
+    padding: 10px 12px;
+    background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .strategy-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(37,99,235,0.3); }
+  .strategy-btn-icon { font-size: 18px; }
+  .strategy-btn-title { font-size: 11px; font-weight: 700; color: #ffffff; }
+  .strategy-btn-sub { font-size: 9px; color: rgba(255,255,255,0.7); margin-top: 1px; }
+  .strategy-btn-arrow { font-size: 18px; color: rgba(255,255,255,0.5); margin-left: auto; }
+
   .ipo-item {
     padding: 10px 16px;
     cursor: pointer;
@@ -1356,6 +1373,16 @@
   <div class="section-label" id="ipoSectionLabel">可申购 / 即将招股</div>
   <div class="ipo-list" id="ipoList">
 
+    <!-- ══ 申购建议按钮 ══ -->
+    <div class="strategy-btn" onclick="showStrategy()">
+      <div class="strategy-btn-icon">📊</div>
+      <div class="strategy-btn-text">
+        <div class="strategy-btn-title">现阶段最优申购建议</div>
+        <div class="strategy-btn-sub">综合对比所有招股中标的 · 资金分配策略</div>
+      </div>
+      <div class="strategy-btn-arrow">›</div>
+    </div>
+
     <!-- ══ 招股中（自动更新区域） ══ -->
     <div class="sidebar-mini-label">📋 招股中</div>
     <!-- AUTO:SUBSCRIBE:BEGIN -->
@@ -2389,6 +2416,174 @@ function renderCompsTable(compsData) {
     </div>`;
 }
 
+function showStrategy() {
+  // 清除 sidebar 选中态
+  document.querySelectorAll('.ipo-item').forEach(el => el.classList.remove('active'));
+
+  // 收集所有招股中的 pitch 数据
+  const subItems = document.querySelectorAll('[data-phase="subscribe"]');
+  const subs = [];
+  subItems.forEach(el => {
+    const onclick = el.getAttribute('onclick') || '';
+    const match = onclick.match(/showPitch\('([^']+)'\)/);
+    if (match && pitches[match[1]]) {
+      subs.push({ key: match[1], ...pitches[match[1]] });
+    }
+  });
+
+  if (subs.length === 0) {
+    document.getElementById('pitchContainer').innerHTML = `
+      <div style="padding:60px 32px;text-align:center;color:var(--text-muted)">
+        <div style="font-size:40px;margin-bottom:16px">📭</div>
+        <div style="font-size:16px;font-weight:700;color:var(--text-primary);margin-bottom:8px">当前无正在招股的标的</div>
+        <div style="font-size:12px">下一批新股开始招股后，系统将自动生成申购建议</div>
+      </div>`;
+    return;
+  }
+
+  // 按分数排序
+  subs.sort((a, b) => (b.score || 0) - (a.score || 0));
+
+  // 生成对比表
+  const compRows = subs.map((s, i) => {
+    const rClass = s.rating === 'BUY' ? 'color:var(--green);font-weight:800' : s.rating === 'WATCH' ? 'color:var(--yellow);font-weight:800' : 'color:var(--red);font-weight:800';
+    const scoreF = s.scorecard ? s.scorecard.find(x => x.label.includes('F'))?.score || '—' : '—';
+    const scoreS = s.scorecard ? s.scorecard.find(x => x.label.includes('S'))?.score || '—' : '—';
+    const scoreV = s.scorecard ? s.scorecard.find(x => x.label.includes('V'))?.score || '—' : '—';
+    const scoreM = s.scorecard ? s.scorecard.find(x => x.label.includes('M'))?.score || '—' : '—';
+    const rank = i === 0 ? '🥇' : i === 1 ? '🥈' : i === 2 ? '🥉' : `${i+1}`;
+    return `<tr style="cursor:pointer" onclick="showPitch('${s.key}')">
+      <td style="padding:10px 12px;font-weight:700;font-size:16px;text-align:center">${rank}</td>
+      <td style="padding:10px 12px"><div style="font-weight:700;font-size:12px">${s.name}</div><div style="font-size:10px;color:var(--text-muted);font-family:var(--font-mono)">${s.ticker || 'TBD'}</div></td>
+      <td style="padding:10px 12px;text-align:center;${rClass}">${s.rating || '—'}</td>
+      <td style="padding:10px 12px;text-align:center;font-weight:800;font-family:var(--font-mono);font-size:15px">${typeof s.score === 'number' ? s.score.toFixed(1) : '—'}</td>
+      <td style="padding:10px 12px;text-align:center;font-family:var(--font-mono);font-size:11px">${scoreF}</td>
+      <td style="padding:10px 12px;text-align:center;font-family:var(--font-mono);font-size:11px">${scoreS}</td>
+      <td style="padding:10px 12px;text-align:center;font-family:var(--font-mono);font-size:11px">${scoreV}</td>
+      <td style="padding:10px 12px;text-align:center;font-family:var(--font-mono);font-size:11px">${scoreM}</td>
+    </tr>`;
+  }).join('');
+
+  // 生成逐只分析卡片
+  const cardHtml = subs.map(s => {
+    const borderColor = s.rating === 'BUY' ? 'var(--green)' : s.rating === 'WATCH' ? 'var(--yellow)' : 'var(--red)';
+    const tagline = s.tagline || '';
+    const thesis1 = s.thesis && s.thesis[0] ? s.thesis[0].title : '';
+    const risk1 = s.keyRisks && s.keyRisks[0] ? s.keyRisks[0].title : '';
+    const cmv = s.comps && s.comps.crossMarketVerdict;
+    const verdict = cmv ? cmv.text : '';
+    const sellAction = s.sellRec ? s.sellRec.action : '';
+
+    return `
+    <div style="background:var(--bg-card);border:1px solid var(--border);border-left:3px solid ${borderColor};border-radius:8px;padding:16px 18px;cursor:pointer" onclick="showPitch('${s.key}')">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+        <div>
+          <span style="font-size:14px;font-weight:800">${s.name}</span>
+          <span style="font-size:11px;color:var(--text-muted);font-family:var(--font-mono);margin-left:8px">${s.ticker || 'TBD'}</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:8px">
+          <span style="font-size:11px;font-weight:700;color:${borderColor}">${s.rating}</span>
+          <span style="font-size:16px;font-weight:800;font-family:var(--font-mono)">${typeof s.score === 'number' ? s.score.toFixed(1) : '—'}</span>
+        </div>
+      </div>
+      <div style="font-size:11px;color:var(--text-secondary);margin-bottom:10px;line-height:1.5">${tagline}</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;font-size:10px">
+        <div style="padding:6px 8px;background:var(--bg-hover);border-radius:4px"><span style="color:var(--text-muted)">核心逻辑:</span> <span style="color:var(--text-primary)">${thesis1}</span></div>
+        <div style="padding:6px 8px;background:var(--bg-hover);border-radius:4px"><span style="color:var(--text-muted)">主要风险:</span> <span style="color:var(--text-primary)">${risk1}</span></div>
+      </div>
+      ${verdict ? `<div style="margin-top:8px;font-size:10px;color:var(--text-muted);padding:6px 8px;background:var(--bg-hover);border-radius:4px"><span style="color:var(--text-muted)">跨市场估值:</span> ${verdict.substring(0, 80)}${verdict.length > 80 ? '...' : ''}</div>` : ''}
+      ${sellAction ? `<div style="margin-top:6px;font-size:10px;color:var(--accent-blue);font-weight:600">→ ${sellAction}</div>` : ''}
+    </div>`;
+  }).join('');
+
+  // 生成申购策略建议
+  const bestPick = subs[0];
+  const hasBuy = subs.some(s => s.rating === 'BUY');
+  const allWatch = subs.every(s => s.rating === 'WATCH');
+
+  let strategyText = '';
+  if (hasBuy) {
+    const buys = subs.filter(s => s.rating === 'BUY');
+    strategyText = `<strong style="color:var(--green)">建议重点申购:</strong> ${buys.map(b => b.name).join('、')}。评分均≥7.0，基本面和结构信号积极。剩余资金可考虑小仓参与其他 WATCH 标的。`;
+  } else if (allWatch) {
+    strategyText = `<strong style="color:var(--yellow)">本轮全部为 WATCH 评级</strong>，无明确 BUY 信号。建议策略：
+    <br>① 若资金有限 → 优先配置评分最高的 <strong>${bestPick.name}（${typeof bestPick.score === 'number' ? bestPick.score.toFixed(1) : '—'}分）</strong>
+    <br>② 若资金充裕 → 可分散小仓申购多只，降低单标的风险
+    <br>③ 等待 IPO 定价公布后，根据隐含估值 vs Comps 折溢价再做最终决策`;
+  } else {
+    strategyText = `优先申购评分最高的 <strong>${bestPick.name}</strong>，回避 SKIP 标的。`;
+  }
+
+  const container = document.getElementById('pitchContainer');
+  container.innerHTML = `
+    <div class="pitch-header" style="background:linear-gradient(135deg, #1e40af 0%, #7c3aed 100%)">
+      <div class="pitch-header-top">
+        <div class="pitch-company-block">
+          <div class="pitch-ticker-row">
+            <span class="pitch-ticker">策略分析</span>
+            <span class="pitch-ticker">${subs.length} 只招股中</span>
+          </div>
+          <div class="pitch-company-name">现阶段最优申购建议</div>
+          <div class="pitch-tagline">综合对比所有招股中标的，分析资金分配与申购优先级</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pitch-body">
+      <!-- 策略建议 -->
+      <div class="pitch-section full-width">
+        <div class="section-head">
+          <div class="section-icon" style="background:rgba(37,99,235,0.1);color:var(--accent-blue)">🎯</div>
+          <div class="section-title">申购策略建议</div>
+        </div>
+        <div class="section-body">
+          <div style="font-size:12px;line-height:1.8;color:var(--text-secondary);padding:4px 0">${strategyText}</div>
+        </div>
+      </div>
+
+      <!-- 对比表 -->
+      <div class="pitch-section full-width">
+        <div class="section-head">
+          <div class="section-icon" style="background:rgba(37,99,235,0.1);color:var(--accent-blue)">📊</div>
+          <div class="section-title">评分对比排名</div>
+        </div>
+        <div class="section-body" style="padding:0">
+          <table style="width:100%;border-collapse:collapse;font-size:12px">
+            <thead><tr style="border-bottom:2px solid var(--border)">
+              <th style="padding:8px 12px;font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px">排名</th>
+              <th style="padding:8px 12px;font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;text-align:left">公司</th>
+              <th style="padding:8px 12px;font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px">评级</th>
+              <th style="padding:8px 12px;font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px">总分</th>
+              <th style="padding:8px 12px;font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px">F 基本面</th>
+              <th style="padding:8px 12px;font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px">S 结构</th>
+              <th style="padding:8px 12px;font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px">V 估值</th>
+              <th style="padding:8px 12px;font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px">M 时机</th>
+            </tr></thead>
+            <tbody>${compRows}</tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 逐只分析 -->
+      <div class="pitch-section full-width">
+        <div class="section-head">
+          <div class="section-icon" style="background:rgba(37,99,235,0.1);color:var(--accent-blue)">📋</div>
+          <div class="section-title">逐只概览（点击查看详细 Pitch）</div>
+        </div>
+        <div class="section-body">
+          <div style="display:flex;flex-direction:column;gap:10px">${cardHtml}</div>
+        </div>
+      </div>
+
+      <!-- 风险提示 -->
+      <div class="pitch-section" style="border:1px solid var(--border)">
+        <div class="section-body" style="text-align:center;padding:16px;font-size:11px;color:var(--text-muted)">
+          ⚠️ 以上建议由 AI 自动生成，仅供参考，不构成投资建议。申购前请阅读完整招股书并评估自身风险承受能力。
+        </div>
+      </div>
+    </div>`;
+}
+
 function renderAutoPitch(key, d, container) {
   const ratingClass = d.rating==='BUY'?'rating-buy':d.rating==='WATCH'?'rating-watch':'rating-skip';
   const scoreColor = d.scoreColor || (d.rating==='BUY'?'var(--green)':d.rating==='WATCH'?'var(--yellow)':'var(--red)');
@@ -3227,11 +3422,8 @@ document.addEventListener('DOMContentLoaded', async () => {
   // 加载动态生成的 pitch 数据
   await loadDynamicPitches();
 
-  // Show the most recent featured pitch
-  showPitch('huayan');
-  // Mark the huayan item in archive as active
-  const huayanEl = document.querySelector('[onclick*="showPitch(\'huayan\')"]');
-  if (huayanEl) huayanEl.classList.add('active');
+  // 默认显示申购策略总览
+  showStrategy();
 });
 </script>
 </body>
