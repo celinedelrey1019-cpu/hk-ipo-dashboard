@@ -1,0 +1,523 @@
+{
+  "name": "曦智科技－Ｐ",
+  "sector": "光子计算·AI算力芯片（Chapter 18C专特科技）",
+  "rating": "WATCH",
+  "score": 5.1,
+  "scoreColor": "var(--yellow)",
+  "tagline": "光子算力革命者，AI推理能效护城河待商业化验证",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 3.8,
+      "max": 10,
+      "color": "var(--red)",
+      "note": "光子计算芯片（硅基光子AI加速器）仍处于商业化早期，A1文件显示2024年收入规模极小（主要来自政府研究合同及少数Tier-1云厂商POC项目），营业亏损巨大，研发支出占收入比预估超500%；光子矩阵乘法理论吞吐量（TOPS/W）优于GPU，但大规模集成制造良率与温漂补偿问题尚未彻底工程化解决；毛利率结构不稳定，依赖IP授权/软件层提升混合毛利；PACE系列光子处理器在推理加速场景具备独特能效优势，但大规模商业交付案例极为有限，属典型18C「未商业化专特科技公司」"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "以Chapter 18C（专特科技公司）机制上市，A1阶段定价区间、孖展倍数及基石投资者名单均未披露，结构能见度极低；创始团队背景强势（MIT系，Yichen Shen博士主导，百度风投、中信资本等参与历史融资轮）；-P标识确认公司符合「未商业化专特科技公司」条款，主要吸引机构配售，散户参与度受限；18C历史案例（壁仞、天数）定价折让空间较大，若基石名单含国家大基金或头部算力客户将大幅提升结构评级"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 4.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO定价尚未公布，无法量化折溢价；光子计算公司在全球无纯正上市可比标的，需跨资产类别定价；参考HK同类18C AI芯片（壁仞、天数）及A股寒武纪（688256.SH历史P/S约28-40x）定价逻辑，光子计算相较传统电子芯片具有更大技术不确定性，合理估值应在AI芯片基准上折价20-30%；若按预估2025E收入约RMB 5,000万测算，10x P/S对应HK市值约54亿HKD，25x对应135亿HKD，估值弹性极大但下行风险同样显著"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.5,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "2026年全球AI算力军备赛热度持续，DeepSeek引发算力效率讨论令光子计算「低功耗AI推理」叙事高度契合；港股新经济/18C IPO情绪回暖，AI芯片赛道享有显著主题溢价；中国算力自主可控战略背景下，光子AI芯片作为「后摩尔定律」替代路线获政策关注；贸易摩擦收紧先进制程进口管制，间接提升光子路线（对光刻节点要求相对宽松）的替代价值叙事；但全球光子计算商业落地仍早，时机偏情绪主导而非基本面驱动"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "后摩尔时代唯一路径：光子AI推理能效10-100x优势",
+      "desc": "传统电子芯片正接近物理极限（3nm以下制程功耗墙），而光子矩阵乘法（Photonic Matrix Multiplication）以光速处理矩阵运算，理论能效较GPU高出10-100倍。曦智科技PACE系列芯片在大语言模型推理批处理场景中，每瓦算力（TOPS/W）优势尤为显著——当DeepSeek类推理集群成为AI基础设施核心，功耗成本成为云厂商首要运营成本时，光子推理加速器具有结构性需求支撑。大型云计算客户数据中心功耗承诺使其具备明确付费动机"
+    },
+    {
+      "title": "港股18C稀缺标的：全球无纯正上市光子AI芯片公司",
+      "desc": "当前全球无任何纯正光子计算芯片公司上市：Lightmatter（美国，估值约$4.4B，私有）、Luminous Computing（美国，私有）均未公开上市，曦智科技若成功于港股挂牌，将成为全球首家上市的硅基光子AI芯片公司。港股18C框架为其提供制度创新空间，全球AI主题基金缺乏等量替代标的，稀缺性溢价可期。叠加未来A股科创板二次上市的期权价值，具有长期期权性"
+    },
+    {
+      "title": "硅基光子制造「低节点」优势：先进制程卡脖子风险天然免疫",
+      "desc": "硅基光子集成电路对光刻节点要求远低于传统GPU（主要工艺在130-300nm级别，而NVIDIA Blackwell需3nm），晶圆代工合作方可使用中芯国际成熟制程完成大部分光学层工艺，从根本上规避美国先进制程出口管制核心风险。这在同类国产AI芯片公司中具有独特供应链安全优势，有望吸引国资背景战略投资者参与基石配售，在中美科技摩擦持续背景下形成明显政策免疫性"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "光子芯片量产良率与温漂补偿未解，商业化时间表存在2-3年延后风险",
+      "desc": "硅基光子集成电路面临三大工程挑战：①波导刻蚀精度导致插入损耗随规模扩大显著增加，影响计算精度；②MZI调制器的热漂移（Thermal Drift）在数据中心55-75°C环境下须持续电补偿，抵消部分能效优势；③光电混合封装（Co-packaged Optics）良率远低于纯电子芯片。若A1招股书披露2024年实际客户交付量仍为样片级别（单季度<100片），则直接验证公司仍处于工程样片阶段而非量产阶段，核心投资叙事的商业验证时间轴将大幅延后"
+    },
+    {
+      "icon": "⚠️",
+      "title": "NVIDIA光子互联战略（NVLink Optical）压制，客户迁移成本高阻碍独立替代",
+      "desc": "NVIDIA已宣布将光子互联技术整合至下一代AI平台（NVLink Optical），并与Ayar Labs、Celestial AI深度合作。数据中心客户采用「GPU+光子互联」混合架构，将优先选择兼容CUDA生态方案，而非全栈替换为独立光子AI加速器。曦智科技全光子矩阵计算路线面临严峻的客户CUDA迁移成本，可能导致云厂商倾向「等待NVIDIA光子版本」而非现在采购，首批付费客户拓展周期超预期将直接压制收入增长"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "壁仞科技",
+          "ticker": "06082.HK",
+          "rel": "强相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "NM",
+          "ps": "NM",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "天數智芯",
+          "ticker": "09903.HK",
+          "rel": "强相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "NM",
+          "ps": "NM",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "愛芯元智",
+          "ticker": "00600.HK",
+          "rel": "强相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "NM",
+          "ps": "NM",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "地平線機器人-W",
+          "ticker": "09660.HK",
+          "rel": "中相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "18.0x",
+          "ps": "13.5x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "黑芝麻智能",
+          "ticker": "02533.HK",
+          "rel": "中相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "12.0x",
+          "ps": "8.5x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "瀾起科技",
+          "ticker": "06809.HK",
+          "rel": "中相关",
+          "peLtm": "28x",
+          "pe": "22x",
+          "psLtm": "6.5x",
+          "ps": "5.0x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "長光辰芯",
+          "ticker": "03277.HK",
+          "rel": "中相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "NM",
+          "ps": "NM",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "思特威SmartSens",
+          "ticker": "02579.HK",
+          "rel": "弱相关",
+          "peLtm": "45x",
+          "pe": "32x",
+          "psLtm": "5.5x",
+          "ps": "4.2x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "中芯國際",
+          "ticker": "00981.HK",
+          "rel": "弱相关",
+          "peLtm": "38x",
+          "pe": "28x",
+          "psLtm": "2.3x",
+          "ps": "2.0x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "華虹半導體",
+          "ticker": "01347.HK",
+          "rel": "弱相关",
+          "peLtm": "NM",
+          "pe": "50x",
+          "psLtm": "1.4x",
+          "ps": "1.3x",
+          "evEbitda": "18x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股AI芯片18C标的（壁仞、天数、爱芯）均处于无营收/极早期营收阶段，P/E和P/S无实质意义；有实际收入的同赛道参照地平線（NTM P/S ~13.5x）和黑芝麻（~8.5x）；全样本中有意义可比NTM P/S中位约4.6x（含成熟半导体），光子AI推理公司定价应锚定地平線等18C标的为参考上限"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "寒武紀",
+          "ticker": "688256.SH",
+          "rel": "强相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "40.0x",
+          "ps": "28.0x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "海光信息",
+          "ticker": "688041.SH",
+          "rel": "强相关",
+          "peLtm": "48x",
+          "pe": "38x",
+          "psLtm": "10.5x",
+          "ps": "8.5x",
+          "evEbitda": "32x",
+          "verdict": null
+        },
+        {
+          "name": "龍芯中科",
+          "ticker": "688047.SH",
+          "rel": "中相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "15.0x",
+          "ps": "11.0x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "芯原股份",
+          "ticker": "688521.SH",
+          "rel": "中相关",
+          "peLtm": "NM",
+          "pe": "65x",
+          "psLtm": "8.0x",
+          "ps": "6.5x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "瀾起科技",
+          "ticker": "688008.SH",
+          "rel": "中相关",
+          "peLtm": "30x",
+          "pe": "24x",
+          "psLtm": "7.0x",
+          "ps": "5.5x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "韋爾股份",
+          "ticker": "603501.SH",
+          "rel": "中相关",
+          "peLtm": "35x",
+          "pe": "28x",
+          "psLtm": "4.0x",
+          "ps": "3.2x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "奧比中光",
+          "ticker": "688322.SH",
+          "rel": "中相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "10.5x",
+          "ps": "8.0x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "華大九天",
+          "ticker": "301269.SZ",
+          "rel": "弱相关",
+          "peLtm": "55x",
+          "pe": "42x",
+          "psLtm": "12.0x",
+          "ps": "9.0x",
+          "evEbitda": "38x",
+          "verdict": null
+        },
+        {
+          "name": "思瑞浦3PEAK",
+          "ticker": "688536.SH",
+          "rel": "弱相关",
+          "peLtm": "38x",
+          "pe": "30x",
+          "psLtm": "5.0x",
+          "ps": "3.8x",
+          "evEbitda": "24x",
+          "verdict": null
+        },
+        {
+          "name": "格科微",
+          "ticker": "688728.SH",
+          "rel": "弱相关",
+          "peLtm": "55x",
+          "pe": "40x",
+          "psLtm": "6.5x",
+          "ps": "5.0x",
+          "evEbitda": "38x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "A股AI/高性能芯片估值体系高度溢价：寒武紀P/S高达28-40x、海光信息8.5x、龙芯中科11x，强相关可比NTM P/S中位约18x；港股对A股传统折价30-40%隐含合理港股NTM P/S约11-13x，但此参照仅适用于曦智实现商业规模收入后，现阶段A股参照价值主要体现在叙事溢价上限参考"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "NVIDIA",
+          "ticker": "NVDA",
+          "rel": "强相关",
+          "peLtm": "38x",
+          "pe": "30x",
+          "psLtm": "25.0x",
+          "ps": "20.0x",
+          "evEbitda": "25x",
+          "verdict": null
+        },
+        {
+          "name": "Coherent Corp",
+          "ticker": "COHR",
+          "rel": "强相关",
+          "peLtm": "NM",
+          "pe": "42x",
+          "psLtm": "3.2x",
+          "ps": "2.8x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "Lumentum Holdings",
+          "ticker": "LITE",
+          "rel": "强相关",
+          "peLtm": "32x",
+          "pe": "24x",
+          "psLtm": "3.5x",
+          "ps": "3.0x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "Marvell Technology",
+          "ticker": "MRVL",
+          "rel": "中相关",
+          "peLtm": "NM",
+          "pe": "38x",
+          "psLtm": "9.5x",
+          "ps": "8.0x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "AMD",
+          "ticker": "AMD",
+          "rel": "中相关",
+          "peLtm": "42x",
+          "pe": "32x",
+          "psLtm": "7.5x",
+          "ps": "6.5x",
+          "evEbitda": "24x",
+          "verdict": null
+        },
+        {
+          "name": "Broadcom",
+          "ticker": "AVGO",
+          "rel": "中相关",
+          "peLtm": "32x",
+          "pe": "26x",
+          "psLtm": "13.0x",
+          "ps": "11.0x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "Applied Optoelectronics",
+          "ticker": "AAOI",
+          "rel": "中相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "Intel",
+          "ticker": "INTC",
+          "rel": "弱相关",
+          "peLtm": "NM",
+          "pe": "28x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "Semtech",
+          "ticker": "SMTC",
+          "rel": "弱相关",
+          "peLtm": "NM",
+          "pe": "28x",
+          "psLtm": "4.2x",
+          "ps": "3.5x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "Viavi Solutions",
+          "ticker": "VIAV",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "2.0x",
+          "ps": "1.8x",
+          "evEbitda": "10x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股分两类可比：AI算力（NVIDIA 20x P/S、Marvell 8x、AMD 6.5x）和光子/光学技术（Coherent 2.8x、Lumentum 3.0x）。曦智横跨两类，估值应在「光子技术公司」基准（3x P/S）叠加「AI算力」成长溢价；三市场强相关可比NTM P/S：AI侧中位约9.5x vs 光子硬件侧约2.9x，合成定价区间约5-12x"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO价格尚未公布，无法计算隐含倍数，待IPO定价公布后更新跨市场折溢价分析。三市场综合参考：全样本NTM P/S中位（含有意义数据）约5.8x；AI芯片强相关可比中位约14x（A股寒武紀/龙芯主导）；光子硬件可比中位约2.9x（Coherent/Lumentum）。曦智科技作为全球首家上市光子AI芯片公司，定价逻辑高度依赖技术叙事；若按预估2025E收入~RMB 5,000万（~HKD 5.4亿）测算，10x P/S对应市值约54亿HKD，25x对应约135亿HKD。建议合理定价锚定区间10-20x NTM P/S，待IPO定价公布后与此基准对比折溢价。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "5.8x（三市场全样本NTM P/S中位）/ 14x（AI芯片强相关）/ 2.9x（光子硬件强相关）",
+      "medianPE": "30x（三市场有意义NTM P/E中位）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "A1阶段观望，定价区间与基石名单披露后重新评估",
+    "horizon": "12-24个月（技术验证周期较长）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "10-20x（AI叙事加成光子硬件参照合成估值区间）",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "技术独特性 (F)：全球首家纯光子AI推理芯片上市公司",
+          "result": "✓",
+          "note": "技术路线差异化极高，上市公司中竞争格局近乎垄断，稀缺性溢价逻辑成立",
+          "ok": true
+        },
+        {
+          "point": "商业化进度 (F)：2024年收入极小，仍为样片/POC阶段",
+          "result": "✗",
+          "note": "无法支撑传统财务估值，依赖叙事溢价，基本面脆弱，盈利路径高度不确定",
+          "ok": false
+        },
+        {
+          "point": "IPO结构 (S)：18C A1阶段，基石/孖展完全未披露",
+          "result": "✗",
+          "note": "核心结构参数缺失，孖展若<10x则触发SKIP规则警示",
+          "ok": false
+        },
+        {
+          "point": "供应链安全 (S)：主要工艺可用成熟制程，先进制程出口管制免疫",
+          "result": "✓",
+          "note": "相较壁仞/天数的7nm以下依赖，光子路线供应链风险更低，政策叙事加分",
+          "ok": true
+        },
+        {
+          "point": "市场时机 (M)：AI算力效率叙事高度匹配，港股18C情绪回暖",
+          "result": "✓",
+          "note": "赛道时机极佳，但情绪主导型行情持续性存疑，需基本面催化接力",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "IPO价 × 0.75",
+        "upside": "-25%",
+        "basis": "定价偏高（隐含>20x NTM P/S），招股书披露2024年收入低于预期、良率问题严重化，或NVIDIA宣布重大光子互联商业合作压制独立光子芯片赛道，叠加市场风险偏好下行破发"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "IPO价 × 1.40",
+        "upside": "+40%",
+        "basis": "定价合理（隐含10-15x NTM P/S），基石投资者覆盖15-25%含国资算力机构，孖展10-20x，上市后12-18个月内宣布首批Tier-1云厂商商业合同，估值向地平線机器人（港股已证明18C商业路径）靠拢"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "IPO价 × 2.50",
+        "upside": "+150%",
+        "basis": "定价偏低（隐含<8x NTM P/S），重量级基石（国家大基金/顶级科技产业投资者）入驻+孖展>30x，上市后宣布与国内顶级AI大模型公司（字节/阿里/腾讯/百度）签署光子AI推理加速器批量采购合同，估值飞跃向寒武紀（A股28-40x P/S）看齐"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发",
+        "desc": "股价对应估值超过25x NTM P/S（已超三市场强可比AI侧最高位且无新商业合同支撑），或上市后12个月内无Tier-1客户付费商业合同公告，分批兑现浮盈",
+        "price": "≥ IPO价 × 2.0",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "股价跌破IPO价20%（深度破发信号），或招股书披露芯片交付量仍为样片级别（<100片/季度）、良率<30%，或创始人/核心技术团队离职公告，立即止损",
+        "price": "< IPO价 × 0.80",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-04-20",
+  "generatedBy": "claude-oauth",
+  "ticker": "01879.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}

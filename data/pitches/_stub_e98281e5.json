@@ -1,0 +1,523 @@
+{
+  "name": "邁威生物－Ｂ",
+  "sector": "生物制药·单抗生物类似药+创新抗体（Chapter 18A）",
+  "rating": "WATCH",
+  "score": 5.9,
+  "scoreColor": "var(--yellow)",
+  "tagline": "生物类似药现金流支撑，9MW3011自免破局能否驱动估值跃升",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "已有MW028（注射用曲妥珠单抗）、MW031（注射用贝伐珠单抗）、MW039（阿达木单抗注射液）三款生物类似药获NMPA批准并商业化，具备实质收入基础，区别于纯pre-revenue 18A Biotech；2025E收入预估RMB 8-12亿，仍处于净亏损阶段（研发投入占收入比逾70%）；核心创新管线9MW3011（抗IL-17A单抗，靶向强直性脊柱炎/银屑病）处于NDA/上市准入阶段，自免领域潜力市场对标诺华可善挺（Cosentyx）全球销售额逾50亿美元；双特异性抗体及ADC早期管线提供长期期权价值；产业化平台（抗体发现、CHO工艺、CMC）经商业交付验证；但生物类似药赛道同质化加剧（阿达木单抗国内批文已逾20个），价格竞争持续侵蚀利润空间"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A+H双重主要上市架构，已在A股科创板（688062.SH）公开交易，港股定价具有A股市值锚点（A股折让25-35%为港股合理定价区间）；Chapter 18A架构适配（未达港股盈利标准的创新药公司）；A1阶段，基石投资者名单、孖展倍数、发行规模均未披露，结构能见度低；科创板成熟的信息披露体系使港股投资者可通过A股年报和研报交叉验证财务数据；A股现有股东锁定期届满后的减持压力须关注"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO定价未公布（A1阶段），待正式招股书发布；A股688062.SH提供价格锚点，若按A股市值约RMB 80-120亿、2025E收入RMB 10亿测算，A股隐含NTM P/S约8-12x；港股若按25-35%折让，隐含NTM P/S约5-8x，与港股同类（复宏汉霖NTM P/S约3.5x、信达生物4.8x、荣昌生物8x）对比处于合理区间中段；关键变量：若9MW3011上市首年销售额突破RMB 5亿则触发估值重评级，若生物类似药收入增速<10%则压制定价"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.0,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "2026年港股18A生物科技IPO情绪回暖，ADC/双特异性抗体叙事持续获资本追捧；中国抗体药物国际BD授权热度高涨（参考百济神州、信达生物、康方生物授权路径）；自免领域（IL-17A、IL-4R通路）全球市场扩张，国产抗体替代进口原研药红利期延续；南向资金持续流入港股医药板块；但2026年港股IPO供给增加（多只生物科技双挂牌）可能分流申购资源"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "生物类似药现金牛+创新抗体期权：双轮结构降低纯烧钱Biotech风险",
+      "desc": "邁威生物已商业化三款生物类似药（曲妥珠单抗、贝伐珠单抗、阿达木单抗），形成持续营收基础，年收入规模已达十亿元级别，区别于纯pre-revenue 18A Biotech的融资依赖模式。生物类似药现金流支撑年均RMB 6-8亿研发投入，使公司具备更强经营韧性。这一「生物类似药现金牛+创新抗体期权」双轮结构，在港股18A定价体系中既能获得营收支撑的下行保护，又享有创新管线成功后的估值重评级空间，风险收益特征优于纯烧钱型Biotech。"
+    },
+    {
+      "title": "9MW3011（抗IL-17A）：进军百亿自免市场的旗舰催化剂",
+      "desc": "9MW3011是邁威生物从生物类似药向创新抗体跨越的核心资产，靶向IL-17A通路，适应症覆盖强直性脊柱炎（AS）和中重度斑块状银屑病。国际对标诺华可善挺（secukinumab）2023年全球销售额逾50亿美元，IL-17A中国市场潜力巨大（AS患者逾540万人，靶向药渗透率<15%）。若9MW3011完成NDA批准并进入NRDL，年销售额峰值有望达RMB 8-15亿，触发资本市场将邁威生物从「生物类似药折价公司」重新定价为「创新自免抗体领军者」，带动整体估值体系跃升。"
+    },
+    {
+      "title": "A+H双重上市：港股国际资本+BD授权协同，叠加跨市场套利期权",
+      "desc": "A+H双重主要上市赋予邁威生物三重战略价值：①港股平台吸引GDS基金等境外长线机构建仓，与A股国内投资者群体互补，拓宽融资渠道；②港股上市身份有利于推进生物类似药欧盟EMA注册（欧洲市场规模逾150亿美元）以及国际BD合作谈判；③若港股股价较A股出现显著折价（>35%），套利资金介入将收窄折扣，对整体市值具有支撑效应。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "阿达木单抗（MW039）赛道极度内卷：NRDL续约降价+20+国内批文夹击致收入持续萎缩",
+      "desc": "阿达木单抗生物类似药是中国批准数量最多、竞争最惨烈的生物制品品类，截至2025年NMPA已批准超20家企业（含百奥泰、复宏汉霖、海正药业等），NRDL价格谈判已将医保支付价压至相较原研药降幅>80%水平。MW039后续集采轮次进一步压价将直接侵蚀该品种收入贡献，若年销售额跌破RMB 2亿将对公司整体营收增长逻辑造成实质损害。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "9MW3011在IL-17A赛道的商业化执行风险：原研巨头渗透+多家国产抗体同期上市",
+      "desc": "IL-17A靶点竞争格局已显著恶化：诺华可善挺在中国深度渗透风湿/皮肤科，礼来Taltz亦已获批，三生国健、益方生物等国内竞争者亦有抗IL-17A项目处于NDA/III期阶段。9MW3011若仅作「me-too」定位，商业化成功高度依赖差异化临床数据（PASI 90/100、AS影像学改善数据）和商业团队规模化能力。若上市后12个月内年化收入未达RMB 3亿，「创新抗体估值重评级」核心论点将受到市场严重质疑，港股估值将重新向生物类似药公司折价水平回归。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "复宏汉霖",
+          "ticker": "02696.HK",
+          "rel": "强相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "4.2x",
+          "ps": "3.5x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "百奥泰",
+          "ticker": "02420.HK",
+          "rel": "强相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "5.5x",
+          "ps": "4.5x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "乐普生物",
+          "ticker": "02509.HK",
+          "rel": "强相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "4.8x",
+          "ps": "4.0x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "荣昌生物",
+          "ticker": "09995.HK",
+          "rel": "强相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "10.5x",
+          "ps": "8.0x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "信达生物",
+          "ticker": "01801.HK",
+          "rel": "中相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "5.5x",
+          "ps": "4.8x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "君实生物",
+          "ticker": "01877.HK",
+          "rel": "中相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "4.5x",
+          "ps": "3.8x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "康宁杰瑞",
+          "ticker": "09966.HK",
+          "rel": "中相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "8.5x",
+          "ps": "7.0x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "康诺亚生物",
+          "ticker": "02162.HK",
+          "rel": "中相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "7.0x",
+          "ps": "5.5x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "中国生物制药",
+          "ticker": "01177.HK",
+          "rel": "弱相关",
+          "peLtm": "12x",
+          "pe": "10x",
+          "psLtm": "1.8x",
+          "ps": "1.5x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "石药集团",
+          "ticker": "01093.HK",
+          "rel": "弱相关",
+          "peLtm": "10x",
+          "pe": "9x",
+          "psLtm": "1.5x",
+          "ps": "1.3x",
+          "evEbitda": "7x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股生物类似药+创新抗体可比组：强相关标的（复宏汉霖/百奥泰/乐普生物）NTM P/S中位约4.0x，ADC龙头荣昌生物因差异化管线享有8x溢价；中相关创新抗体组NTM P/S中位约4.8x；全样本NTM P/S中位约4.2x。综合邁威生物混合定位，合理港股NTM P/S锚定区间4-7x"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "荣昌生物",
+          "ticker": "688331.SH",
+          "rel": "强相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "12.0x",
+          "ps": "9.5x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "百利天恒",
+          "ticker": "688506.SH",
+          "rel": "强相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "18.0x",
+          "ps": "15.0x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "神州细胞",
+          "ticker": "688520.SH",
+          "rel": "强相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "8.5x",
+          "ps": "7.0x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "科伦药业",
+          "ticker": "002422.SZ",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "2.2x",
+          "ps": "2.0x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "丽珠集团",
+          "ticker": "000513.SZ",
+          "rel": "中相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "通化东宝",
+          "ticker": "600867.SH",
+          "rel": "中相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "3.8x",
+          "ps": "3.2x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "翰宇药业",
+          "ticker": "300199.SZ",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "4.2x",
+          "ps": "3.5x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "特宝生物",
+          "ticker": "688278.SH",
+          "rel": "弱相关",
+          "peLtm": "25x",
+          "pe": "20x",
+          "psLtm": "4.5x",
+          "ps": "3.8x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "沃森生物",
+          "ticker": "300142.SZ",
+          "rel": "弱相关",
+          "peLtm": "28x",
+          "pe": "22x",
+          "psLtm": "3.5x",
+          "ps": "3.0x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "华兰生物",
+          "ticker": "002007.SZ",
+          "rel": "弱相关",
+          "peLtm": "15x",
+          "pe": "13x",
+          "psLtm": "3.0x",
+          "ps": "2.5x",
+          "evEbitda": "10x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "A股强相关可比（荣昌/百利天恒/神州细胞）NTM P/S中位约9.5x，百利天恒因BsAb-ADC BD授权热度享受超额溢价；中相关盈利组NTM P/S中位约2.2x；A股整体对港股同类溢价30-50%；按港股对A股折让25-35%推算，邁威生物合理港股NTM P/S约4.5-7x，688062.SH实时市值为最直接定价参照"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Amgen",
+          "ticker": "AMGN",
+          "rel": "强相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "4.5x",
+          "ps": "4.2x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "Sandoz Group",
+          "ticker": "SDZ.SW",
+          "rel": "强相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "Coherus BioSciences",
+          "ticker": "CHRS",
+          "rel": "强相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "0.8x",
+          "ps": "0.7x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "Organon",
+          "ticker": "OGN",
+          "rel": "中相关",
+          "peLtm": "6x",
+          "pe": "5x",
+          "psLtm": "0.6x",
+          "ps": "0.6x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "Biogen",
+          "ticker": "BIIB",
+          "rel": "中相关",
+          "peLtm": "14x",
+          "pe": "12x",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "Regeneron",
+          "ticker": "REGN",
+          "rel": "中相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "5.8x",
+          "ps": "5.2x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "Pfizer",
+          "ticker": "PFE",
+          "rel": "中相关",
+          "peLtm": "12x",
+          "pe": "10x",
+          "psLtm": "1.5x",
+          "ps": "1.4x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "AbbVie",
+          "ticker": "ABBV",
+          "rel": "弱相关",
+          "peLtm": "14x",
+          "pe": "12x",
+          "psLtm": "3.8x",
+          "ps": "3.5x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "Viatris",
+          "ticker": "VTRS",
+          "rel": "弱相关",
+          "peLtm": "5x",
+          "pe": "4x",
+          "psLtm": "0.4x",
+          "ps": "0.4x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "BioNTech",
+          "ticker": "BNTX",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "18x",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "12x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "cheap",
+        "text": "美股生物类似药可比组双极分化：Amgen创新+生物类似药双轮享有4.2x NTM P/S，纯生物类似药Sandoz仅1.6x、Coherus<1x（财务困境折价）；中相关组Biogen/Regeneron NTM P/S 2.2-5.2x；全样本强相关NTM P/S中位约1.6x，美国市场生物类似药利润率体系与中国差异显著，参照以定性判断为主"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO价格尚未公布（A1阶段），待正式招股书发布后更新跨市场折溢价分析。三市场强相关可比NTM P/S参考：港股约3.5-8x（中位~4.5x）、A股约7-15x（中位~9.5x）、美股约0.7-4.2x（中位~1.6x）；三市场全样本NTM P/S中位约3.5x。综合邁威生物「生物类似药+创新抗体」混合定位，建议合理定价锚定港股NTM P/S 4-7x（对应2025E收入RMB 10亿，合理市值约HKD 38-66亿）。A股688062.SH实时交易市值为最直接定价参照，港股按A股市值折让25-35%定价将处于合理区间内。待IPO定价公布后计算隐含倍数与三市场中位的具体折溢价。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "3.5x（三市场全样本NTM P/S中位）/ 4.5x（港股强相关中位）/ 9.5x（A股强相关中位）",
+      "medianPE": "13x（三市场有意义NTM P/E中位）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "A1阶段观望，正式招股书定价披露后重评定价合理性与孖展倍数",
+    "horizon": "6-12个月（9MW3011商业化里程碑驱动，NRDL谈判结果为关键重评窗口）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "4-7x（港股生物类似药+创新抗体NTM P/S合理区间）",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "商业化基础 (F)：三款已批生物类似药提供营收支撑",
+          "result": "✓",
+          "note": "区别于纯pre-revenue 18A Biotech，实质营收规模已达十亿元级别，下行风险有底",
+          "ok": true
+        },
+        {
+          "point": "盈利路径 (F)：高研发投入致持续净亏损",
+          "result": "✗",
+          "note": "盈亏平衡依赖9MW3011+生物类似药协同放量，预计最早2026-2027年才能接近盈亏平衡",
+          "ok": false
+        },
+        {
+          "point": "A+H双重上市结构 (S)：A股价格锚点降低定价不确定性",
+          "result": "✓",
+          "note": "688062.SH实时交易价格为港股投资者提供清晰估值参照，结构透明度高于纯HK首次上市",
+          "ok": true
+        },
+        {
+          "point": "阿达木单抗竞争恶化 (S/F)：>20个国内批文+NRDL续约降价压力",
+          "result": "✗",
+          "note": "MW039核心收入来源面临持续价格压缩，集采进一步压价将直接损害估值逻辑",
+          "ok": false
+        },
+        {
+          "point": "市场时机 (M)：港股18A生物科技情绪回暖，自免赛道受追捧",
+          "result": "✓",
+          "note": "2026年港股生物科技IPO回暖，IL-17A/IL-4R国际BD交易背书赛道热度，时机较佳",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "IPO价 × 0.75",
+        "upside": "-25%",
+        "basis": "定价偏高（隐含NTM P/S>8x），9MW3011商业化启动缓慢（首年销售额<RMB 1.5亿），阿达木单抗NRDL续约超预期降价再降30%+，公司整体收入增速低于10%，港股18A生物科技情绪再度走弱，港股较A股折价扩大至40%+触发技术性破发"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "IPO价 × 1.35",
+        "upside": "+35%",
+        "basis": "定价合理（隐含NTM P/S 4-6x），基石投资者覆盖15-20%含知名生命科学专项基金，孖展10-15x；上市后6-9个月内9MW3011纳入NRDL并确认年化收入RMB 3-5亿，市场启动估值向荣昌生物区间重评级，A股溢价稳定在25-30%"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "IPO价 × 2.00",
+        "upside": "+100%",
+        "basis": "定价偏低（隐含NTM P/S<4x），头部生命科学机构基石入驻+孖展>25x；9MW3011出海BD授权（参考信达/康方生物授权路径）或双特异性抗体早期POC数据超预期，估值从「生物类似药折价」跃升至「创新抗体溢价」，NTM P/S向百利天恒（15x）方向重定价"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发",
+        "desc": "股价对应估值超过港股NTM P/S 9x（已超荣昌生物当前水平且9MW3011规模化尚未兑现），或9MW3011年化收入已达RMB 5亿以上且预期完全price in，分批减持兑现浮盈",
+        "price": "≥ IPO价 × 1.8",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "股价跌破IPO价15%（港股深度破发信号），或9MW3011上市首年年化收入低于RMB 1亿（商业化彻底失败），或阿达木单抗在NRDL续约谈判中再降价>30%被动退市，立即止损",
+        "price": "< IPO价 × 0.85",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-04-20",
+  "generatedBy": "claude-oauth",
+  "ticker": "02493.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
