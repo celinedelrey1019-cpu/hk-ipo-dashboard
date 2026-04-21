@@ -2527,6 +2527,56 @@ function showStrategy() {
     strategyText = `优先申购评分最高的 <strong>${bestPick.name}</strong>，回避 SKIP 标的。`;
   }
 
+  // ── 资金分配算法 ───────────────────────────────────────────
+  // 1) SKIP 权重 = 0；BUY 权重 = (score-4) × 1.5；WATCH 权重 = max(0, score-4)
+  // 2) 本轮全 WATCH 时，强制首选占比 ≥ 50%；有 BUY 时，BUY 合计 ≥ 70%
+  const rawWeights = subs.map(s => {
+    if (s.rating === 'SKIP') return 0;
+    const base = Math.max(0, (s.score || 0) - 4);
+    return s.rating === 'BUY' ? base * 1.5 : base;
+  });
+  const totalW = rawWeights.reduce((a, b) => a + b, 0) || 1;
+  let allocPcts = rawWeights.map(w => (w / totalW) * 100);
+
+  // 强化首选：全 WATCH 且首选占比<50%，则提到 50%，剩余按原权重分配给其他
+  if (allWatch && allocPcts[0] < 50 && subs.length > 1) {
+    const rest = 100 - 50;
+    const restSum = allocPcts.slice(1).reduce((a, b) => a + b, 0) || 1;
+    allocPcts = allocPcts.map((p, i) => i === 0 ? 50 : (p / restSum) * rest);
+  }
+
+  // 示例金额：默认假设 10 万港币总资金池
+  const POOL_HKD = 100000;
+  const allocRows = subs.map((s, i) => {
+    const pct = allocPcts[i];
+    const amt = (POOL_HKD * pct / 100);
+    const pctDisp = pct < 1 ? '0%' : pct.toFixed(0) + '%';
+    const amtDisp = pct < 1 ? '不参与' : 'HK$ ' + Math.round(amt / 1000) + 'k';
+    const rClass = s.rating === 'BUY' ? 'color:var(--green)' : s.rating === 'WATCH' ? 'color:var(--yellow)' : 'color:var(--red)';
+    // 推荐方式：评分 ≥7 建议现金+孖展；5-7 仅现金一手打底；<5 跳过
+    let method = '';
+    if (s.rating === 'SKIP' || pct < 1) method = '—';
+    else if ((s.score || 0) >= 7) method = '现金 + 10倍孖展';
+    else if ((s.score || 0) >= 6) method = '现金申购（可考虑低倍孖展）';
+    else method = '现金一手试探';
+    return `<tr${i === 0 && pct >= 1 ? ' style="background:rgba(37,99,235,0.06)"' : ''}>
+      <td style="padding:10px 12px;text-align:center;font-weight:700">${i + 1}</td>
+      <td style="padding:10px 12px"><div style="font-weight:700;font-size:12px">${s.name}</div><div style="font-size:10px;color:var(--text-muted);font-family:var(--font-mono)">${s.ticker || 'TBD'}</div></td>
+      <td style="padding:10px 12px;text-align:center;${rClass};font-weight:700">${s.rating}</td>
+      <td style="padding:10px 12px;text-align:center;font-family:var(--font-mono);font-weight:800">${typeof s.score === 'number' ? s.score.toFixed(1) : '—'}</td>
+      <td style="padding:10px 12px;text-align:center;font-weight:800;font-size:15px;color:var(--accent-blue);font-family:var(--font-mono)">${pctDisp}</td>
+      <td style="padding:10px 12px;text-align:center;font-family:var(--font-mono);font-size:12px;font-weight:700">${amtDisp}</td>
+      <td style="padding:10px 12px;font-size:11px;color:var(--text-secondary)">${method}</td>
+    </tr>`;
+  }).join('');
+
+  // 分配逻辑说明
+  const ratingNote = hasBuy
+    ? '权重公式：BUY 按 (分数-4)×1.5，WATCH 按 (分数-4)×1.0，SKIP = 0'
+    : allWatch
+      ? '全 WATCH 情景 → 首选强制 ≥50%，其余按评分权重分配（降低非最优标的风险敞口）'
+      : '按 (分数-4) 权重分配，SKIP 不参与';
+
   const container = document.getElementById('pitchContainer');
   container.innerHTML = `
     <div class="pitch-header" style="background:linear-gradient(135deg, #1e40af 0%, #7c3aed 100%)">
@@ -2551,6 +2601,33 @@ function showStrategy() {
         </div>
         <div class="section-body">
           <div style="font-size:12px;line-height:1.8;color:var(--text-secondary);padding:4px 0">${strategyText}</div>
+        </div>
+      </div>
+
+      <!-- 资金分配建议 -->
+      <div class="pitch-section full-width">
+        <div class="section-head">
+          <div class="section-icon" style="background:rgba(37,99,235,0.1);color:var(--accent-blue)">💰</div>
+          <div class="section-title">资金分配建议（示例：10 万港币）</div>
+        </div>
+        <div class="section-body" style="padding:0">
+          <table style="width:100%;border-collapse:collapse;font-size:12px">
+            <thead><tr style="border-bottom:2px solid var(--border)">
+              <th style="padding:8px 12px;font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px">优先级</th>
+              <th style="padding:8px 12px;font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;text-align:left">标的</th>
+              <th style="padding:8px 12px;font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px">评级</th>
+              <th style="padding:8px 12px;font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px">总分</th>
+              <th style="padding:8px 12px;font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px">建议占比</th>
+              <th style="padding:8px 12px;font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px">示例金额</th>
+              <th style="padding:8px 12px;font-size:9px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;text-align:left">申购方式</th>
+            </tr></thead>
+            <tbody>${allocRows}</tbody>
+          </table>
+          <div style="padding:12px 16px;font-size:10px;color:var(--text-muted);background:var(--bg-hover);border-top:1px solid var(--border);line-height:1.6">
+            <div><strong style="color:var(--text-secondary)">分配逻辑：</strong>${ratingNote}</div>
+            <div style="margin-top:4px"><strong style="color:var(--text-secondary)">按自身资金池换算：</strong>本表以 10 万港币为示例，实际请按百分比乘以自己可用总资金（留 20-30% 现金作备用）</div>
+            <div style="margin-top:4px"><strong style="color:var(--text-secondary)">孖展注意：</strong>仅对评分 ≥7 且甲组超购倍数 &gt; 20x 时启用高倍孖展，避免单次利息侵蚀中签 ROI</div>
+          </div>
         </div>
       </div>
 
