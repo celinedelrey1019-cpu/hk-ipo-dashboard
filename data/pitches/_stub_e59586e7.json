@@ -1,0 +1,529 @@
+{
+  "name": "商米科技－Ｗ",
+  "sector": "商业IoT智能终端",
+  "rating": "WATCH",
+  "score": 6.4,
+  "scoreColor": "var(--yellow)",
+  "tagline": "全球商业IoT终端龙头，软硬融合转型提升估值空间",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "营收约30亿元人民币（2023A），毛利率约35-38%，硬件收入占比超80%；海外产品覆盖100+国家，收入多元化；SaaS/软件收入占比仍偏低约10-15%，盈利波动受原材料成本及汇率影响较大；A股（688195.SH）历史报告显示收入增速已从高位回落至个位数"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A+H双重上市，科创板历史财务信息透明，投资者可参照历史披露；采用WVR加权投票权架构（-W后缀），创始人保留超额控制权，中小股东权益保护偏弱；基石投资者意向及公开发售比例待披露，流动性结构仍存不确定性"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价区间未披露；参考A股当前隐含P/S约3-4x、P/E约20-25x，相比港股商业硬件可比公司（PAX Technology P/S约1.4x）存在显著溢价；若港股定价较A股折让不足20%，对港股投资者吸引力有限；待正式定价后须重新评估折溢价"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.0,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "港股IPO市场2025年以来回暖，科技硬件板块估值修复明显；中国商业数字化升级需求持续，餐饮零售连锁化趋势利好智慧终端更新周期开启；A+H架构可引入南向资金持续关注，流动性溢价可期；美联储降息预期改善全球科技估值环境"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "全球化布局领先，海外收入构成差异化增长第二曲线",
+      "desc": "商米科技产品覆盖100+国家和地区，东南亚、拉美、中东等新兴市场商业数字化起点低、增速快，形成差异化竞争优势。相比国内竞争激烈的同质化市场，海外业务毛利率普遍更高，海外收入占比的持续提升是估值重塑的核心逻辑；同时海外市场本土竞争对手（本地小厂）技术实力偏弱，商米的Android商业OS生态构建了较难复制的先发壁垒。"
+    },
+    {
+      "title": "商米OS软件生态构建护城河，SaaS渗透率提升驱动盈利质量改善",
+      "desc": "依托自研Android商业OS平台，商米正从单纯硬件供应商转型为软硬件一体化平台公司。平台上聚集大量第三方应用开发者，形成应用生态，设备黏性及换机成本显著高于通用硬件竞争对手。软件及服务收入（含SaaS订阅、增值服务）占比若从当前约10-15%提升至20-25%，将推动整体毛利率改善和估值倍数扩张，对标Zebra Technologies的'设备+软件+服务'混合模式，长期P/S重估空间可观。"
+    },
+    {
+      "title": "餐饮零售数字化加速，全品类解决方案提升客单价与黏性",
+      "desc": "全球连锁餐饮、便利店、超市等零售业态持续扩张，叠加自助点餐、无人收银等新业态普及，智能商业终端需求量价齐升。商米产品线覆盖收银机、手持终端、打印机、自助设备等全品类，能够为客户提供整体解决方案，客单价和黏性显著高于单品竞争对手。麦当劳、肯德基、星巴克等全球知名连锁客户的深度绑定提供稳定基础单，并产生强力背书效应吸引中小商户。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "硬件产品价格战持续侵蚀毛利率",
+      "desc": "国内商业终端市场竞争白热化，新大陆（000997.SZ）、拉卡拉（300773.SZ）、PAX Technology等同类厂商持续压价争夺市占率；海外市场面临PAX及本土厂商双重夹击。A股历年报告显示核心产品ASP（平均销售价格）持续承压，若整体毛利率从约35-38%区间进一步下滑至30%以下，净利润将大幅萎缩，当前P/E估值将失去支撑，估值逻辑被迫重估。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "餐饮零售扩店周期放缓导致设备采购量骤降",
+      "desc": "商米核心收入来自连锁餐饮、零售商的新店设备投放，该需求与下游客户门店扩张计划高度正相关。根据A股历史财报，当连锁客户资本开支收缩（如2022-2023年国内部分连锁品牌收缩门店），商米设备出货量直接受冲击且恢复滞后明显。此业务具有显著的'新店驱动、存量低频'周期特征，当全球扩张潮退去时收入增速可能骤降，而研发及渠道固定成本基础导致利润杠杆效应放大下行风险。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "PAX Technology",
+          "ticker": "0327.HK",
+          "rel": "强相关",
+          "peLtm": "11x",
+          "pe": "10x",
+          "psLtm": "1.4x",
+          "ps": "1.3x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "BYD Electronic",
+          "ticker": "0285.HK",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "19x",
+          "psLtm": "0.4x",
+          "ps": "0.3x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "Lenovo Group",
+          "ticker": "0992.HK",
+          "rel": "中相关",
+          "peLtm": "14x",
+          "pe": "12x",
+          "psLtm": "0.3x",
+          "ps": "0.3x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "Xiaomi Corp",
+          "ticker": "1810.HK",
+          "rel": "弱相关",
+          "peLtm": "28x",
+          "pe": "23x",
+          "psLtm": "2.0x",
+          "ps": "1.7x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "Techtronic Industries",
+          "ticker": "0669.HK",
+          "rel": "弱相关",
+          "peLtm": "22x",
+          "pe": "19x",
+          "psLtm": "1.9x",
+          "ps": "1.7x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "Kingdee International",
+          "ticker": "0268.HK",
+          "rel": "弱相关",
+          "peLtm": "N/M",
+          "pe": "55x",
+          "psLtm": "6.5x",
+          "ps": "5.5x",
+          "evEbitda": "35x",
+          "verdict": null
+        },
+        {
+          "name": "Sunny Optical Technology",
+          "ticker": "2382.HK",
+          "rel": "弱相关",
+          "peLtm": "18x",
+          "pe": "16x",
+          "psLtm": "1.2x",
+          "ps": "1.1x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "ChinaSoft International",
+          "ticker": "0354.HK",
+          "rel": "弱相关",
+          "peLtm": "12x",
+          "pe": "11x",
+          "psLtm": "0.5x",
+          "ps": "0.5x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "Hisense Home Appliances",
+          "ticker": "0921.HK",
+          "rel": "弱相关",
+          "peLtm": "10x",
+          "pe": "9x",
+          "psLtm": "0.4x",
+          "ps": "0.4x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "Coolpad Group",
+          "ticker": "2369.HK",
+          "rel": "弱相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "0.3x",
+          "ps": "0.3x",
+          "evEbitda": "N/M",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股商业硬件可比公司中位P/S约1.0-1.4x（以PAX Technology为锚定），纯硬件公司估值天花板明显；若商米能体现软件生态溢价（类Kingdee SaaS逻辑），需具体定价来验证。整体港股comps对商米估值形成向下压力，IPO定价需较A股有实质折让方能吸引机构配置。"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "新大陆",
+          "ticker": "000997.SZ",
+          "rel": "强相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "广电运通",
+          "ticker": "002152.SZ",
+          "rel": "强相关",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "2.0x",
+          "ps": "1.8x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "拉卡拉",
+          "ticker": "300773.SZ",
+          "rel": "强相关",
+          "peLtm": "10x",
+          "pe": "9x",
+          "psLtm": "1.0x",
+          "ps": "0.9x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "飞天诚信",
+          "ticker": "300386.SZ",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "19x",
+          "psLtm": "3.5x",
+          "ps": "3.0x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "神思电子",
+          "ticker": "300479.SZ",
+          "rel": "中相关",
+          "peLtm": "25x",
+          "pe": "21x",
+          "psLtm": "3.0x",
+          "ps": "2.5x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "移远通信",
+          "ticker": "603236.SH",
+          "rel": "中相关",
+          "peLtm": "28x",
+          "pe": "23x",
+          "psLtm": "2.5x",
+          "ps": "2.1x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "汉王科技",
+          "ticker": "002362.SZ",
+          "rel": "中相关",
+          "peLtm": "30x",
+          "pe": "25x",
+          "psLtm": "3.2x",
+          "ps": "2.8x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "天融信",
+          "ticker": "002212.SZ",
+          "rel": "弱相关",
+          "peLtm": "35x",
+          "pe": "28x",
+          "psLtm": "3.5x",
+          "ps": "3.0x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "奥普特",
+          "ticker": "688686.SH",
+          "rel": "弱相关",
+          "peLtm": "45x",
+          "pe": "38x",
+          "psLtm": "8.0x",
+          "ps": "7.0x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "精伦电子",
+          "ticker": "600355.SH",
+          "rel": "弱相关",
+          "peLtm": "18x",
+          "pe": "16x",
+          "psLtm": "1.5x",
+          "ps": "1.4x",
+          "evEbitda": "10x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "A股同类公司（新大陆、广电运通、拉卡拉）强相关中位P/S约1.8x、P/E约18x；科创板科技溢价拉高整体均值至约2.5x P/S。商米A股当前隐含约3-4x P/S相对强相关可比偏贵，若港股IPO参照A股定价将面临较大折让压力，港股投资者需确认折让幅度合理方能参与。"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Zebra Technologies",
+          "ticker": "ZBRA",
+          "rel": "强相关",
+          "peLtm": "26x",
+          "pe": "22x",
+          "psLtm": "2.4x",
+          "ps": "2.2x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "NCR Voyix",
+          "ticker": "VYX",
+          "rel": "强相关",
+          "peLtm": "N/M",
+          "pe": "18x",
+          "psLtm": "0.5x",
+          "ps": "0.5x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "Toast Inc",
+          "ticker": "TOST",
+          "rel": "强相关",
+          "peLtm": "N/M",
+          "pe": "55x",
+          "psLtm": "3.5x",
+          "ps": "3.0x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "Block Inc",
+          "ticker": "SQ",
+          "rel": "中相关",
+          "peLtm": "32x",
+          "pe": "25x",
+          "psLtm": "2.2x",
+          "ps": "2.0x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "Motorola Solutions",
+          "ticker": "MSI",
+          "rel": "中相关",
+          "peLtm": "32x",
+          "pe": "28x",
+          "psLtm": "5.5x",
+          "ps": "5.0x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "Honeywell International",
+          "ticker": "HON",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "18x",
+          "psLtm": "2.5x",
+          "ps": "2.3x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "Cognex Corp",
+          "ticker": "CGNX",
+          "rel": "弱相关",
+          "peLtm": "42x",
+          "pe": "35x",
+          "psLtm": "8.5x",
+          "ps": "7.5x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "Trimble Inc",
+          "ticker": "TRMB",
+          "rel": "弱相关",
+          "peLtm": "28x",
+          "pe": "24x",
+          "psLtm": "3.5x",
+          "ps": "3.2x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "Belden Inc",
+          "ticker": "BDC",
+          "rel": "弱相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "1.5x",
+          "ps": "1.4x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "Roper Technologies",
+          "ticker": "ROP",
+          "rel": "弱相关",
+          "peLtm": "38x",
+          "pe": "33x",
+          "psLtm": "8.0x",
+          "ps": "7.5x",
+          "evEbitda": "25x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股强相关公司（Zebra、NCR Voyix、Toast）中位P/S约2.2-2.5x，反映市场对商业IoT终端+软件混合模式的估值溢价；P/E中位约26x（剔除亏损标的）。美股对软硬件一体化给予较港股更高倍数，商米若能加速SaaS化转型，可参照Zebra的估值框架锚定中长期价值。"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO价格尚未披露，待IPO定价公布后更新跨市场估值对比。三市场强相关公司中位P/S约1.8-2.2x（港股强相关中位1.4x / A股强相关中位1.8x / 美股强相关中位2.2x），商米A股当前隐含约3-4x P/S存在明显溢价；港股IPO定价若能较A股折让20-35%（落在P/S约2.0-2.5x区间），则估值具有一定吸引力；若折让不足15%则偏贵，建议观望。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "约2.0x（三市场强相关中位）",
+      "medianPE": "约20x（三市场强相关中位）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "招股期间申购，上市首日视溢价情况减持",
+    "horizon": "1-3个月（短线打新逻辑为主）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "约2.0x（三市场强相关中位）",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "F: 海外收入持续高增长，多元化地理布局降低单一市场风险",
+          "result": "✓",
+          "note": "100+国家布局，东南亚/拉美/中东新兴市场渗透率仍低，增长空间充足",
+          "ok": true
+        },
+        {
+          "point": "F: 毛利率稳定性（核心产品ASP压力是否可控）",
+          "result": "✗",
+          "note": "国内竞争对手持续压价，核心产品ASP面临结构性下行，毛利率收窄趋势已在A股报告中可见",
+          "ok": false
+        },
+        {
+          "point": "S: A+H双重上市财务透明度高，信息不对称风险低",
+          "result": "✓",
+          "note": "科创板已有完整历史财报披露，港股投资者可充分研究A股历史数据",
+          "ok": true
+        },
+        {
+          "point": "S: WVR架构下中小股东权益保护机制是否完善",
+          "result": "✗",
+          "note": "创始人保留超高投票权（通常10:1），重大决策中小股东影响力有限，治理折价合理",
+          "ok": false
+        },
+        {
+          "point": "V: 港股定价较A股折让是否达到20%以上（估值吸引力门槛）",
+          "result": "?",
+          "note": "待定价公布，若IPO隐含P/S高于2.5x或较A股折让低于15%，建议放弃申购",
+          "ok": true
+        },
+        {
+          "point": "M: 港股IPO市场流动性窗口，科技硬件板块情绪积极",
+          "result": "✓",
+          "note": "2025-2026年港股科技IPO持续回暖，A+H同时在市有助于南向资金持续关注",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "较IPO价 -15至-20%",
+        "upside": "-15%至-20%",
+        "basis": "定价偏贵（折让不足），港股流动性溢价消失后向PAX Technology可比水平（P/S 1.3-1.4x）回归；或毛利率恶化触发盈利预警"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "较IPO价 +10至+20%",
+        "upside": "+10%至+20%",
+        "basis": "上市初期情绪溢价后以三市场中位P/S约2.0x交易；海外增长逻辑短期兑现，持仓1-2个季度后获利了结；A股折让约20-25%区间定价"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "较IPO价 +35至+50%",
+        "upside": "+35%至+50%",
+        "basis": "SaaS收入占比突破20%触发估值重估，软硬件一体化平台逻辑获机构认可，P/S向Zebra Technologies（2.2x）靠拢；全球连锁客户大单持续落地强化增长叙事"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发：上市首日溢价超25%或核心逻辑充分定价",
+        "desc": "上市首日较IPO价涨幅超25%时减持50%仓位；若后续SaaS收入占比达20%等利好催化剂出现且估值已充分反映（P/S≥2.8x），全部退出",
+        "price": "较IPO价 ≥ +25%",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发：定价偏贵放弃申购 或 上市后跌破发行价",
+        "desc": "若IPO最终定价较A股当前折让低于10%则直接放弃申购；上市后股价跌破IPO价10%且无明确基本面支撑时止损离场",
+        "price": "< IPO价 -10%",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-04-21",
+  "generatedBy": "claude-oauth",
+  "ticker": "06810.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
