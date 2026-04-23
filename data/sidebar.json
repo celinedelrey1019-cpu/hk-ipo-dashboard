@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22",
+  "lastUpdated": "2026-04-23",
   "activeSubscription": [
     {
       "key": "_stub_e69ba6e6",
@@ -16,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-04-22"
+      "sourceDate": "2026-04-23"
     },
     {
       "key": "_stub_e98281e5",
@@ -35,9 +35,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-04-22"
+      "sourceDate": "2026-04-23"
     },
     {
       "key": "_stub_e59586e7",
@@ -54,9 +54,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後截止",
+      "statusLabel": "明午截止",
       "source": "etnet",
-      "sourceDate": "2026-04-22"
+      "sourceDate": "2026-04-23"
     }
   ],
   "hearingPassed": [
@@ -77,7 +77,45 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-04-22"
+      "sourceDate": "2026-04-23"
+    },
+    {
+      "key": "_stub_e6b5b7e5",
+      "name": "海天味業",
+      "ticker": "03288.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-06-19",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-04-23"
+    },
+    {
+      "key": "_stub_e59089e5",
+      "name": "吉宏股份",
+      "ticker": "02603.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-05-27",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-04-23"
     },
     {
       "key": "_stub_e68192e7",
@@ -94,9 +132,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-04-22"
+      "sourceDate": "2026-04-23"
     },
     {
       "key": "_stub_e5afa7e5",
@@ -115,7 +153,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-04-22"
+      "sourceDate": "2026-04-23"
     },
     {
       "key": "_stub_e8b5a4e5",
@@ -132,28 +170,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-04-22"
-    },
-    {
-      "key": "_stub_e5b08fe8",
-      "name": "小菜園",
-      "ticker": "00999.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2024-12-20",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日除淨",
-      "source": "etnet",
-      "sourceDate": "2026-04-22"
+      "sourceDate": "2026-04-23"
     },
     {
       "key": "_stub_e694bfe5",
@@ -172,7 +191,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-04-22"
+      "sourceDate": "2026-04-23"
     },
     {
       "key": "_stub_e6af9be6",
@@ -189,9 +208,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-04-22"
+      "sourceDate": "2026-04-23"
     }
   ],
   "archived": [
