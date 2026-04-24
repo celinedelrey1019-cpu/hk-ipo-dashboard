@@ -1,44 +1,6 @@
 {
-  "lastUpdated": "2026-04-23",
+  "lastUpdated": "2026-04-24",
   "activeSubscription": [
-    {
-      "key": "_stub_e69ba6e6",
-      "name": "曦智科技－Ｐ",
-      "ticker": "01879.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-04-28",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-04-23"
-    },
-    {
-      "key": "_stub_e98281e5",
-      "name": "邁威生物－Ｂ",
-      "ticker": "02493.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-04-28",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-04-23"
-    },
     {
       "key": "_stub_e59586e7",
       "name": "商米科技－Ｗ",
@@ -54,16 +16,92 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-04-23"
+      "sourceDate": "2026-04-24"
+    },
+    {
+      "key": "_stub_e5a4a9e6",
+      "name": "天星醫療",
+      "ticker": "01609.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "subscribe",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-05-05",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "5日後截止",
+      "source": "etnet",
+      "sourceDate": "2026-04-24"
     }
   ],
   "hearingPassed": [
     {
-      "key": "_stub_e8978de6",
-      "name": "藍思科技",
-      "ticker": "06613.HK",
+      "key": "_stub_e5bba3e5",
+      "name": "廣和通",
+      "ticker": "00638.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-10-22",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "最新業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-04-24"
+    },
+    {
+      "key": "_stub_e5a587e7",
+      "name": "奇瑞汽車",
+      "ticker": "09973.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-09-25",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-04-24"
+    },
+    {
+      "key": "_stub_e5a4a9e5",
+      "name": "天岳先進",
+      "ticker": "02631.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-08-20",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-04-24"
+    },
+    {
+      "key": "_stub_464f5254",
+      "name": "FORTIOR",
+      "ticker": "01304.HK",
       "aShare": "",
       "sector": "",
       "phase": "pipeline",
@@ -75,9 +113,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新業績公布",
+      "statusLabel": "4日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-04-23"
+      "sourceDate": "2026-04-24"
+    },
+    {
+      "key": "_stub_e5ae89e4",
+      "name": "安井食品",
+      "ticker": "02648.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-07-04",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-04-24"
     },
     {
       "key": "_stub_e6b5b7e5",
@@ -94,9 +151,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後業績公布",
+      "statusLabel": "3日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-04-23"
+      "sourceDate": "2026-04-24"
     },
     {
       "key": "_stub_e59089e5",
@@ -113,9 +170,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後業績公布",
+      "statusLabel": "3日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-04-23"
+      "sourceDate": "2026-04-24"
     },
     {
       "key": "_stub_e68192e7",
@@ -132,28 +189,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-04-23"
-    },
-    {
-      "key": "_stub_e5afa7e5",
-      "name": "寧德時代",
-      "ticker": "03750.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-05-20",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-04-23"
+      "sourceDate": "2026-04-24"
     },
     {
       "key": "_stub_e8b5a4e5",
@@ -170,9 +208,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-04-23"
+      "sourceDate": "2026-04-24"
     },
     {
       "key": "_stub_e694bfe5",
@@ -191,7 +229,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-04-23"
+      "sourceDate": "2026-04-24"
     },
     {
       "key": "_stub_e6af9be6",
@@ -208,9 +246,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "5日後除淨",
+      "statusLabel": "4日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-04-23"
+      "sourceDate": "2026-04-24"
+    },
+    {
+      "key": "_stub_e9a086e8",
+      "name": "順豐控股",
+      "ticker": "06936.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2024-11-27",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-04-24"
     }
   ],
   "archived": [
@@ -1696,6 +1753,27 @@
       "name": "華勤技術",
       "ticker": "03296.HK",
       "listingDate": "2026-04-23",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e69ba6e6",
+      "name": "曦智科技－Ｐ",
+      "ticker": "01879.HK",
+      "listingDate": "2026-04-28",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e8978de6",
+      "name": "藍思科技",
+      "ticker": "06613.HK",
+      "listingDate": "2025-07-09",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e5afa7e5",
+      "name": "寧德時代",
+      "ticker": "03750.HK",
+      "listingDate": "2025-05-20",
       "result": "待更新"
     }
   ]

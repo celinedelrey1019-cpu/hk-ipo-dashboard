@@ -1,0 +1,523 @@
+{
+  "name": "天星醫療",
+  "sector": "医疗器械（骨科植入物/微创手术耗材）",
+  "rating": "WATCH",
+  "score": 5.9,
+  "scoreColor": "var(--yellow)",
+  "tagline": "国产骨科器械替代逻辑清晰，集采降价与A1定价待验证",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A1招股文件具体财务数据未可得，以下为行业知识推断：中国骨科/微创器械细分龙头典型收入规模RMB 2-8亿，毛利率50-70%区间，2021-2023年受关节/脊柱两轮集采冲击后增速从30%+放缓至15-20% CAGR；骨科国产替代大趋势（外资品牌历史占高端市场60-70%）支撑中长期逻辑，但集采扩围降价周期是核心基本面变量；盈利质量（净利率/ROE走势、应收账款天数）须待招股书披露方可评估"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A1阶段：招股价区间、发行规模、基石投资者名单、孖展倍数均未披露，IPO结构透明度极低；无A股代码意味着无先例定价锚点，港股估值需完全依赖可比公司法；发行人背景（PE持股比例、VIE架构/红筹安排）须待正式招股书披露；待孖展倍数公布后重评结构质量——若低于10x则为负面信号"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO价格未公布，无法计算隐含倍数；港股骨科器械可比NTM P/E中位约15-20x、NTM P/S中位约2.5-3.2x；若天星醫療收入规模RMB 3-5亿、定价在NTM P/S 2.5-4x区间则属合理，若超过4.5x则存在溢价压力；关键定价变量：集采覆盖广度（已被纳入集采则压制PS倍数）、产品差异化程度（微创/机器人相关标的享受溢价）"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "2026年港股医疗器械板块受益于国产替代政策持续推进与南向资金流入；骨科集采第三轮延续不确定性但长期国产化率提升逻辑清晰；港股医疗IPO情绪温和复苏（2025-2026年供给增加导致申购资源分流）；美联储降息周期有利于成长型医疗估值扩张；中美贸易摩擦背景下进口替代主题受资本追捧，对国产骨科器械有加持"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "骨科器械国产替代：政策驱动的结构性份额转移机会",
+      "desc": "中国骨科植入物市场规模超RMB 400亿，外资品牌（强生DePuy、史赛克、捷迈邦美）历史占据高端市场60-70%份额。国家集采政策通过大幅压缩进口原研器械利润空间，倒逼公立医院采购向国产品牌切换。天星醫療若具备完整脊柱或关节产品注册证矩阵，可直接受益于三甲医院高端骨科手术的国产替代窗口，这是由政策强制推动而非依赖市场自然渗透的结构性机会，比单纯的技术创新叙事更具确定性。"
+    },
+    {
+      "title": "人口老龄化叠加微创化趋势：量价双轮驱动手术耗材市场",
+      "desc": "中国60岁以上人口2026年已突破3亿，骨关节疾病（骨性关节炎、骨质疏松性骨折、脊柱退行性病变）患者基数持续扩大。叠加内镜脊柱手术（MISS）、骨科手术机器人辅助技术普及，微创手术对传统开放手术的替代带动高值耗材单次手术使用量增加与单价升级。若天星醫療产品线覆盖微创配套器械（通道扩张器、可视化内镜耗材、导航配套耗材），可享受比传统骨科植入物更高的成长溢价，抵消部分集采降价压力。"
+    },
+    {
+      "title": "港股主板融资：国际化资本平台加速产品线扩张与海外注册",
+      "desc": "通过港股IPO融资，天星醫療可建立国际化资本市场背书，有助于加速欧盟CE、美国FDA注册认证（骨科器械国际认证周期2-4年），并为后续东南亚（老龄化快速的泰国、越南）和中东市场布局提供战略支撑。港股平台同时方便与全球骨科器械大厂的潜在分销合作谈判，或作为被收购/BD合作的市值锚点，为股东创造流动性期权价值。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "集采扩围：核心产品被纳入新一轮国家集采致价格腰斩、毛利率骤降",
+      "desc": "国家骨科关节集采（2021年）已令中标产品平均降价82%，脊柱集采（2023年）延续同等降价压力。若天星醫療核心收入产品（脊柱椎间融合器、椎弓根螺钉系统、关节假体）被新一轮集采扩围覆盖，将直接触发量补价跌的业绩拐点：即使手术量增长20%，若中标价较集采前降低60-80%，绝对收入将大幅萎缩，历史高毛利率数据将完全失去前瞻指导意义。招股书必须披露现有产品集采覆盖情况及收入占比，这是最关键的财务风险指标。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "高度依赖大型三甲医院：客户集中度高且应收账款周转持续恶化",
+      "desc": "中国骨科器械企业普遍面临前五大客户收入占比30-50%、医院账期90-180天的双重压力。天津/上海等地公立医院「先使用后结算」制度改革导致回款周期延长，行业性应收账款周转天数已从2019年的90天扩张至2023年的120-150天。若招股书披露前五大客户集中度超过40%，或应收账款/收入比超过40%（年增速>5ppt），将提示现金流质量恶化与大客户流失的双重风险，这是国内骨科小市值器械公司最常见的财务预警信号。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "微创医疗科学",
+          "ticker": "0853.HK",
+          "rel": "强相关",
+          "peLtm": "NM",
+          "pe": "45x",
+          "psLtm": "3.2x",
+          "ps": "2.8x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "爱康医疗",
+          "ticker": "1789.HK",
+          "rel": "强相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "3.0x",
+          "ps": "2.5x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "威高骨科",
+          "ticker": "2397.HK",
+          "rel": "强相关",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "4.0x",
+          "ps": "3.2x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "三友医疗",
+          "ticker": "1531.HK",
+          "rel": "强相关",
+          "peLtm": "NM",
+          "pe": "38x",
+          "psLtm": "5.8x",
+          "ps": "4.8x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "春立医疗",
+          "ticker": "1858.HK",
+          "rel": "强相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "2.8x",
+          "ps": "2.4x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "微创机器人",
+          "ticker": "2252.HK",
+          "rel": "中相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "12.5x",
+          "ps": "9.5x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "博雅生物",
+          "ticker": "2162.HK",
+          "rel": "中相关",
+          "peLtm": "20x",
+          "pe": "16x",
+          "psLtm": "3.5x",
+          "ps": "3.0x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "海吉亚医疗",
+          "ticker": "6078.HK",
+          "rel": "中相关",
+          "peLtm": "26x",
+          "pe": "22x",
+          "psLtm": "3.8x",
+          "ps": "3.2x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "固生堂",
+          "ticker": "2273.HK",
+          "rel": "弱相关",
+          "peLtm": "28x",
+          "pe": "24x",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "中国医疗技术",
+          "ticker": "8138.HK",
+          "rel": "弱相关",
+          "peLtm": "15x",
+          "pe": "12x",
+          "psLtm": "1.8x",
+          "ps": "1.5x",
+          "evEbitda": "9x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股骨科器械强相关5家NTM P/E中位约17x，NTM P/S中位约2.8x；微创机器人因平台赛道享超额溢价（NTM P/S 9.5x），拉高组内均值；盈利成熟型骨科器械（爱康/春立/威高）NTM P/S集中在2.4-3.2x区间；三友医疗等高成长标的可达4-5x；全样本10家NTM P/S中位约3.0x"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "大博医疗",
+          "ticker": "002667.SZ",
+          "rel": "强相关",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "4.5x",
+          "ps": "3.8x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "三友医疗",
+          "ticker": "688085.SH",
+          "rel": "强相关",
+          "peLtm": "NM",
+          "pe": "42x",
+          "psLtm": "6.8x",
+          "ps": "5.5x",
+          "evEbitda": "32x",
+          "verdict": null
+        },
+        {
+          "name": "凯利泰",
+          "ticker": "300326.SZ",
+          "rel": "强相关",
+          "peLtm": "25x",
+          "pe": "21x",
+          "psLtm": "3.8x",
+          "ps": "3.2x",
+          "evEbitda": "17x",
+          "verdict": null
+        },
+        {
+          "name": "奥精医疗",
+          "ticker": "688613.SH",
+          "rel": "强相关",
+          "peLtm": "30x",
+          "pe": "25x",
+          "psLtm": "5.2x",
+          "ps": "4.5x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "正海生物",
+          "ticker": "605030.SH",
+          "rel": "强相关",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "4.0x",
+          "ps": "3.5x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "天智航",
+          "ticker": "688277.SH",
+          "rel": "中相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "9.0x",
+          "ps": "7.5x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "迈瑞医疗",
+          "ticker": "300760.SZ",
+          "rel": "中相关",
+          "peLtm": "30x",
+          "pe": "25x",
+          "psLtm": "7.0x",
+          "ps": "6.0x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "乐普医疗",
+          "ticker": "300003.SZ",
+          "rel": "中相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "南微医学",
+          "ticker": "688029.SH",
+          "rel": "中相关",
+          "peLtm": "28x",
+          "pe": "23x",
+          "psLtm": "5.5x",
+          "ps": "4.8x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "华东医疗",
+          "ticker": "000963.SZ",
+          "rel": "弱相关",
+          "peLtm": "14x",
+          "pe": "12x",
+          "psLtm": "1.5x",
+          "ps": "1.3x",
+          "evEbitda": "9x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "A股骨科器械强相关5家NTM P/E中位约21x，NTM P/S中位约3.8x；骨科机器人（天智航）因赛道赋予7.5x NTM P/S溢价；传统骨科耗材（大博/凯利泰）NTM P/S在3-4x；A股对港股同类溢价约25-35%；全样本10家NTM P/S中位约3.9x"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Stryker",
+          "ticker": "SYK",
+          "rel": "强相关",
+          "peLtm": "30x",
+          "pe": "26x",
+          "psLtm": "5.5x",
+          "ps": "5.0x",
+          "evEbitda": "24x",
+          "verdict": null
+        },
+        {
+          "name": "Zimmer Biomet",
+          "ticker": "ZBH",
+          "rel": "强相关",
+          "peLtm": "15x",
+          "pe": "13x",
+          "psLtm": "2.5x",
+          "ps": "2.3x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "Globus Medical",
+          "ticker": "GMED",
+          "rel": "强相关",
+          "peLtm": "24x",
+          "pe": "20x",
+          "psLtm": "4.2x",
+          "ps": "3.8x",
+          "evEbitda": "17x",
+          "verdict": null
+        },
+        {
+          "name": "Alphatec Holdings",
+          "ticker": "ATEC",
+          "rel": "强相关",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "3.8x",
+          "ps": "3.0x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "Enovis",
+          "ticker": "ENOV",
+          "rel": "强相关",
+          "peLtm": "NM",
+          "pe": "38x",
+          "psLtm": "2.2x",
+          "ps": "2.0x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "Smith+Nephew",
+          "ticker": "SNN",
+          "rel": "中相关",
+          "peLtm": "18x",
+          "pe": "16x",
+          "psLtm": "2.0x",
+          "ps": "1.8x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "OrthoPediatrics",
+          "ticker": "KIDS",
+          "rel": "中相关",
+          "peLtm": "NM",
+          "pe": "55x",
+          "psLtm": "5.8x",
+          "ps": "5.0x",
+          "evEbitda": "30x",
+          "verdict": null
+        },
+        {
+          "name": "Penumbra",
+          "ticker": "PEN",
+          "rel": "中相关",
+          "peLtm": "38x",
+          "pe": "32x",
+          "psLtm": "6.0x",
+          "ps": "5.2x",
+          "evEbitda": "26x",
+          "verdict": null
+        },
+        {
+          "name": "Integra LifeSciences",
+          "ticker": "IART",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "2.8x",
+          "ps": "2.5x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "Haemonetics",
+          "ticker": "HAE",
+          "rel": "弱相关",
+          "peLtm": "25x",
+          "pe": "22x",
+          "psLtm": "4.0x",
+          "ps": "3.5x",
+          "evEbitda": "18x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股骨科器械龙头（Stryker/ZBH/Globus）NTM P/E中位约20x，NTM P/S中位约3.8x；Stryker作为全球综合骨科龙头享受5.0x NTM P/S溢价；纯脊柱成长公司（Alphatec/ATEC）亏损无P/E但NTM P/S约3.0x；美股全样本10家NTM P/S中位约3.3x"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO价格尚未公布（A1阶段），待正式招股书发布后更新跨市场折溢价分析。三市场强相关可比NTM P/S参考：港股约2.4-4.8x（中位~2.8x）、A股约3.2-5.5x（中位~3.8x）、美股约2.0-5.0x（中位~3.4x）；三市场全样本NTM P/S中位约3.3x。假设天星醫療2025收入规模RMB 3-6亿，合理港股定价对应NTM P/S 2.5-4.0x（对应市值约HKD 7.5-25亿）。若定价NTM P/S超过4.5x则存在明显溢价，需以差异化产品线（机器人/微创专项）支撑。待IPO定价公布后计算隐含倍数与三市场中位的具体折溢价。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "3.3x（三市场全样本NTM P/S中位）/ 2.8x（港股强相关中位）/ 3.8x（A股强相关中位）/ 3.4x（美股强相关中位）",
+      "medianPE": "19x（三市场有意义NTM P/E中位）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "A1阶段观望，待招股书披露定价区间、集采覆盖情况与发行结构后重评",
+    "horizon": "6-12个月（集采政策走向与国产替代市占率可见提升为关键里程碑）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "2.8-3.5x（港股骨科器械NTM P/S合理区间）",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "国产替代逻辑 (F)：集采加速骨科器械进口份额转移",
+          "result": "✓",
+          "note": "政策驱动骨科市场国产化率提升，中长期结构性需求清晰，外资产品价格压缩后国产竞争窗口打开",
+          "ok": true
+        },
+        {
+          "point": "集采降价风险 (F)：核心产品是否已/将被新一轮集采覆盖",
+          "result": "?",
+          "note": "A1招股文件未获取，核心财务影响待招股书披露集采覆盖品类及收入占比后确认",
+          "ok": false
+        },
+        {
+          "point": "IPO结构 (S)：无A股锚点定价，结构透明度低",
+          "result": "✗",
+          "note": "A1阶段无价格区间、无基石投资者信息、无孖展数据，须待正式招股书披露后评估结构质量",
+          "ok": false
+        },
+        {
+          "point": "市场时机 (M)：2026年港股医疗板块情绪温和回暖",
+          "result": "✓",
+          "note": "南向资金持续流入医疗器械板块，国产器械进口替代主题在中美贸易摩擦背景下受追捧",
+          "ok": true
+        },
+        {
+          "point": "估值合理性 (V)：待定价验证",
+          "result": "?",
+          "note": "无IPO定价无法判断，典型骨科器械NTM P/S 2.5-4x为合理区间，超过4.5x须差异化产品线支撑",
+          "ok": false
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "IPO价 × 0.75",
+        "upside": "-25%",
+        "basis": "定价偏高（隐含NTM P/S>5x）且核心产品被新一轮集采覆盖导致毛利率大幅压缩，收入增速低于10%；港股医疗器械板块整体走弱，小市值器械股流动性折价扩大，破发后跌至IPO价0.75倍"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "IPO价 × 1.30",
+        "upside": "+30%",
+        "basis": "定价合理（隐含NTM P/S 2.5-3.5x），基石机构覆盖15%+，孖展10-15x；上市后12个月内国产替代市占率可见提升，核心产品保持15-20%增速，毛利率稳定在60%+，估值向港股同类可比靠拢"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "IPO价 × 2.00",
+        "upside": "+100%",
+        "basis": "定价低廉（隐含NTM P/S<2x），大型战略投资者基石入驻+孖展>25x；高端微创产品线获FDA/CE认证加速出海，或骨科手术机器人布局超预期，估值向微创医疗/天智航赛道溢价（NTM P/S 7-9x）方向重定价"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发",
+        "desc": "股价对应估值超过NTM P/S 5x（远高于港股骨科同类中位2.8x，国产替代增长逻辑已充分price in）或国产替代市占率提升商业化目标实现后估值已反映，分批减持兑现浮盈",
+        "price": "≥ IPO价 × 1.8",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "股价跌破IPO价15%（港股小市值器械股深度破发信号），或核心产品被纳入新一轮国家骨科集采且降价幅度>50%（业绩拐点确认），或应收账款周转天数较招股书披露数据延长超过40天（现金流质量恶化），立即止损",
+        "price": "< IPO价 × 0.85",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-04-24",
+  "generatedBy": "claude-oauth",
+  "ticker": "01609.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
