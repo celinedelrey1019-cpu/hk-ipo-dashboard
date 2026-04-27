@@ -1,0 +1,529 @@
+{
+  "name": "可孚醫療",
+  "sector": "家用醫療器械",
+  "rating": "WATCH",
+  "score": 6.1,
+  "scoreColor": "var(--yellow)",
+  "tagline": "家用醫療龍頭A+H雙重上市，後疫情週期估值待錨定",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "品類覆蓋血糖儀、血壓計、霧化器、製氧機、血氧儀等多個慢病管理細分，國內家用醫療器械市占率前列；疫情期（2022年）收入峰值約35億元RMB，毛利率維持40%以上，已實現持續盈利；後疫情週期血氧儀等品類需求斷崖式下滑導致增速承壓，新品類（CGM、聽力設備）補位速度是核心觀察指標；電商多渠道佈局具備分銷優勢，但技術護城河相對一般"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股價及募資規模截至分析日期尚未公佈，IPO結構（新股比例/舊股套現比例）待A1披露；作為A股上市公司（301087.SZ）申請H股，A-H溢折價動態構成定價錨，港股流動性低於A股或帶來折讓壓力；基石投資者陣容及保薦人未確認；公開招股份額若偏少則打新槓桿效應受限"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "定價前無法計算隱含倍數；參照A股可比公司（魚躍、三諾、康泰醫學）LTM P/E中位18-22x、P/S中位2.0x作為基準；H股歷史較A股折讓20-30%，則合理H股P/S約1.4-1.8x；若IPO定價隱含P/S低於1.5x則具備吸引力，高於2.2x則偏貴；待招股價公佈後更新精確判斷"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "2025年港股醫療板塊估值修復，消費醫療情緒回暖；內地老齡化加速帶動慢病管理設備長期需求具備結構性支撐；家用醫療器械受集採直接衝擊較院內設備小，政策風險相對可控；出口端受中美關稅博弈及地緣政治影響，歐美市場拓展或有不確定性"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "品類多元化對沖單一產品週期風險",
+      "desc": "可孚醫療產品線橫跨血糖監測（血糖儀、試紙）、血壓管理（電子血壓計）、呼吸護理（霧化器、製氧機）、康復輔具（輪椅、助聽器）等多條賽道，單一品類需求衰退（如2023年血氧儀回落）可由其他品類部分承接。在老齡化加速、DRG控費推動院外化的背景下，慢病管理設備長期需求具備結構性支撐，多品類矩陣降低了業績波動性。"
+    },
+    {
+      "title": "A+H雙重上市打通國際資本渠道",
+      "desc": "H股上市後有望納入港股通，吸引南下資金及境外機構。雙重上市為公司提供更廣融資渠道，可支持海外市場拓展（品牌出口、境外併購）；同時提升信息披露透明度，有助於中長期估值重構。A股定價錨亦讓H股投資者享有較明確的估值參照系，減少定價不確定性。"
+    },
+    {
+      "title": "院外化政策紅利與電商渠道深化",
+      "desc": "DRG/DIP支付改革推動慢病管理從院內轉向院外，直接刺激家用醫療器械需求。可孚醫療在電商（天貓、京東、拼多多）、連鎖藥店及線下直銷渠道均有佈局，渠道多元化有助於品牌溢價提升及毛利率維護。CGM連續血糖監測等新一代高附加值產品若成功放量，將顯著改善盈利質量。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "血氧儀等疫情品類需求斷崖後庫存積壓與產能利用率下滑",
+      "desc": "2022年疫情驅動血氧儀需求激增，可孚醫療大幅擴產，2023年起需求急速萎縮，相關SKU出現庫存積壓及產能閒置，直接壓制毛利率和現金流轉化效率。若新品類（如CGM、助聽器）商業化進展低於預期，收入中樞將難以回歸疫情前增長軌道，A股近年財報已顯示營收增速顯著放緩的信號。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "家用醫療器械市場同質化競爭白熱化導致毛利率持續下行",
+      "desc": "魚躍醫療、九安醫療、康泰醫學在血壓計、血氧儀、血糖儀等核心品類持續降價競爭；歐姆龍、百特、羅氏等海外品牌在高端市場壓縮可孚醫療的品牌溢價空間；電商平台比價透明加速低端化趨勢。若可孚醫療無法在技術迭代（如CGM算法精度、藍牙連接穩定性）或品牌力上建立差異化護城河，毛利率面臨持續收縮至38%以下的風險。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "威高股份",
+          "ticker": "1066.HK",
+          "rel": "中相关",
+          "peLtm": "12x",
+          "pe": "11x",
+          "psLtm": "1.2x",
+          "ps": "1.1x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "微泰醫療",
+          "ticker": "2235.HK",
+          "rel": "强相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "5.5x",
+          "ps": "4.0x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "先健科技",
+          "ticker": "1302.HK",
+          "rel": "中相关",
+          "peLtm": "18x",
+          "pe": "16x",
+          "psLtm": "3.8x",
+          "ps": "3.4x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "爱康醫療",
+          "ticker": "1789.HK",
+          "rel": "中相关",
+          "peLtm": "13x",
+          "pe": "12x",
+          "psLtm": "2.4x",
+          "ps": "2.2x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "康基醫療",
+          "ticker": "9997.HK",
+          "rel": "中相关",
+          "peLtm": "19x",
+          "pe": "17x",
+          "psLtm": "3.9x",
+          "ps": "3.5x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "春立醫療",
+          "ticker": "1858.HK",
+          "rel": "中相关",
+          "peLtm": "11x",
+          "pe": "10x",
+          "psLtm": "1.7x",
+          "ps": "1.5x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "華潤醫療",
+          "ticker": "1515.HK",
+          "rel": "弱相关",
+          "peLtm": "14x",
+          "pe": "13x",
+          "psLtm": "0.8x",
+          "ps": "0.7x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "固生堂",
+          "ticker": "2273.HK",
+          "rel": "弱相关",
+          "peLtm": "21x",
+          "pe": "18x",
+          "psLtm": "1.4x",
+          "ps": "1.2x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "高博醫療",
+          "ticker": "6622.HK",
+          "rel": "弱相关",
+          "peLtm": "24x",
+          "pe": "21x",
+          "psLtm": "2.3x",
+          "ps": "2.0x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "歐康維視生物",
+          "ticker": "1477.HK",
+          "rel": "弱相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "7.5x",
+          "ps": "6.0x",
+          "evEbitda": "N/M",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股醫療器械（盈利企業）LTM P/E中位約14x、P/S中位約2.1x，整體較A股折讓20-30%；可孚醫療作為多元化已盈利器械公司，合理參照P/S 1.5-2.0x、P/E 12-16x；IPO定價後需確認是否落入此區間"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "魚躍醫療",
+          "ticker": "002223.SZ",
+          "rel": "强相关",
+          "peLtm": "18x",
+          "pe": "16x",
+          "psLtm": "2.1x",
+          "ps": "1.9x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "三諾生物",
+          "ticker": "300298.SZ",
+          "rel": "强相关",
+          "peLtm": "22x",
+          "pe": "19x",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "九安醫療",
+          "ticker": "002432.SZ",
+          "rel": "强相关",
+          "peLtm": "11x",
+          "pe": "10x",
+          "psLtm": "1.4x",
+          "ps": "1.3x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "康泰醫學",
+          "ticker": "300869.SZ",
+          "rel": "强相关",
+          "peLtm": "21x",
+          "pe": "18x",
+          "psLtm": "2.7x",
+          "ps": "2.4x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "樂普醫療",
+          "ticker": "300003.SZ",
+          "rel": "中相关",
+          "peLtm": "15x",
+          "pe": "14x",
+          "psLtm": "1.9x",
+          "ps": "1.7x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "穩健醫療",
+          "ticker": "300888.SZ",
+          "rel": "中相关",
+          "peLtm": "17x",
+          "pe": "15x",
+          "psLtm": "1.7x",
+          "ps": "1.5x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "振德醫療",
+          "ticker": "603301.SH",
+          "rel": "中相关",
+          "peLtm": "14x",
+          "pe": "13x",
+          "psLtm": "1.4x",
+          "ps": "1.3x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "迈瑞醫療",
+          "ticker": "300760.SZ",
+          "rel": "中相关",
+          "peLtm": "27x",
+          "pe": "24x",
+          "psLtm": "6.5x",
+          "ps": "5.8x",
+          "evEbitda": "19x",
+          "verdict": null
+        },
+        {
+          "name": "翔宇醫療",
+          "ticker": "688626.SH",
+          "rel": "中相关",
+          "peLtm": "21x",
+          "pe": "18x",
+          "psLtm": "3.3x",
+          "ps": "2.9x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "華康醫療",
+          "ticker": "301235.SZ",
+          "rel": "中相关",
+          "peLtm": "15x",
+          "pe": "13x",
+          "psLtm": "1.9x",
+          "ps": "1.7x",
+          "evEbitda": "10x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "A股同類家用醫療器械LTM P/E中位約18x、P/S中位約2.0x；可孚醫療A股（301087.SZ）為最直接定價錨，H股定價通常較A股折讓20-30%，合理H股P/S區間約1.4-1.8x"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Masimo",
+          "ticker": "MASI",
+          "rel": "强相关",
+          "peLtm": "30x",
+          "pe": "26x",
+          "psLtm": "2.7x",
+          "ps": "2.5x",
+          "evEbitda": "17x",
+          "verdict": null
+        },
+        {
+          "name": "Dexcom",
+          "ticker": "DXCM",
+          "rel": "中相关",
+          "peLtm": "50x",
+          "pe": "40x",
+          "psLtm": "6.2x",
+          "ps": "5.3x",
+          "evEbitda": "32x",
+          "verdict": null
+        },
+        {
+          "name": "Abbott Labs",
+          "ticker": "ABT",
+          "rel": "中相关",
+          "peLtm": "21x",
+          "pe": "19x",
+          "psLtm": "3.1x",
+          "ps": "2.9x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "Tandem Diabetes",
+          "ticker": "TNDM",
+          "rel": "中相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "3.3x",
+          "ps": "2.8x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Insulet",
+          "ticker": "PODD",
+          "rel": "中相关",
+          "peLtm": "55x",
+          "pe": "42x",
+          "psLtm": "5.3x",
+          "ps": "4.6x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "iRhythm Technologies",
+          "ticker": "IRTC",
+          "rel": "中相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "5.1x",
+          "ps": "4.3x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Invacare",
+          "ticker": "IVC",
+          "rel": "中相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "0.3x",
+          "ps": "0.3x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Integer Holdings",
+          "ticker": "ITGR",
+          "rel": "弱相关",
+          "peLtm": "17x",
+          "pe": "15x",
+          "psLtm": "1.1x",
+          "ps": "1.0x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "Haemonetics",
+          "ticker": "HAE",
+          "rel": "弱相关",
+          "peLtm": "21x",
+          "pe": "19x",
+          "psLtm": "3.4x",
+          "ps": "3.1x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "Omnicell",
+          "ticker": "OMCL",
+          "rel": "弱相关",
+          "peLtm": "24x",
+          "pe": "21x",
+          "psLtm": "1.7x",
+          "ps": "1.6x",
+          "evEbitda": "12x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "美股醫療器械（盈利企業）LTM P/E中位約21x、P/S中位約3.1x，估值整體高於港/A股；美股賦予創新溢價，可孚醫療以中國市場為主，直接對標需打折扣，美股Comps主要作為估值天花板參考"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO定價尚未公布，待招股價公佈後更新跨市場估值對比。三市場（港/A/美）盈利可比公司LTM P/E中位約18x、P/S中位約2.1x；H股若較A股折讓25%，隱含合理P/S約1.5-1.8x、P/E約14-17x。若最終定價高於P/S 2.2x，估值偏貴建議觀望；低於P/S 1.5x則具備明顯吸引力，可積極申購。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "2.1x（三市場中位）",
+      "medianPE": "18x（三市場中位）",
+      "premiumDiscount": "待IPO定價後計算"
+    }
+  },
+  "sellRec": {
+    "action": "待招股價公佈後評估申購",
+    "horizon": "3-6個月（視定價吸引力決定是否申購及持倉期）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": null,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定價後填入",
+      "compsMedian": "2.1x（三市場中位）；H股合理區間1.5-1.8x",
+      "vs": "待IPO定價後計算",
+      "verdict": "待定價後判斷",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "基本面 (F)：多品類收入結構與持續盈利能力",
+          "result": "✓",
+          "note": "年收入規模約35億元RMB，毛利率~40%，多渠道佈局，財務基礎紮實",
+          "ok": true
+        },
+        {
+          "point": "基本面 (F)：後疫情品類需求正常化壓力",
+          "result": "✗",
+          "note": "血氧儀需求2023年後斷崖下滑，新品類補位速度決定未來增速中樞",
+          "ok": false
+        },
+        {
+          "point": "結構 (S)：A股錨定、H股折讓空間",
+          "result": "✓",
+          "note": "A股（301087.SZ）提供清晰定價參照，H股歷史折讓20-30%區間可作預判",
+          "ok": true
+        },
+        {
+          "point": "結構 (S)：IPO定價及基石投資者",
+          "result": "✗",
+          "note": "招股價未公佈，基石陣容未知，IPO結構待披露，是最大的不確定性",
+          "ok": false
+        },
+        {
+          "point": "估值 (V)：H股定價是否低於A股同業折讓後中位數",
+          "result": "⚠",
+          "note": "若H股P/S<1.5x則具吸引力；>2.2x則建議觀望，待定價確認",
+          "ok": false
+        },
+        {
+          "point": "市場時機 (M)：港股醫療板塊情緒與政策環境",
+          "result": "✓",
+          "note": "2025年消費醫療估值修復，老齡化政策紅利持續，打新窗口期相對有利",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "IPO價 × 0.80-0.85",
+        "upside": "-15% 至 -20%",
+        "basis": "H股較A股折讓超40%；後疫情業績持續下滑，新品類放量不及預期；市場給予P/S 1.0-1.2x壓縮估值"
+      },
+      {
+        "type": "base",
+        "label": "基礎情景",
+        "price": "IPO價 × 1.10-1.20",
+        "upside": "+10% 至 +20%",
+        "basis": "H股較A股折讓約20-25%，P/S 1.5-1.8x；業務正常化恢復，南下資金流入支撐，6個月內溫和上行"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "IPO價 × 1.30-1.50",
+        "upside": "+30% 至 +50%",
+        "basis": "CGM及高毛利新品超預期放量，毛利率回升至42%+；A-H折讓收窄至15%以內，市場給予P/S 2.2-2.5x"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "減持觸發",
+        "desc": "上市後股價急升致H股P/S觸及2.2x（三市場中位上限），或H股較A股（301087.SZ）同期轉為溢價，則分批減倉，鎖定打新收益",
+        "price": "≥ IPO價 +30%",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止損觸發",
+        "desc": "若連續兩季度營收同比負增長且毛利率跌破38%，或核心管理層大規模減持A股，或IPO後基石投資者提前解禁套現，則止損出場",
+        "price": "< IPO價 -15%",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-04-27",
+  "generatedBy": "claude-oauth",
+  "ticker": "01187.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
