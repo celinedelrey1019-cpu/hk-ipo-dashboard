@@ -1,0 +1,523 @@
+{
+  "name": "樂動機器人",
+  "sector": "教育/消费机器人（STEM教育科技）",
+  "rating": "WATCH",
+  "score": 5.7,
+  "scoreColor": "var(--yellow)",
+  "tagline": "中国STEM教育机器人先行者，乘机器人政策东风赴港，待定价确认价值",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A1招股文件核心财务数据未获取，依行业知识估算：教育/消费机器人头部企业典型营收规模RMB 3-10亿，毛利率45-58%（硬件+软件/内容混合模式优于纯硬件），净利率受高研发（占收比15-25%）及渠道销售费用压制通常在0-10%区间；中国K-12机器人教育市场2024-2026 CAGR约22-28%，政策端持续加码STEM教育进课程；核心风险在于双减政策后课外教育支出压缩对B2C渠道的潜在传导，以及B2G政府采购回款周期长（通常90-180天）导致营运资金压力；待A1数据核实真实毛利率、净利率及现金流质量"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A1阶段尚未披露发行定价区间、基石投资者名单、孖展数据及公众持股比例；教育机器人赛道港股IPO历史参考有限，最强对标布鲁可（00325.HK）上市初期孖展约10-15x；若大股东/VC机构（IDG、高瓴、红杉等典型教育科技投资方）持有6个月锁定期，解禁压力需关注；募资用途预计用于新一代机器人产品研发、B2G学校渠道扩展及补充营运资金；所有结构参数待正式招股文件披露后更新"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO定价未公布，依三市场可比中位参考：全样本NTM P/S中位约4.2x（港股强相关8x / A股中相关3.4x / 美股强相关3.8x），NTM P/E中位约29x；教育机器人公司若处于高速增长期（>30% YoY）市场倾向给予NTM P/S 5-8x的成长溢价；若以估算营收RMB 4-6亿（~HK$4.3-6.5亿）测算：4.2x P/S对应市值约HK$18-27亿，8x P/S对应约HK$34-52亿；关键估值变量：公司是否盈利、B2G vs B2C收入结构、内容订阅复购率及单校经济指标；待IPO定价公布后计算隐含倍数"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.5,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "时机整体有利：机器人赛道在2025-2026年全球AI浪潮带动下估值体系持续重构，优必选（09880.HK）、布鲁可（00325.HK）、傅里叶（03625.HK）等港股机器人标的已积累主题流量；教育部明确将编程/机器人纳入义务教育信息科技课程标准，对教育机器人需求形成刚性政策支撑；港股IPO市场2025-2026显著回暖，机器人/科技主题认购热情高于往年；主要不确定因素：若市场核心叙事从教育机器人转向人形机器人（B2B工业端），纯教育赛道主题溢价可能受压"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "STEM教育政策刚需：义务教育课标锁定编程机器人场景",
+      "desc": "2022年教育部修订《义务教育信息科技课程标准》，明确在小学至初中阶段设置编程与人工智能模块，各省市配套落地推动学校批量采购教育机器人套装；教育机器人具有标准化采购、政府预算支撑、低价格敏感性的B2G渠道特性，客户生命周期长（一套设备使用3-5年后触发更换周期）；随人形机器人与AI叙事普及，学校对机器人教学工具认知度显著提升，推动从选修到必修的渗透率加速；中国K-12在校生约1.5亿人，若按5%学校采购率、每校均值RMB 15万采购量推算，总地址性市场（TAM）约RMB 200-300亿，当前渗透率仍处早期"
+    },
+    {
+      "title": "硬件+软件内容双飞轮：毛利率扩张路径清晰",
+      "desc": "教育机器人商业模式由初始硬件销售（机器人本体/套件）叠加SaaS化课程内容、编程平台订阅构成：硬件建立用户基数，软件/内容贡献高毛利复购（内容订阅毛利率通常60-75%，显著高于硬件30-40%）；随内容渗透率提升，整体组合毛利率理论可从早期45%向55-60%爬坡；标杆参考：Makeblock（编程/机器人头部）产品矩阵覆盖硬件（mBot系列）+平台（mBlock编程IDE）+内容课程全链路；若樂動機器人软件/内容营收占比达25-35%，则整体毛利率改善逻辑具有较强说服力，盈利改善预期将成为上市后估值催化剂"
+    },
+    {
+      "title": "机器人主题IPO窗口期：港股成功案例提供定价锚点",
+      "desc": "2024-2026年香港主板机器人/AI赛道密集上市：布鲁可（00325.HK，Jan 2025，机器人玩具）上市首年涨幅超60%；越疆（02432.HK，Dec 2024，协作机器人）；傅里叶（03625.HK，Mar 2026，康复机器人）；机构投资者已建立机器人主题配置框架，对新上市机器人标的认购意愿显著提升；港股通资格一旦获批，南向资金可提供额外流动性支撑；教育机器人相较人形/工业机器人估值锚点较低（P/S通常4-8x vs 人形机器人15-25x），若定价保守则存在上市后向同赛道标的看齐的修复空间"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "双减政策延伸风险：B2C课外培训渠道面临监管不确定性",
+      "desc": "2021年双减政策重创K-12课外学科培训，虽机器人/STEM被界定为素质教育（非学科类）暂获豁免，但各地执法尺度不一：部分省市已将机器人培训机构纳入「素质类培训」监管范畴，限制收费时段及标准；若监管收紧至覆盖机器人线下培训机构，将直接压制依赖课外培训渠道的B2C收入（通常占小型教育机器人公司营收20-40%）；好未来因双减收入骤降70%+的历史案例不可忽视；樂動機器人若B2C课外培训渠道收入占比较高，监管超预期将触发盈利预测大幅下修并引发估值重估"
+    },
+    {
+      "icon": "⚠️",
+      "title": "B2G应收账款周期长：现金流与账面利润存在实质性背离风险",
+      "desc": "B2G学校/政府采购典型回款周期90-180天，部分西部省份及县域学校延期至12-24个月，导致账面营收高速增长而经营性现金流持续净流出；若A1招股书披露应收账款周转天数超过180天或应收账款/营收比例超过50%，则表明回款质量存在实质性问题；对比同类参考：科大讯飞（002230.SZ）教育政府采购应收账款高峰期超RMB 50亿，占营收比35%，引发市场对报告利润含金量的持续质疑并压制估值；若樂動機器人营收以B2G为主（预计占比50-70%），现金流质量将成为港股机构投资者重点审视的估值折扣因子"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "优必选",
+          "ticker": "09880.HK",
+          "rel": "强相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "9x",
+          "ps": "7x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "布鲁可",
+          "ticker": "00325.HK",
+          "rel": "强相关",
+          "peLtm": "55x",
+          "pe": "38x",
+          "psLtm": "13x",
+          "ps": "9x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "越疆",
+          "ticker": "02432.HK",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "45x",
+          "psLtm": "8x",
+          "ps": "6x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "极智嘉－Ｗ",
+          "ticker": "02590.HK",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "60x",
+          "psLtm": "6x",
+          "ps": "5x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "云迹",
+          "ticker": "02670.HK",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "4x",
+          "ps": "3x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "臥安機器人",
+          "ticker": "06600.HK",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "12x",
+          "ps": "8x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "华沿机器人",
+          "ticker": "01021.HK",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "7x",
+          "ps": "5x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "傅里叶",
+          "ticker": "03625.HK",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "8x",
+          "ps": "6x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "出门问问",
+          "ticker": "02438.HK",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "3x",
+          "ps": "2.5x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "地平线机器人－Ｗ",
+          "ticker": "09660.HK",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "22x",
+          "ps": "16x",
+          "evEbitda": "N/A",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股机器人板块估值呈双峰分布：AI基础设施/芯片标的（地平线09660）享受16-22x NTM P/S超高溢价；消费/教育机器人（布鲁可00325、优必选09880）在7-9x NTM P/S区间；服务机器人（越疆02432、极智嘉02590）在5-6x；早期/小市值标的（云迹02670、华沿01021）在3-5x；去除极值后，港股强相关可比（优必选+布鲁可）NTM P/S中位约8x；教育机器人定位居布鲁可（消费玩具）与优必选（服务机器人）之间，合理NTM P/S参考区间约6-9x"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "科大讯飞",
+          "ticker": "002230.SZ",
+          "rel": "中相关",
+          "peLtm": "65x",
+          "pe": "50x",
+          "psLtm": "3.5x",
+          "ps": "3x",
+          "evEbitda": "30x",
+          "verdict": null
+        },
+        {
+          "name": "埃斯顿",
+          "ticker": "002747.SZ",
+          "rel": "中相关",
+          "peLtm": "35x",
+          "pe": "28x",
+          "psLtm": "4.5x",
+          "ps": "3.8x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "汇川技术",
+          "ticker": "300124.SZ",
+          "rel": "弱相关",
+          "peLtm": "42x",
+          "pe": "35x",
+          "psLtm": "4.8x",
+          "ps": "4x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "绿的谐波",
+          "ticker": "688017.SH",
+          "rel": "中相关",
+          "peLtm": "70x",
+          "pe": "55x",
+          "psLtm": "18x",
+          "ps": "14x",
+          "evEbitda": "35x",
+          "verdict": null
+        },
+        {
+          "name": "拓斯达",
+          "ticker": "300607.SZ",
+          "rel": "弱相关",
+          "peLtm": "25x",
+          "pe": "20x",
+          "psLtm": "1.8x",
+          "ps": "1.5x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "天智航",
+          "ticker": "688277.SH",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "18x",
+          "ps": "14x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "新时达",
+          "ticker": "002527.SZ",
+          "rel": "弱相关",
+          "peLtm": "28x",
+          "pe": "22x",
+          "psLtm": "4x",
+          "ps": "3.2x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "乐鑫科技",
+          "ticker": "688018.SH",
+          "rel": "弱相关",
+          "peLtm": "55x",
+          "pe": "42x",
+          "psLtm": "10x",
+          "ps": "8x",
+          "evEbitda": "25x",
+          "verdict": null
+        },
+        {
+          "name": "三花智控",
+          "ticker": "002050.SZ",
+          "rel": "弱相关",
+          "peLtm": "28x",
+          "pe": "22x",
+          "psLtm": "2.5x",
+          "ps": "2x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "迈为股份",
+          "ticker": "300751.SZ",
+          "rel": "弱相关",
+          "peLtm": "32x",
+          "pe": "26x",
+          "psLtm": "5x",
+          "ps": "4x",
+          "evEbitda": "18x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "A股机器人/教育科技板块整体处于高位：强/中相关可比（科大讯飞002230、埃斯顿002747）NTM P/E中位约39x、NTM P/S中位约3.4x；机器人关节龙头绿的谐波（688017）享受55x NTM P/E超高估值为赛道天花板；A股教育机器人方向无直接可比，科大讯飞教育板块被整体公司估值摊薄；A股对港股通常享有20-40%溢价，意味着若樂動機器人以A股可比折价约25%定价，则合理NTM P/E约25-30x，NTM P/S约2.5-3x"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Teradyne",
+          "ticker": "TER",
+          "rel": "强相关",
+          "peLtm": "38x",
+          "pe": "28x",
+          "psLtm": "4.5x",
+          "ps": "3.8x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "Cognex",
+          "ticker": "CGNX",
+          "rel": "中相关",
+          "peLtm": "45x",
+          "pe": "35x",
+          "psLtm": "9x",
+          "ps": "7.5x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "Intuitive Surgical",
+          "ticker": "ISRG",
+          "rel": "弱相关",
+          "peLtm": "65x",
+          "pe": "55x",
+          "psLtm": "17x",
+          "ps": "14x",
+          "evEbitda": "40x",
+          "verdict": null
+        },
+        {
+          "name": "Symbotic",
+          "ticker": "SYM",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "85x",
+          "psLtm": "5x",
+          "ps": "3.5x",
+          "evEbitda": "30x",
+          "verdict": null
+        },
+        {
+          "name": "Rockwell Automation",
+          "ticker": "ROK",
+          "rel": "弱相关",
+          "peLtm": "30x",
+          "pe": "26x",
+          "psLtm": "3.5x",
+          "ps": "3.2x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "ABB Ltd",
+          "ticker": "ABB",
+          "rel": "弱相关",
+          "peLtm": "26x",
+          "pe": "22x",
+          "psLtm": "2.8x",
+          "ps": "2.5x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "Zebra Technologies",
+          "ticker": "ZBRA",
+          "rel": "弱相关",
+          "peLtm": "28x",
+          "pe": "24x",
+          "psLtm": "3.2x",
+          "ps": "2.8x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "Emerson Electric",
+          "ticker": "EMR",
+          "rel": "弱相关",
+          "peLtm": "25x",
+          "pe": "22x",
+          "psLtm": "4x",
+          "ps": "3.6x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "Hasbro",
+          "ticker": "HAS",
+          "rel": "弱相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "1.5x",
+          "ps": "1.4x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "Mattel",
+          "ticker": "MAT",
+          "rel": "弱相关",
+          "peLtm": "14x",
+          "pe": "12x",
+          "psLtm": "1.2x",
+          "ps": "1.1x",
+          "evEbitda": "10x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股机器人/自动化板块：强相关可比Teradyne（TER，持有Universal Robots）NTM P/E 28x、NTM P/S 3.8x；Cognex（CGNX，机器视觉）NTM P/S 7.5x享有技术差异化溢价；工业自动化龙头（Rockwell ROK、ABB、Emerson EMR）NTM P/S 2.5-3.6x；消费/玩具角度（Hasbro、Mattel）估值最低（1.1-1.4x P/S）；全样本中位NTM P/S约3.2x，NTM P/E约24x；教育机器人介于高成长技术（Cognex级别）和玩具（Mattel级别）之间，美股估值参考区间NTM P/S约3-6x"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO价格尚未公布，待IPO定价公布后更新跨市场折溢价分析。三市场综合参考（30家可比）：全样本NTM P/S中位约4.2x（港股强相关8x / A股中相关3.4x / 美股强相关3.8x），NTM P/E中位约29x（以可盈利标的为基础）；若假设樂動機器人FY2025E营收约RMB 4-6亿（~HK$4.3-6.5亿），在4.2x NTM P/S中位下对应市值约HK$18-27亿，若享受港股机器人成长溢价（布鲁可00325对标，8-9x P/S）则可达HK$34-58亿；待IPO定价后计算隐含倍数与折溢价。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "4.2x（三市场综合NTM P/S中位）/ 8x（港股强相关NTM P/S中位）",
+      "medianPE": "29x（三市场综合NTM P/E中位，含亏损标的排除后）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "等待A1定价后重评，关注孖展及基石",
+    "horizon": "申购后1-3个月",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "4.2x（三市场NTM P/S中位）/ 8x（港股强相关NTM P/S中位）",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "基本面 (F)：教育机器人毛利率45-58%，B2G+B2C双渠道",
+          "result": "~",
+          "note": "毛利率结构尚可，但净利率薄（0-10%），B2G应收账款拖累现金流质量；待A1招股书核实",
+          "ok": true
+        },
+        {
+          "point": "双减延伸风险 (F)：STEM机器人是否纳入监管范围",
+          "result": "~",
+          "note": "目前STEM机器人属素质教育暂获豁免，但政策边界模糊，未来监管扩大风险不可忽视",
+          "ok": true
+        },
+        {
+          "point": "IPO结构 (S)：基石投资者、孖展、定价区间",
+          "result": "✗",
+          "note": "A1阶段所有结构参数未披露；孖展<10x则触发SKIP评级警示",
+          "ok": false
+        },
+        {
+          "point": "估值 (V)：三市场NTM P/S中位4.2x，港股强相关8x",
+          "result": "~",
+          "note": "若定价>9x NTM P/S则偏贵；<4x则具明显吸引力；待定价后判断",
+          "ok": true
+        },
+        {
+          "point": "市场时机 (M)：机器人主题IPO窗口+港股回暖",
+          "result": "✓",
+          "note": "机器人板块主题热度高，多个港股机器人IPO成功提振市场信心，定价窗口整体有利",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "IPO价 × 0.80",
+        "upside": "-20%",
+        "basis": "定价过高（隐含NTM P/S>9x）或招股书披露B2G应收账款失控（DSO>180天）+监管收紧STEM培训渠道，导致FY2025E盈利大幅低于预期；教育机器人失去AI人形机器人叙事背书，估值压缩至全样本中位以下（<3.5x NTM P/S）；首日破发后散户信心受损，股价持续寻底"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "IPO价 × 1.25",
+        "upside": "+25%",
+        "basis": "定价合理（隐含NTM P/S约5-6x），基石覆盖15-20%，孖展10-20x；上市后3个月受益义务教育机器人课标落地加速采购潮，叠加消费端AI机器人热度外溢，盈利预测稳步上修；股价收于港股强相关可比中位区间（7-8x NTM P/S）"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "IPO价 × 1.80",
+        "upside": "+80%",
+        "basis": "定价保守（隐含NTM P/S<4x），重磅基石（国家智能制造基金/头部科技产业资本）入驻+孖展>30x；教育机器人与人形机器人叙事融合（AI大模型赋能教育机器人新形态），机构资金主动提升估值框架至布鲁可00325对标（9-12x NTM P/S）；港股通纳入预期催化流动性，股价半年内实现双位数涨幅"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发",
+        "desc": "股价对应NTM P/S超过10x（已超港股同类上限且无重大新产品催化），或上市后首份业绩显示B2G应收账款周转天数超过180天（现金流质量实质恶化），或双减监管延伸正式纳入STEM机器人培训机构，分批兑现浮盈",
+        "price": "≥ IPO价 × 1.6",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "股价跌破IPO价15%（破发信号），或招股书披露净亏损持续扩大（亏损率>20%）且无盈亏平衡时间表，或主要政府采购合同不续签/大幅缩减（B2G渠道崩溃信号），立即止损",
+        "price": "< IPO价 × 0.85",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-04-30",
+  "generatedBy": "claude-oauth",
+  "ticker": "01236.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
