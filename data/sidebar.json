@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05",
+  "lastUpdated": "2026-05-06",
   "activeSubscription": [
     {
       "key": "_stub_e6a882e5",
@@ -16,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     },
     {
       "key": "_stub_e88bb1e6",
@@ -35,9 +35,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後截止",
+      "statusLabel": "2日後截止",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     },
     {
       "key": "_stub_e58a91e6",
@@ -54,9 +54,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後截止",
+      "statusLabel": "2日後截止",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     }
   ],
   "hearingPassed": [
@@ -77,7 +77,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     },
     {
       "key": "_stub_e58a8de6",
@@ -96,7 +96,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     },
     {
       "key": "_stub_e5a587e7",
@@ -115,7 +115,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     },
     {
       "key": "_stub_e5a4a9e5",
@@ -134,7 +134,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     },
     {
       "key": "_stub_464f5254",
@@ -153,7 +153,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     },
     {
       "key": "_stub_e5ae89e4",
@@ -172,7 +172,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     },
     {
       "key": "_stub_e4b889e8",
@@ -191,7 +191,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     },
     {
       "key": "_stub_e6b5b7e5",
@@ -208,9 +208,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新業績公布",
+      "statusLabel": "7日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     },
     {
       "key": "_stub_e59089e5",
@@ -229,26 +229,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
-    },
-    {
-      "key": "_stub_e8b5a4e5",
-      "name": "赤峰黃金",
-      "ticker": "06693.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-03-10",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     },
     {
       "key": "_stub_e7b490e6",
@@ -267,7 +248,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     },
     {
       "key": "_stub_e694bfe5",
@@ -286,7 +267,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     },
     {
       "key": "_stub_e5a4a2e9",
@@ -303,9 +284,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     },
     {
       "key": "_stub_e9a086e8",
@@ -322,9 +303,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     },
     {
       "key": "_stub_e9be8de8",
@@ -343,7 +324,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     },
     {
       "key": "_stub_e7be8ee7",
@@ -362,7 +343,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     },
     {
       "key": "_stub_e88081e9",
@@ -379,9 +360,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
+      "statusLabel": "6日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-05-06"
+    },
+    {
+      "key": "_stub_e6b393e7",
+      "name": "泓盈城市服務",
+      "ticker": "02529.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2024-05-17",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
       "statusLabel": "7日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-05"
+      "sourceDate": "2026-05-06"
     }
   ],
   "archived": [
