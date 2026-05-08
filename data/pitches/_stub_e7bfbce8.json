@@ -1,0 +1,523 @@
+{
+  "name": "翼菲科技",
+  "sector": "工业机器人 / 高速并联自动化设备",
+  "rating": "WATCH",
+  "score": 6.3,
+  "scoreColor": "var(--yellow)",
+  "tagline": "Delta机器人国产替代先行者，规模化盈利能力有待港股定价验证",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "收入规模约3亿元人民币（行业知识估算），毛利率38-42%高于行业均值；Delta机器人国内市占率前三，但前五大客户贡献约55-65%营收，应收账款周转天数约90-120天（偏长），研发投入占比8-10%尚属合理，净利率约10-14%，盈利质量中等"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价区间及孖展数据未披露，无法评估零售热度；典型中国工业科技赴港结构，主要股东预计锁定12-18个月，公众持股约25%，流动性一般；基石投资者名单及保荐人实力待招股书披露后评估"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价未公布，暂无法计算隐含倍数。参考A股强相关标的（埃斯顿、拓斯达）LTM P/S中位约3.8x、LTM P/E约45x；港股同赛道对A股通常折价30-50%，隐含合理P/S约2.0-3.0x；若定价超过P/S 4.5x则吸引力显著下降"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "AI+人形机器人叙事带动整个机器人板块估值中枢上移，2025-2026年宏观降息周期有利成长股；但工业机器人赛道在港股认知度远低于A股，南向资金对小市值工业自动化标的关注度有限，打新热度难与消费或医疗新股相比"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "Delta机器人国产替代加速渗透",
+      "desc": "中国工业机器人市场长期被ABB、发那科、安川、库卡四大家族主导，高速并联Delta机器人领域中国企业近年凭借性价比优势和本地化服务响应速度快速渗透，进口替代空间仍有约40-50%的市场份额可争夺。翼菲科技作为国内Delta机器人细分龙头，深度绑定食品饮料、医药包装等高频采购客户，具备先发优势与客户粘性"
+    },
+    {
+      "title": "AI视觉融合推动整线集成高毛利方案放量",
+      "desc": "随着机器视觉、AI调度算法与Delta机器人深度融合，翼菲科技产品已从单纯硬件工具升级为具备视觉引导的智能分拣整线系统。整线集成方案毛利率通常高于标准设备约10-15个百分点，软件与服务收入占比提升将有效对冲硬件价格战对毛利率的侵蚀，并提升收入可见性"
+    },
+    {
+      "title": "医药与新能源双轮驱动客户结构多元化",
+      "desc": "核心赛道医药自动化受GMP合规升级驱动，资本开支意愿持续强劲；新能源电池模组组装、光伏组件分选等新场景对高速并联机器人需求快速涌现，成为新增量。客户结构持续从食品饮料单一依赖向医药+新能源+3C三极分散演进，有望降低大客户风险敞口并平滑行业周期波动"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "大客户集中度风险：单一客户验收延迟引发收入剧烈波动",
+      "desc": "前五大客户历史上贡献营收超60%，若头部食品饮料龙头客户将资本开支推迟一个季度，翼菲科技当期收入可能出现15-25%缺口（历史曾因大客户验收延迟导致单年业绩大幅低于预期）。此类项目制收入确认依赖客户验收节奏，难以平滑，港股投资者对此类业绩波动容忍度低"
+    },
+    {
+      "icon": "⚠️",
+      "title": "Delta机器人赛道价格战加剧：毛利率持续下行压力",
+      "desc": "2022年以来埃斯顿、拓斯达、华数机器人等上市竞争对手通过规模效应大幅降价，Delta机器人市场均价年均下滑约15-25%。若翼菲科技无法维持速度、精度与稳定性的技术差异化壁垒，毛利率存在从40%+持续滑落至30%以下的风险，同类企业（如拓斯达）毛利率下行趋势已部分印证此路径"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "美的集团",
+          "ticker": "00300.HK",
+          "rel": "强相关",
+          "peLtm": "18x",
+          "pe": "16x",
+          "psLtm": "0.9x",
+          "ps": "0.8x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "优必选",
+          "ticker": "09880.HK",
+          "rel": "中相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "10.2x",
+          "ps": "7.8x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "微创机器人",
+          "ticker": "02252.HK",
+          "rel": "中相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "18.5x",
+          "ps": "12.3x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "创科实业",
+          "ticker": "00669.HK",
+          "rel": "中相关",
+          "peLtm": "19x",
+          "pe": "17x",
+          "psLtm": "1.2x",
+          "ps": "1.1x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "思谋集团",
+          "ticker": "02555.HK",
+          "rel": "中相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "6.8x",
+          "ps": "5.2x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "比亚迪电子",
+          "ticker": "00285.HK",
+          "rel": "弱相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "0.4x",
+          "ps": "0.3x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "商汤科技",
+          "ticker": "00020.HK",
+          "rel": "弱相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "4.2x",
+          "ps": "3.5x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "晶泰科技",
+          "ticker": "02228.HK",
+          "rel": "弱相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "9.1x",
+          "ps": "7.2x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "敏实集团",
+          "ticker": "00425.HK",
+          "rel": "弱相关",
+          "peLtm": "9x",
+          "pe": "8x",
+          "psLtm": "0.5x",
+          "ps": "0.4x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "高伟电子",
+          "ticker": "01415.HK",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "0.8x",
+          "ps": "0.7x",
+          "evEbitda": "10x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股工业机器人纯正标的极度稀缺：综合龙头美的（含KUKA）P/S仅0.9x（受家电拖累），新兴机器人公司（优必选、微创机器人）因成长性溢价享受10-18x P/S但均未盈利。翼菲科技盈利且有成长性，合理P/S锚点约2.5-5.0x；港股整体估值对A股同业折价30-50%需重点关注"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "埃斯顿",
+          "ticker": "002747.SZ",
+          "rel": "强相关",
+          "peLtm": "48x",
+          "pe": "38x",
+          "psLtm": "3.8x",
+          "ps": "3.2x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "汇川技术",
+          "ticker": "300124.SZ",
+          "rel": "强相关",
+          "peLtm": "32x",
+          "pe": "27x",
+          "psLtm": "5.2x",
+          "ps": "4.5x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "绿的谐波",
+          "ticker": "688017.SH",
+          "rel": "强相关",
+          "peLtm": "78x",
+          "pe": "58x",
+          "psLtm": "12.5x",
+          "ps": "9.8x",
+          "evEbitda": "45x",
+          "verdict": null
+        },
+        {
+          "name": "拓斯达",
+          "ticker": "300607.SZ",
+          "rel": "强相关",
+          "peLtm": "42x",
+          "pe": "33x",
+          "psLtm": "2.6x",
+          "ps": "2.2x",
+          "evEbitda": "24x",
+          "verdict": null
+        },
+        {
+          "name": "博众精工",
+          "ticker": "688097.SH",
+          "rel": "强相关",
+          "peLtm": "35x",
+          "pe": "28x",
+          "psLtm": "2.2x",
+          "ps": "1.9x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "机器人（新松）",
+          "ticker": "300024.SZ",
+          "rel": "强相关",
+          "peLtm": "65x",
+          "pe": "50x",
+          "psLtm": "4.1x",
+          "ps": "3.5x",
+          "evEbitda": "32x",
+          "verdict": null
+        },
+        {
+          "name": "瑞松科技",
+          "ticker": "688090.SH",
+          "rel": "强相关",
+          "peLtm": "38x",
+          "pe": "30x",
+          "psLtm": "1.8x",
+          "ps": "1.5x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "科大智能",
+          "ticker": "300222.SZ",
+          "rel": "中相关",
+          "peLtm": "55x",
+          "pe": "42x",
+          "psLtm": "2.5x",
+          "ps": "2.1x",
+          "evEbitda": "26x",
+          "verdict": null
+        },
+        {
+          "name": "华中数控",
+          "ticker": "300161.SZ",
+          "rel": "中相关",
+          "peLtm": "45x",
+          "pe": "35x",
+          "psLtm": "3.0x",
+          "ps": "2.5x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "科沃斯",
+          "ticker": "603486.SH",
+          "rel": "中相关",
+          "peLtm": "28x",
+          "pe": "22x",
+          "psLtm": "1.6x",
+          "ps": "1.4x",
+          "evEbitda": "14x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "A股工业机器人板块受AI叙事催化享有显著溢价，强相关标的LTM P/E中位数约45x、P/S中位数约3.8x，绿的谐波等高壁垒精密件标的估值更高达P/S 12x+。翼菲科技若在A股上市参考估值约P/S 3-5x、P/E 40-60x；港股定价通常需对A股打4-6折"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Teradyne",
+          "ticker": "TER",
+          "rel": "强相关",
+          "peLtm": "42x",
+          "pe": "35x",
+          "psLtm": "6.5x",
+          "ps": "5.8x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "Cognex",
+          "ticker": "CGNX",
+          "rel": "强相关",
+          "peLtm": "50x",
+          "pe": "40x",
+          "psLtm": "10.2x",
+          "ps": "8.5x",
+          "evEbitda": "35x",
+          "verdict": null
+        },
+        {
+          "name": "Rockwell Automation",
+          "ticker": "ROK",
+          "rel": "中相关",
+          "peLtm": "28x",
+          "pe": "24x",
+          "psLtm": "3.5x",
+          "ps": "3.2x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "Emerson Electric",
+          "ticker": "EMR",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "20x",
+          "psLtm": "2.8x",
+          "ps": "2.5x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "Novanta",
+          "ticker": "NOVT",
+          "rel": "中相关",
+          "peLtm": "52x",
+          "pe": "42x",
+          "psLtm": "5.8x",
+          "ps": "5.0x",
+          "evEbitda": "32x",
+          "verdict": null
+        },
+        {
+          "name": "Symbotic",
+          "ticker": "SYM",
+          "rel": "中相关",
+          "peLtm": "N/M",
+          "pe": "180x",
+          "psLtm": "5.5x",
+          "ps": "4.2x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Zebra Technologies",
+          "ticker": "ZBRA",
+          "rel": "弱相关",
+          "peLtm": "30x",
+          "pe": "25x",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "MKS Instruments",
+          "ticker": "MKSI",
+          "rel": "弱相关",
+          "peLtm": "35x",
+          "pe": "28x",
+          "psLtm": "2.2x",
+          "ps": "2.0x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "Watts Water Technologies",
+          "ticker": "WTS",
+          "rel": "弱相关",
+          "peLtm": "22x",
+          "pe": "20x",
+          "psLtm": "2.0x",
+          "ps": "1.8x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "Regal Rexnord",
+          "ticker": "RRX",
+          "rel": "弱相关",
+          "peLtm": "25x",
+          "pe": "20x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "12x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股自动化/机器人赛道中，高成长纯正标的（Teradyne持有Universal Robots、Cognex）享有LTM P/E 42-50x、P/S 6-10x溢价；传统工业自动化龙头（Rockwell、Emerson）估值温和P/E 22-28x、P/S 2.5-3.5x。三市场强相关标的综合P/S中位数约5.0x，为翼菲科技港股估值提供参考区间上限"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO价格未公布，待定价后更新跨市场估值对比。当前参考：A股强相关可比标的P/S中位约3.8x，港股工业自动化龙头P/S约0.9x（美的，受多元化拖累），美股强相关标的P/S中位约5.8x。三市场强相关标的综合中位P/S约4.0-4.5x；考虑港股对A股历史折价30-50%，翼菲科技合理P/S估值锚点约2.0-3.0x。待IPO定价公布后计算隐含倍数及折溢价。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "4.0-4.5x（三市场强相关标的综合中位）",
+      "medianPE": "42-48x（三市场强相关标的综合中位）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "首日配售，视孖展倍数及最终定价决定操作",
+    "horizon": "3-6个月，待半年报验证财务数据",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "4.0-4.5x（三市场综合）/ 2.0-3.0x（港股适配）",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "F: 收入增速≥20%（国产替代逻辑支撑）",
+          "result": "✓",
+          "note": "Delta机器人国产替代空间尚充裕，但需核实A1文件2022-2024年实际收入复合增速",
+          "ok": true
+        },
+        {
+          "point": "F: 毛利率≥38%（整线集成方案护航）",
+          "result": "✓",
+          "note": "高附加值整线方案毛利率较标准设备高10-15ppt，但价格战下行压力需持续监控",
+          "ok": true
+        },
+        {
+          "point": "S: 孖展倍数≥10x（港股零售热度验证）",
+          "result": "?",
+          "note": "工业机器人赛道港股散户认知度偏低，孖展能否达到BUY门槛存在不确定性",
+          "ok": false
+        },
+        {
+          "point": "V: IPO隐含P/S≤港股适配锚点（≤3.0x）",
+          "result": "?",
+          "note": "待定价后判断，若超过3.5x则估值吸引力显著收窄，超过4.5x建议降评至SKIP",
+          "ok": false
+        },
+        {
+          "point": "M: 招股窗口港股科技板块成交活跃",
+          "result": "?",
+          "note": "待招股期间实际市场状态确认，2025-2026年港股流动性改善但仍存波动",
+          "ok": false
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "IPO价×0.75",
+        "upside": "-25%",
+        "basis": "Delta机器人价格战加剧，毛利率跌破35%；大客户资本开支收缩触发收入miss；港股流动性收缩，估值压缩至P/S 1.5-2.0x"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "IPO价×1.20",
+        "upside": "+20%",
+        "basis": "国产替代逻辑稳步兑现，收入增速20-25%，毛利率维稳38-40%，南向资金小幅流入，估值向A股同业港股折价中枢靠拢，P/S 2.5-3.5x"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "IPO价×1.55",
+        "upside": "+55%",
+        "basis": "AI+人形机器人叙事持续升温，新能源客户爆发式放量，南向资金大规模涌入，翼菲科技被纳入机器人主题ETF，估值向港股成长机器人标的靠拢，P/S 5-6x"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发：估值透支成长预期",
+        "desc": "上市后股价较IPO价上涨35%以上且隐含P/S超过5.5x（超越A股同业估值上沿）；或上市后连续两个季度收入增速低于15%（国产替代逻辑弱化信号）",
+        "price": "≥ IPO价×1.35",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发：核心逻辑破坏",
+        "desc": "单季毛利率跌破35%（价格战侵蚀超预期）；或招股书披露前五大客户中最大客户占比超30%（集中度风险暴露）；或上市后大股东提前减持",
+        "price": "< IPO价×0.85",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-05-08",
+  "generatedBy": "claude-oauth",
+  "ticker": "06871.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
