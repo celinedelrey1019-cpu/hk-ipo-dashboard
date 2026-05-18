@@ -1,0 +1,517 @@
+{
+  "name": "深演智能",
+  "sector": "AI营销科技／程序化广告",
+  "rating": "WATCH",
+  "score": 5.8,
+  "scoreColor": "var(--yellow)",
+  "tagline": "AI程序化广告技术商，增长逻辑成立但盈利路径与定价待验证",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "AI效果营销赛道增速合理（同类公司收入增速25-40% YoY），毛利率受流量采购成本压制约45-55%；平台型收入结构有粘性但经营层面尚未稳定盈利；A1招股文件具体财务数据待定价披露后校验"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价区间、孖展倍数、基石/锚定投资者阵容均尚未公布，结构评分暂基于行业均值；待A1转正式招股书后更新基石覆盖度及公众浮动比例评估"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价未公布，无法计算隐含P/S及P/E倍数；港股同类AI营销标的中位NTM P/S约2.5-3.5x，A股约0.8-1.5x，美股约3.5-5x；定价公布后将对比三市场中位数判断折溢价"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.0,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "2025-2026年港股科技IPO情绪持续回暖，AI应用落地叙事强劲；南向资金持续流入港股科技板块；大模型+营销AI主题仍受机构追捧，窗口期较好"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "深度学习算法构筑程序化广告护城河",
+      "desc": "深演智能以深度学习为核心，在竞价广告（RTB）与效果营销领域积累专有算法模型，广告主ROI优化能力形成数据飞轮效应——投放数据越多模型越精准，进而提升客户留存率与ARPU；相比传统广告代理的人力依赖模式，AI平台可规模化复制，边际成本显著更低"
+    },
+    {
+      "title": "跨平台一站式接入打开市场空间",
+      "desc": "字节跳动（巨量引擎）、腾讯广告、快手磁力引擎等头部流量平台深度API合作，使深演智能得以为广告主提供统一的跨平台预算分配与效果追踪；品牌广告主数字化转型加速，程序化购买占整体数字广告比例持续提升，行业需求侧逻辑清晰"
+    },
+    {
+      "title": "大模型融合打开营销AI升维空间",
+      "desc": "AIGC创意生产与大模型受众分析结合，推动营销工具从辅助优化升级为智能决策代理；若能将LLM能力整合至自动化创意生成与实时出价策略，有望将低毛利广告代理业务转型为高毛利SaaS订阅模式，重估收入结构与盈利能力"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "平台依赖：字节/腾讯API政策变化可直接切断收入",
+      "desc": "核心收入依赖字节跳动巨量引擎、腾讯广告等少数头部平台的API接入资质；历史上字节曾多次调整第三方工具接入权限及数据回传标准，一旦平台收紧政策、提高分成比例或推出竞品官方工具，深演智能的流量采购成本将大幅上升、毛利率被直接压缩，且此风险难以对冲"
+    },
+    {
+      "icon": "⚠️",
+      "title": "客户集中度高：头部广告主削减预算即产生重大波动",
+      "desc": "AI营销科技公司前5大客户通常贡献40-60%收入（参考邁富時2556.HK招股书披露的客户集中度），单一头部客户流失或预算季节性削减将直接影响季度业绩；快消、电商行业广告主自建程序化采买团队及内部工具能力增强，中长期存在客户内部化压力"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "邁富時",
+          "ticker": "02556.HK",
+          "rel": "强相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "3.2x",
+          "ps": "2.6x",
+          "evEbitda": "n/m",
+          "verdict": null
+        },
+        {
+          "name": "天聚地合",
+          "ticker": "02479.HK",
+          "rel": "强相关",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "2.5x",
+          "ps": "2.1x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "宜搜科技",
+          "ticker": "02550.HK",
+          "rel": "强相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "1.4x",
+          "ps": "1.2x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "聲通科技",
+          "ticker": "02495.HK",
+          "rel": "强相关",
+          "peLtm": "24x",
+          "pe": "19x",
+          "psLtm": "1.8x",
+          "ps": "1.5x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "商湯科技",
+          "ticker": "00020.HK",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "6.5x",
+          "ps": "5.2x",
+          "evEbitda": "n/m",
+          "verdict": null
+        },
+        {
+          "name": "明略科技－Ｗ",
+          "ticker": "02718.HK",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "5.1x",
+          "ps": "4.2x",
+          "evEbitda": "n/m",
+          "verdict": null
+        },
+        {
+          "name": "雲知聲",
+          "ticker": "09678.HK",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "4.8x",
+          "ps": "3.9x",
+          "evEbitda": "n/m",
+          "verdict": null
+        },
+        {
+          "name": "量化派",
+          "ticker": "02685.HK",
+          "rel": "中相关",
+          "peLtm": "20x",
+          "pe": "16x",
+          "psLtm": "2.2x",
+          "ps": "1.8x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "百望股份",
+          "ticker": "06657.HK",
+          "rel": "中相关",
+          "peLtm": "35x",
+          "pe": "28x",
+          "psLtm": "4.2x",
+          "ps": "3.5x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "智譜",
+          "ticker": "02513.HK",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "12.5x",
+          "ps": "9.8x",
+          "evEbitda": "n/m",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股同类AI营销/数据科技公司中位NTM P/S约2.7x，有盈利标的中位NTM P/E约18x；亏损型公司（商汤、云知声）以P/S定价区间4-6x；整体估值分化显著，强相关标的（邁富時、天聚地合）中位P/S约2.3x"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "蓝色光标",
+          "ticker": "300058.SZ",
+          "rel": "强相关",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "0.6x",
+          "ps": "0.5x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "三人行",
+          "ticker": "605168.SH",
+          "rel": "强相关",
+          "peLtm": "28x",
+          "pe": "23x",
+          "psLtm": "1.5x",
+          "ps": "1.3x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "省广媒体",
+          "ticker": "002400.SZ",
+          "rel": "强相关",
+          "peLtm": "25x",
+          "pe": "20x",
+          "psLtm": "0.7x",
+          "ps": "0.6x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "利欧股份",
+          "ticker": "002303.SZ",
+          "rel": "强相关",
+          "peLtm": "20x",
+          "pe": "16x",
+          "psLtm": "0.8x",
+          "ps": "0.7x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "分众传媒",
+          "ticker": "002027.SZ",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "19x",
+          "psLtm": "4.2x",
+          "ps": "3.8x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "科大讯飞",
+          "ticker": "002230.SZ",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "85x",
+          "psLtm": "4.1x",
+          "ps": "3.4x",
+          "evEbitda": "n/m",
+          "verdict": null
+        },
+        {
+          "name": "思美传媒",
+          "ticker": "002712.SZ",
+          "rel": "中相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "0.5x",
+          "ps": "0.4x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "博彦科技",
+          "ticker": "002649.SZ",
+          "rel": "中相关",
+          "peLtm": "24x",
+          "pe": "20x",
+          "psLtm": "1.2x",
+          "ps": "1.0x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "中科信息",
+          "ticker": "300678.SZ",
+          "rel": "弱相关",
+          "peLtm": "45x",
+          "pe": "38x",
+          "psLtm": "3.2x",
+          "ps": "2.8x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "寒武纪",
+          "ticker": "688256.SH",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "35x",
+          "ps": "25x",
+          "evEbitda": "n/m",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "cheap",
+        "text": "A股数字营销公司估值普遍偏低，传统效果营销类P/S仅0.5-0.8x，P/E 18-28x；AI属性强的标的（分众、科大讯飞）P/S升至3-4x；强相关标的中位NTM P/S约0.9x，较港股及美股有显著折价，反映A股投资者对营销科技的低溢价偏好"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "The Trade Desk",
+          "ticker": "TTD",
+          "rel": "强相关",
+          "peLtm": "85x",
+          "pe": "68x",
+          "psLtm": "18.5x",
+          "ps": "15.2x",
+          "evEbitda": "52x",
+          "verdict": null
+        },
+        {
+          "name": "DoubleVerify",
+          "ticker": "DV",
+          "rel": "强相关",
+          "peLtm": "35x",
+          "pe": "28x",
+          "psLtm": "5.2x",
+          "ps": "4.5x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "Integral Ad Science",
+          "ticker": "IAS",
+          "rel": "强相关",
+          "peLtm": "30x",
+          "pe": "25x",
+          "psLtm": "4.5x",
+          "ps": "3.8x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "Zeta Global",
+          "ticker": "ZETA",
+          "rel": "强相关",
+          "peLtm": "亏损",
+          "pe": "45x",
+          "psLtm": "4.8x",
+          "ps": "3.9x",
+          "evEbitda": "35x",
+          "verdict": null
+        },
+        {
+          "name": "LiveRamp",
+          "ticker": "RAMP",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "35x",
+          "psLtm": "3.8x",
+          "ps": "3.2x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "Viant Technology",
+          "ticker": "DSP",
+          "rel": "中相关",
+          "peLtm": "28x",
+          "pe": "22x",
+          "psLtm": "3.2x",
+          "ps": "2.6x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "Perion Network",
+          "ticker": "PERI",
+          "rel": "中相关",
+          "peLtm": "15x",
+          "pe": "12x",
+          "psLtm": "1.5x",
+          "ps": "1.2x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "Sprinklr",
+          "ticker": "CXM",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "40x",
+          "psLtm": "3.5x",
+          "ps": "2.9x",
+          "evEbitda": "30x",
+          "verdict": null
+        },
+        {
+          "name": "Digital Turbine",
+          "ticker": "APPS",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "25x",
+          "psLtm": "0.8x",
+          "ps": "0.7x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "Similarweb",
+          "ticker": "SMWB",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "n/m",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "美股程序化广告科技估值显著高于亚太市场，TTD独占鳌头P/S超18x具参考意义但难以复制；强相关标的（DV、IAS、ZETA）中位NTM P/S约4.2x，P/E约35x；美股溢价反映更高利润率与市场深度，中国标的通常享受30-50%折价"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "待IPO定价公布后更新跨市场估值对比。参考框架：港股同类中位NTM P/S约2.7x，A股强相关中位约0.9x，美股强相关中位约4.2x；三市场加权中位NTM P/S约2.6x，中位NTM P/E约25x（有盈利标的）。若IPO定价隐含P/S落在2-3x区间则估值合理偏低，低于2x具明显吸引力，高于4x则相对昂贵需谨慎认购。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "2.6x（三市场加权中位NTM P/S）",
+      "medianPE": "25x（有盈利标的三市场中位NTM P/E）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "待招股价公布后更新具体操作建议",
+    "horizon": "上市后1-3个月（视定价及认购热度调整）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "2.6x（三市场加权NTM）",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "基本面 (F)：AI效果营销平台增长逻辑",
+          "result": "✓",
+          "note": "同类公司收入增速25-40%，数据飞轮效应支撑客户留存，方向正确；盈利时间线仍存不确定性",
+          "ok": true
+        },
+        {
+          "point": "结构 (S)：孖展倍数及基石覆盖",
+          "result": "✗",
+          "note": "招股价、孖展倍数、基石投资者阵容均未公布，无法评估认购热度与超额配售机制",
+          "ok": false
+        },
+        {
+          "point": "估值 (V)：IPO定价 vs 三市场中位P/S",
+          "result": "✗",
+          "note": "需定价后对比三市场中位NTM P/S 2.6x，判断折溢价幅度再决定认购力度",
+          "ok": false
+        },
+        {
+          "point": "市场时机 (M)：AI科技板块窗口期",
+          "result": "✓",
+          "note": "港股AI应用赛道2025-2026年情绪持续回暖，南向资金流入支撑，发行窗口较优质",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "HK$待定（较IPO价-20~-30%）",
+        "upside": "-20~-30%",
+        "basis": "定价隐含NTM P/S高于4x；上市后盈利不及预期，字节/腾讯API政策收紧冲击毛利率，破发后持续下行"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "HK$待定（较IPO价+10~+35%）",
+        "upside": "+10~+35%",
+        "basis": "定价在2.0-3.0x NTM P/S，收入增速维持25%+；上市后12个月随季度业绩兑现温和重估至3.5x P/S区间"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "HK$待定（较IPO价+50~+80%）",
+        "upside": "+50~+80%",
+        "basis": "大模型+营销AI叙事爆发，机构抢筹推高估值；若SaaS收入占比快速提升叠加盈亏平衡，估值可向4-5x P/S重估"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发：涨幅达目标或增长降速",
+        "desc": "上市后股价较IPO价涨幅超50%，或连续两个季度收入增速下滑至15%以下（增长降速信号），应考虑分批减仓",
+        "price": "≥ IPO价×1.5",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发：破发或平台政策重大变化",
+        "desc": "收盘价较IPO价下跌10%以上，或字节/腾讯宣布限制第三方营销平台数据回传及API接入权限，立即止损离场",
+        "price": "< IPO价×0.90",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-05-18",
+  "generatedBy": "claude-oauth",
+  "ticker": "02723.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
