@@ -1,0 +1,535 @@
+{
+  "name": "創想三維",
+  "sector": "消费级3D打印机及耗材",
+  "rating": "WATCH",
+  "score": 6.0,
+  "scoreColor": "var(--yellow)",
+  "tagline": "全球FDM出货龙头，拓竹冲击与毛利压缩是核心变量",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 6.2,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "Ender系列在全球Maker社区建立深度品牌护城河，海外分销覆盖逾100国；耗材/配件贡献经常性复购，改善收入质量；但拓竹(Bambu Lab)持续蚕食中高端价格带，整机收入增速承压，整机毛利率估计约32-38%并存在进一步收窄风险"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价区间尚未公布，无法评估定价合理性；港股主板上市对国际机构投资者具备流动性优势；超额认购机制、基础投资者安排及锁定期等关键条款待招股书正式披露后评估"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO定价未披露，暂无法计算隐含倍数；参考A股3D打印同行PS 5-8x（科创板溢价）与美股同行PS 0.8-1.8x存在巨大差异，港股定价区间将是关键变量；若以2-4x PS定价属合理区间，高于4x则相对偏贵，待定价后更新"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "2025年消费电子出海题材热度回升，港股科技板块情绪明显改善；3D打印在教育STEM及工业轻量化场景渗透持续推进；美联储降息周期开启对成长型硬件估值有正面支撑"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "全球桌面FDM出货量龙头，开源生态护城河难以复制",
+      "desc": "Creality在全球消费级FDM打印机市场出货量居首，Ender系列在全球Maker/极客社区获得极高知名度，Amazon全球评分逾百万条且维持4.5星以上。深度参与Klipper开源固件生态及开源主板设计，绑定全球开源社区开发者，形成竞争壁垒。海外分销网络覆盖逾100个国家，欧美独立经销商体系成熟。"
+    },
+    {
+      "title": "耗材+生态系统构建经常性收入，提升LTV",
+      "desc": "打印机销售之外，PLA/TPU/ASA等多材质耗材及升级配件（全金属喷头、PEI热床、AI摄像头等）贡献稳定复购收入，单用户生命周期价值显著高于一次性硬件销售。Creality Cloud打印模型社区App的模型分享与付费订阅生态，有望逐步从社区运营向SaaS化变现迁移，改善收入质量与估值逻辑。"
+    },
+    {
+      "title": "新兴市场教育渗透打开增量空间",
+      "desc": "全球中学STEM教育采购景气度持续上行，东南亚、中东、拉美等新兴市场桌面打印机渗透率仍低于5%。创想三維凭借超高性价比、本地化技术支持及教育版机型布局，在政府采购及校园场景中具备快速规模化潜力，成为对冲欧美成熟市场竞争压力的增量来源。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "拓竹科技(Bambu Lab)高速产品线系统性替代",
+      "desc": "Bambu Lab X1/P1系列以500mm/s高速打印、AMS自动多色换料系统及AI闭源软件生态为核心差异化，已在RMB2,500+价格带全面压制创想K/X系列，2023-2024年中高端市场份额被快速蚕食。若拓竹持续扩产并将高速技术下探至USD299以下价格带，创想主力SKU（Ender-3 V3系列）的利润空间将遭受结构性压缩，市占率可能出现不可逆下滑。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "入门级价格战加速整机毛利率侵蚀",
+      "desc": "2023年以来入门级FDM打印机全球均价从USD230+骤降至USD150以下，纵维立方(Anycubic)、弘瑞、京东方等多品牌持续补贴式扩张并在Amazon平台打价格战。若创想无法有效推动产品线向高附加值产品迁移（多色/高速/工业级），整机毛利率存在从当前约35%进一步下滑至28%以下的风险，进而对港股估值形成显著压制。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "小米集团",
+          "ticker": "1810.HK",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "1.5x",
+          "ps": "1.3x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "创科实业",
+          "ticker": "0669.HK",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "20x",
+          "psLtm": "1.6x",
+          "ps": "1.5x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "舜宇光学",
+          "ticker": "2382.HK",
+          "rel": "弱相关",
+          "peLtm": "22x",
+          "pe": "19x",
+          "psLtm": "2.0x",
+          "ps": "1.8x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "瑞声科技",
+          "ticker": "2018.HK",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "18x",
+          "psLtm": "2.2x",
+          "ps": "2.0x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "联想集团",
+          "ticker": "0992.HK",
+          "rel": "弱相关",
+          "peLtm": "12x",
+          "pe": "11x",
+          "psLtm": "0.3x",
+          "ps": "0.3x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "比亚迪电子",
+          "ticker": "0285.HK",
+          "rel": "弱相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "0.3x",
+          "ps": "0.3x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "德昌电机",
+          "ticker": "0179.HK",
+          "rel": "弱相关",
+          "peLtm": "14x",
+          "pe": "13x",
+          "psLtm": "0.8x",
+          "ps": "0.8x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "海尔智家",
+          "ticker": "6690.HK",
+          "rel": "弱相关",
+          "peLtm": "15x",
+          "pe": "13x",
+          "psLtm": "0.7x",
+          "ps": "0.6x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "敏实集团",
+          "ticker": "0425.HK",
+          "rel": "弱相关",
+          "peLtm": "10x",
+          "pe": "9x",
+          "psLtm": "0.5x",
+          "ps": "0.5x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "时代天使",
+          "ticker": "6699.HK",
+          "rel": "弱相关",
+          "peLtm": "28x",
+          "pe": "24x",
+          "psLtm": "3.5x",
+          "ps": "3.0x",
+          "evEbitda": "18x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股硬件/消费科技可比公司PS中位数约1.2x、PE中位数约17x；强相关comp（创科实业、小米集团）PS 1.5-1.6x。港股市场对消费硬件给予相对保守估值，待定价后判断是否存在折溢价。"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "闪铸科技",
+          "ticker": "688568.SH",
+          "rel": "强相关",
+          "peLtm": "45x",
+          "pe": "38x",
+          "psLtm": "4.8x",
+          "ps": "4.0x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "华曙高科",
+          "ticker": "688433.SH",
+          "rel": "中相关",
+          "peLtm": "68x",
+          "pe": "55x",
+          "psLtm": "8.2x",
+          "ps": "7.0x",
+          "evEbitda": "42x",
+          "verdict": null
+        },
+        {
+          "name": "铂力特",
+          "ticker": "688333.SH",
+          "rel": "中相关",
+          "peLtm": "N/M",
+          "pe": "55x",
+          "psLtm": "7.5x",
+          "ps": "6.5x",
+          "evEbitda": "38x",
+          "verdict": null
+        },
+        {
+          "name": "联泰科技",
+          "ticker": "688306.SH",
+          "rel": "中相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "6.2x",
+          "ps": "5.5x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "先临三维",
+          "ticker": "688061.SH",
+          "rel": "中相关",
+          "peLtm": "80x",
+          "pe": "65x",
+          "psLtm": "7.8x",
+          "ps": "6.8x",
+          "evEbitda": "45x",
+          "verdict": null
+        },
+        {
+          "name": "普利生",
+          "ticker": "688230.SH",
+          "rel": "弱相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "5.5x",
+          "ps": "5.0x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "光韵达",
+          "ticker": "002762.SZ",
+          "rel": "弱相关",
+          "peLtm": "N/M",
+          "pe": "35x",
+          "psLtm": "2.8x",
+          "ps": "2.5x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "石头科技",
+          "ticker": "688169.SH",
+          "rel": "弱相关",
+          "peLtm": "25x",
+          "pe": "22x",
+          "psLtm": "4.0x",
+          "ps": "3.5x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "科沃斯",
+          "ticker": "603486.SH",
+          "rel": "弱相关",
+          "peLtm": "22x",
+          "pe": "20x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "安克创新",
+          "ticker": "300866.SZ",
+          "rel": "弱相关",
+          "peLtm": "25x",
+          "pe": "22x",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "15x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "A股3D打印同行PS中位数约6-8x（科创板高估值溢价），最强相关comp闪铸科技PS约4.8x LTM。A股估值溢价显著，港股上市若以A股折价定价则存在相对估值空间，但科创板流动性溢价不可直接参照。"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Stratasys",
+          "ticker": "SSYS",
+          "rel": "强相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "1.1x",
+          "ps": "1.1x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "3D Systems",
+          "ticker": "DDD",
+          "rel": "强相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "0.9x",
+          "ps": "0.9x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Desktop Metal",
+          "ticker": "DM",
+          "rel": "中相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "0.8x",
+          "ps": "0.8x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Markforged",
+          "ticker": "MKFG",
+          "rel": "中相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "0.7x",
+          "ps": "0.7x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Materialise",
+          "ticker": "MTLS",
+          "rel": "中相关",
+          "peLtm": "30x",
+          "pe": "25x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "Proto Labs",
+          "ticker": "PRLB",
+          "rel": "弱相关",
+          "peLtm": "22x",
+          "pe": "20x",
+          "psLtm": "1.5x",
+          "ps": "1.5x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "Xometry",
+          "ticker": "XMTR",
+          "rel": "弱相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Nano Dimension",
+          "ticker": "NNDM",
+          "rel": "弱相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "1.5x",
+          "ps": "1.4x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Voxeljet",
+          "ticker": "VJET",
+          "rel": "弱相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "0.8x",
+          "ps": "0.8x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "HP Inc",
+          "ticker": "HPQ",
+          "rel": "弱相关",
+          "peLtm": "10x",
+          "pe": "10x",
+          "psLtm": "0.7x",
+          "ps": "0.7x",
+          "evEbitda": "8x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "cheap",
+        "text": "美股3D打印公司多处于亏损状态，强相关comp（SSYS/DDD）PS中位约1.0x，且估值受盈利能力拖累持续低迷；盈利类comp（Materialise/Proto Labs）PS 1.5-1.8x。美股comps整体参考价值有限，但提供了行业下限锚定。"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO价格尚未公布，待定价后更新跨市场估值对比。三市场强相关comp中位PS参考：港股约1.5x（创科实业/小米）、A股约4.8x（闪铸科技）、美股约1.0x（SSYS/DDD）。剔除A股科创板结构性溢价后，合理定价区间参考为1.5-3.0x NTM PS；若港股定价高于3.5x NTM PS则相对偏贵，低于1.5x NTM PS则存在明显折价机会。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "1.5x–4.8x（跨市场，强相关comp区间）",
+      "medianPE": "22x–45x（仅盈利可比公司）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "待定价公布后决策，当前持观望",
+    "horizon": "6–12个月",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "1.5x–4.8x（三市场强相关区间）",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "F: 全球FDM出货量龙头，Ender系列社区护城河",
+          "result": "✓",
+          "note": "海外分销成熟，Amazon评分领先，开源生态绑定Maker社区",
+          "ok": true
+        },
+        {
+          "point": "F: 耗材/配件经常性收入占比提升",
+          "result": "✓",
+          "note": "复购属性改善LTV，有望支撑估值逻辑从纯硬件向生态转型",
+          "ok": true
+        },
+        {
+          "point": "F: 拓竹Lab持续压缩中高端市场份额",
+          "result": "✗",
+          "note": "Bambu Lab高速多色打印在RMB2,500+价格带领先，未见创想有效反制产品推出",
+          "ok": false
+        },
+        {
+          "point": "F: 入门级价格战侵蚀整机毛利率",
+          "result": "✗",
+          "note": "均价从USD230+降至USD150以下，毛利率存在从35%进一步下滑至28%的风险",
+          "ok": false
+        },
+        {
+          "point": "S: IPO结构及定价待披露",
+          "result": "—",
+          "note": "超额认购机制、基础投资者、锁定期等关键条款尚未公布，无法评分",
+          "ok": true
+        },
+        {
+          "point": "V: 估值合理性依赖最终定价区间",
+          "result": "—",
+          "note": "港股硬件PS 1-2x为锚，A股科创板溢价不可直接参照，需定价后评估",
+          "ok": true
+        },
+        {
+          "point": "M: 消费电子出海题材及港股打新情绪回暖",
+          "result": "✓",
+          "note": "2025年港股打新市场情绪改善，出海消费品牌受机构青睐",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "待定价后更新",
+        "upside": "–20% 至 –30%",
+        "basis": "拓竹持续蚕食份额+入门价格战加剧，毛利率下滑至28%以下，增长停滞，市场给予1.0–1.3x NTM PS"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "待定价后更新",
+        "upside": "+10% 至 +25%",
+        "basis": "竞争格局相对稳定，耗材收入占比提升至25%+，维持33%以上毛利率，市场给予1.8–2.5x NTM PS"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "待定价后更新",
+        "upside": "+40% 至 +60%",
+        "basis": "K/X高端产品线成功反制拓竹，Creality Cloud生态变现超预期，新兴市场教育采购放量，市场给予3.0–4.0x NTM PS"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发",
+        "desc": "上市后股价较IPO价累计上涨30%+；或公司发布业绩预告显示毛利率单季度环比下滑超3个百分点；或拓竹宣布推出USD199以下新品直接狙击Ender-3主力价格带",
+        "price": "≥ IPO价 ×1.30",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "上市后股价较IPO价下跌15%，或公司披露年度整机毛利率低于30%，或Bambu Lab宣布完成超5亿美元新一轮融资并计划大幅扩产至入门价格带",
+        "price": "< IPO价 ×0.85",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-05-20",
+  "generatedBy": "claude-oauth",
+  "ticker": "03388.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}

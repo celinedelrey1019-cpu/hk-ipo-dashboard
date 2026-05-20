@@ -1,25 +1,6 @@
 {
-  "lastUpdated": "2026-05-19",
+  "lastUpdated": "2026-05-20",
   "activeSubscription": [
-    {
-      "key": "_stub_e4b8b9e8",
-      "name": "丹諾醫藥－B",
-      "ticker": "06872.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-05-22",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-05-19"
-    },
     {
       "key": "_stub_e88fafe6",
       "name": "華曦達",
@@ -35,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後截止",
+      "statusLabel": "明午截止",
       "source": "etnet",
-      "sourceDate": "2026-05-19"
+      "sourceDate": "2026-05-20"
     },
     {
       "key": "_stub_e6b7b1e6",
@@ -54,9 +35,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後截止",
+      "statusLabel": "明午截止",
       "source": "etnet",
-      "sourceDate": "2026-05-19"
+      "sourceDate": "2026-05-20"
     },
     {
       "key": "_stub_e99bb2e8",
@@ -73,9 +54,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後截止",
+      "statusLabel": "明午截止",
       "source": "etnet",
-      "sourceDate": "2026-05-19"
+      "sourceDate": "2026-05-20"
+    },
+    {
+      "key": "_stub_e589b5e6",
+      "name": "創想三維",
+      "ticker": "03388.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "subscribe",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-05-29",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "6日後截止",
+      "source": "etnet",
+      "sourceDate": "2026-05-20"
     }
   ],
   "hearingPassed": [
@@ -96,7 +96,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-05-19"
+      "sourceDate": "2026-05-20"
     },
     {
       "key": "_stub_e58a8de6",
@@ -113,9 +113,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後除淨",
+      "statusLabel": "2日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-19"
+      "sourceDate": "2026-05-20"
     },
     {
       "key": "_stub_e5a587e7",
@@ -132,9 +132,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-19"
+      "sourceDate": "2026-05-20"
     },
     {
       "key": "_stub_e7a6bee8",
@@ -151,9 +151,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-05-19"
+      "sourceDate": "2026-05-20"
     },
     {
       "key": "_stub_e5a4a7e8",
@@ -170,9 +170,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後除淨",
+      "statusLabel": "1日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-19"
+      "sourceDate": "2026-05-20"
     },
     {
       "key": "_stub_e5ae89e4",
@@ -189,28 +189,47 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-19"
+      "sourceDate": "2026-05-20"
     },
     {
-      "key": "_stub_e8b5a4e5",
-      "name": "赤峰黃金",
-      "ticker": "06693.HK",
+      "key": "_stub_49464248",
+      "name": "IFBH",
+      "ticker": "06603.HK",
       "aShare": "",
       "sector": "",
       "phase": "pipeline",
       "hearingDate": "",
       "subStart": "",
       "subEnd": "",
-      "listingDate": "2025-03-10",
+      "listingDate": "2025-06-30",
       "ipoLow": null,
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日除淨",
+      "statusLabel": "今日派送",
       "source": "etnet",
-      "sourceDate": "2026-05-19"
+      "sourceDate": "2026-05-20"
+    },
+    {
+      "key": "_stub_e591a8e5",
+      "name": "周六福",
+      "ticker": "06168.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-06-26",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "7日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-05-20"
     },
     {
       "key": "_stub_e6b5b7e8",
@@ -227,9 +246,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後除淨",
+      "statusLabel": "2日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-19"
+      "sourceDate": "2026-05-20"
     },
     {
       "key": "_stub_e694bfe5",
@@ -248,26 +267,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-05-19"
-    },
-    {
-      "key": "_stub_e99b86e4",
-      "name": "集信國控",
-      "ticker": "08629.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2024-09-06",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日除淨",
-      "source": "etnet",
-      "sourceDate": "2026-05-19"
+      "sourceDate": "2026-05-20"
     },
     {
       "key": "_stub_e6ada6e6",
@@ -284,9 +284,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-19"
+      "sourceDate": "2026-05-20"
     }
   ],
   "archived": [
@@ -1849,6 +1849,13 @@
       "name": "拓璞數控",
       "ticker": "07688.HK",
       "listingDate": "2026-05-20",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e4b8b9e8",
+      "name": "丹諾醫藥－B",
+      "ticker": "06872.HK",
+      "listingDate": "2026-05-22",
       "result": "待更新"
     }
   ]
