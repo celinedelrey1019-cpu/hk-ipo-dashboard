@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20",
+  "lastUpdated": "2026-05-21",
   "activeSubscription": [
     {
       "key": "_stub_e88fafe6",
@@ -16,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-05-20"
+      "sourceDate": "2026-05-21"
     },
     {
       "key": "_stub_e6b7b1e6",
@@ -35,9 +35,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-05-20"
+      "sourceDate": "2026-05-21"
     },
     {
       "key": "_stub_e99bb2e8",
@@ -54,9 +54,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-05-20"
+      "sourceDate": "2026-05-21"
     },
     {
       "key": "_stub_e589b5e6",
@@ -73,9 +73,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後截止",
+      "statusLabel": "5日後截止",
       "source": "etnet",
-      "sourceDate": "2026-05-20"
+      "sourceDate": "2026-05-21"
     }
   ],
   "hearingPassed": [
@@ -96,7 +96,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-05-20"
+      "sourceDate": "2026-05-21"
     },
     {
       "key": "_stub_e58a8de6",
@@ -113,9 +113,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後除淨",
+      "statusLabel": "1日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-20"
+      "sourceDate": "2026-05-21"
     },
     {
       "key": "_stub_e5a587e7",
@@ -132,9 +132,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-20"
+      "sourceDate": "2026-05-21"
     },
     {
       "key": "_stub_e7a6bee8",
@@ -153,7 +153,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-05-20"
+      "sourceDate": "2026-05-21"
     },
     {
       "key": "_stub_e5a4a7e8",
@@ -170,9 +170,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-20"
+      "sourceDate": "2026-05-21"
     },
     {
       "key": "_stub_e5ae89e4",
@@ -189,28 +189,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-20"
-    },
-    {
-      "key": "_stub_49464248",
-      "name": "IFBH",
-      "ticker": "06603.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-06-30",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-05-20"
+      "sourceDate": "2026-05-21"
     },
     {
       "key": "_stub_e591a8e5",
@@ -227,9 +208,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-20"
+      "sourceDate": "2026-05-21"
     },
     {
       "key": "_stub_e6b5b7e8",
@@ -246,9 +227,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後除淨",
+      "statusLabel": "1日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-20"
+      "sourceDate": "2026-05-21"
     },
     {
       "key": "_stub_e694bfe5",
@@ -267,7 +248,26 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-05-20"
+      "sourceDate": "2026-05-21"
+    },
+    {
+      "key": "_stub_e5beb7e7",
+      "name": "德翔海運",
+      "ticker": "02510.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2024-11-01",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "7日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-05-21"
     },
     {
       "key": "_stub_e6ada6e6",
@@ -284,9 +284,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-20"
+      "sourceDate": "2026-05-21"
+    },
+    {
+      "key": "_stub_e584aae5",
+      "name": "優博控股",
+      "ticker": "08529.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2024-06-03",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "7日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-05-21"
     }
   ],
   "archived": [
