@@ -1,25 +1,6 @@
 {
-  "lastUpdated": "2026-05-26",
+  "lastUpdated": "2026-05-27",
   "activeSubscription": [
-    {
-      "key": "_stub_e589b5e6",
-      "name": "創想三維",
-      "ticker": "03388.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-05-29",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-05-26"
-    },
     {
       "key": "_stub_e9a696e9",
       "name": "首鋼朗澤",
@@ -35,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後截止",
+      "statusLabel": "2日後截止",
       "source": "etnet",
-      "sourceDate": "2026-05-26"
+      "sourceDate": "2026-05-27"
     }
   ],
   "hearingPassed": [
@@ -56,9 +37,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-05-26"
+      "sourceDate": "2026-05-27"
     },
     {
       "key": "_stub_e5bba3e5",
@@ -75,28 +56,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-26"
+      "sourceDate": "2026-05-27"
     },
     {
-      "key": "_stub_e5a587e7",
-      "name": "奇瑞汽車",
-      "ticker": "09973.HK",
+      "key": "_stub_e7b4abe9",
+      "name": "紫金黃金國際",
+      "ticker": "02259.HK",
       "aShare": "",
       "sector": "",
       "phase": "pipeline",
       "hearingDate": "",
       "subStart": "",
       "subEnd": "",
-      "listingDate": "2025-09-25",
+      "listingDate": "2025-09-30",
       "ipoLow": null,
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日除淨",
+      "statusLabel": "7日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-26"
+      "sourceDate": "2026-05-27"
     },
     {
       "key": "_stub_e7a6bee8",
@@ -115,7 +96,45 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-05-26"
+      "sourceDate": "2026-05-27"
+    },
+    {
+      "key": "_stub_e99b99e7",
+      "name": "雙登股份",
+      "ticker": "06960.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-08-26",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "7日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-05-27"
+    },
+    {
+      "key": "_stub_464f5254",
+      "name": "FORTIOR",
+      "ticker": "01304.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-07-09",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "7日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-05-27"
     },
     {
       "key": "_stub_e5a4a7e7",
@@ -132,28 +151,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-26"
-    },
-    {
-      "key": "_stub_e5ae89e4",
-      "name": "安井食品",
-      "ticker": "02648.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-07-04",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日除淨",
-      "source": "etnet",
-      "sourceDate": "2026-05-26"
+      "sourceDate": "2026-05-27"
     },
     {
       "key": "_stub_e591a8e5",
@@ -170,9 +170,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-26"
+      "sourceDate": "2026-05-27"
+    },
+    {
+      "key": "_stub_e68192e7",
+      "name": "恒瑞醫藥",
+      "ticker": "01276.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-05-23",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "今日派送",
+      "source": "etnet",
+      "sourceDate": "2026-05-27"
     },
     {
       "key": "_stub_e694bfe5",
@@ -191,26 +210,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-05-26"
-    },
-    {
-      "key": "_stub_e6af9be6",
-      "name": "毛戈平",
-      "ticker": "01318.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2024-12-10",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-05-26"
+      "sourceDate": "2026-05-27"
     },
     {
       "key": "_stub_e5beb7e7",
@@ -227,9 +227,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後除淨",
+      "statusLabel": "1日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-26"
+      "sourceDate": "2026-05-27"
     },
     {
       "key": "_stub_e79cbee6",
@@ -246,28 +246,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-26"
-    },
-    {
-      "key": "_stub_e6ada6e6",
-      "name": "武漢有機",
-      "ticker": "02881.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2024-06-18",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日除淨",
-      "source": "etnet",
-      "sourceDate": "2026-05-26"
+      "sourceDate": "2026-05-27"
     },
     {
       "key": "_stub_e584aae5",
@@ -284,9 +265,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後除淨",
+      "statusLabel": "1日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-05-26"
+      "sourceDate": "2026-05-27"
     }
   ],
   "archived": [
