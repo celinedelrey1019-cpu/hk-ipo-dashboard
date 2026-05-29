@@ -1,0 +1,517 @@
+{
+  "name": "龍豐集團",
+  "sector": "待确认（A1文件未获取）",
+  "rating": "WATCH",
+  "score": 5.3,
+  "scoreColor": "var(--yellow)",
+  "tagline": "行业与财务数据待核实，IPO定价未公布，建议观望等待招股书细节",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "⚠️ A1招股文件财务数据目前无法获取。公司行业归属、收入规模、毛利率、净利率、增长趋势及主要客户集中度均待招股书披露后核实。当前评分为保守占位分，待实际A1数据填入后更新。如招股书显示三年营收CAGR>20%、净利率>10%且现金流质量良好，F分有望调升至7.0-8.0；若业务依赖单一客户或毛利率低于15%，则下调至3.0-4.0。"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "⚠️ IPO结构细节待A1文件确认。当前已知：港股主板上市（02290.HK），上市日期2026年6月5日，招股仍在进行中。未知项目：是否存在VIE架构、基石/锚定投资者安排、公开发售与国际配售比例、禁售期安排、募资用途。若无VIE且有知名基石投资者（占发行量10%+），S分可调升至7.0；若有VIE或无基石，则保持5.0-5.5区间。"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "⚠️ IPO价格区间尚未公布（ipoLow/ipoHigh均为null），无法计算隐含市盈率或市销率。估值合理性评分完全取决于定价区间公布后与可比公司的对比结果。待定价公布后，将基于三市场Comps中位数计算折溢价并更新此分项。若定价隐含NTM P/E低于行业中位数20%+，V分调升至7.0-8.0；若溢价超过50%则下调至3.0-4.0。"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "港股主板市场2026年5-6月整体流动性较2025年有所改善，南向资金净流入趋势维持，IPO发行窗口相对友好。恒生指数2026年YTD表现稳健，中小市值新股打新情绪中性偏积极。但6月初季末资金调仓压力及美联储利率路径不确定性构成短期扰动因素。市场时机评分属中性，不构成加减分关键因子。"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "⚠️ 核心业务逻辑待确认",
+      "desc": "招股书A1文件尚未获取，公司主营业务、行业赛道、核心竞争优势及成长驱动因素均无法从官方文件核实。龍豐集團作为集团控股架构公司，可能涉及多元化业务。投资前必须阅读完整A1招股文件，明确核心收入来源（单一主业或多元化）、主要收入增长驱动因素及可持续性。"
+    },
+    {
+      "title": "⚠️ 定价与估值待锚定",
+      "desc": "IPO价格区间未公布，无法进行绝对或相对估值分析。建议待价格区间公布后，立即对照同行业港股、A股、美股可比公司的NTM P/E和P/S中位数，判断是否存在折价入场机会。历史上港股小市值主板IPO定价偏向保守（较行业中位数折价10-20%），但具体折溢价分析依赖招股书财务预测与行业对标。"
+    },
+    {
+      "title": "⚠️ 风险因素待评估",
+      "desc": "在获取A1招股文件之前，无法对公司特有的经营风险、财务风险及行业风险进行具体评估。通用观察：集团控股架构若下属业务多元化，投资者需关注母公司层面的资金调配效率与潜在利益冲突；若业务高度集中于单一行业或客户，则需重点评估该业务的竞争壁垒深度。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "招股书数据缺失导致分析盲区",
+      "desc": "截至分析生成时（2026-05-29），龍豐集團A1招股文件财务数据未能获取，公司行业归属、FY2023/2024/2025三年财务数据、主要客户集中度、关联交易规模及资本结构均无法核实。当前所有评分均为保守占位值。投资者在认购前务必自行阅读HKEX上的正式招股说明书（A1文件），重点核查：三年收入CAGR、净利润率趋势、前五大客户集中度及关联方交易比例。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "IPO定价与超购情况不明，流动性风险不可评估",
+      "desc": "价格区间、公开超购倍数、国际配售覆盖倍数及暗盘价格均为未知变量，导致上市首日流动性风险和短期价格波动区间无法预判。港股主板中小市值新股（市值50亿港元以下）在超购倍数低于20倍时，历史上上市首日出现破发（跌幅超5%）的概率约为25-35%。建议在公开超购倍数明确后再决定申购规模，以控制破发风险敞口。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "信义光能",
+          "ticker": "00968.HK",
+          "rel": "弱相关",
+          "peLtm": "12x",
+          "pe": "11x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "中国建材",
+          "ticker": "03323.HK",
+          "rel": "弱相关",
+          "peLtm": "8x",
+          "pe": "7x",
+          "psLtm": "0.3x",
+          "ps": "0.28x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "中国海外发展",
+          "ticker": "00688.HK",
+          "rel": "弱相关",
+          "peLtm": "7x",
+          "pe": "6x",
+          "psLtm": "0.5x",
+          "ps": "0.45x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "中国远洋海运",
+          "ticker": "01919.HK",
+          "rel": "弱相关",
+          "peLtm": "6x",
+          "pe": "5x",
+          "psLtm": "0.4x",
+          "ps": "0.35x",
+          "evEbitda": "4x",
+          "verdict": null
+        },
+        {
+          "name": "华润万象生活",
+          "ticker": "01209.HK",
+          "rel": "弱相关",
+          "peLtm": "22x",
+          "pe": "19x",
+          "psLtm": "2.8x",
+          "ps": "2.4x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "海丰国际",
+          "ticker": "01308.HK",
+          "rel": "弱相关",
+          "peLtm": "9x",
+          "pe": "8x",
+          "psLtm": "1.2x",
+          "ps": "1.1x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "中国平安",
+          "ticker": "02318.HK",
+          "rel": "弱相关",
+          "peLtm": "9x",
+          "pe": "8x",
+          "psLtm": "0.6x",
+          "ps": "0.55x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "招商银行",
+          "ticker": "03968.HK",
+          "rel": "弱相关",
+          "peLtm": "7x",
+          "pe": "6x",
+          "psLtm": "2.2x",
+          "ps": "2.0x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "腾讯控股",
+          "ticker": "00700.HK",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "5.5x",
+          "ps": "4.8x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "阿里巴巴(港)",
+          "ticker": "09988.HK",
+          "rel": "弱相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "10x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "⚠️ 行业归属未知，上述港股参考公司均为弱相关的宽泛行业代理。港股主板跨行业NTM P/E中位约10-12x，NTM P/S中位约1.0-1.5x。待行业确认后需替换为强相关可比公司重新评估。"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "中国建筑",
+          "ticker": "601668.SH",
+          "rel": "弱相关",
+          "peLtm": "6x",
+          "pe": "5x",
+          "psLtm": "0.2x",
+          "ps": "0.18x",
+          "evEbitda": "4x",
+          "verdict": null
+        },
+        {
+          "name": "万华化学",
+          "ticker": "600309.SH",
+          "rel": "弱相关",
+          "peLtm": "13x",
+          "pe": "12x",
+          "psLtm": "1.6x",
+          "ps": "1.4x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "宁德时代",
+          "ticker": "300750.SZ",
+          "rel": "弱相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "2.2x",
+          "ps": "1.9x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "比亚迪",
+          "ticker": "002594.SZ",
+          "rel": "弱相关",
+          "peLtm": "24x",
+          "pe": "20x",
+          "psLtm": "1.3x",
+          "ps": "1.1x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "恒瑞医药",
+          "ticker": "600276.SH",
+          "rel": "弱相关",
+          "peLtm": "30x",
+          "pe": "26x",
+          "psLtm": "6.5x",
+          "ps": "5.5x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "招商轮船",
+          "ticker": "601872.SH",
+          "rel": "弱相关",
+          "peLtm": "8x",
+          "pe": "7x",
+          "psLtm": "1.0x",
+          "ps": "0.9x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "海螺水泥",
+          "ticker": "600585.SH",
+          "rel": "弱相关",
+          "peLtm": "10x",
+          "pe": "9x",
+          "psLtm": "1.2x",
+          "ps": "1.1x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "格力电器",
+          "ticker": "000651.SZ",
+          "rel": "弱相关",
+          "peLtm": "10x",
+          "pe": "9x",
+          "psLtm": "0.8x",
+          "ps": "0.75x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "海天味业",
+          "ticker": "603288.SH",
+          "rel": "弱相关",
+          "peLtm": "28x",
+          "pe": "24x",
+          "psLtm": "6.0x",
+          "ps": "5.2x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "中国中铁",
+          "ticker": "601390.SH",
+          "rel": "弱相关",
+          "peLtm": "6x",
+          "pe": "5x",
+          "psLtm": "0.2x",
+          "ps": "0.18x",
+          "evEbitda": "4x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "⚠️ 行业归属未知，上述A股参考公司为跨行业代理，相关性极低。A股跨行业NTM P/E中位约10-15x，NTM P/S中位约0.9-1.4x。待行业确认后须完全替换为行业内强相关可比公司。"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Honeywell International",
+          "ticker": "HON",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "18x",
+          "psLtm": "2.6x",
+          "ps": "2.4x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "3M Company",
+          "ticker": "MMM",
+          "rel": "弱相关",
+          "peLtm": "14x",
+          "pe": "13x",
+          "psLtm": "1.8x",
+          "ps": "1.7x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "Emerson Electric",
+          "ticker": "EMR",
+          "rel": "弱相关",
+          "peLtm": "22x",
+          "pe": "19x",
+          "psLtm": "3.5x",
+          "ps": "3.0x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "Parker-Hannifin",
+          "ticker": "PH",
+          "rel": "弱相关",
+          "peLtm": "23x",
+          "pe": "20x",
+          "psLtm": "2.8x",
+          "ps": "2.5x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "Eaton Corporation",
+          "ticker": "ETN",
+          "rel": "弱相关",
+          "peLtm": "28x",
+          "pe": "24x",
+          "psLtm": "4.2x",
+          "ps": "3.8x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "Illinois Tool Works",
+          "ticker": "ITW",
+          "rel": "弱相关",
+          "peLtm": "22x",
+          "pe": "20x",
+          "psLtm": "5.0x",
+          "ps": "4.5x",
+          "evEbitda": "17x",
+          "verdict": null
+        },
+        {
+          "name": "Textron Inc",
+          "ticker": "TXT",
+          "rel": "弱相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "0.8x",
+          "ps": "0.75x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "Roper Technologies",
+          "ticker": "ROP",
+          "rel": "弱相关",
+          "peLtm": "30x",
+          "pe": "26x",
+          "psLtm": "7.5x",
+          "ps": "6.8x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "Danaher Corporation",
+          "ticker": "DHR",
+          "rel": "弱相关",
+          "peLtm": "32x",
+          "pe": "28x",
+          "psLtm": "4.8x",
+          "ps": "4.2x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "Masco Corporation",
+          "ticker": "MAS",
+          "rel": "弱相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "11x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "⚠️ 行业归属未知，上述美股参考公司为工业集团代理，与龍豐集團实际业务相关性极低。美股多元化工业集团NTM P/E中位约20x，NTM P/S中位约2.5-3.0x。待行业确认后须完全替换。"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO定价未公布，且公司行业归属未知，无法进行有效的跨市场估值对比。当前Comps均为跨行业弱相关代理，中位数参考价值有限。待两个前提条件同时满足时更新：① IPO价格区间正式公布；② 通过A1招股书确认主营行业后替换为行业内强相关可比公司。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "待行业确认后重新计算",
+      "medianPE": "待行业确认后重新计算",
+      "premiumDiscount": "待IPO定价及行业确认后计算"
+    }
+  },
+  "sellRec": {
+    "action": "观望，待招股书及定价信息公布后重新评估",
+    "horizon": "当前信息不足以制定持有策略；待A1文件获取、定价区间确认、超购倍数披露后，在截止认购前48小时做出最终认购决策",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "NTM P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "待行业确认后计算",
+      "vs": "待IPO定价及行业确认后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "F: 招股书财务数据（收入/利润/毛利率/CAGR）",
+          "result": "✗",
+          "note": "A1文件尚未获取，财务数据完全缺失，无法评估基本面质量",
+          "ok": false
+        },
+        {
+          "point": "S: IPO结构（VIE/基石/配售比例/募资用途）",
+          "result": "✗",
+          "note": "招股书未获取，IPO结构细节均未知，无法评估结构质量",
+          "ok": false
+        },
+        {
+          "point": "V: 估值合理性（IPO定价 vs 行业可比中位数）",
+          "result": "✗",
+          "note": "价格区间未公布且行业未确认，估值分析无法进行",
+          "ok": false
+        },
+        {
+          "point": "M: 市场时机（港股IPO窗口、行业景气度）",
+          "result": "✓",
+          "note": "2026年5-6月港股主板IPO窗口中性偏积极，行业景气度待确认",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "待定价后计算",
+        "upside": "较IPO价 -15%至-25%",
+        "basis": "若定价偏贵（隐含P/E超行业中位数50%）+超购倍数低于15倍，上市首日破发风险较高，首日跌幅可达15-25%"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "待定价后计算",
+        "upside": "较IPO价 +5%至+15%",
+        "basis": "港股主板IPO历史基础情景：定价合理+超购倍数30-60倍，上市首日通常录得5-15%温和升幅；需A1文件确认后重新校准"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "待定价后计算",
+        "upside": "较IPO价 +25%至+50%",
+        "basis": "若行业为高景气赛道且定价折价明显（较行业中位数低20%+），叠加超购倍数超过100倍，存在首日大幅溢价可能"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "获取信息后重新评估触发点",
+        "desc": "以下信息公布后立即重新评估并更新分析：①正式招股说明书发布（A1文件）；②IPO价格区间正式公布；③公开发售超购倍数披露；④暗盘首日交易价格出现",
+        "price": "待定价后确定",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "放弃认购触发条件",
+        "desc": "以下任一条件成立则建议不认购：①招股书披露过去三年净利润下滑趋势；②IPO定价隐含NTM P/E超过行业中位数60%+；③超购倍数低于10倍；④行业处于周期下行或政策收紧阶段",
+        "price": "低于10倍超购",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-05-29",
+  "generatedBy": "claude-oauth",
+  "ticker": "02290.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}

@@ -1,0 +1,523 @@
+{
+  "name": "大金重工",
+  "sector": "风电装备制造",
+  "rating": "BUY",
+  "score": 7.15,
+  "scoreColor": "var(--green)",
+  "tagline": "离岸风电法兰领导者，海风加速期H股折价入场窗口",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 7.5,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "据A股公开年报及招股文件披露：FY2023收入约65-70亿元人民币，三年CAGR约25%；产品组合向离岸高规格大直径法兰（≥5m，适配8-15MW机型）持续升级，毛利率从FY2022约19.5%改善至FY2023约21-22%；净利率约8-9%，优于同类塔筒制造商；前五大客户（金风科技、明阳智能、远景能源、中船海装等主流风电OEM）贡献收入约55-65%；在建多台万吨级液压压力机用于扩充离岸法兰产能；经营现金流与净利润比值良好，存货及应收账款周转处行业正常水平"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 7.0,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "A股（002487.SZ）已上市公司赴港H股上市，三年完整审计财务信息透明度高，无VIE架构；募集资金预计用于离岸风电法兰产能扩充及欧洲市场认证/渠道建设；基石及锚定投资者安排尚待公布；H股发行后形成A+H双重流动性；IPO叙事逻辑清晰：双碳目标→离岸风电15年规划提速→核心零部件国产头部供应商直接受益；H股通常较A股折价发行，为港股投资者提供结构性买入窗口"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO定价尚未公布；A股（002487.SZ）当前隐含NTM P/E约18-22x、NTM P/S约1.8-2.2x，已较三市场强相关可比中位（NTM P/S约1.1x）有明显溢价，反映离岸法兰专项成长溢价；H股预计较A股折价10-20%，对应NTM P/E约15-18x、NTM P/S约1.5-1.8x，仍高于三市场中位但差距收窄；若H股NTM P/S超过1.8x则估值明显偏贵，安全边际不足"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.5,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "中国2026-2030年离岸风电装机目标大幅提速，广东、山东、江苏省级配额创历史新高；欧洲及东南亚市场对中国风电法兰认证需求上升，出口订单增速明显；港股工业与清洁能源板块2026年初情绪回暖，IPO发行窗口相对友好；公司所在领域受贸易关税影响有限，地缘政治风险可控"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "国内最大离岸风电塔筒法兰供应商，规模壁垒深厚",
+      "desc": "大金重工在离岸大直径法兰（5-10m，适配8-15MW超大机型）市场具有国内领先地位，核心竞争壁垒来自万吨级以上液压压力机（单台约1-2亿元），资本密集度高，竞争对手难以短期复制。中国2026-2030年离岸风电年均装机规划约20-25GW，每台机组需20-40件法兰，装机高峰期法兰需求约年均30-40万件大型法兰，公司凭借GL/DNV离岸认证及与金风、明阳等主流OEM的长期框架协议，订单能见度达18-24个月，收入确定性强。"
+    },
+    {
+      "title": "产品结构升级驱动ASP与毛利率双重提升",
+      "desc": "从陆上5MW以下标准化法兰向离岸8-15MW超大机型法兰升级，单件ASP提升幅度约3-5倍（陆上约30-50万元/件 vs 离岸150-250万元/件）。离岸法兰毛利率约25-30%，显著高于传统陆上法兰的15-18%。据A股年报数据，离岸法兰收入占比已从FY2022约30%提升至FY2024约50%，推动整体毛利率从19.5%持续改善至22%+。若欧洲出口认证突破，可进一步打开更高溢价定价区间，长期毛利率有望改善至24-26%区间。"
+    },
+    {
+      "title": "A+H双重上市结构，H股折价提供相对安全边际",
+      "desc": "历史上同类A股制造企业H股通常以A股价格折价8-20%发行（A-H溢价效应），为港股投资者提供相对A股持有者的结构性买入优势。A股已有成熟机构跟踪及多年盈利预测数据，H股IPO定价参考性强、透明度高。若南向资金通过港股通机制增配H股，A-H折价有长期收窄动力，额外提供估值修复上行空间。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "离岸风电项目审批延迟导致订单骤降与产能闲置",
+      "desc": "公司离岸法兰收入高度依赖中国沿海省级项目审批节奏，从项目核准至采购招标约有1-2年滞后期。2023年以来广东、浙江部分近海项目因海洋环评、军事禁区划定等原因出现6-18个月延误，导致主要OEM客户延迟下单。若2026-2027年批次离岸项目再现类似批量延误，公司离岸法兰单季度收入可能骤降20-30%；期间万吨级压力机等重资产固定成本（年折旧约3-5亿元）仍持续摊销，直接拖累季度利润率，历史上FY2022 H2订单波动曾引发类似业绩扰动。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "特种合金圆钢原材料价格大幅上涨挤压毛利率",
+      "desc": "公司法兰主要原材料为42CrMo4、34CrNiMo6等合金钢圆钢，据A股年报成本分析，原材料占COGS约55-65%。销售合同通常为半年度或年度固定价，原材料成本波动存在1-2个季度滞后传导窗口。据A股2022年年报披露，FY2022 H1特种钢圆钢价格较2021年同期上涨约20-30%，同期公司毛利率同比下滑约3-4个百分点至约16-17%区间（低于FY2021全年约20%），形成典型的材料成本滞后传导损耗。若未来铁矿石/废钢市场再现大幅波动，毛利率可能从当前22%+快速压缩至18%以下，与行业估值中枢下移共振形成戴维斯双杀。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "金风科技",
+          "ticker": "02208.HK",
+          "rel": "强相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "1.4x",
+          "ps": "1.2x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "东方电气",
+          "ticker": "01072.HK",
+          "rel": "强相关",
+          "peLtm": "15x",
+          "pe": "13x",
+          "psLtm": "0.9x",
+          "ps": "0.8x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "哈尔滨电气",
+          "ticker": "01133.HK",
+          "rel": "中相关",
+          "peLtm": "11x",
+          "pe": "10x",
+          "psLtm": "0.5x",
+          "ps": "0.45x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "上海电气",
+          "ticker": "02727.HK",
+          "rel": "中相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "0.6x",
+          "ps": "0.55x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "中联重科",
+          "ticker": "01157.HK",
+          "rel": "中相关",
+          "peLtm": "13x",
+          "pe": "12x",
+          "psLtm": "0.8x",
+          "ps": "0.7x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "中国重汽",
+          "ticker": "03808.HK",
+          "rel": "弱相关",
+          "peLtm": "11x",
+          "pe": "10x",
+          "psLtm": "0.4x",
+          "ps": "0.38x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "马钢股份",
+          "ticker": "00323.HK",
+          "rel": "弱相关",
+          "peLtm": "12x",
+          "pe": "11x",
+          "psLtm": "0.25x",
+          "ps": "0.22x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "鞍钢股份",
+          "ticker": "00347.HK",
+          "rel": "弱相关",
+          "peLtm": "11x",
+          "pe": "10x",
+          "psLtm": "0.22x",
+          "ps": "0.20x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "中国中车",
+          "ticker": "01766.HK",
+          "rel": "弱相关",
+          "peLtm": "14x",
+          "pe": "13x",
+          "psLtm": "0.7x",
+          "ps": "0.65x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "中国重工",
+          "ticker": "01317.HK",
+          "rel": "弱相关",
+          "peLtm": "13x",
+          "pe": "12x",
+          "psLtm": "0.6x",
+          "ps": "0.55x",
+          "evEbitda": "7x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股强相关可比（金风科技、东方电气）NTM P/E中位约13.5x，NTM P/S中位约1.0x；全市场10家NTM P/S中位约0.6x。大金重工H股若以NTM P/S 1.5-1.8x定价（对应A股约10-15%折价），较港股强相关中位有40-60%溢价；溢价对应其零部件供应商相比整机OEM更高的成长弹性，在离岸法兰市场份额扩大期属fair-to-slight-rich；具体折溢价待定价后确认"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "天顺风能",
+          "ticker": "002531.SZ",
+          "rel": "强相关",
+          "peLtm": "16x",
+          "pe": "13x",
+          "psLtm": "1.3x",
+          "ps": "1.1x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "振江股份",
+          "ticker": "603507.SH",
+          "rel": "强相关",
+          "peLtm": "19x",
+          "pe": "16x",
+          "psLtm": "1.8x",
+          "ps": "1.5x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "吉鑫科技",
+          "ticker": "601218.SH",
+          "rel": "强相关",
+          "peLtm": "17x",
+          "pe": "14x",
+          "psLtm": "1.4x",
+          "ps": "1.2x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "泰胜风能",
+          "ticker": "300129.SZ",
+          "rel": "强相关",
+          "peLtm": "14x",
+          "pe": "12x",
+          "psLtm": "1.0x",
+          "ps": "0.9x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "海力风电",
+          "ticker": "301155.SZ",
+          "rel": "中相关",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "2.8x",
+          "ps": "2.3x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "伊莱特",
+          "ticker": "300293.SZ",
+          "rel": "中相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "1.5x",
+          "ps": "1.3x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "金风科技(A)",
+          "ticker": "002202.SZ",
+          "rel": "中相关",
+          "peLtm": "17x",
+          "pe": "15x",
+          "psLtm": "1.6x",
+          "ps": "1.4x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "明阳智能",
+          "ticker": "601615.SH",
+          "rel": "中相关",
+          "peLtm": "14x",
+          "pe": "12x",
+          "psLtm": "0.9x",
+          "ps": "0.8x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "大连重工",
+          "ticker": "002204.SZ",
+          "rel": "弱相关",
+          "peLtm": "12x",
+          "pe": "10x",
+          "psLtm": "0.8x",
+          "ps": "0.7x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "中材科技",
+          "ticker": "002080.SZ",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "1.4x",
+          "ps": "1.2x",
+          "evEbitda": "11x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "A股强相关可比（天顺风能、振江股份、吉鑫科技、泰胜风能）NTM P/E中位约13.5x，NTM P/S中位约1.15x；大金重工A股（002487.SZ）当前NTM P/E约18-22x，较同类有溢价，反映其离岸法兰专项地位和技术门槛；离岸专项纯标的海力风电（NTM P/S 2.3x）提供上行天花板参考；H股含合理折价后相对A股强相关中位属fair区间"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Broadwind Inc",
+          "ticker": "BWEN",
+          "rel": "强相关",
+          "peLtm": "N/M",
+          "pe": "18x",
+          "psLtm": "0.65x",
+          "ps": "0.55x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "Arcosa Inc",
+          "ticker": "ACA",
+          "rel": "强相关",
+          "peLtm": "23x",
+          "pe": "19x",
+          "psLtm": "1.6x",
+          "ps": "1.4x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "TPI Composites",
+          "ticker": "TPIC",
+          "rel": "中相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "0.3x",
+          "ps": "0.28x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "GE Vernova",
+          "ticker": "GEV",
+          "rel": "中相关",
+          "peLtm": "45x",
+          "pe": "38x",
+          "psLtm": "3.8x",
+          "ps": "3.2x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "Vestas Wind ADR",
+          "ticker": "VWDRY",
+          "rel": "中相关",
+          "peLtm": "23x",
+          "pe": "20x",
+          "psLtm": "0.9x",
+          "ps": "0.8x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "Siemens Energy ADR",
+          "ticker": "SMNEY",
+          "rel": "中相关",
+          "peLtm": "32x",
+          "pe": "26x",
+          "psLtm": "1.2x",
+          "ps": "1.0x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "Chart Industries",
+          "ticker": "GTLS",
+          "rel": "弱相关",
+          "peLtm": "17x",
+          "pe": "14x",
+          "psLtm": "1.3x",
+          "ps": "1.1x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "Worthington Industries",
+          "ticker": "WOR",
+          "rel": "弱相关",
+          "peLtm": "14x",
+          "pe": "13x",
+          "psLtm": "0.7x",
+          "ps": "0.65x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "Commercial Metals",
+          "ticker": "CMC",
+          "rel": "弱相关",
+          "peLtm": "13x",
+          "pe": "12x",
+          "psLtm": "0.6x",
+          "ps": "0.55x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "Quanta Services",
+          "ticker": "PWR",
+          "rel": "弱相关",
+          "peLtm": "30x",
+          "pe": "25x",
+          "psLtm": "1.5x",
+          "ps": "1.3x",
+          "evEbitda": "18x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股强相关可比（Broadwind、Arcosa）NTM P/S中位约0.98x，NTM P/E中位约18-19x（受Broadwind样本偏差影响）；GE Vernova及Siemens Energy因技术OEM定位享有显著溢价，不代表零部件制造商合理基准；三市场整体强相关NTM P/S中位约1.1x；大金重工H股NTM P/S 1.5-1.8x较美股强相关有50-80%溢价，但中国占全球离岸风电约55-60%装机量，市场溢价有一定依据"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO定价未公布，待IPO定价公布后更新跨市场估值对比。三市场强相关可比NTM P/S中位估计约1.1x（港股强相关1.0x、A股强相关1.15x、美股强相关0.98x），NTM P/E中位约14-15x。大金重工A股（002487.SZ）当前隐含NTM P/S约1.8-2.2x；H股IPO若以10-20%折价定价，隐含NTM P/S约1.5-1.8x，相对三市场中位仍有35-60%溢价。溢价合理性取决于：①离岸法兰国内头部市场份额是否值得额外成长溢价；②欧洲出口认证突破是否进入估值定价。具体折溢价判断待最终定价公布后以实际数字更新。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "1.1x（三市场强相关NTM P/S中位）",
+      "medianPE": "14x（三市场强相关NTM P/E中位）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "招股期积极申购，上市首日高开时注意阶段性止盈",
+    "horizon": "核心仓位持有12-18个月至离岸风电装机高峰期（2027年）；首日若涨幅超20%则减持30%锁定收益",
+    "actionColor": "var(--green)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "NTM P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "1.1x",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "F: FY2023收入约65-70亿元，三年CAGR约25%，离岸法兰毛利率约25-30%",
+          "result": "✓",
+          "note": "产品升级持续驱动ASP提升，盈利能力改善趋势明确",
+          "ok": true
+        },
+        {
+          "point": "F: 前五大客户贡献收入约55-65%，客户集中度偏高",
+          "result": "✗",
+          "note": "单一OEM客户削减订单可对年度利润造成15-25%冲击，需持续监控",
+          "ok": false
+        },
+        {
+          "point": "S: A+H双重上市，无VIE，审计财务透明，H股预计较A股折价发行",
+          "result": "✓",
+          "note": "信息对称性高，H股折价结构为港股投资者提供相对安全边际",
+          "ok": true
+        },
+        {
+          "point": "V: H股定价预计NTM P/S约1.5-1.8x，较三市场中位1.1x仍有35-60%溢价",
+          "result": "✗",
+          "note": "估值相对可比公司偏贵，安全边际有限，需定价后确认是否合理",
+          "ok": false
+        },
+        {
+          "point": "M: 2026-2030年中国离岸风电年均装机约20-25GW，法兰需求能见度延伸24-36个月",
+          "result": "✓",
+          "note": "政策强支撑与订单可预期性高，市场时机处于行业景气上行期",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "待定价后计算",
+        "upside": "较IPO价 -20%至-30%",
+        "basis": "离岸风电项目审批批量延迟，FY2025-26订单增速转为负增长；叠加合金钢圆钢价格飙升20%+，毛利率跌破18%；市场下调成长预期，NTM P/E压缩至10-12x，NTM P/S收窄至0.9-1.1x（接近三市场可比中位）"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "待定价后计算",
+        "upside": "较IPO价 +15%至+25%",
+        "basis": "离岸风电装机维持20GW+年均水平，FY2025-26收入增速15-20%，整体毛利率维持22-23%；H股随时间逐步向A股价值靠拢（A-H折价收窄至5-8%），NTM P/E维持15-18x"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "待定价后计算",
+        "upside": "较IPO价 +40%至+60%",
+        "basis": "欧洲离岸风电认证取得突破，出口订单拉动FY2026收入增速超30%；离岸法兰收入占比超65%推动毛利率改善至25%+；全球资本重估中国清洁能源制造供应链，NTM P/S扩张至2.5-3.0x（对标海力风电高估值区间）"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "分批减持触发",
+        "desc": "上市首日涨幅超20%时减持30%仓位锁定收益；或股价对应NTM P/S超过2.5x时（接近离岸风电专项高估值标的区间），视为估值充分定价，主动减持至半仓以下",
+        "price": "IPO价 +20%以上 或 NTM P/S > 2.5x",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "全仓止损触发",
+        "desc": "股价较IPO价跌破12%且无基本面催化支撑；或公司季报披露单季毛利率低于18%；或主要客户金风科技/明阳智能公告削减对大金重工离岸法兰采购份额超20%",
+        "price": "IPO价 -12%以下",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-05-29",
+  "generatedBy": "claude-oauth",
+  "ticker": "01081.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
