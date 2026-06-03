@@ -1,64 +1,6 @@
 {
-  "lastUpdated": "2026-06-02",
-  "activeSubscription": [
-    {
-      "key": "_stub_e5a4a7e9",
-      "name": "大金重工",
-      "ticker": "01081.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-06-05",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-06-02"
-    },
-    {
-      "key": "_stub_e5a4a9e8",
-      "name": "天辰生物－Ｂ",
-      "ticker": "01779.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-06-05",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-06-02"
-    },
-    {
-      "key": "_stub_e9be8de8",
-      "name": "龍豐集團",
-      "ticker": "02290.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-06-05",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-06-02"
-    }
-  ],
+  "lastUpdated": "2026-06-03",
+  "activeSubscription": [],
   "hearingPassed": [
     {
       "key": "_stub_e4b8ade5",
@@ -75,9 +17,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-02"
+      "sourceDate": "2026-06-03"
     },
     {
       "key": "_stub_e5b08fe9",
@@ -96,7 +38,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-06-02"
+      "sourceDate": "2026-06-03"
     },
     {
       "key": "_stub_e4b889e4",
@@ -113,28 +55,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後除淨",
+      "statusLabel": "1日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-02"
-    },
-    {
-      "key": "_stub_e5bba3e5",
-      "name": "廣和通",
-      "ticker": "00638.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-10-22",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日除淨",
-      "source": "etnet",
-      "sourceDate": "2026-06-02"
+      "sourceDate": "2026-06-03"
     },
     {
       "key": "_stub_e7b4abe9",
@@ -151,28 +74,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-02"
-    },
-    {
-      "key": "_stub_e7a6bee8",
-      "name": "禾賽－Ｗ",
-      "ticker": "02525.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-09-16",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新派息公布",
-      "source": "etnet",
-      "sourceDate": "2026-06-02"
+      "sourceDate": "2026-06-03"
     },
     {
       "key": "_stub_e99b99e7",
@@ -189,9 +93,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-02"
+      "sourceDate": "2026-06-03"
     },
     {
       "key": "_stub_464f5254",
@@ -208,28 +112,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
-      "source": "etnet",
-      "sourceDate": "2026-06-02"
-    },
-    {
-      "key": "_stub_e5a4a7e7",
-      "name": "大眾口腔",
-      "ticker": "02651.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-07-09",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
       "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-02"
+      "sourceDate": "2026-06-03"
     },
     {
       "key": "_stub_e694bfe5",
@@ -248,26 +133,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-06-02"
-    },
-    {
-      "key": "_stub_e584aae5",
-      "name": "優博控股",
-      "ticker": "08529.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2024-06-03",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-06-02"
+      "sourceDate": "2026-06-03"
     }
   ],
   "archived": [
@@ -1844,6 +1710,13 @@
       "name": "深演智能",
       "ticker": "02723.HK",
       "listingDate": "2026-05-27",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e5a4a7e9",
+      "name": "大金重工",
+      "ticker": "01081.HK",
+      "listingDate": "2026-06-05",
       "result": "待更新"
     }
   ]
