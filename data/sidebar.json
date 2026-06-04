@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03",
+  "lastUpdated": "2026-06-04",
   "activeSubscription": [],
   "hearingPassed": [
     {
@@ -17,28 +17,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-03"
-    },
-    {
-      "key": "_stub_e5b08fe9",
-      "name": "小馬智行－Ｗ",
-      "ticker": "02026.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-11-06",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-06-03"
+      "sourceDate": "2026-06-04"
     },
     {
       "key": "_stub_e4b889e4",
@@ -55,66 +36,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-03"
+      "sourceDate": "2026-06-04"
     },
     {
-      "key": "_stub_e7b4abe9",
-      "name": "紫金黃金國際",
-      "ticker": "02259.HK",
+      "key": "_stub_e58d97e5",
+      "name": "南山鋁業國際",
+      "ticker": "02610.HK",
       "aShare": "",
       "sector": "",
       "phase": "pipeline",
       "hearingDate": "",
       "subStart": "",
       "subEnd": "",
-      "listingDate": "2025-09-30",
+      "listingDate": "2025-03-25",
       "ipoLow": null,
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日除淨",
+      "statusLabel": "7日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-03"
-    },
-    {
-      "key": "_stub_e99b99e7",
-      "name": "雙登股份",
-      "ticker": "06960.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-08-26",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日除淨",
-      "source": "etnet",
-      "sourceDate": "2026-06-03"
-    },
-    {
-      "key": "_stub_464f5254",
-      "name": "FORTIOR",
-      "ticker": "01304.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-07-09",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日除淨",
-      "source": "etnet",
-      "sourceDate": "2026-06-03"
+      "sourceDate": "2026-06-04"
     },
     {
       "key": "_stub_e694bfe5",
@@ -133,7 +76,26 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-06-03"
+      "sourceDate": "2026-06-04"
+    },
+    {
+      "key": "_stub_e9a086e8",
+      "name": "順豐控股",
+      "ticker": "06936.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2024-11-27",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "今日派送",
+      "source": "etnet",
+      "sourceDate": "2026-06-04"
     }
   ],
   "archived": [
