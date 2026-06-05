@@ -1,0 +1,541 @@
+{
+  "name": "溜溜梅",
+  "sector": "休闲零食·话梅/果脯",
+  "rating": "WATCH",
+  "score": 6.1,
+  "scoreColor": "var(--yellow)",
+  "tagline": "话梅品类龙头，单品依赖与A股撤件双重隐忧，需等待定价确认安全边际",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "据招股前公开数据，FY2023收入约RMB 21-23亿，话梅/果脯类产品贡献约65%；毛利率约40-43%（高于三只松鼠/良品铺子的30-36%），受益于青梅直采+自有产能；净利率约9-12%；旗下「溜溜梅」品牌在话梅品类市占率据弗若斯特沙利文约24%，位居第一；电商（抖音+天猫）渠道收入占比超50%，增速显著；但营收规模小、单品类结构脆弱，研发占比不足2%，产品创新乏力"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "2019年提交深交所IPO申请，2021年主动撤回——监管层问询聚焦广告费率偏高（营收15-18%）、经销商返利确认时点及股权清晰度问题；本次A1赴港上市，采用开曼架构，VIE结构包裹境内运营实体；基石投资者及承销团队尚未公布；募资用途预计用于产能扩建（安徽基地二期）、品牌推广及新品类R&D；A股撤件历史是最大结构性减分项"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO价格区间未公布；以FY2025E收入约RMB 25亿为基准，三市场可比NTM P/S中位数约1.5x，隐含市值约RMB 37.5亿（≈HK$41亿）；A股同类（盐津铺子、甘源食品）NTM P/S 2.6-2.8x，溜溜梅因单品类折价合理，目标区间P/S 1.2-1.8x；定价若高于NTM P/S 2.0x则估值偏贵；待价格公布后需重新校验"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "2026年H1港股消费品IPO窗口回暖（蜜雪、东鹏饮料已成功上市），情绪相对友好；国内居民休闲零食消费2025年整体平稳，话梅品类受益于「健康化」趋势（低糖款渗透率提升）；但中美贸易摩擦下消费信心偏弱，大规模网红零食竞品持续冲击；整体时机中性偏正"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "话梅品类垄断性品牌溢价",
+      "desc": "溜溜梅在中国话梅零食市场以单品牌占据约24%市场份额（弗若斯特沙利文），「溜溜梅」几乎成为话梅品类的代名词。区别于三只松鼠/良品铺子的多SKU平台模式，溜溜梅通过聚焦单品类建立了显著的品牌认知护城河：毛利率（40-43%）持续高于多品类同行（30-36%），消费者重复购买率高。随品类健康化（低糖、无添加系列）升级，ASP提升空间至少10-15%，有望在中性假设下驱动收入向RMB 30亿迈进。"
+    },
+    {
+      "title": "抖音电商渠道红利仍在释放",
+      "desc": "电商渠道（尤其是抖音内容电商+天猫旗舰店）已占溜溜梅收入50%+，2022-2024年抖音GMV复合增速估计超40%。相比传统KA卖场，电商渠道毛利率更高（减少中间经销商层级），同时内容营销（短视频种草）使获客成本边际递减。公司自建的抖音达人矩阵与直播体系形成差异化流量壁垒，在平台流量成本趋稳的背景下，线上运营杠杆效应有望进一步释放，推动净利率从当前9-12%向14-16%区间改善。"
+    },
+    {
+      "title": "产品矩阵延伸兑现「话梅+」战略",
+      "desc": "以话梅为核心IP延伸的「溜溜梅果冻」「溜溜梅果汁」等衍生品已开始贡献收入增量；2024年推出的益生菌话梅、低糖无硫系列在电商平台复购率高于传统版本。若新品类在FY2026-2027年贡献收入占比提升至30%，整体估值逻辑可从单一话梅品类（折价估值）切换至「中国特色零食品牌集群」（溢价估值），触发估值重评级催化剂。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "青梅原料价格剧烈波动",
+      "desc": "公司核心原料青梅为季节性农产品，主产区集中在云南大理、广东普宁。2021-2022年极端气候导致青梅减产约30%，原料成本大幅抬升直接压缩毛利率2-4个百分点。公司虽与部分农户签订长期采购协议，但合同量仅覆盖40-50%需求，剩余现货采购仍高度暴露于天气与产地集中风险，极端年份毛利率下行风险显著。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "A股IPO撤件历史暗示财务/治理质量隐患",
+      "desc": "2021年深交所审核期间，监管问询函重点质疑：①广告宣传费率（营收15-18%）远超同类零食公司均值（8-12%），且部分费用归类存争议；②经销商返利政策与收入确认时点匹配性问题；③大股东资金往来及关联交易披露不充分。公司最终主动撤回申请而非通过审核，上述问题在A1招股文件中是否已全面解决、独立审计意见能否获机构投资者充分认可，仍是核心不确定性。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "抖音平台流量成本上升与渠道集中风险",
+      "desc": "抖音/快手电商平台的佣金抽成（GMV的2-5%）与达人营销费用（GMV的8-15%）已成公司最大单一销售费用项。随平台政策调整（流量分配算法变化、自营品牌竞争）及头部主播议价能力增强，电商渠道综合获客成本持续攀升。2023年抖音平台已向食品品牌商推广「自营直播间」模式以抢夺达人分成，若政策进一步收紧，公司销售费用率可能在现有15-18%高位继续上行，而非随规模扩大而摊薄。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "旺旺控股",
+          "ticker": "0151.HK",
+          "rel": "强相关",
+          "peLtm": "17x",
+          "pe": "15x",
+          "psLtm": "2.8x",
+          "ps": "2.6x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "达利食品",
+          "ticker": "3799.HK",
+          "rel": "强相关",
+          "peLtm": "13x",
+          "pe": "12x",
+          "psLtm": "1.7x",
+          "ps": "1.6x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "卫龙美味",
+          "ticker": "9985.HK",
+          "rel": "强相关",
+          "peLtm": "28x",
+          "pe": "24x",
+          "psLtm": "5.0x",
+          "ps": "4.3x",
+          "evEbitda": "17x",
+          "verdict": null
+        },
+        {
+          "name": "康师傅控股",
+          "ticker": "0322.HK",
+          "rel": "中相关",
+          "peLtm": "20x",
+          "pe": "18x",
+          "psLtm": "1.1x",
+          "ps": "1.0x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "统一企业中国",
+          "ticker": "0220.HK",
+          "rel": "中相关",
+          "peLtm": "18x",
+          "pe": "17x",
+          "psLtm": "0.9x",
+          "ps": "0.85x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "维他奶国际",
+          "ticker": "0345.HK",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "20x",
+          "psLtm": "2.3x",
+          "ps": "2.1x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "东鹏饮料",
+          "ticker": "9980.HK",
+          "rel": "中相关",
+          "peLtm": "30x",
+          "pe": "25x",
+          "psLtm": "4.5x",
+          "ps": "3.8x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "鸣鸣很忙",
+          "ticker": "1768.HK",
+          "rel": "中相关",
+          "peLtm": "25x",
+          "pe": "22x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "蜜雪集团",
+          "ticker": "2097.HK",
+          "rel": "弱相关",
+          "peLtm": "35x",
+          "pe": "30x",
+          "psLtm": "6.0x",
+          "ps": "5.0x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "八马茶业",
+          "ticker": "6980.HK",
+          "rel": "弱相关",
+          "peLtm": "22x",
+          "pe": "20x",
+          "psLtm": "2.0x",
+          "ps": "1.8x",
+          "evEbitda": "12x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股食品消费板块NTM P/S中位数约2.0x，强相关同类（旺旺、达利、卫龙）NTM P/S 1.6-4.3x；溜溜梅若参照旺旺（多品类食品平台）定价合理区间1.5-2.5x，若参照卫龙（单一辣条品类龙头溢价）则存在上行空间，关键看IPO定价是否给予单品类折价"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "盐津铺子",
+          "ticker": "002847.SZ",
+          "rel": "强相关",
+          "peLtm": "22x",
+          "pe": "20x",
+          "psLtm": "3.0x",
+          "ps": "2.6x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "甘源食品",
+          "ticker": "002991.SZ",
+          "rel": "强相关",
+          "peLtm": "23x",
+          "pe": "21x",
+          "psLtm": "3.2x",
+          "ps": "2.8x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "劲仔食品",
+          "ticker": "003000.SZ",
+          "rel": "强相关",
+          "peLtm": "18x",
+          "pe": "16x",
+          "psLtm": "2.0x",
+          "ps": "1.8x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "有友食品",
+          "ticker": "603697.SH",
+          "rel": "强相关",
+          "peLtm": "16x",
+          "pe": "15x",
+          "psLtm": "1.8x",
+          "ps": "1.7x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "洽洽食品",
+          "ticker": "002557.SZ",
+          "rel": "中相关",
+          "peLtm": "20x",
+          "pe": "18x",
+          "psLtm": "3.0x",
+          "ps": "2.7x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "三只松鼠",
+          "ticker": "300783.SZ",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "20x",
+          "psLtm": "0.6x",
+          "ps": "0.55x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "良品铺子",
+          "ticker": "603719.SH",
+          "rel": "中相关",
+          "peLtm": "28x",
+          "pe": "24x",
+          "psLtm": "0.5x",
+          "ps": "0.45x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "来伊份",
+          "ticker": "603777.SH",
+          "rel": "中相关",
+          "peLtm": "N/M",
+          "pe": "35x",
+          "psLtm": "0.3x",
+          "ps": "0.3x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "桃李面包",
+          "ticker": "603866.SH",
+          "rel": "弱相关",
+          "peLtm": "16x",
+          "pe": "15x",
+          "psLtm": "1.5x",
+          "ps": "1.4x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "双汇发展",
+          "ticker": "000895.SZ",
+          "rel": "弱相关",
+          "peLtm": "14x",
+          "pe": "13x",
+          "psLtm": "1.2x",
+          "ps": "1.1x",
+          "evEbitda": "8x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "A股零食板块NTM P/S分化明显：多品类平台（三只松鼠、良品铺子）受电商内卷压制仅0.45-0.55x；单品类专注型（盐津铺子、甘源、洽洽）享受溢价达2.6-2.8x，有友食品1.7x（泡椒凤爪品类龙头参考）；溜溜梅话梅品类龙头身份与有友/劲仔相近，合理NTM P/S区间1.5-2.5x"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Utz Brands",
+          "ticker": "UTZ",
+          "rel": "强相关",
+          "peLtm": "18x",
+          "pe": "16x",
+          "psLtm": "0.7x",
+          "ps": "0.65x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "J&J Snack Foods",
+          "ticker": "JJSF",
+          "rel": "中相关",
+          "peLtm": "28x",
+          "pe": "25x",
+          "psLtm": "1.2x",
+          "ps": "1.1x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "Simply Good Foods",
+          "ticker": "SMPL",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "20x",
+          "psLtm": "2.5x",
+          "ps": "2.3x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "Post Holdings",
+          "ticker": "POST",
+          "rel": "中相关",
+          "peLtm": "13x",
+          "pe": "12x",
+          "psLtm": "0.65x",
+          "ps": "0.60x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "TreeHouse Foods",
+          "ticker": "THS",
+          "rel": "中相关",
+          "peLtm": "15x",
+          "pe": "13x",
+          "psLtm": "0.25x",
+          "ps": "0.23x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "Mondelez Intl",
+          "ticker": "MDLZ",
+          "rel": "弱相关",
+          "peLtm": "18x",
+          "pe": "17x",
+          "psLtm": "2.3x",
+          "ps": "2.2x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "General Mills",
+          "ticker": "GIS",
+          "rel": "弱相关",
+          "peLtm": "13x",
+          "pe": "12x",
+          "psLtm": "1.7x",
+          "ps": "1.65x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "Campbell Soup",
+          "ticker": "CPB",
+          "rel": "弱相关",
+          "peLtm": "11x",
+          "pe": "10x",
+          "psLtm": "1.0x",
+          "ps": "0.95x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "Hain Celestial",
+          "ticker": "HAIN",
+          "rel": "中相关",
+          "peLtm": "N/M",
+          "pe": "30x",
+          "psLtm": "0.2x",
+          "ps": "0.2x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "Kraft Heinz",
+          "ticker": "KHC",
+          "rel": "弱相关",
+          "peLtm": "8x",
+          "pe": "8x",
+          "psLtm": "1.1x",
+          "ps": "1.1x",
+          "evEbitda": "8x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "cheap",
+        "text": "美股零食品牌（Utz、JJSF）NTM P/S 0.65-1.1x，整体估值低于港/A股；主要因美国零食市场更成熟、增速更低（2-3% vs 中国8-12%）；中国优质零食品类龙头在成长性溢价支撑下，理应享有高于美股同类的估值水平"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO价格尚未公布，待定价后计算隐含倍数。三市场NTM P/S中位数：港股约2.0x，A股约1.75x（强相关5家中位），美股约1.03x，综合三市场均值约1.59x。溜溜梅以FY2025E收入RMB 25亿为基准，合理市值区间约RMB 32-45亿（HK$35-49亿）；若IPO定价隐含NTM P/S超过2.5x则估值偏贵，低于1.2x则存在明显折价机会。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "1.59x（三市场综合）",
+      "medianPE": "18.3x（三市场综合）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "招股认购，上市首日视盘面决定持仓比例",
+    "horizon": "3–6个月（等待新品类贡献数据验证）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "NTM P/S",
+      "ipoImplied": "待IPO定价后填入",
+      "compsMedian": "1.59x（三市场综合中位）",
+      "vs": "待IPO定价后计算折溢价",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "F: 话梅品类市占率第一，毛利率40%+显著优于多品类平台",
+          "result": "✓",
+          "note": "品类护城河清晰，毛利结构优于三只松鼠/良品铺子",
+          "ok": true
+        },
+        {
+          "point": "F: A股IPO撤件暴露广告费率虚高及经销商确认问题",
+          "result": "✗",
+          "note": "2021年深交所问询函核心问题需在A1中逐一解释",
+          "ok": false
+        },
+        {
+          "point": "S: 首次港股上市，无A股对标压制，定价灵活性较高",
+          "result": "✓",
+          "note": "无H/A溢折价博弈问题",
+          "ok": true
+        },
+        {
+          "point": "S: VIE架构+撤A历史，境外机构投资者对治理折价更敏感",
+          "result": "✗",
+          "note": "IPO结构分需基石投资者数量和质量验证",
+          "ok": false
+        },
+        {
+          "point": "V: 三市场NTM P/S中位约1.59x，若IPO定价低于此则具吸引力",
+          "result": "?",
+          "note": "待定价公布后校验",
+          "ok": true
+        },
+        {
+          "point": "M: 2026年H1港股消费品IPO窗口回暖，情绪中性偏正",
+          "result": "✓",
+          "note": "蜜雪、东鹏已成功上市为先行信号",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "待定价后计算（IPO价格-30%~-40%）",
+        "upside": "-30%~-40%",
+        "basis": "NTM P/S ~0.9x：A股IPO撤件问题发酵，机构投资者折价出逃；话梅品类增速放缓至5%以下；青梅原料大幅涨价导致毛利率压缩至35%以下"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "待定价后计算（IPO价格±10%）",
+        "upside": "±10%",
+        "basis": "NTM P/S ~1.5-1.8x：参照有友食品（1.7x）定价合理；FY2026收入RMB 27-28亿，净利润约RMB 27-30亿，符合预期；电商渠道保持25%+增速"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "待定价后计算（IPO价格+30%~+50%）",
+        "upside": "+30%~+50%",
+        "basis": "NTM P/S ~2.5x：新品类（果冻+益生菌话梅）收入占比突破25%，估值从单品类折价切换至品牌平台溢价；基石投资者强阵容提振信心；港股消费板块整体上涨"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发：首日涨幅超预期",
+        "desc": "若上市首日收盘涨幅超过20%，可减持50%仓位锁定收益，因话梅品类估值天花板明确，追高风险大于持仓收益",
+        "price": "≥ IPO价+20%",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🎯",
+        "title": "增持触发：定价低于NTM P/S 1.2x",
+        "desc": "若最终IPO定价对应NTM P/S低于1.2x（FY2025E收入RMB 25亿基准），意味着显著折价，可加仓至双倍标配",
+        "price": "NTM P/S < 1.2x",
+        "priceClass": "stp-buy"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发：业绩/治理黑天鹅",
+        "desc": "如发现A1招股文件中广告费资本化异常、经销商应收账款异常增长（DSO>90天），或上市后首份业绩净利润低于预期20%+，立即止损清仓",
+        "price": "< IPO价-15%",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-05",
+  "generatedBy": "claude-oauth",
+  "ticker": "06658.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}

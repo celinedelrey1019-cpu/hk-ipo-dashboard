@@ -1,6 +1,26 @@
 {
-  "lastUpdated": "2026-06-04",
-  "activeSubscription": [],
+  "lastUpdated": "2026-06-05",
+  "activeSubscription": [
+    {
+      "key": "_stub_e6ba9ce6",
+      "name": "溜溜梅",
+      "ticker": "06658.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "subscribe",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-06-15",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "5日後截止",
+      "source": "etnet",
+      "sourceDate": "2026-06-05"
+    }
+  ],
   "hearingPassed": [
     {
       "key": "_stub_e4b8ade5",
@@ -17,28 +37,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "5日後除淨",
+      "statusLabel": "4日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-04"
+      "sourceDate": "2026-06-05"
     },
     {
-      "key": "_stub_e4b889e4",
-      "name": "三一重工",
-      "ticker": "06031.HK",
+      "key": "_stub_e8b3bde5",
+      "name": "賽力斯",
+      "ticker": "09927.HK",
       "aShare": "",
       "sector": "",
       "phase": "pipeline",
       "hearingDate": "",
       "subStart": "",
       "subEnd": "",
-      "listingDate": "2025-10-28",
+      "listingDate": "2025-11-05",
       "ipoLow": null,
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日除淨",
+      "statusLabel": "今日派送",
       "source": "etnet",
-      "sourceDate": "2026-06-04"
+      "sourceDate": "2026-06-05"
     },
     {
       "key": "_stub_e58d97e5",
@@ -55,9 +75,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-04"
+      "sourceDate": "2026-06-05"
     },
     {
       "key": "_stub_e694bfe5",
@@ -74,28 +94,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "政府債券",
+      "statusLabel": "最新派息公布政府債券",
       "source": "etnet",
-      "sourceDate": "2026-06-04"
-    },
-    {
-      "key": "_stub_e9a086e8",
-      "name": "順豐控股",
-      "ticker": "06936.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2024-11-27",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-06-04"
+      "sourceDate": "2026-06-05"
     }
   ],
   "archived": [
