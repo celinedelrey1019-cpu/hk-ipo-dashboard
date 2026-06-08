@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05",
+  "lastUpdated": "2026-06-08",
   "activeSubscription": [
     {
       "key": "_stub_e6ba9ce6",
@@ -16,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "5日後截止",
+      "statusLabel": "2日後截止",
       "source": "etnet",
-      "sourceDate": "2026-06-05"
+      "sourceDate": "2026-06-08"
     }
   ],
   "hearingPassed": [
@@ -37,28 +37,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後除淨",
+      "statusLabel": "1日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-05"
+      "sourceDate": "2026-06-08"
     },
     {
-      "key": "_stub_e8b3bde5",
-      "name": "賽力斯",
-      "ticker": "09927.HK",
+      "key": "_stub_e6898be5",
+      "name": "手回集團",
+      "ticker": "02621.HK",
       "aShare": "",
       "sector": "",
       "phase": "pipeline",
       "hearingDate": "",
       "subStart": "",
       "subEnd": "",
-      "listingDate": "2025-11-05",
+      "listingDate": "2025-05-30",
       "ipoLow": null,
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日派送",
+      "statusLabel": "7日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-05"
+      "sourceDate": "2026-06-08"
     },
     {
       "key": "_stub_e58d97e5",
@@ -75,9 +75,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "3日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-05"
+      "sourceDate": "2026-06-08"
     },
     {
       "key": "_stub_e694bfe5",
@@ -96,7 +96,26 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布政府債券",
       "source": "etnet",
-      "sourceDate": "2026-06-05"
+      "sourceDate": "2026-06-08"
+    },
+    {
+      "key": "_stub_e699b6e7",
+      "name": "晶科電子股份",
+      "ticker": "02551.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2024-11-08",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "7日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-06-08"
     }
   ],
   "archived": [
