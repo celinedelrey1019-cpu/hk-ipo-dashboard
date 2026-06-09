@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08",
+  "lastUpdated": "2026-06-09",
   "activeSubscription": [
     {
       "key": "_stub_e6ba9ce6",
@@ -16,9 +16,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後截止",
+      "statusLabel": "明午截止",
       "source": "etnet",
-      "sourceDate": "2026-06-08"
+      "sourceDate": "2026-06-09"
+    },
+    {
+      "key": "_stub_53454e41",
+      "name": "SENASIC",
+      "ticker": "06675.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "subscribe",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-06-17",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "3日後截止",
+      "source": "etnet",
+      "sourceDate": "2026-06-09"
     }
   ],
   "hearingPassed": [
@@ -37,9 +56,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-08"
+      "sourceDate": "2026-06-09"
     },
     {
       "key": "_stub_e6898be5",
@@ -56,9 +75,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-08"
+      "sourceDate": "2026-06-09"
     },
     {
       "key": "_stub_e58d97e5",
@@ -75,9 +94,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後除淨",
+      "statusLabel": "2日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-08"
+      "sourceDate": "2026-06-09"
     },
     {
       "key": "_stub_e694bfe5",
@@ -96,7 +115,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布政府債券",
       "source": "etnet",
-      "sourceDate": "2026-06-08"
+      "sourceDate": "2026-06-09"
     },
     {
       "key": "_stub_e699b6e7",
@@ -113,9 +132,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-08"
+      "sourceDate": "2026-06-09"
+    },
+    {
+      "key": "_stub_e6ada6e6",
+      "name": "武漢有機",
+      "ticker": "02881.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2024-06-18",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "今日派送",
+      "source": "etnet",
+      "sourceDate": "2026-06-09"
     }
   ],
   "archived": [
