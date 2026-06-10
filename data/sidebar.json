@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09",
+  "lastUpdated": "2026-06-10",
   "activeSubscription": [
     {
       "key": "_stub_e6ba9ce6",
@@ -16,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-06-09"
+      "sourceDate": "2026-06-10"
     },
     {
       "key": "_stub_53454e41",
@@ -35,31 +35,12 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後截止",
+      "statusLabel": "2日後截止",
       "source": "etnet",
-      "sourceDate": "2026-06-09"
+      "sourceDate": "2026-06-10"
     }
   ],
   "hearingPassed": [
-    {
-      "key": "_stub_e4b8ade5",
-      "name": "中偉新材",
-      "ticker": "02579.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-11-17",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日除淨",
-      "source": "etnet",
-      "sourceDate": "2026-06-09"
-    },
     {
       "key": "_stub_e6898be5",
       "name": "手回集團",
@@ -75,9 +56,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-09"
+      "sourceDate": "2026-06-10"
     },
     {
       "key": "_stub_e58d97e5",
@@ -94,9 +75,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後除淨",
+      "statusLabel": "1日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-09"
+      "sourceDate": "2026-06-10"
+    },
+    {
+      "key": "_stub_e7b490e6",
+      "name": "紐曼思",
+      "ticker": "02530.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-01-10",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "7日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-06-10"
     },
     {
       "key": "_stub_e694bfe5",
@@ -115,7 +115,26 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布政府債券",
       "source": "etnet",
-      "sourceDate": "2026-06-09"
+      "sourceDate": "2026-06-10"
+    },
+    {
+      "key": "_stub_e4b99de6",
+      "name": "九源基因",
+      "ticker": "02566.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2024-11-28",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "7日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-06-10"
     },
     {
       "key": "_stub_e699b6e7",
@@ -132,28 +151,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-09"
-    },
-    {
-      "key": "_stub_e6ada6e6",
-      "name": "武漢有機",
-      "ticker": "02881.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2024-06-18",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-06-09"
+      "sourceDate": "2026-06-10"
     }
   ],
   "archived": [
