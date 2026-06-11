@@ -1,25 +1,6 @@
 {
-  "lastUpdated": "2026-06-10",
+  "lastUpdated": "2026-06-11",
   "activeSubscription": [
-    {
-      "key": "_stub_e6ba9ce6",
-      "name": "溜溜梅",
-      "ticker": "06658.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-06-15",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-06-10"
-    },
     {
       "key": "_stub_53454e41",
       "name": "SENASIC",
@@ -35,9 +16,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後截止",
+      "statusLabel": "明午截止",
       "source": "etnet",
-      "sourceDate": "2026-06-10"
+      "sourceDate": "2026-06-11"
+    },
+    {
+      "key": "_stub_e6b5b7e6",
+      "name": "海清智元",
+      "ticker": "01392.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "subscribe",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-06-22",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "5日後截止",
+      "source": "etnet",
+      "sourceDate": "2026-06-11"
     }
   ],
   "hearingPassed": [
@@ -56,9 +56,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "5日後除淨",
+      "statusLabel": "4日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-10"
+      "sourceDate": "2026-06-11"
     },
     {
       "key": "_stub_e58d97e5",
@@ -75,9 +75,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-10"
+      "sourceDate": "2026-06-11"
     },
     {
       "key": "_stub_e7b490e6",
@@ -94,9 +94,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-10"
+      "sourceDate": "2026-06-11"
     },
     {
       "key": "_stub_e694bfe5",
@@ -113,9 +113,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新派息公布政府債券",
+      "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-06-10"
+      "sourceDate": "2026-06-11"
     },
     {
       "key": "_stub_e4b99de6",
@@ -132,9 +132,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-10"
+      "sourceDate": "2026-06-11"
     },
     {
       "key": "_stub_e699b6e7",
@@ -151,9 +151,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "5日後除淨",
+      "statusLabel": "4日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-10"
+      "sourceDate": "2026-06-11"
+    },
+    {
+      "key": "_stub_e7be8ee7",
+      "name": "美的集團",
+      "ticker": "00300.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2024-09-17",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "7日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-06-11"
     }
   ],
   "archived": [
@@ -1737,6 +1756,13 @@
       "name": "大金重工",
       "ticker": "01081.HK",
       "listingDate": "2026-06-05",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e6ba9ce6",
+      "name": "溜溜梅",
+      "ticker": "06658.HK",
+      "listingDate": "2026-06-15",
       "result": "待更新"
     }
   ]
