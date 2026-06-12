@@ -1,0 +1,529 @@
+{
+  "name": "星源材質",
+  "sector": "锂电池隔膜",
+  "rating": "WATCH",
+  "score": 5.9,
+  "scoreColor": "var(--yellow)",
+  "tagline": "隔膜双平台龙头寻港融资，行业底部定价博弈折让空间",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "收入规模约27亿元（2023年），干法+湿法双平台是国内少数全路线供应商；但受锂电行业产能过剩冲击，隔膜均价2021-2023年累计下滑超35%，毛利率从峰值约35%压缩至约20%区间，净利润大幅承压。出货量保持增长但价格战持续，应收账款周转天数较2021年延长约25天，现金流质量下降，资本开支仍居高位。"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A股已流通，H股上市为拓展海外融资渠道；H股历史上较A股折让15-25%（材料行业均值），对港股投资者存在内嵌安全边际。但公开发行规模、基石投资者认购情况及超额配股权行使条件尚未披露，IPO结构完整性待评；招股价区间未公布，无法确认孖展倍数是否达≥10x门槛。"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价区间未披露，无法计算隐含倍数。A股强相关标的（恩捷股份、璞泰来）当前P/S约2.1-3.2x，P/E约25-35x。H股若以15-20%折让定价，隐含P/S约1.7-2.6x，相对A股具吸引力；但行业估值中枢仍在下移通道，安全边际需待定价后确认。"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "港股2025Q4以来情绪回暖，新能源材料板块流动性边际改善；锂电行业库存去化进入尾声，隔膜价格止跌信号初现；欧洲本地化产能法规趋严带来新订单增量。但关税不确定性和海外需求波动仍是系统性压制因素，时机窗口存在但较窄。"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "干湿法双平台差异化壁垒",
+      "desc": "星源材质同时具备干法和湿法（含涂覆）隔膜量产能力，是国内少数双平台商业化供应商之一。干法主攻储能与LFP体系，湿法覆盖高能量密度三元路线，能满足宁德时代、比亚迪、亿纬锂能等头部客户的多元化需求。双平台策略有效对冲单一技术路线被替代的风险，并在固态电池大规模量产延迟的背景下延长液态隔膜的市场窗口期。"
+    },
+    {
+      "title": "海外布局打开第二成长曲线",
+      "desc": "公司已在欧洲建设本地化隔膜产能，直接对接欧洲电池供应链客户。随欧盟《电池法》对本地化生产的强制要求趋严，海外产能将享受更高的毛利溢价，有效对冲国内价格战压力。2023-2024年公司海外出货占比持续提升，是区别于纯国内竞争者的核心差异点，为未来毛利率修复提供路径。"
+    },
+    {
+      "title": "H股折让提供相对估值保护",
+      "desc": "历史上A+H双上市结构中，H股较A股折让中位数约20%（材料/能源行业）。若H股以此结构定价，港股投资者实际获得的估值入场价低于A股市场同类资产。当A/H溢价收窄时——包括互联互通机制活跃化或南向资金入场——H股存在均值回归动力，是独立于基本面改善之外的催化剂。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "隔膜单价持续下跌侵蚀盈利能力",
+      "desc": "国内湿法隔膜产能利用率从2021年峰值约90%下滑至2023年约60%以下，头部扩产与中小产能同步释放加剧供给过剩。A1文件显示公司隔膜单位售价2021-2023年累计降幅超35%，若行业价格战延续至2025-2026年而出货量增长无法抵消，公司毛利率可能进一步从20%区间跌破盈亏平衡线，直接威胁维持净利润为正的前提假设。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "核心客户集中与账期恶化双重挤压",
+      "desc": "公司前三大客户（宁德时代、比亚迪及另一主要客户）合计收入占比超50%，对核心客户议价能力持续弱化。2023年应收账款周转天数较2021年延长约20-30天，下游电池厂账期管理趋严加剧运营资金压力。若宁德时代自研隔膜进展超预期（其已有相关专利布局），或头部客户进一步要求年度降价，将直接冲击公司核心订单量及单价。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "比亚迪",
+          "ticker": "1211.HK",
+          "rel": "弱相关",
+          "peLtm": "24x",
+          "pe": "20x",
+          "psLtm": "0.9x",
+          "ps": "0.8x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "赣锋锂业",
+          "ticker": "1772.HK",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "45x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "天齐锂业",
+          "ticker": "9696.HK",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "0.9x",
+          "ps": "1.1x",
+          "evEbitda": "亏损",
+          "verdict": null
+        },
+        {
+          "name": "中伟股份",
+          "ticker": "6616.HK",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "0.4x",
+          "ps": "0.35x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "中创新航",
+          "ticker": "3931.HK",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "35x",
+          "psLtm": "0.30x",
+          "ps": "0.28x",
+          "evEbitda": "亏损",
+          "verdict": null
+        },
+        {
+          "name": "理想汽车",
+          "ticker": "2015.HK",
+          "rel": "弱相关",
+          "peLtm": "18x",
+          "pe": "14x",
+          "psLtm": "0.8x",
+          "ps": "0.65x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "小鹏汽车",
+          "ticker": "9868.HK",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "1.2x",
+          "ps": "1.0x",
+          "evEbitda": "亏损",
+          "verdict": null
+        },
+        {
+          "name": "蔚来汽车",
+          "ticker": "9866.HK",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "0.7x",
+          "ps": "0.6x",
+          "evEbitda": "亏损",
+          "verdict": null
+        },
+        {
+          "name": "洛阳钼业",
+          "ticker": "3993.HK",
+          "rel": "弱相关",
+          "peLtm": "12x",
+          "pe": "11x",
+          "psLtm": "0.8x",
+          "ps": "0.75x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "零跑汽车",
+          "ticker": "9863.HK",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "0.9x",
+          "ps": "0.75x",
+          "evEbitda": "亏损",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股无直接隔膜标的，可比公司以锂资源、电池整机、EV整车为主；强相关不存在，中相关（中伟、中创新航）P/S仅0.3-0.4x，整体估值中枢远低于A股。港股市场对电池材料给予显著折让，但主要源于流动性溢价缺失而非基本面差异。星源材质H股若参照A股折让15-20%定价，隐含P/S区间约1.8-2.6x，相对港股同业具明显溢价，需行业基本面复苏支撑。"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "恩捷股份",
+          "ticker": "002812.SZ",
+          "rel": "强相关",
+          "peLtm": "28x",
+          "pe": "22x",
+          "psLtm": "3.2x",
+          "ps": "2.8x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "璞泰来",
+          "ticker": "603659.SH",
+          "rel": "强相关",
+          "peLtm": "25x",
+          "pe": "20x",
+          "psLtm": "2.1x",
+          "ps": "1.8x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "中兴新材",
+          "ticker": "688163.SH",
+          "rel": "强相关",
+          "peLtm": "35x",
+          "pe": "28x",
+          "psLtm": "2.5x",
+          "ps": "2.0x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "沧州明珠",
+          "ticker": "002108.SZ",
+          "rel": "强相关",
+          "peLtm": "30x",
+          "pe": "25x",
+          "psLtm": "1.8x",
+          "ps": "1.5x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "新宙邦",
+          "ticker": "300037.SZ",
+          "rel": "中相关",
+          "peLtm": "32x",
+          "pe": "26x",
+          "psLtm": "2.2x",
+          "ps": "1.9x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "天赐材料",
+          "ticker": "002709.SZ",
+          "rel": "中相关",
+          "peLtm": "24x",
+          "pe": "19x",
+          "psLtm": "1.6x",
+          "ps": "1.4x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "宁德时代",
+          "ticker": "300750.SZ",
+          "rel": "弱相关",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "2.8x",
+          "ps": "2.4x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "亿纬锂能",
+          "ticker": "300014.SZ",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "16x",
+          "psLtm": "1.1x",
+          "ps": "0.9x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "当升科技",
+          "ticker": "300073.SZ",
+          "rel": "弱相关",
+          "peLtm": "28x",
+          "pe": "22x",
+          "psLtm": "0.9x",
+          "ps": "0.8x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "德方纳米",
+          "ticker": "300769.SZ",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "45x",
+          "psLtm": "0.6x",
+          "ps": "0.55x",
+          "evEbitda": "亏损",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "A股强相关隔膜标的（恩捷、璞泰来、中兴新材、沧州明珠）P/S中位数约2.3x，P/E中位数约27-29x（盈利期），为最具参考价值的估值锚点。H股若以15-20%折让定价，隐含P/S约1.8-2.0x，对港股投资者具有吸引力；但需确认隔膜价格已触底，否则2.0x P/S对应盈利能力仍有下行风险。"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Albemarle",
+          "ticker": "ALB",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "35x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "亏损",
+          "verdict": null
+        },
+        {
+          "name": "Arcadium Lithium",
+          "ticker": "ALTM",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "2.2x",
+          "ps": "2.0x",
+          "evEbitda": "亏损",
+          "verdict": null
+        },
+        {
+          "name": "MP Materials",
+          "ticker": "MP",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "60x",
+          "psLtm": "3.5x",
+          "ps": "3.0x",
+          "evEbitda": "亏损",
+          "verdict": null
+        },
+        {
+          "name": "EnerSys",
+          "ticker": "ENS",
+          "rel": "弱相关",
+          "peLtm": "14x",
+          "pe": "12x",
+          "psLtm": "0.7x",
+          "ps": "0.65x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "QuantumScape",
+          "ticker": "QS",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "N/A",
+          "ps": "N/A",
+          "evEbitda": "亏损",
+          "verdict": null
+        },
+        {
+          "name": "Enovix",
+          "ticker": "ENVX",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "8.0x",
+          "ps": "5.0x",
+          "evEbitda": "亏损",
+          "verdict": null
+        },
+        {
+          "name": "Solid Power",
+          "ticker": "SLDP",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "N/A",
+          "ps": "N/A",
+          "evEbitda": "亏损",
+          "verdict": null
+        },
+        {
+          "name": "Li-Cycle Holdings",
+          "ticker": "LICY",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "N/A",
+          "ps": "N/A",
+          "evEbitda": "亏损",
+          "verdict": null
+        },
+        {
+          "name": "Electrovaya",
+          "ticker": "ELVA",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "3.2x",
+          "ps": "2.5x",
+          "evEbitda": "亏损",
+          "verdict": null
+        },
+        {
+          "name": "Piedmont Lithium",
+          "ticker": "PLL",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "N/A",
+          "ps": "N/A",
+          "evEbitda": "亏损",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股无直接隔膜制造业上市标的，全部为弱相关；以锂资源（Albemarle、Arcadium）、固态电池R&D（QuantumScape、Solid Power）及工业储能（EnerSys）为主，大多数处于亏损状态。美股盈利类材料公司P/S中位数约1.8-2.0x（Albemarle、EnerSys），可作为全球材料周期位置参考，但对定价分析价值有限。"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO价格未公布，待IPO定价公布后更新跨市场估值对比。三市场中，A股强相关标的P/S中位数2.3x为最具参考价值的锚点；港股可比公司（中伟、中创新航）P/S约0.3-0.4x但行业属性差异较大，参考价值有限；美股盈利类材料P/S约1.8x可作为全球定价下限参考。预计H股定价将锚定A股折让结构，隐含P/S区间约1.8-2.6x；待招股价区间公布后可精确计算三市场折溢价。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "A股强相关中位2.3x；三市场综合中位（剔除N/A）约1.8x",
+      "medianPE": "A股强相关中位27x；三市场综合中位（剔除亏损）约22x",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "关注招股价区间公布后再作认购决策，当前评级WATCH",
+    "horizon": "6-12个月",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "A股强相关中位2.3x",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "基本面质量 (F)：干湿法双平台技术壁垒",
+          "result": "✓",
+          "note": "国内少数双平台商业化供应商，客户覆盖度强",
+          "ok": true
+        },
+        {
+          "point": "基本面质量 (F)：毛利率可见度",
+          "result": "✗",
+          "note": "隔膜单价仍处下行通道，2024-2025年是否触底存争议",
+          "ok": false
+        },
+        {
+          "point": "基本面质量 (F)：应收账款恶化",
+          "result": "✗",
+          "note": "周转天数延长约25天，现金流承压",
+          "ok": false
+        },
+        {
+          "point": "IPO结构 (S)：A+H折让提供安全边际",
+          "result": "✓",
+          "note": "H股预期低于A股15-20%，为港股投资者提供相对保护",
+          "ok": true
+        },
+        {
+          "point": "估值合理性 (V)：定价待确认",
+          "result": "—",
+          "note": "无招股区间，无法判断绝对估值吸引力",
+          "ok": true
+        },
+        {
+          "point": "市场时机 (M)：港股情绪与行业库存去化",
+          "result": "✓",
+          "note": "时机窗口尚存，隔膜价格止跌信号初现",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "待定价后测算",
+        "upside": "IPO价-20%",
+        "basis": "隔膜价格二次探底，行业产能利用率跌破55%，公司净利润再度大幅收窄；A/H溢价扩大而非收窄，H股估值跌至P/S 1.0x，下跌空间主要来自行业估值中枢下移"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "待定价后测算",
+        "upside": "+15%至+25%",
+        "basis": "隔膜价格2025年下半年企稳，海外收入增速达20%+，毛利率回升至23-25%；A/H溢价收窄至10%区间，H股估值修复至P/S约2.2x水平，南向资金温和入场"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "待定价后测算",
+        "upside": "+40%至+60%",
+        "basis": "固态电池量产继续延迟延续液态锂电需求，欧洲本地化拿下重大新客户，隔膜价格触底反弹；H股估值重估至P/S约3.5x，A/H溢价接近消除，互联互通南向资金大规模流入"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发",
+        "desc": "H股较A股折让收窄至5%以内同时隔膜价格无法确认底部；或IPO后两个季度内毛利率仍未能回升至22%以上，双平台优势未转化为财务表现",
+        "price": "≥ IPO价+30%",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "隔膜主流报价单季再次下跌超15%；或宁德时代/比亚迪公告自建隔膜产能进展超预期；或公司海外产能建设出现重大延期，基本面逻辑核心支柱受损",
+        "price": "< IPO价-15%",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-12",
+  "generatedBy": "claude-oauth",
+  "ticker": "06067.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}

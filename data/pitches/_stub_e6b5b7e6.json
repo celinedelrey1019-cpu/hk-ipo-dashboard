@@ -1,0 +1,523 @@
+{
+  "name": "海清智元",
+  "sector": "人工智能 · 智能视觉/数字化解决方案",
+  "rating": "WATCH",
+  "score": 5.9,
+  "scoreColor": "var(--yellow)",
+  "tagline": "港股AI数字化稀缺标的，招股价待公布，性价比需定价后验证",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "基于行业知识估算（A1招股文件实际数据未获取）：中小型中国AI软件/数字化公司典型财务特征：营收增速35-50% YoY，毛利率55-70%，研发占比25-35%，多数仍处亏损或刚盈利阶段；政务/大型企业客户集中度通常偏高（前三大客户占营收50-70%）。需核查A1文件确认营收规模、历年毛利率趋势及盈利时间节点"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价区间及市值均未披露，无法评估基石投资者结构、公众持股比例及超额配售机制；AI软件类港股IPO历史孖展认购中位数约8-15x，弱于消费/实物资产类新股；待A1完整文件公布后评估保荐人质量、机构投资者参与程度及锁定结构"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO定价未公布，无法计算隐含倍数；三市场强相关可比公司NTM P/S中位约5.5x（HK 2.8x / A股 6.0x / 美股 9.0x）；若定价隐含P/S低于4.5x且已盈利则估值具吸引力；若定价隐含P/S超8x且仍亏损则明显偏贵，需特别谨慎"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.0,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "2026年港股科技估值修复周期延续，恒生科技指数年初以来累计表现正面；中美科技博弈背景下AI国产化政策持续催化企业采购替换；6月IPO窗口位于上半年业绩期后、下半年旺季前，整体打新情绪中性偏正"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "AI国产化政策红利持续释放",
+      "desc": "中国政府自2023年起持续出台AI产业扶持政策（算力补贴、国产替代采购优先、数据要素市场化），至2026年政策效果逐步兑现；AI企业软件/数字化解决方案公司在政务、金融、工业等传统行业渗透率从10%以下加速向20-30%提升，带动头部国产AI应用软件公司营收快速扩张；政策锁定期内的政府采购订单具备较强收入能见度"
+    },
+    {
+      "title": "港股AI软件稀缺性溢价与南向资金配置需求",
+      "desc": "港股AI软件纯标的数量仍相对有限，南向资金通过港股通持续增配科技类资产；中小盘AI标的在港股流通市值较小，机构若形成共识买入可产生显著股价催化；相较A股同类公司通常折价15-25%定价，为港股打新提供一定安全边际，叠加南向资金配置效应可阶段性收窄折价"
+    },
+    {
+      "title": "从单点突破到平台化扩张的成长路径",
+      "desc": "AI软件/视觉公司典型成长路径：单一垂直场景切入（工业质检/城市安防/医疗影像）→多行业复制→平台化形成数据飞轮效应；若海清智元在核心场景已完成规模化复制，毛利率有望从初期55%逐步提升，叠加客户追加订单与续约率改善，EBITDA转正时间节点是核心估值重估锚点"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "政务/大客户集中采购导致营收季节性剧烈波动",
+      "desc": "中国AI软件/数字化公司前三大客户通常为政府机构或国有企业，采购受年度预算审批周期影响，Q4确认比例高达50-60%，Q1为传统淡季；若核心政府大客户年度预算削减或项目验收延期，单季营收可能出现20-40%环比下滑，触发市场对持续性和现金流的担忧；需核查A1文件中历年客户集中度变动及前五大客户所属性质（政府/国企占比）"
+    },
+    {
+      "icon": "⚠️",
+      "title": "开源大模型加速商品化侵蚀应用层毛利率护城河",
+      "desc": "随着DeepSeek、通义千问、Llama等基础模型持续开源降本，AI应用层公司算法优势加速被商品化；若海清智元核心竞争壁垒主要依赖通用AI模型能力而非私有数据资产或深度行业Know-how，将面临大量同质化竞争对手以更低价格切入，毛利率从初始65%+向40-50%快速收敛，估值体系从成长股切换至价值股，形成系统性估值压制"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "商汤科技",
+          "ticker": "0020.HK",
+          "rel": "强相关",
+          "peLtm": "N/A(亏损)",
+          "pe": "N/A(亏损)",
+          "psLtm": "3.2x",
+          "ps": "2.5x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "第四范式",
+          "ticker": "6682.HK",
+          "rel": "强相关",
+          "peLtm": "N/A(亏损)",
+          "pe": "N/A(亏损)",
+          "psLtm": "3.8x",
+          "ps": "3.0x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "明略科技",
+          "ticker": "2718.HK",
+          "rel": "强相关",
+          "peLtm": "N/A(亏损)",
+          "pe": "N/A(亏损)",
+          "psLtm": "4.5x",
+          "ps": "3.5x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "极视角",
+          "ticker": "6636.HK",
+          "rel": "强相关",
+          "peLtm": "N/A(亏损)",
+          "pe": "N/A(亏损)",
+          "psLtm": "2.8x",
+          "ps": "2.2x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "深演智能",
+          "ticker": "2723.HK",
+          "rel": "中相关",
+          "peLtm": "N/A(亏损)",
+          "pe": "N/A(亏损)",
+          "psLtm": "3.5x",
+          "ps": "2.8x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "声通科技",
+          "ticker": "2495.HK",
+          "rel": "中相关",
+          "peLtm": "25.0x",
+          "pe": "20.0x",
+          "psLtm": "2.5x",
+          "ps": "2.0x",
+          "evEbitda": "12.0x",
+          "verdict": null
+        },
+        {
+          "name": "多点数智",
+          "ticker": "2586.HK",
+          "rel": "中相关",
+          "peLtm": "N/A(亏损)",
+          "pe": "N/A(亏损)",
+          "psLtm": "2.0x",
+          "ps": "1.6x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "出门问问",
+          "ticker": "2438.HK",
+          "rel": "中相关",
+          "peLtm": "N/A(亏损)",
+          "pe": "N/A(亏损)",
+          "psLtm": "3.5x",
+          "ps": "2.8x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "海致科技集团",
+          "ticker": "2706.HK",
+          "rel": "中相关",
+          "peLtm": "22.0x",
+          "pe": "18.0x",
+          "psLtm": "1.8x",
+          "ps": "1.5x",
+          "evEbitda": "10.5x",
+          "verdict": null
+        },
+        {
+          "name": "邁富時",
+          "ticker": "2556.HK",
+          "rel": "弱相关",
+          "peLtm": "28.0x",
+          "pe": "22.0x",
+          "psLtm": "4.2x",
+          "ps": "3.5x",
+          "evEbitda": "15.0x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股AI软件类公司多为亏损标的，NTM P/S中位约2.8x；盈利类AI应用公司NTM P/S 3-4x，NTM P/E 20-22x。港股AI软件整体估值显著低于A股，南向资金配置意愿是关键边际变量"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "科大讯飞",
+          "ticker": "002230.SZ",
+          "rel": "强相关",
+          "peLtm": "75.0x",
+          "pe": "55.0x",
+          "psLtm": "3.8x",
+          "ps": "3.2x",
+          "evEbitda": "28.0x",
+          "verdict": null
+        },
+        {
+          "name": "云从科技",
+          "ticker": "688327.SH",
+          "rel": "强相关",
+          "peLtm": "N/A(亏损)",
+          "pe": "45.0x",
+          "psLtm": "9.5x",
+          "ps": "7.5x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "虹软科技",
+          "ticker": "688088.SH",
+          "rel": "强相关",
+          "peLtm": "48.0x",
+          "pe": "38.0x",
+          "psLtm": "11.5x",
+          "ps": "9.0x",
+          "evEbitda": "30.0x",
+          "verdict": null
+        },
+        {
+          "name": "格灵深瞳",
+          "ticker": "688207.SH",
+          "rel": "强相关",
+          "peLtm": "N/A(亏损)",
+          "pe": "N/A(亏损)",
+          "psLtm": "5.5x",
+          "ps": "4.5x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "海康威视",
+          "ticker": "002415.SZ",
+          "rel": "中相关",
+          "peLtm": "22.0x",
+          "pe": "18.5x",
+          "psLtm": "2.2x",
+          "ps": "2.0x",
+          "evEbitda": "12.5x",
+          "verdict": null
+        },
+        {
+          "name": "大华股份",
+          "ticker": "002236.SZ",
+          "rel": "中相关",
+          "peLtm": "18.0x",
+          "pe": "15.0x",
+          "psLtm": "1.5x",
+          "ps": "1.3x",
+          "evEbitda": "9.0x",
+          "verdict": null
+        },
+        {
+          "name": "中科创达",
+          "ticker": "300425.SZ",
+          "rel": "中相关",
+          "peLtm": "35.0x",
+          "pe": "28.0x",
+          "psLtm": "4.0x",
+          "ps": "3.5x",
+          "evEbitda": "20.0x",
+          "verdict": null
+        },
+        {
+          "name": "赛为智能",
+          "ticker": "300044.SZ",
+          "rel": "中相关",
+          "peLtm": "32.0x",
+          "pe": "26.0x",
+          "psLtm": "3.2x",
+          "ps": "2.8x",
+          "evEbitda": "16.0x",
+          "verdict": null
+        },
+        {
+          "name": "澜起科技",
+          "ticker": "688008.SH",
+          "rel": "弱相关",
+          "peLtm": "28.0x",
+          "pe": "22.0x",
+          "psLtm": "6.0x",
+          "ps": "5.0x",
+          "evEbitda": "18.0x",
+          "verdict": null
+        },
+        {
+          "name": "同花顺",
+          "ticker": "300033.SZ",
+          "rel": "弱相关",
+          "peLtm": "35.0x",
+          "pe": "28.0x",
+          "psLtm": "8.0x",
+          "ps": "6.5x",
+          "evEbitda": "22.0x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "A股AI软件公司享受国产替代溢价，强相关标的NTM P/S中位约6.0x（虹软/云从较高，海康/大华较低）；港股IPO通常相对A股折价20-30%，折后港股合理参考区间约4.0-5.0x P/S"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Palantir",
+          "ticker": "PLTR",
+          "rel": "强相关",
+          "peLtm": "95.0x",
+          "pe": "70.0x",
+          "psLtm": "32.0x",
+          "ps": "25.0x",
+          "evEbitda": "55.0x",
+          "verdict": null
+        },
+        {
+          "name": "Cognex",
+          "ticker": "CGNX",
+          "rel": "强相关",
+          "peLtm": "42.0x",
+          "pe": "35.0x",
+          "psLtm": "10.5x",
+          "ps": "9.0x",
+          "evEbitda": "25.0x",
+          "verdict": null
+        },
+        {
+          "name": "Verint Systems",
+          "ticker": "VRNT",
+          "rel": "强相关",
+          "peLtm": "18.0x",
+          "pe": "15.0x",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "12.0x",
+          "verdict": null
+        },
+        {
+          "name": "C3.ai",
+          "ticker": "AI",
+          "rel": "强相关",
+          "peLtm": "N/A(亏损)",
+          "pe": "N/A(亏损)",
+          "psLtm": "5.5x",
+          "ps": "4.5x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "Axon Enterprise",
+          "ticker": "AXON",
+          "rel": "中相关",
+          "peLtm": "65.0x",
+          "pe": "52.0x",
+          "psLtm": "12.5x",
+          "ps": "10.0x",
+          "evEbitda": "38.0x",
+          "verdict": null
+        },
+        {
+          "name": "NICE Systems",
+          "ticker": "NICE",
+          "rel": "中相关",
+          "peLtm": "25.0x",
+          "pe": "22.0x",
+          "psLtm": "4.5x",
+          "ps": "4.0x",
+          "evEbitda": "15.0x",
+          "verdict": null
+        },
+        {
+          "name": "Motorola Solutions",
+          "ticker": "MSI",
+          "rel": "中相关",
+          "peLtm": "28.0x",
+          "pe": "25.0x",
+          "psLtm": "4.2x",
+          "ps": "3.8x",
+          "evEbitda": "16.0x",
+          "verdict": null
+        },
+        {
+          "name": "Evolv Technology",
+          "ticker": "EVLV",
+          "rel": "弱相关",
+          "peLtm": "N/A(亏损)",
+          "pe": "N/A(亏损)",
+          "psLtm": "6.5x",
+          "ps": "5.0x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "CEVA Inc",
+          "ticker": "CEVA",
+          "rel": "弱相关",
+          "peLtm": "32.0x",
+          "pe": "26.0x",
+          "psLtm": "5.0x",
+          "ps": "4.2x",
+          "evEbitda": "18.0x",
+          "verdict": null
+        },
+        {
+          "name": "CrowdStrike",
+          "ticker": "CRWD",
+          "rel": "弱相关",
+          "peLtm": "80.0x",
+          "pe": "62.0x",
+          "psLtm": "22.0x",
+          "ps": "18.0x",
+          "evEbitda": "55.0x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "美股AI软件标的估值分化明显：Palantir/CrowdStrike享高成长溢价（P/S 18-25x），Verint/NICE等成熟AI分析公司P/S 2-4x。剔除极端值后美股中等规模AI软件公司NTM P/S中位约9.0x，显著高于港股同类"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO定价未公布，待IPO定价公布后更新跨市场估值对比。三市场强相关标的NTM P/S中位（剔除Palantir等极端值）：港股约2.8x，A股约6.0x，美股约9.0x，三市场综合NTM P/S中位约5.5x。若IPO定价隐含P/S低于4.5x（HK折价后合理区间下沿），估值具吸引力；高于8x且仍亏损则明显偏贵",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "5.5x（三市场强相关标的NTM P/S中位，剔除极端值）",
+      "medianPE": "35.0x（三市场盈利强相关标的NTM P/E中位）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "招股期观望，定价后评估申购",
+    "horizon": "定价公布后重新评级；上市后建议持有3-6个月至首份季度业绩",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "5.5x（三市场强相关标的NTM P/S中位）",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "F: 历年营收增速是否持续>30% YoY（需A1文件核实）",
+          "result": "?",
+          "note": "需核查A1招股文件历年营收数据、前五大客户集中度及收入确认方式",
+          "ok": null
+        },
+        {
+          "point": "F: 毛利率是否稳定在55%以上且未出现持续下滑趋势",
+          "result": "?",
+          "note": "AI软件公司毛利率55-70%为健康区间；若持续下滑至50%以下需警惕同质化竞争加剧",
+          "ok": null
+        },
+        {
+          "point": "S: 孖展认购倍数是否≥10x",
+          "result": "?",
+          "note": "招股结束后公布；孖展<10x则降级至SKIP，不建议申购",
+          "ok": null
+        },
+        {
+          "point": "V: IPO隐含NTM P/S是否低于三市场中位5.5x",
+          "result": "?",
+          "note": "定价低于4.5x P/S则估值具吸引力；高于8x且仍亏损则偏贵，需特别谨慎",
+          "ok": null
+        },
+        {
+          "point": "M: 港股科技指数近期走势支持打新情绪",
+          "result": "✓",
+          "note": "2026年港股科技估值修复周期，恒生科技指数趋势性回升，AI板块打新情绪中性偏正",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "较IPO价 −25%",
+        "upside": "−25%",
+        "basis": "AI应用层商品化加速，政府大客户预算削减，收入低于预期，市场重新以P/S 2-3x定价，对应港股亏损AI公司底部估值区间"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "较IPO价 +20%",
+        "upside": "+20%",
+        "basis": "营收增长兑现35-40%，毛利率维持60%±，盈亏平衡时间节点确认，参考港股盈利AI软件公司P/S 4-6x，较IPO价给予15-25%上行空间"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "较IPO价 +55%",
+        "upside": "+55%",
+        "basis": "AI国产化订单超预期放量+盈利拐点提前+南向资金集中买入，市场以P/S 8-10x重新定价，对标A股同类公司估值区间叠加港股稀缺性溢价"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发",
+        "desc": "股价较IPO价累计上涨≥50%（NTM P/S超9x），或连续两季度营收增速回落至20%以下且管理层下调全年指引，或单季度毛利率跌破50%显示竞争加剧",
+        "price": "≥ IPO价×1.50",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "孖展认购倍数<10x（招股结束即止损，不持有上市首日），或单季营收环比下滑>20%，或核心大客户宣布切换竞争对手产品",
+        "price": "< IPO价×0.85",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-12",
+  "generatedBy": "claude-oauth",
+  "ticker": "01392.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}

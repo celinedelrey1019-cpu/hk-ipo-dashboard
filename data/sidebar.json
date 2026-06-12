@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11",
+  "lastUpdated": "2026-06-12",
   "activeSubscription": [
     {
       "key": "_stub_53454e41",
@@ -16,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-06-11"
+      "sourceDate": "2026-06-12"
     },
     {
       "key": "_stub_e6b5b7e6",
@@ -35,9 +35,47 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
+      "statusLabel": "4日後截止",
+      "source": "etnet",
+      "sourceDate": "2026-06-12"
+    },
+    {
+      "key": "_stub_e6989fe6",
+      "name": "星源材質",
+      "ticker": "06067.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "subscribe",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-06-23",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
       "statusLabel": "5日後截止",
       "source": "etnet",
-      "sourceDate": "2026-06-11"
+      "sourceDate": "2026-06-12"
+    },
+    {
+      "key": "_stub_e88fafe5",
+      "name": "華健未來－Ｂ",
+      "ticker": "06132.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "subscribe",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-06-23",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "5日後截止",
+      "source": "etnet",
+      "sourceDate": "2026-06-12"
     }
   ],
   "hearingPassed": [
@@ -56,28 +94,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後除淨",
+      "statusLabel": "3日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-11"
-    },
-    {
-      "key": "_stub_e58d97e5",
-      "name": "南山鋁業國際",
-      "ticker": "02610.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-03-25",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日除淨",
-      "source": "etnet",
-      "sourceDate": "2026-06-11"
+      "sourceDate": "2026-06-12"
     },
     {
       "key": "_stub_e7b490e6",
@@ -94,9 +113,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-11"
+      "sourceDate": "2026-06-12"
     },
     {
       "key": "_stub_e694bfe5",
@@ -115,7 +134,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-06-11"
+      "sourceDate": "2026-06-12"
     },
     {
       "key": "_stub_e4b99de6",
@@ -132,9 +151,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-11"
+      "sourceDate": "2026-06-12"
     },
     {
       "key": "_stub_e699b6e7",
@@ -151,9 +170,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後除淨",
+      "statusLabel": "3日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-11"
+      "sourceDate": "2026-06-12"
     },
     {
       "key": "_stub_e7be8ee7",
@@ -170,9 +189,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-11"
+      "sourceDate": "2026-06-12"
     }
   ],
   "archived": [
