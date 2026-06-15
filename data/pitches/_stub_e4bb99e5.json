@@ -1,0 +1,529 @@
+{
+  "name": "仙工智能",
+  "sector": "工業自動化·AMR自主移動機器人",
+  "rating": "WATCH",
+  "score": 6.25,
+  "scoreColor": "var(--yellow)",
+  "tagline": "AMR界「Android」SRC平台獨家護城河，待定價驗證估值合理性",
+  "scorecard": [
+    {
+      "label": "基本面質量 (F)",
+      "weight": "35%",
+      "score": 7.0,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "核心差異化在於SRC（Seer Robotics Controller）導航與調度軟件平台：自有AMR硬件搭載SRC同時向第三方OEM機器人廠商授權收費，形成「硬件+軟件版稅」雙引擎，軟件授權毛利率估計~70-80%，顯著拉高整體毛利率至40-50%（行業純硬件AMR廠商通常25-35%）；A1文件未全面公開，基於同業知識估算FY2024收入約人民幣6-9億元，CAGR（2021-2024）約50-70%；公司尚處虧損或接近盈虧平衡，研發費用佔收入約20-28%；前5大客戶收入佔比預計45-60%（行業典型集中度），覆蓋電商3PL、汽車製造、電子半導體等高需求場景；海外收入佔比據報高於同業，有助分散中國內需週期風險"
+    },
+    {
+      "label": "IPO結構 (S)",
+      "weight": "30%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A1申請階段，IPO定價區間、公開發售比例、基石投資者名單、孖展倍數均未披露，結構能見度極低；若最終孖展低於10x則依評分規則須下調至SKIP；主要股東及Pre-IPO投資者（據報紅杉中國、IDG等）料有6-12個月禁售期；若基石陣容包含產業資本（菜鳥、京東物流、順豐等物流巨頭）或一線PE（高瓴、淡馬錫），將顯著提升結構評分；超額配售權比例待定"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO定價未公布，無法計算隱含倍數；Pre-IPO估值據報約人民幣50-100億元，若以FY2024估算收入人民幣7億元中值計，隱含Pre-IPO P/S約7-14x；三市場強相關可比公司NTM P/S中位數約5.0x（港股极智嘉約8.5x、A股汇川约5x、美股Teradyne約4.8x）；SRC軟件授權模式可享一定估值溢價；若IPO定價對應P/S高於8x則估值偏貴，低於5x則具吸引力；待正式招股定價後計算具體折溢價"
+    },
+    {
+      "label": "市場時機 (M)",
+      "weight": "15%",
+      "score": 8.0,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "2026年中國AMR市場維持35-45% CAGR增長，製造業勞動力成本持續上升驅動自動化需求剛性擴張；港股機器人板塊（极智嘉、越疆、翼菲、华沿等）2026年密集上市形成板塊效應，吸引主題資金流入；AI+具身智能敘事強化機器人板塊整體估值支撐；南向資金持續增配科技製造；唯同期AMR類公司供給密集，申購資金可能分流"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "SRC平台「Android of AMRs」：向競爭對手收版稅的獨特飛輪",
+      "desc": "仙工最核心投資邏輯在於SRC導航調度軟件OEM授權：中小型AMR廠商若缺乏自研激光SLAM，可採購SRC授權嵌入自家機器人，仙工因此從競爭對手每台機器人出貨中收取版稅。SRC授權毛利率估計高達70-80%，遠優於硬件的35-45%，隨OEM客戶規模擴大邊際利潤率自然提升，且SRC生態越大切換成本越高。中國AMR市場400+廠商中，具備成熟自研導航能力的不足10%，SRC的潛在OEM客群龐大，此商業模式形成可防禦的雙邊護城河。"
+    },
+    {
+      "title": "全球化比例高於同業：海外高毛利市場早期卡位",
+      "desc": "據行業報道，仙工海外收入佔比達20-30%（遠高於多數中國AMR廠商的5-10%），覆蓋東南亞、中東、歐洲市場。海外客戶通常接受更高定價（歐美同類AMR售價是中國市場1.5-2倍），且更傾向採購包含SRC平台的完整解決方案。早期出海積累的本地認證（CE、UL等）及服務能力構成後進者壁壘。在中美貿易摩擦持續背景下，仙工非軍工背景的定位有助規避制裁風險，東南亞可作中國AMR廠商安全出海橋頭堡。"
+    },
+    {
+      "title": "電商3PL+製造業雙輪驅動，Fleet擴容形成高黏性復購",
+      "desc": "仙工客戶覆蓋電商3PL（菜鳥、京東物流、順豐等）和汽車/電子製造廠，雙輪驅動降低單一行業週期風險。製造業AMR具強替換週期（壽命5-8年），已裝機Fleet的擴容與維保形成高黏性復購。隨中國製造業加速向自動化轉型（製造業用工成本2016-2024年翻倍），AMR需求天花板遠未觸及。仙工若憑SRC平台鎖定系統集成商渠道，將進一步放大訂單能見度與長期訂閱性收入。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "SRC大型OEM客戶自研導航棧或轉向開源方案",
+      "desc": "若前3大OEM授權客戶（預計貢獻SRC軟件收入50-70%）決定自研激光SLAM導航棧或轉向ROS2等開源方案，將直接侵蝕高毛利SRC授權收入。大客戶規模達一定體量後傾向去依賴供應商（類似安卓廠商自研SoC），中小型AMR廠商若被大型資本收購亦可能整合自有導航能力。SRC授權收入一旦下滑，整體毛利率可能從45%壓縮至接近行業硬件平均的30-35%，對估值構成重大下行壓力。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "中國AMR硬件價格戰加劇，應收帳款週轉惡化",
+      "desc": "中國400+AMR廠商競爭白熱化，激光SLAM AMR均價2020-2024年已下降約40-50%，預計仍以每年10-20%速度持續下行；若硬件毛利率從35%壓縮至25%以下而SRC授權增長未能補位，公司將陷入收入增長但利潤率惡化困境。同時B2B大客戶通常要求90-150天帳期，若電商3PL客戶資本開支縮減（如某大型電商拆分物流業務），應收帳款週轉天數拉長、壞帳風險上升，可能引發流動性緊張並被迫低價增發融資。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "极智嘉－Ｗ",
+          "ticker": "02590.HK",
+          "rel": "強相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "12.1x",
+          "ps": "8.5x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "乐动机器人",
+          "ticker": "01236.HK",
+          "rel": "中相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "8.2x",
+          "ps": "6.0x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "越疆",
+          "ticker": "02432.HK",
+          "rel": "中相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "7.5x",
+          "ps": "5.5x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "优必选",
+          "ticker": "09880.HK",
+          "rel": "中相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "18.3x",
+          "ps": "13.0x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "翼菲科技",
+          "ticker": "06871.HK",
+          "rel": "中相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "6.4x",
+          "ps": "5.0x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "华沿机器人",
+          "ticker": "01021.HK",
+          "rel": "中相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "5.8x",
+          "ps": "4.5x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "傅里叶",
+          "ticker": "03625.HK",
+          "rel": "弱相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "7.1x",
+          "ps": "5.2x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "雲迹科技",
+          "ticker": "02670.HK",
+          "rel": "弱相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "4.0x",
+          "ps": "3.2x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "七牛智能",
+          "ticker": "02567.HK",
+          "rel": "弱相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "4.8x",
+          "ps": "3.8x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "拓璞数控",
+          "ticker": "07688.HK",
+          "rel": "弱相關",
+          "peLtm": "62.0x",
+          "pe": "45.0x",
+          "psLtm": "4.2x",
+          "ps": "3.5x",
+          "evEbitda": "38.0x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股AMR/機器人板塊2026年多宗IPO密集掛牌，整體虧損，估值以P/S為主要錨點；強相關可比极智嘉（02590.HK）NTM P/S約8.5x，全樣本（10家）NTM P/S中位數約5.1x。仙工若IPO定價隱含P/S高於10x則明顯偏貴，5-8x屬合理區間，低於5x具安全邊際。"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "新松机器人",
+          "ticker": "300024.SZ",
+          "rel": "強相關",
+          "peLtm": "68.0x",
+          "pe": "52.0x",
+          "psLtm": "5.2x",
+          "ps": "4.3x",
+          "evEbitda": "42.0x",
+          "verdict": null
+        },
+        {
+          "name": "汇川技术",
+          "ticker": "300124.SZ",
+          "rel": "強相關",
+          "peLtm": "42.0x",
+          "pe": "33.0x",
+          "psLtm": "6.5x",
+          "ps": "5.2x",
+          "evEbitda": "28.0x",
+          "verdict": null
+        },
+        {
+          "name": "海康威视",
+          "ticker": "002415.SZ",
+          "rel": "中相關",
+          "peLtm": "19.0x",
+          "pe": "16.0x",
+          "psLtm": "3.2x",
+          "ps": "2.8x",
+          "evEbitda": "13.0x",
+          "verdict": null
+        },
+        {
+          "name": "埃斯顿",
+          "ticker": "002747.SZ",
+          "rel": "中相關",
+          "peLtm": "48.0x",
+          "pe": "36.0x",
+          "psLtm": "3.8x",
+          "ps": "3.1x",
+          "evEbitda": "30.0x",
+          "verdict": null
+        },
+        {
+          "name": "步科股份",
+          "ticker": "688160.SH",
+          "rel": "中相關",
+          "peLtm": "36.0x",
+          "pe": "28.0x",
+          "psLtm": "4.1x",
+          "ps": "3.3x",
+          "evEbitda": "23.0x",
+          "verdict": null
+        },
+        {
+          "name": "绿的谐波",
+          "ticker": "688017.SH",
+          "rel": "中相關",
+          "peLtm": "52.0x",
+          "pe": "40.0x",
+          "psLtm": "8.5x",
+          "ps": "6.8x",
+          "evEbitda": "38.0x",
+          "verdict": null
+        },
+        {
+          "name": "禾川科技",
+          "ticker": "688320.SH",
+          "rel": "中相關",
+          "peLtm": "42.0x",
+          "pe": "32.0x",
+          "psLtm": "4.3x",
+          "ps": "3.5x",
+          "evEbitda": "26.0x",
+          "verdict": null
+        },
+        {
+          "name": "博众精工",
+          "ticker": "688097.SH",
+          "rel": "中相關",
+          "peLtm": "30.0x",
+          "pe": "24.0x",
+          "psLtm": "2.6x",
+          "ps": "2.2x",
+          "evEbitda": "18.0x",
+          "verdict": null
+        },
+        {
+          "name": "伟创电气",
+          "ticker": "688698.SH",
+          "rel": "弱相關",
+          "peLtm": "35.0x",
+          "pe": "27.0x",
+          "psLtm": "3.5x",
+          "ps": "2.9x",
+          "evEbitda": "22.0x",
+          "verdict": null
+        },
+        {
+          "name": "凯尔达",
+          "ticker": "688255.SH",
+          "rel": "弱相關",
+          "peLtm": "28.0x",
+          "pe": "22.0x",
+          "psLtm": "3.0x",
+          "ps": "2.5x",
+          "evEbitda": "18.0x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "A股自動化/機器人板塊享有顯著估值溢價，強相關可比新松、汇川NTM P/S約4-5x但P/E高達33-52x；A股10家樣本NTM P/S中位數約3.2x，具軟件屬性的绿的谐波達6.8x；港股AMR上市通常相對A股可比折讓15-30%，若仙工IPO定價隱含P/S逾7x則相對A股亦顯貴。"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Symbotic",
+          "ticker": "SYM",
+          "rel": "強相關",
+          "peLtm": "N/M",
+          "pe": "88.0x",
+          "psLtm": "5.2x",
+          "ps": "4.2x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Teradyne",
+          "ticker": "TER",
+          "rel": "強相關",
+          "peLtm": "32.0x",
+          "pe": "25.0x",
+          "psLtm": "5.5x",
+          "ps": "4.8x",
+          "evEbitda": "20.0x",
+          "verdict": null
+        },
+        {
+          "name": "Zebra Technologies",
+          "ticker": "ZBRA",
+          "rel": "中相關",
+          "peLtm": "24.0x",
+          "pe": "19.0x",
+          "psLtm": "2.6x",
+          "ps": "2.2x",
+          "evEbitda": "14.0x",
+          "verdict": null
+        },
+        {
+          "name": "Cognex",
+          "ticker": "CGNX",
+          "rel": "中相關",
+          "peLtm": "48.0x",
+          "pe": "38.0x",
+          "psLtm": "9.2x",
+          "ps": "7.5x",
+          "evEbitda": "35.0x",
+          "verdict": null
+        },
+        {
+          "name": "Rockwell Automation",
+          "ticker": "ROK",
+          "rel": "中相關",
+          "peLtm": "23.0x",
+          "pe": "19.0x",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "13.0x",
+          "verdict": null
+        },
+        {
+          "name": "Emerson Electric",
+          "ticker": "EMR",
+          "rel": "中相關",
+          "peLtm": "20.0x",
+          "pe": "16.0x",
+          "psLtm": "2.6x",
+          "ps": "2.3x",
+          "evEbitda": "13.0x",
+          "verdict": null
+        },
+        {
+          "name": "Honeywell International",
+          "ticker": "HON",
+          "rel": "弱相關",
+          "peLtm": "18.0x",
+          "pe": "15.0x",
+          "psLtm": "2.1x",
+          "ps": "1.9x",
+          "evEbitda": "12.0x",
+          "verdict": null
+        },
+        {
+          "name": "Trimble",
+          "ticker": "TRMB",
+          "rel": "弱相關",
+          "peLtm": "26.0x",
+          "pe": "21.0x",
+          "psLtm": "3.8x",
+          "ps": "3.2x",
+          "evEbitda": "16.0x",
+          "verdict": null
+        },
+        {
+          "name": "Fortive",
+          "ticker": "FTV",
+          "rel": "弱相關",
+          "peLtm": "24.0x",
+          "pe": "19.0x",
+          "psLtm": "3.2x",
+          "ps": "2.8x",
+          "evEbitda": "14.0x",
+          "verdict": null
+        },
+        {
+          "name": "Aspen Technology",
+          "ticker": "AZPN",
+          "rel": "弱相關",
+          "peLtm": "38.0x",
+          "pe": "30.0x",
+          "psLtm": "9.5x",
+          "ps": "7.8x",
+          "evEbitda": "28.0x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股自動化/工業軟件估值分化顯著：純軟件（CGNX、AZPN）NTM P/S高達7-8x，純硬件自動化（ROK、EMR、HON）僅2-2.5x；Symbotic（最直接倉儲AMR對標）NTM P/S約4.2x；仙工軟硬結合屬性合理估值區間NTM P/S約4-8x；美股10家樣本NTM P/S中位數約3.0x，強相關可比（SYM+TER）中位數約4.5x。"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO定價未公布（A1申請階段），待正式招股書及定價公告後更新跨市場估值對比。三市場強相關可比公司NTM P/S：港股极智嘉約8.5x、A股新松/汇川約4.3-5.2x、美股SYM/TER約4.2-4.8x；三市場強相關中位NTM P/S約5.0x。仙工若定價隱含NTM P/S 5-8x屬合理區間，因SRC軟件授權可享一定估值溢價；若超過10x則相對三市場均溢價顯著，須謹慎申購。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "三市場強相關中位NTM P/S約5.0x（港8.5x / A股4.8x / 美股4.5x）",
+      "medianPE": "N/M（強相關可比多為虧損或極高P/E，不具參考性）",
+      "premiumDiscount": "待IPO定價後計算"
+    }
+  },
+  "sellRec": {
+    "action": "待正式定價後確認申購策略；A1階段暫觀察",
+    "horizon": "建議持有至SRC授權收入佔比提升至30%以上並實現持續盈利（12-24個月）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "NTM P/S",
+      "ipoImplied": "待定價後填入（Pre-IPO估值隱含~7-14x，若IPO定價較Pre-IPO折讓20-30%則約5-10x）",
+      "compsMedian": "三市場強相關中位NTM P/S 5.0x；港股极智嘉8.5x",
+      "vs": "待IPO定價後計算",
+      "verdict": "待定價後判斷",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "SRC軟件授權模式是否提供可驗證的高毛利率收入（F）",
+          "result": "待A1財報披露",
+          "note": "若SRC授權毛利率>65%且佔收入>20%，則F評分可升至8.0",
+          "ok": false
+        },
+        {
+          "point": "FY2024收入增速是否持續>40% YoY（F）",
+          "result": "待A1財報披露",
+          "note": "中國AMR行業增速下行壓力加大，低於30%增速應重新評估F評分",
+          "ok": false
+        },
+        {
+          "point": "基石投資者是否包含產業資本（菜鳥/京東/順豐）或一線PE（S）",
+          "result": "待招股書披露",
+          "note": "產業資本基石有助驗證仙工在物流客戶端的競爭優勢",
+          "ok": false
+        },
+        {
+          "point": "孖展倍數是否達10x以上（S）",
+          "result": "待招股後確認",
+          "note": "孖展<10x依規則自動降為SKIP；极智嘉IPO孖展可作參考基準",
+          "ok": false
+        },
+        {
+          "point": "IPO定價隱含NTM P/S是否低於8x（V）",
+          "result": "待定價後確認",
+          "note": "三市場強相關中位5x為錨，SRC溢價上限8x；超過則估值明顯偏貴",
+          "ok": false
+        },
+        {
+          "point": "2026年港股機器人板塊情緒持續偏暖（M）",
+          "result": "✓",
+          "note": "AMR板塊多家同期上市形成板塊效應，南向資金增配製造自動化",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "待定價後填入",
+        "upside": "-20%至-10%",
+        "basis": "IPO孖展不足10x，定價偏貴（NTM P/S>10x）；SRC大客戶自研導航棧訊息曝光，軟件授權收入增速放緩；競爭對手极智嘉股價拖累板塊情緒；NTM P/S壓縮至4x以下"
+      },
+      {
+        "type": "base",
+        "label": "基礎情景",
+        "price": "待定價後填入",
+        "upside": "+20%至+40%",
+        "basis": "孖展15-25x，IPO定價合理（NTM P/S 5-8x），SRC授權收入快速增長，海外業務份額提升至25%+，12個月內接近盈虧平衡；NTM P/S維持7-9x"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "待定價後填入",
+        "upside": "+60%至+100%",
+        "basis": "孖展超30x，SRC宣布與大型汽車或電子廠商達成深度集成合作，海外市場爆發性增長，利潤率快速改善超預期；板塊整體隨「具身智能」主題炒作；NTM P/S重評級至12-15x"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "獲利了結觸發",
+        "desc": "上市後股價較IPO價漲超50%，且NTM P/S超越12x已充分定價SRC增長預期；或公布季報顯示SRC授權收入增速放緩至<30% YoY",
+        "price": "≥ IPO價+50%",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止損觸發",
+        "desc": "SRC大客戶公告終止授權合作或自研導航棧；孖展不足10x或上市首日破發；A1財報披露前5大客戶集中度超70%且應收帳款週轉天數>150天",
+        "price": "< IPO價-15%",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-15",
+  "generatedBy": "claude-oauth",
+  "ticker": "06106.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}

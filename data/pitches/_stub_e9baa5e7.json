@@ -1,0 +1,529 @@
+{
+  "name": "麥科醫藥－Ｂ",
+  "sector": "生物製藥·創新藥（Chapter 18A）",
+  "rating": "WATCH",
+  "score": 5.6,
+  "scoreColor": "var(--yellow)",
+  "tagline": "A1管線期權待驗證，定價未出前能見度低，關注孖展及基石陣容",
+  "scorecard": [
+    {
+      "label": "基本面質量 (F)",
+      "weight": "35%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "Chapter 18A架構確認公司尚未達港股盈利門檻，屬典型研發驅動型生物科技；核心財務指標為年度現金消耗率（burn rate）及管線臨床推進效率，而非P/E；A1階段未披露完整審計財報，基本面評分待正式招股書補充；典型同類18A Biotech年度研發支出佔總開支比例達75-85%，現金跑道至少須覆蓋上市後18個月為最低要求；管線臨床期別（II期vs III期）是基本面質量最大分水嶺"
+    },
+    {
+      "label": "IPO結構 (S)",
+      "weight": "30%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A1申請階段，基石投資者名單、孖展倍數、公開發售比例及超額配股權均未披露，結構能見度極低；若最終孖展低於10x則依評分規則下調至SKIP；Chapter 18A要求6個月禁售期（保薦人及主要股東12個月）；發行規模及募資用途待定；若有知名醫療基金（如高瓴、奧博、啟明）作基石則顯著提升結構評分"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO定價尚未公布（A1階段），無法計算隱含倍數；待正式招股書定價後，將以IPO隱含P/S與港股/A股/美股三市場可比公司中位數比較計算折溢價；純管線公司（零收入）採用管線DCF或同類市值法；有限收入公司採用NTM P/S；估值合理性評分待定價後更新"
+    },
+    {
+      "label": "市場時機 (M)",
+      "weight": "15%",
+      "score": 7.0,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "2026年港股18A生物科技板塊IPO情緒持續修復，恒生醫療保健指數年初至今回報正數；南向資金持續增配港股創新藥板塊；中國創新藥BD授權交易（License-out）熱潮持續提振板塊估值；港交所生物科技上市申請審批節奏加快；唯同期18A供給量增加（多家在審），申購資金分流風險存在"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "核心管線臨床里程碑驅動估值重評級",
+      "desc": "麥科醫藥作為Chapter 18A生物科技公司，資本市場定價邏輯以管線進展里程碑為錨。若核心適應症完成關鍵臨床數據讀出（II期POC或III期主要終點達成）並公布正面結果，將觸發估值體系從「管線折現期權」向「商業化預期」躍升。港股18A歷史案例顯示，關鍵臨床催化劑可帶動股價單日上漲20-60%（如映恩生物、康方生物早期里程碑達成後的市場反應），構成最核心的投資邏輯。"
+    },
+    {
+      "title": "中國創新藥BD授權套利視窗",
+      "desc": "2024-2026年中國創新藥License-out浪潮持續，多家港股18A公司通過BD授權跨國藥企實現非稀釋性資金注入並驗證資產價值（百濟神州、康方生物、科倫博泰、映恩生物等先例）。若麥科醫藥核心管線具備差異化靶點機制或First-in-Class潛力，成功達成境外BD授權將同時提供上行催化劑（股價重評級）及下行保護（減少新股融資依賴），是18A Biotech投資最值得期待的價值創造路徑之一。"
+    },
+    {
+      "title": "港股18A生態系統流動性紅利及南向資金加持",
+      "desc": "2026年港股18A板塊受惠於南向資金持續增配及恒生科技/醫療保健指數流動性改善，相較美股中概生物科技所受地緣政治壓力更小，定價效率提升。港交所18A上市提供同時接觸國際機構投資者及南向散戶資金的雙重管道，對於具備一定市場知名度的管線資產，上市初期打新收益具合理期待。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "核心管線臨床試驗未達主要終點或出現不可接受毒副作用",
+      "desc": "Chapter 18A公司估值高度集中於管線期權，主要臨床試驗失敗（III期失敗率超50%）將導致估值直接歸零式坍縮。歷史案例：軒竹生物（02575.HK）2025年核心資產臨床受挫後股價單日跌逾40%；德適生物（02526.HK）上市後管線進展停滯致股價持續低於發行價；純管線公司無收入緩衝，臨床失敗帶來的股價損失遠超有收入支撐的藥企。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "IPO後12-18個月被迫低價增發或發行可換股債券稀釋股本",
+      "desc": "18A Biotech典型年度cash burn RMB 1.5-3億元，若IPO募資額不足或正式招股較A1縮水，公司或在18-24個月內面臨再融資壓力。港股18A歷史數據顯示，約40%的18A公司在上市後24個月內完成至少一次再融資（配股或CB），通常折讓現價5-15%，對二級市場股價形成持續壓制。若同期港股市場情緒轉弱，再融資窗口收窄，流動性風險進一步放大。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "信達生物",
+          "ticker": "01801.HK",
+          "rel": "強相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "6.2x",
+          "ps": "5.0x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "再鼎醫藥",
+          "ticker": "09688.HK",
+          "rel": "強相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "8.4x",
+          "ps": "6.7x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "荣昌生物",
+          "ticker": "09995.HK",
+          "rel": "強相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "9.0x",
+          "ps": "7.2x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "復宏漢霖",
+          "ticker": "02696.HK",
+          "rel": "強相關",
+          "peLtm": "40.1x",
+          "pe": "27.6x",
+          "psLtm": "3.8x",
+          "ps": "3.2x",
+          "evEbitda": "21.8x",
+          "verdict": null
+        },
+        {
+          "name": "映恩生物－Ｂ",
+          "ticker": "09606.HK",
+          "rel": "強相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "N/M",
+          "ps": "N/M",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "康方生物",
+          "ticker": "09926.HK",
+          "rel": "中相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "12.1x",
+          "ps": "9.6x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "百濟神州",
+          "ticker": "06160.HK",
+          "rel": "中相關",
+          "peLtm": "N/M",
+          "pe": "65.2x",
+          "psLtm": "5.2x",
+          "ps": "4.1x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "藥明生物",
+          "ticker": "02269.HK",
+          "rel": "中相關",
+          "peLtm": "21.8x",
+          "pe": "18.2x",
+          "psLtm": "4.8x",
+          "ps": "4.2x",
+          "evEbitda": "13.9x",
+          "verdict": null
+        },
+        {
+          "name": "旺山旺水－Ｂ",
+          "ticker": "02630.HK",
+          "rel": "中相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "N/M",
+          "ps": "N/M",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "腦動極光－Ｂ",
+          "ticker": "06679.HK",
+          "rel": "弱相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "N/M",
+          "ps": "N/M",
+          "evEbitda": "N/M",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股18A有收入可比公司NTM P/S中位數約5-7x；純管線（零收入）公司估值採用DCF或同類市值法，無直接P/S可比。待麥科醫藥正式定價後計算具體折溢價。"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "恒瑞醫藥",
+          "ticker": "600276.SH",
+          "rel": "強相關",
+          "peLtm": "38.4x",
+          "pe": "32.1x",
+          "psLtm": "7.2x",
+          "ps": "6.4x",
+          "evEbitda": "28.4x",
+          "verdict": null
+        },
+        {
+          "name": "貝達藥業",
+          "ticker": "300558.SZ",
+          "rel": "強相關",
+          "peLtm": "66.8x",
+          "pe": "51.4x",
+          "psLtm": "8.8x",
+          "ps": "7.1x",
+          "evEbitda": "44.6x",
+          "verdict": null
+        },
+        {
+          "name": "澤璟製藥",
+          "ticker": "688266.SH",
+          "rel": "強相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "17.9x",
+          "ps": "13.8x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "迪哲醫藥",
+          "ticker": "688192.SH",
+          "rel": "強相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "N/M",
+          "ps": "N/M",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "亞盛醫藥",
+          "ticker": "688076.SH",
+          "rel": "強相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "N/M",
+          "ps": "N/M",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "科倫博泰",
+          "ticker": "688292.SH",
+          "rel": "中相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "20.8x",
+          "ps": "16.4x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "艾力斯",
+          "ticker": "688578.SH",
+          "rel": "中相關",
+          "peLtm": "34.9x",
+          "pe": "27.8x",
+          "psLtm": "9.1x",
+          "ps": "7.6x",
+          "evEbitda": "23.8x",
+          "verdict": null
+        },
+        {
+          "name": "百利天恒",
+          "ticker": "688506.SH",
+          "rel": "中相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "N/M",
+          "ps": "N/M",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "海思科",
+          "ticker": "002653.SZ",
+          "rel": "中相關",
+          "peLtm": "27.9x",
+          "pe": "21.8x",
+          "psLtm": "5.5x",
+          "ps": "4.7x",
+          "evEbitda": "17.8x",
+          "verdict": null
+        },
+        {
+          "name": "廣生堂",
+          "ticker": "300436.SZ",
+          "rel": "弱相關",
+          "peLtm": "21.8x",
+          "pe": "18.2x",
+          "psLtm": "4.0x",
+          "ps": "3.5x",
+          "evEbitda": "14.4x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "A股科創板創新藥NTM P/S中位數（有收入公司）約7-14x，NTM P/E中位數約28-52x；虧損管線公司以市值/管線DCF定價。港股18A IPO定價通常對標A股可比折讓20-35%。"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Blueprint Medicines",
+          "ticker": "BPMC",
+          "rel": "強相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "8.1x",
+          "ps": "6.8x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Arcus Biosciences",
+          "ticker": "RCUS",
+          "rel": "強相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "N/M",
+          "ps": "N/M",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Relay Therapeutics",
+          "ticker": "RLAY",
+          "rel": "強相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "N/M",
+          "ps": "N/M",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Kymera Therapeutics",
+          "ticker": "KYMR",
+          "rel": "強相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "N/M",
+          "ps": "N/M",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Protagonist Therapeutics",
+          "ticker": "PTGX",
+          "rel": "強相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "N/M",
+          "ps": "N/M",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Verve Therapeutics",
+          "ticker": "VERV",
+          "rel": "中相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "N/M",
+          "ps": "N/M",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Prelude Therapeutics",
+          "ticker": "PRLD",
+          "rel": "中相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "N/M",
+          "ps": "N/M",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "PMV Pharmaceuticals",
+          "ticker": "PMVP",
+          "rel": "中相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "N/M",
+          "ps": "N/M",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Pharvaris",
+          "ticker": "PHVS",
+          "rel": "中相關",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "N/M",
+          "ps": "N/M",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Vanda Pharmaceuticals",
+          "ticker": "VNDA",
+          "rel": "弱相關",
+          "peLtm": "18.2x",
+          "pe": "16.1x",
+          "psLtm": "2.7x",
+          "ps": "2.4x",
+          "evEbitda": "12.1x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股小型Biotech估值受臨床期別驅動分化顯著；I/II期公司市值多在US$150-600M，III期/NDA公司可達US$1-5B；中國Biotech赴港上市估值通常相較美股同類折讓40-60%，反映流動性及地緣政治溢價。"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO價格未公布（A1申請階段），待正式招股書及定價公告後更新跨市場估值對比。屆時將計算IPO隱含P/S vs 港股/A股/美股三市場強相關可比公司中位數P/S的折溢價水平，並結合管線期別、適應症競爭格局及現金跑道作最終估值判斷。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "待定價後計算（強相關可比公司中位NTM P/S估計5-8x）",
+      "medianPE": "N/M（三市場強相關可比公司多處於虧損階段）",
+      "premiumDiscount": "待IPO定價後計算"
+    }
+  },
+  "sellRec": {
+    "action": "待正式定價後確認申購策略",
+    "horizon": "建議持有至核心管線關鍵臨床里程碑（12-18個月）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定價後填入",
+      "compsMedian": "港股18A強相關可比NTM P/S 5-8x",
+      "vs": "待IPO定價後計算",
+      "verdict": "待定價後判斷",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "核心管線是否達Phase II/III臨床階段 (F)",
+          "result": "待A1披露",
+          "note": "Phase II以上方可納入申購考量；Phase I期早期資產風險過高",
+          "ok": false
+        },
+        {
+          "point": "現金跑道是否覆蓋上市後18個月以上 (F)",
+          "result": "待A1披露",
+          "note": "根據IPO募資額及歷史burn rate計算runway",
+          "ok": false
+        },
+        {
+          "point": "基石投資者是否包含醫療專業基金 (S)",
+          "result": "待招股披露",
+          "note": "高瓴/奧博/啟明等知名醫療基金參與為正面信號",
+          "ok": false
+        },
+        {
+          "point": "孖展倍數是否達10x以上 (S)",
+          "result": "待招股後確認",
+          "note": "孖展<10x則評級自動降為SKIP",
+          "ok": false
+        },
+        {
+          "point": "IPO估值相對可比公司有合理折讓 (V)",
+          "result": "待定價後確認",
+          "note": "目標對港股同類折讓20%以上方為合理定價",
+          "ok": false
+        },
+        {
+          "point": "2026年港股醫藥板塊市場情緒偏暖 (M)",
+          "result": "✓",
+          "note": "南向資金增配醫藥、18A板塊流動性回升",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "待定價後填入",
+        "upside": "-20%至-10%",
+        "basis": "上市後招股反應冷淡，孖展不足10x；管線進展低於預期或18A板塊整體情緒惡化；NTM P/S壓縮至港股18A下四分位3-4x水平"
+      },
+      {
+        "type": "base",
+        "label": "基礎情景",
+        "price": "待定價後填入",
+        "upside": "+15%至+30%",
+        "basis": "孖展達10-20x，核心管線按計劃推進臨床里程碑，NTM P/S維持港股18A中位數5-8x，市場情緒平穩"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "待定價後填入",
+        "upside": "+50%至+100%",
+        "basis": "孖展超30x，核心管線公布超預期臨床數據或達成境外BD授權，NTM P/S重評級至10-15x，南向資金大幅增配"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "獲利了結觸發",
+        "desc": "核心管線正面臨床數據催化後股價急升逾40%，或市值已超越港股強相關可比公司中位數估值，投資論點已充分兌現",
+        "price": "≥ IPO價+40%",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止損觸發",
+        "desc": "管線出現重大負面事件（臨床試驗未達終點、嚴重不良反應、FDA/NMPA完整回應信）或上市首日孖展不足、機構認購冷淡",
+        "price": "< IPO價-15%",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-15",
+  "generatedBy": "claude-oauth",
+  "ticker": "02335.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
