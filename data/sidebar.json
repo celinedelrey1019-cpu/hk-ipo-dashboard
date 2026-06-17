@@ -1,25 +1,6 @@
 {
-  "lastUpdated": "2026-06-16",
+  "lastUpdated": "2026-06-17",
   "activeSubscription": [
-    {
-      "key": "_stub_e6b5b7e6",
-      "name": "海清智元",
-      "ticker": "01392.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-06-22",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-06-16"
-    },
     {
       "key": "_stub_e6989fe6",
       "name": "星源材質",
@@ -35,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-06-16"
+      "sourceDate": "2026-06-17"
     },
     {
       "key": "_stub_e88fafe5",
@@ -54,9 +35,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-06-16"
+      "sourceDate": "2026-06-17"
     },
     {
       "key": "_stub_e9baa5e7",
@@ -73,9 +54,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後截止",
+      "statusLabel": "明午截止",
       "source": "etnet",
-      "sourceDate": "2026-06-16"
+      "sourceDate": "2026-06-17"
     },
     {
       "key": "_stub_e4bb99e5",
@@ -92,31 +73,126 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後截止",
+      "statusLabel": "明午截止",
       "source": "etnet",
-      "sourceDate": "2026-06-16"
-    }
-  ],
-  "hearingPassed": [
+      "sourceDate": "2026-06-17"
+    },
     {
-      "key": "_stub_e59d87e5",
-      "name": "均勝電子",
-      "ticker": "00699.HK",
+      "key": "_stub_e9a098e7",
+      "name": "領益智造",
+      "ticker": "01688.HK",
       "aShare": "",
       "sector": "",
-      "phase": "pipeline",
+      "phase": "subscribe",
       "hearingDate": "",
       "subStart": "",
       "subEnd": "",
-      "listingDate": "2025-11-06",
+      "listingDate": "2026-06-26",
       "ipoLow": null,
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日派送",
+      "statusLabel": "6日後截止",
       "source": "etnet",
-      "sourceDate": "2026-06-16"
+      "sourceDate": "2026-06-17"
     },
+    {
+      "key": "_stub_e4b8ade7",
+      "name": "中科聞歌",
+      "ticker": "01956.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "subscribe",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-06-26",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "6日後截止",
+      "source": "etnet",
+      "sourceDate": "2026-06-17"
+    },
+    {
+      "key": "_stub_e7a791e6",
+      "name": "科拓股份",
+      "ticker": "02272.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "subscribe",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-06-26",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "6日後截止",
+      "source": "etnet",
+      "sourceDate": "2026-06-17"
+    },
+    {
+      "key": "_stub_e88196e9",
+      "name": "聖邦股份",
+      "ticker": "03661.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "subscribe",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-06-26",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "6日後截止",
+      "source": "etnet",
+      "sourceDate": "2026-06-17"
+    },
+    {
+      "key": "_stub_4d455244",
+      "name": "MERDEKAGOLD-DRS",
+      "ticker": "06228.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "subscribe",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-06-26",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "6日後截止",
+      "source": "etnet",
+      "sourceDate": "2026-06-17"
+    },
+    {
+      "key": "_stub_e88aafe7",
+      "name": "芯碁微裝",
+      "ticker": "09630.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "subscribe",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-06-26",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "6日後截止",
+      "source": "etnet",
+      "sourceDate": "2026-06-17"
+    }
+  ],
+  "hearingPassed": [
     {
       "key": "_stub_e7a98ee9",
       "name": "穎通控股",
@@ -132,9 +208,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-06-16"
+      "sourceDate": "2026-06-17"
     },
     {
       "key": "_stub_e7b490e6",
@@ -151,9 +227,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-16"
+      "sourceDate": "2026-06-17"
     },
     {
       "key": "_stub_e694bfe5",
@@ -170,9 +246,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "政府債券",
+      "statusLabel": "今日派送政府債券",
       "source": "etnet",
-      "sourceDate": "2026-06-16"
+      "sourceDate": "2026-06-17"
     },
     {
       "key": "_stub_e4b99de6",
@@ -189,9 +265,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-16"
+      "sourceDate": "2026-06-17"
     },
     {
       "key": "_stub_e7be8ee7",
@@ -208,9 +284,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後除淨",
+      "statusLabel": "1日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-06-16"
+      "sourceDate": "2026-06-17"
     }
   ],
   "archived": [
@@ -1808,6 +1884,13 @@
       "name": "SENASIC",
       "ticker": "06675.HK",
       "listingDate": "2026-06-17",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e6b5b7e6",
+      "name": "海清智元",
+      "ticker": "01392.HK",
+      "listingDate": "2026-06-22",
       "result": "待更新"
     }
   ]

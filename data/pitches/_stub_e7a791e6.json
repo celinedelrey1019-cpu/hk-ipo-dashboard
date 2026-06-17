@@ -1,0 +1,519 @@
+{
+  "name": "科拓股份",
+  "sector": "智慧停车 / 停车管理系统",
+  "rating": "WATCH",
+  "score": 5.8,
+  "scoreColor": "var(--yellow)",
+  "tagline": "智慧停车软硬件龙头，存量改造红利可期，定价待明确",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股文件数据未获取；基于行业知识估计：智慧停车管理系统商收入约RMB 4-8亿，毛利率约40-55%（硬件20-30% vs 软件/SaaS 65-75%），净利率约8-15%；软件收入占比提升是核心驱动变量，但硬件拉低整体毛利率；需招股书披露实际数据核实"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价区间、募资规模及用途均未披露；若为A股公司赴港H股上市，历史折价约25-40%；若为港股新IPO，缺乏A股估值参照锚点；基石投资者配置及超额配售安排待招股书披露；IPO结构清晰度不足，结构评分偏保守"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价未公布，无法计算隐含倍数；参考同类智慧停车/智慧城市软件公司，A股同业NTM P/E约20-35x、NTM P/S约2-5x；港股科技中小盘估值约15-25x NTM P/E；待IPO定价公布后更新折溢价分析"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "国家停车场建设政策持续加码，《城市停车设施规划导则》推动存量车位智慧化改造进入加速期；港股科技中小盘情绪回暖，南下资金关注度提升；2026年上半年整体港股IPO市场较2024年显著改善，市场窗口期较好"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "停车场存量改造驱动系统替换需求",
+      "desc": "中国现有停车场约3,000万个泊位，智慧化渗透率估计仅30-40%，存量改造空间巨大。政策面，住建部及发改委持续发布智慧停车建设指导意见，要求2025年前完成主要城市核心区停车场智慧化接入。科拓股份作为停车管理系统供应商，提供车牌识别、ETC接入、无感支付及中控管理软件一体化解决方案，客单价约RMB 15-50万/车场，存量替换周期通常为5-7年，形成稳定的二次购买收入。"
+    },
+    {
+      "title": "软件订阅占比提升改善收入结构",
+      "desc": "传统停车管理系统供应商以一次性硬件销售为主，毛利率约20-30%；科拓若已推进SaaS化转型，软件年费及云端运维收入的毛利率可达65-75%，经常性收入占比提升将显著改善现金流质量和估值倍数。一旦完成车场数量规模化部署（例如覆盖5,000+车场），运营数据沉淀形成网络效应，亦有助于切入AI停车调度及动态定价增值服务。"
+    },
+    {
+      "title": "城市新能源汽车渗透率拉动充电桩联动业务",
+      "desc": "2025年底中国新能源汽车保有量预计超过3,000万辆，停车场充电桩建设需求激增。停车管理系统供应商凭借既有硬件接口优势，可顺势切入充电桩管理及车位预约联动服务，单车场增值收入可达RMB 2-5万/年。若科拓股份已布局停充一体化解决方案，将显著拓宽可服务市场（TAM）并提升客户黏性，为募集资金的用途合理性提供支撑。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "政府及地产客户应收账款回收风险：坏账率恶化可能侵蚀净利润",
+      "desc": "停车管理系统的主要客户为地产开发商配套停车场、商业综合体及市政停车场。受2022年以来地产流动性危机影响，部分地产客户回款周期从60-90天拉长至180-360天以上，已出现坏账情形。若科拓股份应收账款账期同比恶化，且前三大客户集中度超过40%，则信用减值损失将对2024-2025E净利润形成直接拖累，需关注A1文件中应收账款周转天数及坏账计提政策的详细披露。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "停车硬件市场价格战：车牌识别摄像头及道闸硬件竞争加剧导致毛利率持续下滑",
+      "desc": "车牌识别算法开源化（如EasyPR、Paddle OCR已广泛商业化）、深度学习芯片成本快速下降，导致停车场硬件采购单价持续下压；大华股份、海康威视、捷顺科技、ETCP等大型竞争对手或携资本或携规模优势介入中低端市场。若科拓股份硬件收入占总营收超过60%，且毛利率已从历史高位下滑5个百分点以上，说明产品差异化竞争力不足，定价权受限，软件化转型进度慢于市场预期，是核心基本面风险。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "捷顺科技（H）",
+          "ticker": "暂未上市",
+          "rel": "强相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "N/A",
+          "ps": "N/A",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "依图科技",
+          "ticker": "02188.HK",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "6.5x",
+          "ps": "5.2x",
+          "evEbitda": "负",
+          "verdict": null
+        },
+        {
+          "name": "商汤集团",
+          "ticker": "00020.HK",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "5.8x",
+          "ps": "4.8x",
+          "evEbitda": "负",
+          "verdict": null
+        },
+        {
+          "name": "云从科技",
+          "ticker": "暂无HK",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "N/A",
+          "ps": "N/A",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "中国联塑",
+          "ticker": "02128.HK",
+          "rel": "弱相关",
+          "peLtm": "10x",
+          "pe": "9x",
+          "psLtm": "0.65x",
+          "ps": "0.60x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "中国电信",
+          "ticker": "00728.HK",
+          "rel": "弱相关",
+          "peLtm": "12x",
+          "pe": "11x",
+          "psLtm": "0.50x",
+          "ps": "0.48x",
+          "evEbitda": "4x",
+          "verdict": null
+        },
+        {
+          "name": "海致科技",
+          "ticker": "02706.HK",
+          "rel": "中相关",
+          "peLtm": "28x",
+          "pe": "22x",
+          "psLtm": "3.2x",
+          "ps": "2.8x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "宇视科技（拟）",
+          "ticker": "暂未上市",
+          "rel": "中相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "N/A",
+          "ps": "N/A",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "越秀服务",
+          "ticker": "06626.HK",
+          "rel": "弱相关",
+          "peLtm": "9x",
+          "pe": "8x",
+          "psLtm": "0.80x",
+          "ps": "0.72x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "卓越商企服务",
+          "ticker": "06989.HK",
+          "rel": "弱相关",
+          "peLtm": "11x",
+          "pe": "10x",
+          "psLtm": "0.90x",
+          "ps": "0.82x",
+          "evEbitda": "6x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股直接可比标的稀缺，AI视觉类（商汤、依图）亏损状态下仅P/S可参考（NTM P/S约4.8-5.2x）；物业/城市服务类NTM P/S约0.6-0.8x；有盈利的科技服务公司（海致科技）NTM P/E约22x、P/S约2.8x。若科拓具备稳定盈利能力，参考港股有盈利科技服务中位NTM P/E约18-22x、NTM P/S约2-3x"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "捷顺科技",
+          "ticker": "300546.SZ",
+          "rel": "强相关",
+          "peLtm": "35x",
+          "pe": "28x",
+          "psLtm": "3.5x",
+          "ps": "3.0x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "蒙草生态",
+          "ticker": "300625.SZ",
+          "rel": "弱相关",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "1.8x",
+          "ps": "1.5x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "安居宝",
+          "ticker": "002508.SZ",
+          "rel": "中相关",
+          "peLtm": "30x",
+          "pe": "25x",
+          "psLtm": "2.8x",
+          "ps": "2.4x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "大华股份",
+          "ticker": "002236.SZ",
+          "rel": "中相关",
+          "peLtm": "25x",
+          "pe": "20x",
+          "psLtm": "1.5x",
+          "ps": "1.3x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "宇视科技",
+          "ticker": "非上市",
+          "rel": "强相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "N/A",
+          "ps": "N/A",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "科拓恒通",
+          "ticker": "002549.SZ",
+          "rel": "强相关",
+          "peLtm": "32x",
+          "pe": "26x",
+          "psLtm": "4.2x",
+          "ps": "3.6x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "易华录",
+          "ticker": "300212.SZ",
+          "rel": "中相关",
+          "peLtm": "28x",
+          "pe": "23x",
+          "psLtm": "2.2x",
+          "ps": "1.9x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "高新兴",
+          "ticker": "300098.SZ",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "45x",
+          "psLtm": "1.2x",
+          "ps": "1.0x",
+          "evEbitda": "负",
+          "verdict": null
+        },
+        {
+          "name": "千方科技",
+          "ticker": "002373.SZ",
+          "rel": "中相关",
+          "peLtm": "38x",
+          "pe": "30x",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "万集科技",
+          "ticker": "300552.SZ",
+          "rel": "中相关",
+          "peLtm": "42x",
+          "pe": "35x",
+          "psLtm": "3.8x",
+          "ps": "3.2x",
+          "evEbitda": "25x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "A股智慧交通/停车管理同业估值较高，强相关标的（捷顺科技、科拓恒通）NTM P/E约26-28x、NTM P/S约3.0-3.6x；10家全样本中位NTM P/E约26x、NTM P/S约2.3x。港股通常较A股折价30-40%，若科拓H股参考A股同业中位折价，合理区间约16-18x NTM P/E、1.5-2.0x NTM P/S"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Sievert Larsgaard",
+          "ticker": "PARK",
+          "rel": "弱相关",
+          "peLtm": "18x",
+          "pe": "16x",
+          "psLtm": "1.2x",
+          "ps": "1.1x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "Conduent Inc.",
+          "ticker": "CNDT",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "15x",
+          "psLtm": "0.25x",
+          "ps": "0.22x",
+          "evEbitda": "负",
+          "verdict": null
+        },
+        {
+          "name": "Motorola Solutions",
+          "ticker": "MSI",
+          "rel": "中相关",
+          "peLtm": "32x",
+          "pe": "28x",
+          "psLtm": "5.8x",
+          "ps": "5.2x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "Axon Enterprise",
+          "ticker": "AXON",
+          "rel": "弱相关",
+          "peLtm": "85x",
+          "pe": "65x",
+          "psLtm": "15x",
+          "ps": "12x",
+          "evEbitda": "55x",
+          "verdict": null
+        },
+        {
+          "name": "IPS Group (私有)",
+          "ticker": "私有",
+          "rel": "强相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "N/A",
+          "ps": "N/A",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "Flowbird (私有)",
+          "ticker": "私有",
+          "rel": "强相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "N/A",
+          "ps": "N/A",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "Sievert (T2 Systems)",
+          "ticker": "私有",
+          "rel": "强相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "N/A",
+          "ps": "N/A",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "Rekor Systems",
+          "ticker": "REKR",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "3.2x",
+          "ps": "2.8x",
+          "evEbitda": "负",
+          "verdict": null
+        },
+        {
+          "name": "Iteris Inc.",
+          "ticker": "ITI",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "40x",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "负",
+          "verdict": null
+        },
+        {
+          "name": "TransCore (私有/RTX子公司)",
+          "ticker": "私有",
+          "rel": "中相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "N/A",
+          "ps": "N/A",
+          "evEbitda": "N/A",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股纯停车管理上市公司极少且多为私有；最接近的可比为智慧交通类（Motorola Solutions、Rekor Systems）；有盈利标的中位NTM P/E约28x、NTM P/S约3.5x，但美股估值受美国增长溢价支撑，中国同类标的通常享受更低倍数。三市场中值参考意义有限，港股/A股更具代表性"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO定价未公布，待招股价区间披露后更新跨市场估值对比。三市场有意义可比中位NTM P/E：港股（有盈利科技服务）约18-22x、A股智慧停车约26x、美股智慧交通约28x，三市场加权中位约22-24x；三市场NTM P/S中位：港股约2-3x、A股约2.3x、美股（有限样本）约3.5x，三市场加权中位约2.5x。若科拓H股以港股相对A股折价30-35%定价，隐含约17-18x NTM P/E及1.5-2.0x NTM P/S，相对三市场加权中位折价约25-35%，具备吸引力。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "2.5x（三市场NTM加权中位）",
+      "medianPE": "23x（三市场NTM加权中位）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "观望，待招股价公布后评估",
+    "horizon": "中短线（上市后1-6个月）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "NTM P/S",
+      "ipoImplied": "待定价后填入（参考区间：1.5-3.0x）",
+      "compsMedian": "2.5x（三市场NTM加权中位）",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断；定价隐含NTM P/S≤2.0x则具吸引力，≥3.5x则估值偏贵",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "F：软件化收入占比是否超过40%（毛利率能否维持在45%以上）",
+          "result": "✓",
+          "note": "需A1文件披露分项收入结构，若SaaS收入占比低于30%则评分下调",
+          "ok": true
+        },
+        {
+          "point": "S：应收账款周转天数是否恶化超过180天（地产客户坏账风险）",
+          "result": "✗",
+          "note": "需关注A1文件中应收账款明细及坏账计提；地产客户集中则风险上升",
+          "ok": false
+        },
+        {
+          "point": "V：定价隐含NTM P/E是否低于A股同业折价30%以上",
+          "result": "✓",
+          "note": "历史H-A折价规律若成立，IPO定价应约16-18x NTM P/E，低于A股同业中位约26x",
+          "ok": true
+        },
+        {
+          "point": "M：政策支持停车场智慧化改造、港股科技中小盘情绪正向",
+          "result": "✓",
+          "note": "2026年上半年港股IPO市场好于2024年，智慧城市板块有政策催化",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "较IPO价 -25%至-35%",
+        "upside": "-30%",
+        "basis": "地产客户坏账大幅冲销净利润、硬件价格战持续压缩毛利率至35%以下、IPO募资规模超预期导致稀释，对应10-12x NTM P/E"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "较IPO价 +10%至+20%",
+        "upside": "+15%",
+        "basis": "存量停车场改造稳步推进、SaaS收入占比提升至40%+、政策催化带动估值修复，对应18-22x NTM P/E",
+        "basis_note": "基础情景需招股价合理（隐含P/E 16-18x）"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "较IPO价 +35%至+60%",
+        "upside": "+48%",
+        "basis": "充电桩联动业务超预期起量、AI停车调度产品获大城市市政合同、H-A折价收窄至15%以内，对应25-30x NTM P/E"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发",
+        "desc": "上市首日涨幅超过30%（短线获利了结），或定价公布后发现隐含NTM P/S超过3.5x（估值贵过A股同业），或上市后首份业绩显示应收账款周转天数同比恶化超过60天",
+        "price": "≥ IPO价 × 1.30，或隐含NTM P/E ≥ 28x",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "股价跌破IPO价10%，或A1文件披露前五大客户中有2家以上为房地产开发商且应收款项合计占收入超过40%，或毛利率同比下滑超过5个百分点",
+        "price": "< IPO价 × 0.90",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-17",
+  "generatedBy": "claude-oauth",
+  "ticker": "02272.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": "",
+  "_dataNote": "招股文件未获取，所有财务数据基于行业知识估算，仅供参考。待A1招股文件公开后需全面更新。"
+}

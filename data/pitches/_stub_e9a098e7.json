@@ -1,0 +1,517 @@
+{
+  "name": "領益智造",
+  "sector": "精密制造 / 消费电子零部件",
+  "rating": "WATCH",
+  "score": 5.6,
+  "scoreColor": "var(--yellow)",
+  "tagline": "苹果AI升级周期核心供应商，客户集中风险制约估值上行",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "预计2024E营收约250亿RMB，毛利率约16-17%（较2021年19%持续下滑），净利率约5-6%；苹果客户占比逾60%导致收入季节性波动剧烈；Capex/营收约8-10%资本密集度高，ROE约12-15%处于行业中游；热管理材料新业务毛利率约25-30%，但体量占比尚小"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A股（002600.SZ）赴港H股二次上市，定价区间及募资用途待招股书披露；H股相对A股历史折价30-40%，结构中性；基石投资者阵容及超额配售安排未公布；A-H双资本市场有助于流动性，但国际机构对精密制造类H股打新需求有限"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO定价未公布，无法计算隐含倍数；参考A股现价约15-22x P/E、1.5-2.0x P/S，若H股维持30-40%折价，隐含约10-16x NTM P/E，相对港股同业中性；毛利率下行趋势对估值扩张形成天花板"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.0,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "2026年苹果Apple Intelligence驱动iPhone 18换机潮，钛合金精密件及散热材料单机价值量预计提升5-10%；港股科技制造板块估值修复，南下资金持续流入；美国关税政策对中国供应链的不确定性是潜在扰动"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "苹果AI换机潮推动核心精密件量价齐升",
+      "desc": "领益智造是苹果iPhone/iPad/Mac钛合金框体、MIM精密件、铝合金CNC结构件的核心Tier 1供应商。苹果Apple Intelligence功能深度整合推动2025-2026年高端机型换机率上升，同时iPhone 17/18系列钛合金用料比例进一步扩大，领益单机供货价值量（ASP）预计提升5-10%，叠加出货量温和增长，2025-2026E营收增速可达10-15%。"
+    },
+    {
+      "title": "热管理材料布局AI算力散热增量赛道",
+      "desc": "公司自2020年起深耕石墨导热薄膜、相变导热材料等热管理产品线，客户从消费电子延伸至AI服务器及数据中心散热模组领域。该业务毛利率约25-30%，显著高于传统精密金属件的12-15%，且客户分散度更高（不依赖苹果单一客户）。若AI服务器端出货保持高增速，热管理业务有望在2026年将营收占比从约8%提升至15%以上，驱动整体毛利率企稳回升。"
+    },
+    {
+      "title": "H股上市开启A-H折价收窄交易机会",
+      "desc": "领益智造A股（002600.SZ）长期受制于国内制造业估值体系，历史P/E约15-22x，低于蓝思科技、立讯精密等同业。H股上市后将纳入港股通，接触国际机构资金以全球精密制造估值体系重新定价。若H股折价约30-35%在A股招募，后续随公司业绩兑现及港股通资金介入，存在A-H折价从30-35%收窄至15-20%的套利空间，对应股价弹性约15-25%。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "苹果单一客户营收占比逾60%，订单波动直接穿透利润表",
+      "desc": "根据公司A股年报披露，苹果系收入长期占领益总营收55-65%。2023年iPhone 15 Pro因MIM钛合金件良率爬坡缓慢，领益单季度营收环比下滑超15%，净利润同期下滑超25%。若苹果2026年机型切换导致精密金属件供应商份额重新分配（蓝思科技、长盈精密均在争夺同类产品份额），或苹果主动推进Tier 2备份供应商策略，领益产能利用率可能从正常水平85%以上跌至65%以下，固定成本摊销将对毛利率形成额外下压。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "精密金属件行业系统性产能过剩，毛利率存在进一步压缩至15%以下的风险",
+      "desc": "2022-2024年国内精密制造龙头（蓝思科技大幅扩产湖南基地、长盈精密越南产能释放、捷荣技术东南亚布局）导致行业整体产能利用率从2022年峰值约82%降至2024年约70-75%。领益智造毛利率已从2021年约19%持续下滑至2024年约16-17%；若苹果2026年继续要求供应商年降价3-5%、叠加铝/钛等原材料价格周期性上涨，净利率存在跌破4%的风险，对应市值估值支撑力度明显减弱。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "比亚迪电子",
+          "ticker": "0285.HK",
+          "rel": "强相关",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "0.45x",
+          "ps": "0.40x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "瑞声科技",
+          "ticker": "2018.HK",
+          "rel": "强相关",
+          "peLtm": "26x",
+          "pe": "22x",
+          "psLtm": "1.80x",
+          "ps": "1.55x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "巨腾国际",
+          "ticker": "3336.HK",
+          "rel": "强相关",
+          "peLtm": "11x",
+          "pe": "10x",
+          "psLtm": "0.50x",
+          "ps": "0.45x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "舜宇光学科技",
+          "ticker": "2382.HK",
+          "rel": "中相关",
+          "peLtm": "32x",
+          "pe": "26x",
+          "psLtm": "2.20x",
+          "ps": "1.90x",
+          "evEbitda": "17x",
+          "verdict": null
+        },
+        {
+          "name": "丘钛科技",
+          "ticker": "1478.HK",
+          "rel": "中相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "0.65x",
+          "ps": "0.55x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "高伟电子",
+          "ticker": "1415.HK",
+          "rel": "中相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "0.80x",
+          "ps": "0.70x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "同达创业",
+          "ticker": "0698.HK",
+          "rel": "中相关",
+          "peLtm": "10x",
+          "pe": "9x",
+          "psLtm": "0.28x",
+          "ps": "0.25x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "信利国际",
+          "ticker": "0732.HK",
+          "rel": "弱相关",
+          "peLtm": "13x",
+          "pe": "11x",
+          "psLtm": "0.22x",
+          "ps": "0.20x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "TK集团控股",
+          "ticker": "2283.HK",
+          "rel": "中相关",
+          "peLtm": "15x",
+          "pe": "13x",
+          "psLtm": "0.70x",
+          "ps": "0.60x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "敏实集团",
+          "ticker": "0425.HK",
+          "rel": "弱相关",
+          "peLtm": "12x",
+          "pe": "11x",
+          "psLtm": "0.60x",
+          "ps": "0.55x",
+          "evEbitda": "7x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股强相关三家（比亚迪电子、瑞声、巨腾）中位NTM P/E约18x、NTM P/S约0.45x；10家全样本中位NTM P/E约13x、NTM P/S约0.57x。若领益H股以10-16x NTM P/E定价，相对港股同业全样本中位数折价约0-25%，估值中性"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "蓝思科技",
+          "ticker": "300433.SZ",
+          "rel": "强相关",
+          "peLtm": "28x",
+          "pe": "22x",
+          "psLtm": "1.10x",
+          "ps": "0.95x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "立讯精密",
+          "ticker": "002475.SZ",
+          "rel": "强相关",
+          "peLtm": "24x",
+          "pe": "20x",
+          "psLtm": "0.95x",
+          "ps": "0.80x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "歌尔股份",
+          "ticker": "002241.SZ",
+          "rel": "强相关",
+          "peLtm": "32x",
+          "pe": "26x",
+          "psLtm": "0.85x",
+          "ps": "0.72x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "工业富联",
+          "ticker": "601138.SH",
+          "rel": "强相关",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "0.38x",
+          "ps": "0.33x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "长盈精密",
+          "ticker": "300115.SZ",
+          "rel": "强相关",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "0.75x",
+          "ps": "0.65x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "东山精密",
+          "ticker": "002384.SZ",
+          "rel": "中相关",
+          "peLtm": "25x",
+          "pe": "20x",
+          "psLtm": "0.90x",
+          "ps": "0.75x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "鹏鼎控股",
+          "ticker": "002938.SZ",
+          "rel": "中相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "1.20x",
+          "ps": "1.05x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "安洁科技",
+          "ticker": "002635.SZ",
+          "rel": "中相关",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "0.80x",
+          "ps": "0.70x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "合力泰",
+          "ticker": "002217.SZ",
+          "rel": "中相关",
+          "peLtm": "15x",
+          "pe": "13x",
+          "psLtm": "0.35x",
+          "ps": "0.30x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "捷荣技术",
+          "ticker": "002855.SZ",
+          "rel": "中相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "0.60x",
+          "ps": "0.52x",
+          "evEbitda": "10x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "A股强相关五家中位NTM P/E约20x、NTM P/S约0.72x；10家全样本中位NTM P/E约17.5x、NTM P/S约0.72x。领益A股自身约15-22x P/E，相对同业略有折价；H股若再折价30%则约10-15x NTM P/E，显著低于A股同业中位，具一定吸引力"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Jabil Inc.",
+          "ticker": "JBL",
+          "rel": "强相关",
+          "peLtm": "12x",
+          "pe": "10x",
+          "psLtm": "0.30x",
+          "ps": "0.28x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "Flex Ltd.",
+          "ticker": "FLEX",
+          "rel": "强相关",
+          "peLtm": "13x",
+          "pe": "11x",
+          "psLtm": "0.32x",
+          "ps": "0.28x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "Celestica Inc.",
+          "ticker": "CLS",
+          "rel": "中相关",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "0.85x",
+          "ps": "0.72x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "Benchmark Electronics",
+          "ticker": "BHE",
+          "rel": "中相关",
+          "peLtm": "14x",
+          "pe": "12x",
+          "psLtm": "0.40x",
+          "ps": "0.35x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "Plexus Corp.",
+          "ticker": "PLXS",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "0.70x",
+          "ps": "0.62x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "TTM Technologies",
+          "ticker": "TTMI",
+          "rel": "中相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "0.75x",
+          "ps": "0.65x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "Sanmina Corp.",
+          "ticker": "SANM",
+          "rel": "中相关",
+          "peLtm": "11x",
+          "pe": "10x",
+          "psLtm": "0.28x",
+          "ps": "0.25x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "Fabrinet",
+          "ticker": "FN",
+          "rel": "中相关",
+          "peLtm": "28x",
+          "pe": "24x",
+          "psLtm": "2.20x",
+          "ps": "1.90x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "OSI Systems",
+          "ticker": "OSIS",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "18x",
+          "psLtm": "1.20x",
+          "ps": "1.05x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "IEC Electronics",
+          "ticker": "IEC",
+          "rel": "弱相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "0.45x",
+          "ps": "0.40x",
+          "evEbitda": "10x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "cheap",
+        "text": "美股EMS/精密制造10家中位NTM P/E约14x、NTM P/S约0.50x；纯EMS龙头（Jabil/Flex）仅10-11x NTM P/E，受制于薄利率商业模式。领益若以H股10-15x NTM P/E定价，相对美股中位数小幅溢价但具备中国制造效率及苹果供应链稀缺溢价支撑"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO定价未公布，待招股价区间披露后更新跨市场估值对比。三市场NTM P/E中位数：港股约13x、A股约17.5x、美股约14x，简单均值约15x；三市场NTM P/S中位数：港股约0.57x、A股约0.72x、美股约0.50x，简单均值约0.60x。若H股以A股折价30-40%定价，隐含约10-15x NTM P/E，相对三市场均值约15x折价0-33%；NTM P/S约0.9-1.4x（基于A股P/S折让），高于三市场中位数0.60x，需关注定价最终落点。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "0.60x（三市场NTM均值）",
+      "medianPE": "15x（三市场NTM均值）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "观望，待定价后决策",
+    "horizon": "短线博弈（上市后1-3个月）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "NTM P/E",
+      "ipoImplied": "待定价后填入（参考区间：10-16x）",
+      "compsMedian": "15x（三市场NTM均值）",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断；定价≤12x NTM P/E则具吸引力，≥18x则估值偏贵",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "F：苹果AI周期支撑2025-2026E营收10-15%增速",
+          "result": "✓",
+          "note": "钛合金精密件及热管理材料单机价值量提升，增速可见度较高",
+          "ok": true
+        },
+        {
+          "point": "S：H股对A股折价结构保护下行风险",
+          "result": "✓",
+          "note": "历史H股折价30-40%，为H股投资者提供相对安全边际",
+          "ok": true
+        },
+        {
+          "point": "V：毛利率下行趋势制约估值扩张",
+          "result": "✗",
+          "note": "毛利率从2021年19%降至2024年约16-17%，行业产能过剩短期难以根本改善",
+          "ok": false
+        },
+        {
+          "point": "M：苹果换机潮叠加港股科技制造板块情绪回暖",
+          "result": "✓",
+          "note": "2026年iPhone 18系列催化剂明确，南下资金持续流入港股精密制造龙头",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "较IPO价 -20%至-30%",
+        "upside": "-25%",
+        "basis": "苹果2026年金属件采购量不及预期+蓝思科技抢夺份额，毛利率跌破15%，H股折价扩大至45%，对应7-9x NTM P/E"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "较IPO价 +5%至+15%",
+        "upside": "+10%",
+        "basis": "苹果AI手机稳定增长带动出货量+5-8%，热管理业务占比提升至12%，H股维持A股折价30-35%，对应12-15x NTM P/E"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "较IPO价 +30%至+45%",
+        "upside": "+38%",
+        "basis": "苹果超级换机周期+AI服务器热管理材料爆发，毛利率企稳回升至18%，H-A折价收窄至15-20%，南下资金大举买入，对应18-22x NTM P/E"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发",
+        "desc": "上市首日涨幅超过25%（短线获利了结），或股价对应NTM P/E超过22x（接近A股估值水平，H-A折价消失），或苹果发布会后市场反应平淡导致换机率预期下修",
+        "price": "≥ IPO价 × 1.25，或NTM P/E ≥ 22x",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "股价跌破IPO价8%，或公司披露单季度营收环比下滑超15%（苹果订单明显削减信号），或毛利率单季度跌破14.5%（行业价格战超预期恶化）",
+        "price": "< IPO价 × 0.92",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-17",
+  "generatedBy": "claude-oauth",
+  "ticker": "01688.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}

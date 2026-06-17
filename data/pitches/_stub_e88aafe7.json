@@ -1,0 +1,529 @@
+{
+  "name": "芯碁微裝",
+  "sector": "半导体设备 / PCB激光直写光刻与先进封装设备",
+  "rating": "BUY",
+  "score": 7.1,
+  "scoreColor": "var(--green)",
+  "tagline": "PCB直写光刻国内绝对龙头，出口管制红利叠加IC载板扩张打开第二增长曲线",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 8.0,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "A股主体688630.SH公开数据：2020-2023年营收复合增长约41%（2020年约2.6亿元→2023年约7.2亿元RMB），毛利率稳定于55-62%区间，净利率约20-25%，研发投入持续占比16-18%；PCB LDI（激光直写光刻）设备国内市占率约60-70%，对Orbotech（KLA旗下）和德国Limata的规模化替代已完成，技术壁垒体现在±1μm图形精度与高速多边形扫描系统一体化；扩展至IC载板和先进封装直写光刻（更高ASP 500-1000万元/台）形成第二增长曲线；在手订单/收入比约1.2-1.5x，12个月收入能见度良好"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A+H双重上市，A股688630.SH提供清晰定价锚；H股历史较A股折让约25-35%区间，可预判合理H股估值区间；招股价区间、募集规模、新旧股比例及基石投资者阵容截至分析日期均未披露，IPO结构最大不确定性在于旧股套现比例（若偏高则募集资金使用可信度打折）；半导体设备赛道有望吸引主权基金及专业半导体机构投资者担任基石，此为重要加分项，待披露确认"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO价格未公布，无法计算隐含倍数；参照A股同业（688012中微/002371北方华创）LTM P/E中位35-45x、P/S中位9-11x；H股合理折让后区间：LTM P/E 22-32x、LTM P/S 6-8x；美股KLA P/S约9x、Onto Innovation P/S约4.5x作为国际参照上下限；若H股定价隐含P/S低于5.5x则具备明显吸引力（折让≥40%），高于9x则风险收益比趋差；建议定价公布后更新本项评分"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.5,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "美国BIS出口管制持续升级（KLA、应用材料、ASML均受限），直接驱动国内PCB及IC载板厂商将LDI设备采购战略性转向芯碁；2025-2026年PCB行业资本支出景气上行周期，HDI及ABF载板产能扩张驱动设备需求；大基金三期及专项补贴为下游客户设备更新提供资金支持；港股半导体/科技板块2025年以来估值修复，南下资金对国产替代设备标的偏好提升；风险项：若中美科技谈判出现意外缓和导致进口设备限制松绑，短期情绪或承压"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "PCB LDI设备国内绝对龙头，技术护城河持续深化",
+      "desc": "芯碁微裝在PCB激光直写光刻（LDI）细分领域国内市占率约60-70%，是唯一实现对Orbotech（现KLA旗下）和德国Limata规模化替代的国内供应商。LDI设备核心难点在于皮秒/纳秒激光光源控制、高速多边形扫描系统（最高10000转/分钟）与光学引擎的精密集成，以及贴合PCB板翘曲的实时对焦算法，整套系统国内能实现量产交付者仅芯碁一家。随着精度需求推进至±1μm以内（HDI及mSAP工艺），技术壁垒持续强化，新进入者复制周期长达5年以上。"
+    },
+    {
+      "title": "IC载板直写光刻打开第二增长曲线，ASP较PCB设备翻倍至5倍",
+      "desc": "传统PCB LDI设备单台ASP约200-400万元RMB，而用于ABF载板（IC Substrate）的直写光刻设备单台ASP可达500-1000万元RMB以上，毛利率亦更高。AI芯片算力需求驱动Chiplet封装和2.5D/3D集成加速，全球ABF载板产能持续扩张至2027年需求仍处于紧张状态。芯碁微裝已切入台湾及大陆IC载板厂商供应链，若载板设备收入占比由约10%提升至30%，将显著改善收入结构并驱动毛利率向65%以上跃升。"
+    },
+    {
+      "title": "出口管制政策红利加速国产渗透，H股上市提供外币融资支撑出海",
+      "desc": "美国BIS对KLA、应用材料等设备公司的对华销售管制持续加码，国内PCB和IC载板厂商被迫将设备采购战略上国产化，芯碁微裝为最直接受益标的。公司在手订单/收入比维持1.2-1.5倍区间，12个月收入能见度充足。H股上市可为公司提供HKD/USD融资渠道，支撑海外服务中心建设、境外研发合作及东南亚客户开拓，与单纯A股融资相比战略价值更高。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "PCB/IC载板资本支出骤然下行导致订单延迟或取消，历史已有先例",
+      "desc": "LDI设备单台价值高（200-1000万元），客户采购决策对下游消费电子及服务器需求高度敏感。2023年PCB行业即出现过库存去化周期，部分LDI设备交付时间从签约到确认收入延迟超过两个季度，导致该年度营收增速低于市场预期。若AI服务器资本支出在2026年出现类似2023年内存行业的骤然去化（参考2023年SK海力士/三星大幅削减CapEx），或深南电路/沪电股份等主要客户延迟扩产计划，订单转化周期拉长将直接压制收入增速，并对高估值倍数形成修正压力。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "IC载板客户验证周期长达12-24个月，第二增长曲线兑现节奏存重大不确定性",
+      "desc": "ABF载板直写光刻设备技术要求（精度<2μm、超低颗粒污染、与ABF基材热膨胀系数适配）远高于普通PCB设备，客户工厂验证流程通常需要12-24个月且无法压缩。目前IC载板设备在总营收中占比偏低（约10%），若主要ABF载板客户（台湾欣兴、南亚、景硕等）验证结果不达标、要求迭代改进，或继续选用传统步进曝光机方案，则高附加值业务放量时间线后移，支撑高估值倍数的增长故事兑现节奏将受质疑，并引发估值收缩风险。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "中微公司",
+          "ticker": "2380.HK",
+          "rel": "强相关",
+          "peLtm": "45x",
+          "pe": "35x",
+          "psLtm": "11x",
+          "ps": "9x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "ASM太平洋",
+          "ticker": "522.HK",
+          "rel": "强相关",
+          "peLtm": "18x",
+          "pe": "16x",
+          "psLtm": "1.5x",
+          "ps": "1.4x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "华虹半导体",
+          "ticker": "1347.HK",
+          "rel": "中相关",
+          "peLtm": "25x",
+          "pe": "20x",
+          "psLtm": "2.2x",
+          "ps": "2.0x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "中芯国際",
+          "ticker": "981.HK",
+          "rel": "中相关",
+          "peLtm": "30x",
+          "pe": "24x",
+          "psLtm": "2.4x",
+          "ps": "2.2x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "华润微电子",
+          "ticker": "1731.HK",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "19x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "比亚迪电子",
+          "ticker": "285.HK",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "0.3x",
+          "ps": "0.3x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "舜宇光学",
+          "ticker": "2382.HK",
+          "rel": "弱相关",
+          "peLtm": "26x",
+          "pe": "22x",
+          "psLtm": "1.5x",
+          "ps": "1.3x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "瑞声科技",
+          "ticker": "2018.HK",
+          "rel": "弱相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "1.0x",
+          "ps": "0.9x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "建滔化工",
+          "ticker": "148.HK",
+          "rel": "弱相关",
+          "peLtm": "9x",
+          "pe": "8x",
+          "psLtm": "0.5x",
+          "ps": "0.5x",
+          "evEbitda": "4x",
+          "verdict": null
+        },
+        {
+          "name": "丘钛科技",
+          "ticker": "1229.HK",
+          "rel": "弱相关",
+          "peLtm": "17x",
+          "pe": "14x",
+          "psLtm": "0.8x",
+          "ps": "0.7x",
+          "evEbitda": "7x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "港股半导体设备可比标的稀缺，强相关仅中微公司（2380.HK）和ASM太平洋（522.HK）；10家comp的LTM P/E中位约21x、P/S中位约1.7x（受弱相关电子制造企业拉低）；若仅取强/中相关5家，P/E中位约25x、P/S中位约2.2x。港股本身对半导体设备给予的P/S较低，芯碁H股若定价于P/S 6x以上须倚靠A股锚定溢价逻辑，港股流动性相对A股的折让是关键观察变量"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "北方华创",
+          "ticker": "002371.SZ",
+          "rel": "强相关",
+          "peLtm": "40x",
+          "pe": "32x",
+          "psLtm": "9x",
+          "ps": "7.5x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "中微公司",
+          "ticker": "688012.SH",
+          "rel": "强相关",
+          "peLtm": "58x",
+          "pe": "44x",
+          "psLtm": "14x",
+          "ps": "11x",
+          "evEbitda": "30x",
+          "verdict": null
+        },
+        {
+          "name": "华海清科",
+          "ticker": "688120.SH",
+          "rel": "强相关",
+          "peLtm": "38x",
+          "pe": "30x",
+          "psLtm": "11x",
+          "ps": "9x",
+          "evEbitda": "19x",
+          "verdict": null
+        },
+        {
+          "name": "盛美上海",
+          "ticker": "688082.SH",
+          "rel": "强相关",
+          "peLtm": "30x",
+          "pe": "24x",
+          "psLtm": "6x",
+          "ps": "5x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "芯源微",
+          "ticker": "688037.SH",
+          "rel": "强相关",
+          "peLtm": "42x",
+          "pe": "34x",
+          "psLtm": "9x",
+          "ps": "7x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "拓荆科技",
+          "ticker": "688072.SH",
+          "rel": "中相关",
+          "peLtm": "50x",
+          "pe": "38x",
+          "psLtm": "10x",
+          "ps": "8x",
+          "evEbitda": "24x",
+          "verdict": null
+        },
+        {
+          "name": "晶盛机电",
+          "ticker": "300316.SZ",
+          "rel": "中相关",
+          "peLtm": "25x",
+          "pe": "21x",
+          "psLtm": "5x",
+          "ps": "4.5x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "至纯科技",
+          "ticker": "603690.SH",
+          "rel": "中相关",
+          "peLtm": "32x",
+          "pe": "26x",
+          "psLtm": "4x",
+          "ps": "3.5x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "华峰测控",
+          "ticker": "688200.SH",
+          "rel": "弱相关",
+          "peLtm": "28x",
+          "pe": "23x",
+          "psLtm": "7x",
+          "ps": "6x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "天准科技",
+          "ticker": "688003.SH",
+          "rel": "中相关",
+          "peLtm": "30x",
+          "pe": "24x",
+          "psLtm": "5x",
+          "ps": "4x",
+          "evEbitda": "13x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "A股半导体设备板块享受科创板政策溢价，强相关5家LTM P/E中位约40x、P/S中位约9x；芯碁微裝A股688630.SH本身即交易于该区间。H股若以25-35%折让定价，隐含LTM P/E约26-30x、LTM P/S约6-7x，仍属整体合理区间；若折让超过35%（H股P/S<5.5x）则对打新投资者具备明显吸引力"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "KLA Corporation",
+          "ticker": "KLAC",
+          "rel": "强相关",
+          "peLtm": "24x",
+          "pe": "22x",
+          "psLtm": "9x",
+          "ps": "8.5x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "Onto Innovation",
+          "ticker": "ONTO",
+          "rel": "强相关",
+          "peLtm": "27x",
+          "pe": "21x",
+          "psLtm": "4.5x",
+          "ps": "4.0x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "Axcelis Technologies",
+          "ticker": "ACLS",
+          "rel": "强相关",
+          "peLtm": "14x",
+          "pe": "13x",
+          "psLtm": "2.5x",
+          "ps": "2.4x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "Photronics",
+          "ticker": "PLAB",
+          "rel": "中相关",
+          "peLtm": "11x",
+          "pe": "10x",
+          "psLtm": "1.8x",
+          "ps": "1.7x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "Cohu",
+          "ticker": "COHU",
+          "rel": "中相关",
+          "peLtm": "20x",
+          "pe": "16x",
+          "psLtm": "1.4x",
+          "ps": "1.3x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "Ultra Clean Holdings",
+          "ticker": "UCTT",
+          "rel": "中相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "0.5x",
+          "ps": "0.5x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "Veeco Instruments",
+          "ticker": "VECO",
+          "rel": "中相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "FormFactor",
+          "ticker": "FORM",
+          "rel": "弱相关",
+          "peLtm": "24x",
+          "pe": "19x",
+          "psLtm": "2.3x",
+          "ps": "2.0x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "MKS Instruments",
+          "ticker": "MKSI",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "1.4x",
+          "ps": "1.3x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "Ichor Holdings",
+          "ticker": "ICHR",
+          "rel": "弱相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "0.4x",
+          "ps": "0.4x",
+          "evEbitda": "7x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股半导体设备强相关3家LTM P/E中位约20x、P/S中位约4.5x；KLA凭借全球检测设备垄断地位享有P/S 9x溢价，Axcelis（离子注入设备）P/S仅2.5x反映更窄的细分市场。芯碁微裝若以P/S 6-7x（H股）定价，高于美股全口径中位（约1.9x）但低于强相关中位（4.5x），区间合理；美股comps主要作为估值天花板和下限的双向参照"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO定价尚未公布，待招股价公布后更新跨市场估值对比。三市场强相关（共9家）LTM P/E中位约27x、LTM P/S中位约6.5x（A股溢价显著拉高中位数）；若H股较A股688630.SH折让约30%，隐含LTM P/E约26-30x、LTM P/S约6-7x，落于三市场强相关中位区间内，属合理定价区间。核心判断节点：H股定价若P/S<5.5x（折让≥40%）则积极申购；P/S>9x（超越KLA等全球龙头）则应规避。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "6.5x（三市场强相关中位）",
+      "medianPE": "27x（三市场强相关中位）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "招股价公布后验证P/S区间，定价合理则积极申购",
+    "horizon": "3-6个月（打新策略）；12-24个月（若IC载板业务如期放量则中线持有）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": null,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "6.5x（三市场强相关中位）；H股合理区间5.5-7.5x",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "基本面 (F)：LDI设备国内龙头地位、毛利率55-62%、营收CAGR 2020-2023约41%",
+          "result": "✓",
+          "note": "A股688630.SH历年财报验证，基本面质量显著优于同规模制造业，R&D强度16-18%支撑技术领先性",
+          "ok": true
+        },
+        {
+          "point": "基本面 (F)：IC载板直写设备营收占比仍低（约10%），第二增长曲线处于验证期",
+          "result": "✗",
+          "note": "高ASP业务放量节奏存在不确定性（验证周期12-24个月），是支撑高估值倍数持续性的核心变量",
+          "ok": false
+        },
+        {
+          "point": "结构 (S)：A+H双重上市，A股688630.SH为直接定价锚，A-H折让区间历史可参照",
+          "result": "✓",
+          "note": "A股定价透明，H股投资者享有明确估值参照系，打新价值清晰",
+          "ok": true
+        },
+        {
+          "point": "结构 (S)：IPO定价、基石投资者阵容及新旧股比例均未披露",
+          "result": "✗",
+          "note": "旧股套现比例若偏高将影响市场信心，基石阵容质量是重要信号，须待A1披露后确认",
+          "ok": false
+        },
+        {
+          "point": "估值 (V)：H股定价是否落于P/S 5.5-7.5x合理区间（A股折让30-35%）",
+          "result": "⚠",
+          "note": "须待招股价公布后验证；<5.5x积极申购，>9x应回避，6-8x区间属正常打新价值",
+          "ok": false
+        },
+        {
+          "point": "时机 (M)：出口管制驱动国产替代加速、PCB景气上行、港股半导体情绪改善",
+          "result": "✓",
+          "note": "政策与产业周期均处于利好窗口，南下资金对国产替代设备标的偏好提升",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "IPO价 × 0.80",
+        "upside": "-20%",
+        "basis": "H股定价偏贵（P/S>9x）且IC载板验证进展缓慢；或PCB客户资本支出骤降导致订单延迟，市场压缩估值至P/S 5x以下（对应A股折让>40%）；或旧股套现比例偏高引发抛压"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "IPO价 × 1.15-1.25",
+        "upside": "+15%至+25%",
+        "basis": "H股较A股折让约30%合理定价（P/S 6-7x），南下资金流入支撑；PCB及IC载板业务按计划推进；上市后3-6个月内打新收益温和兑现"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "IPO价 × 1.40-1.60",
+        "upside": "+40%至+60%",
+        "basis": "IC载板直写设备批量验证通过并贡献营收（占比升至30%以上），毛利率向65%+跃升；出口管制再度强化驱动估值重估；A-H折让收窄至15%以内，市场给予P/S 9-10x（对标KLA）"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发",
+        "desc": "上市后H股涨幅触及+40%，或H股P/S隐含估值高于A股688630.SH同期（A-H折让转为溢价），或IC载板设备连续两季度营收低于管理层指引，则分批减仓锁定打新收益",
+        "price": "≥ IPO价 +40%",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "主要PCB客户（深南电路/沪电股份等）公告大幅削减设备采购预算，或出口管制意外松动（竞争对手进口设备限制解除），或股价较IPO价跌破-15%，则止损出场",
+        "price": "< IPO价 -15%",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-17",
+  "generatedBy": "claude-oauth",
+  "ticker": "09630.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}

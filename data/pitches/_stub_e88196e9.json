@@ -1,0 +1,518 @@
+{
+  "name": "聖邦股份",
+  "sector": "模拟半导体 / Analog IC Design",
+  "rating": "WATCH",
+  "score": 6.8,
+  "scoreColor": "var(--yellow)",
+  "tagline": "中国模拟IC国产替代核心标的，A股高估值锚定H股定价是关键变量",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 7.5,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "Fabless设计模式，毛利率稳定在60%+，2023年因行业去库存收入下滑约20%至约13.2亿元人民币，2024年随下游补货恢复至约18亿元；R&D费用率约20%，产品覆盖LDO/DC-DC/运放/比较器等2000+个SKU；净利率2022年约25%、2023年压缩至约12%、2024年回升至约18%；客户基础分散，无单一大客户集中风险"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A股(300661.SZ)赴港H股二次上市，非首次IPO；募集资金规模及用途待A1文件确认；现有A股股东锁定期安排为关键结构风险；H股历史较A股折价20-40%，为H股认购方提供相对安全边际；但港股模拟IC板块几乎无强相关标的，定价锚缺失导致流动性折价风险；基石投资者阵容待披露"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A股当前约65-80x NTM P/E，属国产替代叙事溢价的历史偏高区间；H股若以25-35%折价定价则隐含约42-60x NTM P/E，仍显著高于美股analog同行中位（TI/ADI约22-28x）；若与成长型MPWR（约42x NTM P/E）对比则接近合理上沿；IPO价格未公布，估值分待定价后验证"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.5,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "半导体行业2024年起进入上行周期，模拟IC去库存基本完成；中国国产替代加速（模拟IC国产化率仍低于30%，TI/ADI市占率超50%）；地缘政治推动本土供应链战略采购；港股科技板块情绪改善，南下资金活跃；宏观压力及中美关税政策仍为潜在扰动"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "国产替代核心受益标的，市占率持续提升",
+      "desc": "中国模拟IC市场规模超2000亿元人民币，国产化率不足30%，TI/ADI等美国厂商市占率超50%。圣邦凭借2000+个SKU产品矩阵、稳定60%+毛利率和约20%的R&D费用率，在LDO、DC-DC、运放等核心品类中逐步替代进口，已打入华为、小米、比亚迪等国内一线客户供应链。贸易管制持续强化将进一步加速国内IDH对进口模拟IC的替代进程，圣邦作为国内品类最全的模拟IC供应商受益最为直接。"
+    },
+    {
+      "title": "汽车+工业市场打开第二增长曲线，毛利结构改善",
+      "desc": "公司持续投入车规级（AEC-Q100）及工业级产品认证，汽车电子和工业控制的模拟IC一旦导入即具备高切换成本，相比消费电子低端竞争毛利率更高（预计65-70%）。若车规产品收入占比从当前约10%提升至20%+，将驱动整体毛利率从60%提升至63%+，净利率弹性显著；新能源汽车单车模拟IC用量约为传统燃油车的3-5倍，为圣邦提供长达5-7年的结构性增量。"
+    },
+    {
+      "title": "周期底部已过，收入与利润弹性双重释放",
+      "desc": "2023年行业去库存导致圣邦收入下滑约20%，公司通过维持约20%研发费用率保持技术竞争力，产品线持续扩充。2024年下游客户库存恢复健康水位，补货需求驱动收入重回增长；公司同步推出高集成度SoC型产品提升ASP，出货量增速有望低于收入增速，表明产品结构升级驱动，非单纯量涨，支撑毛利率高位并带来更强利润弹性。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "消费电子收入占比超50%，同质化竞争白热化压缩低端产品毛利",
+      "desc": "圣邦收入结构中消费电子（手机、可穿戴、IoT）占比仍超50%，国内模拟IC厂商（思瑞浦688536、艾为电子688798、南芯科技688484、帝奥微688381等）数量超百家，低端LDO/DC-DC产品已出现价格战；2023年圣邦低端产品ASP下滑约8-12%，若手机/IoT需求再次走弱叠加竞争对手产能释放，公司将再度承压，且与2023年相比竞争环境已更恶化。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "A/H估值剪刀差风险：A股高估值锚点若收缩，H股无独立支撑",
+      "desc": "圣邦A股(300661.SZ)历史NTM P/E常处60-100x高位，系国产替代叙事溢价而非基本面支撑；若A股科技板块经历估值收缩（参考2021年抱团瓦解），H股将面临A股锚点下移叠加A-H折价扩大的双重压力；港股模拟IC设计公司近乎空白，H股可能长期以流动性折价交易，机构定价效率低，散户认购者承担更大市场风险。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "中芯国际",
+          "ticker": "0981.HK",
+          "rel": "弱相关",
+          "peLtm": "28x",
+          "pe": "22x",
+          "psLtm": "2.8x",
+          "ps": "2.5x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "华虹半导体",
+          "ticker": "1347.HK",
+          "rel": "弱相关",
+          "peLtm": "38x",
+          "pe": "28x",
+          "psLtm": "3.2x",
+          "ps": "2.8x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "华润微电子",
+          "ticker": "1157.HK",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "3.8x",
+          "ps": "3.3x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "ASM Pacific",
+          "ticker": "0522.HK",
+          "rel": "弱相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "1.3x",
+          "ps": "1.1x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "舜宇光学科技",
+          "ticker": "2382.HK",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "1.0x",
+          "ps": "0.9x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "比亚迪电子",
+          "ticker": "0285.HK",
+          "rel": "弱相关",
+          "peLtm": "14x",
+          "pe": "12x",
+          "psLtm": "0.4x",
+          "ps": "0.35x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "昂纳科技",
+          "ticker": "0877.HK",
+          "rel": "弱相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "0.8x",
+          "ps": "0.7x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "高伟电子",
+          "ticker": "1415.HK",
+          "rel": "弱相关",
+          "peLtm": "15x",
+          "pe": "13x",
+          "psLtm": "0.6x",
+          "ps": "0.55x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "科通芯城",
+          "ticker": "0400.HK",
+          "rel": "弱相关",
+          "peLtm": "13x",
+          "pe": "11x",
+          "psLtm": "0.2x",
+          "ps": "0.18x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "中兴通讯",
+          "ticker": "0763.HK",
+          "rel": "弱相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "0.7x",
+          "ps": "0.62x",
+          "evEbitda": "8x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "港股半导体板块以代工厂（中芯/华虹/华润微）为主，模拟IC Fabless设计公司近乎空白，强相关标的缺失。10家全样本NTM P/E中位约14x、NTM P/S中位约0.9x；唯一中相关的华润微（功率IC）NTM P/E约18x、P/S约3.3x。若圣邦H股参照A股60-80x P/E定价，相对港股同业溢价3-5倍，结构稀缺可支撑溢价但幅度存疑。"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "思瑞浦",
+          "ticker": "688536.SH",
+          "rel": "强相关",
+          "peLtm": "95x",
+          "pe": "65x",
+          "psLtm": "18x",
+          "ps": "14x",
+          "evEbitda": "55x",
+          "verdict": null
+        },
+        {
+          "name": "帝奥微",
+          "ticker": "688381.SH",
+          "rel": "强相关",
+          "peLtm": "80x",
+          "pe": "55x",
+          "psLtm": "16x",
+          "ps": "12x",
+          "evEbitda": "45x",
+          "verdict": null
+        },
+        {
+          "name": "南芯科技",
+          "ticker": "688484.SH",
+          "rel": "强相关",
+          "peLtm": "45x",
+          "pe": "35x",
+          "psLtm": "8x",
+          "ps": "6.5x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "艾为电子",
+          "ticker": "688798.SH",
+          "rel": "强相关",
+          "peLtm": "120x",
+          "pe": "80x",
+          "psLtm": "22x",
+          "ps": "16x",
+          "evEbitda": "65x",
+          "verdict": null
+        },
+        {
+          "name": "纳芯微",
+          "ticker": "688052.SH",
+          "rel": "强相关",
+          "peLtm": "亏损",
+          "pe": "100x",
+          "psLtm": "20x",
+          "ps": "15x",
+          "evEbitda": "亏损",
+          "verdict": null
+        },
+        {
+          "name": "芯朋微",
+          "ticker": "688508.SH",
+          "rel": "中相关",
+          "peLtm": "35x",
+          "pe": "28x",
+          "psLtm": "6x",
+          "ps": "5x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "希荻微",
+          "ticker": "688173.SH",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "85x",
+          "psLtm": "15x",
+          "ps": "12x",
+          "evEbitda": "亏损",
+          "verdict": null
+        },
+        {
+          "name": "晶丰明源",
+          "ticker": "688368.SH",
+          "rel": "中相关",
+          "peLtm": "30x",
+          "pe": "25x",
+          "psLtm": "5x",
+          "ps": "4x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "芯海科技",
+          "ticker": "688595.SH",
+          "rel": "中相关",
+          "peLtm": "55x",
+          "pe": "40x",
+          "psLtm": "10x",
+          "ps": "8x",
+          "evEbitda": "30x",
+          "verdict": null
+        },
+        {
+          "name": "力芯微",
+          "ticker": "688601.SH",
+          "rel": "中相关",
+          "peLtm": "40x",
+          "pe": "30x",
+          "psLtm": "7x",
+          "ps": "5.5x",
+          "evEbitda": "22x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "A股模拟IC同行普遍享有国产替代叙事溢价，强相关5家NTM P/E中位约65x、NTM P/S中位约14x；10家全样本NTM P/E中位约45x、NTM P/S中位约10x。圣邦A股约70x NTM P/E处于同行中等偏上水平；H股若以30%折价定价则约50x，相对全样本中位（45x）仍有小幅溢价，体现品类最全规模最大的龙头溢价。"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Texas Instruments",
+          "ticker": "TXN",
+          "rel": "强相关",
+          "peLtm": "32x",
+          "pe": "25x",
+          "psLtm": "8x",
+          "ps": "7x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "Analog Devices",
+          "ticker": "ADI",
+          "rel": "强相关",
+          "peLtm": "45x",
+          "pe": "28x",
+          "psLtm": "9x",
+          "ps": "8x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "Monolithic Power Systems",
+          "ticker": "MPWR",
+          "rel": "强相关",
+          "peLtm": "55x",
+          "pe": "42x",
+          "psLtm": "15x",
+          "ps": "12x",
+          "evEbitda": "38x",
+          "verdict": null
+        },
+        {
+          "name": "Microchip Technology",
+          "ticker": "MCHP",
+          "rel": "中相关",
+          "peLtm": "20x",
+          "pe": "16x",
+          "psLtm": "4x",
+          "ps": "3.5x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "Semtech",
+          "ticker": "SMTC",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "35x",
+          "psLtm": "3x",
+          "ps": "2.8x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "Silicon Laboratories",
+          "ticker": "SLAB",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "50x",
+          "psLtm": "6x",
+          "ps": "5x",
+          "evEbitda": "30x",
+          "verdict": null
+        },
+        {
+          "name": "Skyworks Solutions",
+          "ticker": "SWKS",
+          "rel": "弱相关",
+          "peLtm": "12x",
+          "pe": "11x",
+          "psLtm": "2.5x",
+          "ps": "2.3x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "MaxLinear",
+          "ticker": "MXL",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "25x",
+          "psLtm": "3x",
+          "ps": "2.5x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "Cirrus Logic",
+          "ticker": "CRUS",
+          "rel": "中相关",
+          "peLtm": "18x",
+          "pe": "16x",
+          "psLtm": "4x",
+          "ps": "3.5x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "Littelfuse",
+          "ticker": "LFUS",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "11x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "美股analog龙头TI/ADI NTM P/E约25-28x，成长型MPWR约42x；10家全样本NTM P/E中位约26x、NTM P/S中位约5x。圣邦若以H股约50x NTM P/E定价，相对美股全样本中位溢价约92%；即使对标MPWR（最接近圣邦增速特征的美股标的），仍溢价约20%，纯基本面估值明显偏贵，需依赖国产替代叙事和港股稀缺性支撑。"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO价格未公布，待定价后更新。三市场强/中相关标的NTM P/E参考中位：A股约45-65x、美股约26x、港股（中相关华润微）约18x；三市场加权中位约30-40x（剔除A股国产替代溢价后）。圣邦A股约70x NTM P/E隐含较高溢价；H股若体现30-35%折价（约45-50x NTM P/E），处三市场中位偏高端，估值吸引力主要依赖成长性兑现和国产替代预期持续。待IPO定价公布后更新跨市场折溢价分析。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "约8-10x（三市场强/中相关NTM加权中位）",
+      "medianPE": "约30-40x（三市场强/中相关NTM加权中位）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "上市首日观察，定价≤50x NTM P/E方可考虑认购",
+    "horizon": "6-12个月",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "NTM P/E",
+      "ipoImplied": "待定价后填入（参考区间：42-60x，基于A折25-40%）",
+      "compsMedian": "30-40x（三市场强/中相关NTM加权中位）",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断；NTM P/E≤45x具吸引力，≥60x则高估",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "F：毛利率60%+，2024年收入从底部恢复约36%增长",
+          "result": "✓",
+          "note": "基本面恢复趋势明确，周期底部已过，2025E增速预计15-20%",
+          "ok": true
+        },
+        {
+          "point": "S：H股对A股折价是否达25%以上（NTM P/E≤52x）",
+          "result": "⚠",
+          "note": "历史H-A折价约25-40%；折价不足20%则估值保护不够，锁定期抛压是结构风险",
+          "ok": false
+        },
+        {
+          "point": "V：定价隐含NTM P/E是否与MPWR（42x）可比或更低",
+          "result": "⚠",
+          "note": "若H股NTM P/E>50x，需确认圣邦增速能否超越MPWR历史增速25%+",
+          "ok": false
+        },
+        {
+          "point": "M：半导体上行周期+国产替代加速双重顺风利好持续",
+          "result": "✓",
+          "note": "2024-2026年行业环境改善，地缘政治对国产模拟IC需求形成结构性支撑",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "较IPO价 -20%至-30%",
+        "upside": "-25%",
+        "basis": "消费电子需求再次走弱，国内百家模拟IC价格战使毛利率跌至57%以下，A股国产替代叙事降温导致估值收缩至40-50x，H股锚点下移叠加折价扩大，对应约30-35x NTM P/E"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "较IPO价 +10%至+20%",
+        "upside": "+15%",
+        "basis": "半导体上行周期持续，2025年收入增长15-20%达约22亿元，毛利率维持62%+，车规产品收入占比提升至15%，H股稳定在A折30%（约50x NTM P/E），南下资金温和介入"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "较IPO价 +35%至+55%",
+        "upside": "+45%",
+        "basis": "车规产品超预期突破（占比升至20%+），毛利率提升至65%以上，国产替代叙事强化带动A股估值扩张，H-A折价收窄至15%，对应约60x NTM P/E；机构大举配置港股稀缺模拟IC标的"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发",
+        "desc": "上市后股价对应NTM P/E超过65x（接近A股最高估值，H-A折价消失），或单季度毛利率环比下滑超过2个百分点（产品结构恶化信号），或汽车收入占比连续两个季度低于预期（<10%）",
+        "price": "≥ IPO价 × 1.35，或NTM P/E ≥ 65x",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "股价跌破IPO价10%，或单季度毛利率跌破58%（价格战超预期恶化），或孖展认购倍数低于10倍（机构需求不足，流动性差信号）",
+        "price": "< IPO价 × 0.90",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-17",
+  "generatedBy": "claude-oauth",
+  "ticker": "03661.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": "",
+  "_dataNote": "A1招股文件未获取，财务数据基于A股(300661.SZ)公开年报及行业知识估算（收入2023约13.2亿元、2024E约18亿元，毛利率60%+，R&D费用率约20%）。待A1文件公开后需全面核实更新。"
+}

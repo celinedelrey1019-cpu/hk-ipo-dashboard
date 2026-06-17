@@ -1,0 +1,517 @@
+{
+  "name": "MERDEKAGOLD-DRS",
+  "sector": "黄金开采 · 印尼资源板块",
+  "rating": "WATCH",
+  "score": 6.3,
+  "scoreColor": "var(--yellow)",
+  "tagline": "印尼第二大黄金矿企DR赴港，Pani超级金矿驱动储量重估",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 7.0,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "母公司PT Merdeka Copper Gold（IDX:MDKA）为印尼第二大黄金生产商；Tujuh Bukit金矿（东爪哇）全额在产，年产金约15万盎司，AISC约$850-950/盎司；旗舰开发资产Pani Gold Project（苏拉威西Gorontalo省）探明+推断资源量约1,360万盎司金，属全球前十大未开发露天金矿；金价$3,200/盎司背景下，Tujuh Bukit单盎司EBITDA利润率约67%（同期2022年约50%）；待A1招股文件确认实际合并营收、AISC趋势及Pani开发资本开支计划"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "采用港交所存托凭证（DR）结构，本质为IDX主板MDKA港股映射；价格发现主要在雅加达交易所，港股DR流动性偏弱，DR兑换（IDR→HKD、存托成本约0.5-1%）形成结构性折价；无传统IPO定价区间及孖展认购机制，超额认购指标不适用；基石投资者结构、DR/股比例及港股通资格待A1文件披露；DR挂牌初期成交量预期偏低"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "DR定价锚定IDX主板MDKA现价（约IDR 8,500-9,500，对应市值约USD 28-33亿）；隐含NTM P/E约14-18x、NTM EV/EBITDA约7-9x，与港股同类黄金矿企中位基本吻合；若Pani项目2027年投产预期成立，则NAV重估空间可支撑30-40%溢价；但开发期资本开支（预估USD 10-15亿）对现金流形成压力，制约近期估值向上弹性；待DR正式发行价公布后计算具体折溢价"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 8.5,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "黄金价格于2025年底突破$3,000/盎司后于2026年上半年维持$3,100-3,300历史高位；全球央行购金量2024年超1,000吨（历史次高）、中东地缘政治持续紧张、美元指数趋弱三重驱动；港股资源股2026年上半年跟随金价走强，恒生资源能源板块相对跑赢；东南亚资源DR赴港上市窗口稀缺，市场对印尼优质黄金资产配置需求旺盛"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "Pani超大型金矿驱动储量重估，NAV较当前市值存在30-50%低估",
+      "desc": "Pani Gold Project（Gorontalo省）探明+推断资源量约1,360万盎司金，为全球前十大未开发露天金矿之一；预计2026-2027年投产后年均产金40-60万盎司，AISC约$500-700/盎司（显著低于Tujuh Bukit）；以$3,000+金价、行业通用EV/oz约$300-400/盎司（储量级别）估算，Pani单资产NPV贡献约USD 40-55亿，超过当前整体市值；Pani投产是核心价值催化剂，预期18-24个月内释放"
+    },
+    {
+      "title": "黄金结构性牛市叠加超低AISC，自由现金流大幅释放",
+      "desc": "Tujuh Bukit矿山AISC约$900/盎司，金价$3,200背景下单盎司现金利润超$2,300，较2022年（金价$1,800、AISC$850，利润$950）提升超140%；若Pani 2027年投产使合并产金量达65-80万盎司/年，年度EBITDA可达USD 14-18亿，对应2-3年自由现金流回收当前市值；极高的现金流转化能力支持分红或Pani资本开支自筹，降低稀释风险"
+    },
+    {
+      "title": "港股印尼黄金矿企极度稀缺，DR启动带来稀缺性溢价与南向资金首次配置窗口",
+      "desc": "港股当前无大市值纯印尼黄金矿企标的；东南亚黄金资产同类可比（OceanaGold、Endeavour Mining）均在澳/美上市，中国内地机构投资者配置受限；MERDEKAGOLD以DR形式挂牌港股，若纳入港股通则为南向资金提供首次直接配置印尼黄金资产的通道；参照紫金矿业港股稀缺性溢价逻辑，DR流量稳定后存在相对IDX的结构性溢价形成可能"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "Pani Gold Project建设延期及资本开支超支风险",
+      "desc": "Pani项目位于苏拉威西Gorontalo偏远山区，配套道路（约120公里山地道路）、330kV输电线路及尾矿坝建设复杂；参照印尼同类项目历史（PT Amman Mineral Nusa Tenggara、PT Vale Indonesia），山区矿山从动工到首产平均延期18-30个月，资本开支超支比例达30-50%；Pani预估总资本开支USD 10-15亿，若实际达USD 18-20亿且建设延至2029年，当前储量重估逻辑全面失效，股价将回落至纯Tujuh Bukit现金流估值，较当前市值折价30-40%"
+    },
+    {
+      "icon": "⚠️",
+      "title": "印尼矿权政策风险：ESDM续证条件变化及国有股权强制稀释",
+      "desc": "印尼能矿部（ESDM）2023-2025年持续上调黄金矿山出口税（从5%升至7.5%）并强化境内选冶加工要求（DMORC）；Tujuh Bukit采矿证（IUP-OP）到期年份及续证条件若附加新的政府持股要求（参照Freeport Grasberg案例要求51%国有化），DR持有者权益将被强制稀释；印尼政府历史上曾对外资矿企征收额外「特别采矿税」（IUPK机制），若面临类似政策调整，年度EBITDA可能下降15-25%"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "紫金矿业",
+          "ticker": "02899.HK",
+          "rel": "强相关",
+          "peLtm": "13x",
+          "pe": "11x",
+          "psLtm": "1.8x",
+          "ps": "1.5x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "山东黄金",
+          "ticker": "01787.HK",
+          "rel": "强相关",
+          "peLtm": "24x",
+          "pe": "19x",
+          "psLtm": "0.6x",
+          "ps": "0.5x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "中国黄金国际",
+          "ticker": "02099.HK",
+          "rel": "强相关",
+          "peLtm": "9x",
+          "pe": "8x",
+          "psLtm": "1.4x",
+          "ps": "1.2x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "赤峰吉隆黄金",
+          "ticker": "06693.HK",
+          "rel": "强相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "3.0x",
+          "ps": "2.5x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "招金矿业",
+          "ticker": "01818.HK",
+          "rel": "强相关",
+          "peLtm": "20x",
+          "pe": "16x",
+          "psLtm": "1.6x",
+          "ps": "1.3x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "灵宝黄金",
+          "ticker": "03330.HK",
+          "rel": "中相关",
+          "peLtm": "12x",
+          "pe": "10x",
+          "psLtm": "0.5x",
+          "ps": "0.4x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "中国钼业",
+          "ticker": "03993.HK",
+          "rel": "中相关",
+          "peLtm": "17x",
+          "pe": "14x",
+          "psLtm": "1.3x",
+          "ps": "1.1x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "MMG Ltd",
+          "ticker": "01208.HK",
+          "rel": "中相关",
+          "peLtm": "11x",
+          "pe": "9x",
+          "psLtm": "0.8x",
+          "ps": "0.7x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "五矿黄金",
+          "ticker": "00230.HK",
+          "rel": "弱相关",
+          "peLtm": "14x",
+          "pe": "12x",
+          "psLtm": "0.6x",
+          "ps": "0.5x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "国际资源集团",
+          "ticker": "00526.HK",
+          "rel": "弱相关",
+          "peLtm": "8x",
+          "pe": "7x",
+          "psLtm": "0.3x",
+          "ps": "0.3x",
+          "evEbitda": "5x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股黄金矿企强相关标的（紫金/山东黄金/中国黄金国际/赤峰吉隆/招金）NTM P/E中位约15x、NTM EV/EBITDA中位约9x，NTM P/S中位约1.3x；含Pani大型开发资产的MERDEKAGOLD应在同类基础上享受储量重估溢价，合理参考区间NTM EV/EBITDA 8-11x"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "山东黄金",
+          "ticker": "600547.SH",
+          "rel": "强相关",
+          "peLtm": "28x",
+          "pe": "22x",
+          "psLtm": "0.8x",
+          "ps": "0.7x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "中金黄金",
+          "ticker": "600489.SH",
+          "rel": "强相关",
+          "peLtm": "25x",
+          "pe": "20x",
+          "psLtm": "1.2x",
+          "ps": "1.0x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "赤峰黄金",
+          "ticker": "600988.SH",
+          "rel": "强相关",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "2.8x",
+          "ps": "2.3x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "紫金矿业",
+          "ticker": "601899.SH",
+          "rel": "强相关",
+          "peLtm": "14x",
+          "pe": "12x",
+          "psLtm": "1.9x",
+          "ps": "1.6x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "银泰黄金",
+          "ticker": "000975.SZ",
+          "rel": "强相关",
+          "peLtm": "30x",
+          "pe": "24x",
+          "psLtm": "3.5x",
+          "ps": "2.9x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "湖南黄金",
+          "ticker": "002155.SZ",
+          "rel": "中相关",
+          "peLtm": "26x",
+          "pe": "21x",
+          "psLtm": "2.0x",
+          "ps": "1.7x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "恒邦股份",
+          "ticker": "002237.SZ",
+          "rel": "中相关",
+          "peLtm": "16x",
+          "pe": "13x",
+          "psLtm": "0.5x",
+          "ps": "0.4x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "西部黄金",
+          "ticker": "601069.SH",
+          "rel": "中相关",
+          "peLtm": "20x",
+          "pe": "16x",
+          "psLtm": "1.8x",
+          "ps": "1.5x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "盛达资源",
+          "ticker": "000603.SZ",
+          "rel": "弱相关",
+          "peLtm": "15x",
+          "pe": "12x",
+          "psLtm": "2.2x",
+          "ps": "1.9x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "豫光金铅",
+          "ticker": "600531.SH",
+          "rel": "弱相关",
+          "peLtm": "10x",
+          "pe": "9x",
+          "psLtm": "0.2x",
+          "ps": "0.2x",
+          "evEbitda": "6x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "A股黄金矿企享受国内资产稀缺性溢价，强相关标的（山东黄金/中金/赤峰/紫金/银泰）NTM P/E中位约20x、NTM EV/EBITDA中位约11x，较港股同类溢价约20-25%；MERDEKAGOLD若在港以NTM EV/EBITDA 7-9x定价则相对A股存在明显折价，体现新兴市场矿权风险贴现"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Newmont Corp",
+          "ticker": "NEM",
+          "rel": "强相关",
+          "peLtm": "19x",
+          "pe": "16x",
+          "psLtm": "2.6x",
+          "ps": "2.2x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "Barrick Gold",
+          "ticker": "GOLD",
+          "rel": "强相关",
+          "peLtm": "17x",
+          "pe": "14x",
+          "psLtm": "3.8x",
+          "ps": "3.2x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "Agnico Eagle",
+          "ticker": "AEM",
+          "rel": "强相关",
+          "peLtm": "25x",
+          "pe": "20x",
+          "psLtm": "5.0x",
+          "ps": "4.2x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "Kinross Gold",
+          "ticker": "KGC",
+          "rel": "中相关",
+          "peLtm": "13x",
+          "pe": "11x",
+          "psLtm": "2.2x",
+          "ps": "1.9x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "Gold Fields",
+          "ticker": "GFI",
+          "rel": "中相关",
+          "peLtm": "11x",
+          "pe": "9x",
+          "psLtm": "2.1x",
+          "ps": "1.8x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "AngloGold Ashanti",
+          "ticker": "AU",
+          "rel": "中相关",
+          "peLtm": "10x",
+          "pe": "8x",
+          "psLtm": "1.6x",
+          "ps": "1.4x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "Eldorado Gold",
+          "ticker": "EGO",
+          "rel": "中相关",
+          "peLtm": "15x",
+          "pe": "12x",
+          "psLtm": "3.2x",
+          "ps": "2.7x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "Endeavour Mining",
+          "ticker": "EDV",
+          "rel": "中相关",
+          "peLtm": "9x",
+          "pe": "8x",
+          "psLtm": "1.3x",
+          "ps": "1.1x",
+          "evEbitda": "4x",
+          "verdict": null
+        },
+        {
+          "name": "Pan American Silver",
+          "ticker": "PAAS",
+          "rel": "弱相关",
+          "peLtm": "16x",
+          "pe": "13x",
+          "psLtm": "3.0x",
+          "ps": "2.6x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "Wheaton Precious Metals",
+          "ticker": "WPM",
+          "rel": "弱相关",
+          "peLtm": "32x",
+          "pe": "26x",
+          "psLtm": "14.0x",
+          "ps": "11.5x",
+          "evEbitda": "20x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股大型黄金矿企senior producers（NEM/GOLD/AEM）NTM EV/EBITDA中位约8x、NTM P/E约16x；新兴市场导向矿企（GFI/AU/Endeavour）折价至NTM EV/EBITDA 4-6x，体现政治风险贴水；MERDEKAGOLD印尼资产风险特征与GFI/AU更接近，合理参考区间NTM EV/EBITDA 5-8x"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "DR发行定价尚未公布，待定价公布后更新跨市场折溢价分析。三市场强相关黄金矿企NTM EV/EBITDA中位：港股约9x、A股约11x（国内稀缺溢价）、美股senior约8x、美股新兴市场矿企约5-6x；三市场综合中位NTM EV/EBITDA约8x，NTM P/E约15x，NTM P/S约1.5x。估值判断门槛：DR隐含NTM EV/EBITDA<7x具明显吸引力，7-10x为合理区间，>11x则Pani建设风险未得充分补偿。待DR发行价公布后计算具体折溢价。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "三市场综合中位NTM P/S ~1.5x",
+      "medianPE": "三市场综合中位NTM P/E ~15x",
+      "premiumDiscount": "待DR定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "定价后评估，关注DR折溢价及Pani项目进展里程碑",
+    "horizon": "建议持有期12-24个月（Pani Gold Project首批投产为核心价值催化剂）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "EV/EBITDA",
+      "ipoImplied": "待DR定价后填入",
+      "compsMedian": "NTM EV/EBITDA ~8x（三市场综合中位）",
+      "vs": "待DR定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "F: Tujuh Bukit矿山AISC是否控制在$1,000/盎司以下，利润率是否稳定在60%+（A1文件核实）",
+          "result": "需A1文件确认",
+          "note": "需核查招股书历年AISC数据、矿山剩余寿命（估计5-8年）及Pani建设资本开支计划，AISC爬坡风险是关键变量",
+          "ok": null
+        },
+        {
+          "point": "S: 港股DR相对IDX主板MDKA折价是否<10%（DR结构合理折价范围）",
+          "result": "待DR上市后观察",
+          "note": "DR结构正常折价5-10%；若折价>15%说明港股流动性不足，二级市场套利空间受限，吸引力显著下降",
+          "ok": null
+        },
+        {
+          "point": "V: DR定价对应NTM EV/EBITDA是否低于8x（三市场综合中位）",
+          "result": "待DR定价",
+          "note": "7x以下具明显吸引力且Pani重估期权免费；高于10x则Pani建设风险未得充分补偿，风险回报比不佳",
+          "ok": null
+        },
+        {
+          "point": "M: 挂牌前后黄金价格是否维持$3,000/盎司以上",
+          "result": "✓",
+          "note": "2026年6月金价约$3,100-3,300/盎司，处于结构性高位，黄金矿企做多逻辑充分支撑",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "DR价 -30%",
+        "upside": "-30%",
+        "basis": "金价从$3,200回落至$2,000-2,200/盎司（美联储超预期加息+美元指数强势），Pani项目建设延期超30个月或资本开支超支50%，印尼政府上调矿山税费导致EBITDA缩水25%；NTM EV/EBITDA压缩至4-5x，DR流动性折价扩大至20%以上"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "DR价 +20%",
+        "upside": "+20%",
+        "basis": "金价维持$2,800-3,200/盎司，Pani项目2027年按期首批投产（年产金20万盎司），合并EBITDA提升至USD 7-9亿；市场以NTM EV/EBITDA 9-10x重估，港股DR稀缺性溢价逐步形成，追踪IDX主板MDKA同步涨幅"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "DR价 +55%",
+        "upside": "+55%",
+        "basis": "金价突破$3,500/盎司并维持，Pani超预期提前达产（2026年底首批投产，年产金40万盎司），合并产金量达80万盎司/年；南向资金大规模配置东南亚黄金资产，DR与IDX主板溢价收敛，市场以NTM EV/EBITDA 12x以上重估"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "目标减持",
+        "desc": "DR价格对应NTM EV/EBITDA突破11x（接近A股国内稀缺性溢价水平），或Pani项目首批投产后股价大幅冲高已充分兑现NAV重估，或金价连续3个月日均收盘低于$2,600/盎司且呈趋势性下行，分批减持50%锁定收益",
+        "price": "≥ DR价 +45%",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "港股DR相对IDX主板MDKA折价扩大至>20%（流动性失效信号）、Pani项目因AMDAL（印尼环境影响评估）未通过或重大建设事故停工、金价跌破$2,200/盎司并维持一个月以上、或印尼政府宣布矿企51%国有化新规",
+        "price": "< DR价 -20%",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-17",
+  "generatedBy": "claude-oauth",
+  "ticker": "06228.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
