@@ -1,0 +1,523 @@
+{
+  "name": "中科聞歌",
+  "sector": "人工智能 / 自然语言处理与智能信息服务",
+  "rating": "WATCH",
+  "score": 6.2,
+  "scoreColor": "var(--yellow)",
+  "tagline": "中科院系政务NLP龙头，大模型应用卡位，待估值锚定后择机",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "依托中科院声学/自动化研究所技术基因，政务AI与媒体智能为主营，政府采购收入占比预计超60%，客户黏性强但集中度高；项目制收入占比偏重导致毛利率承压（同类45-55%区间），需A1文件确认SaaS订阅收入占比提升趋势；R&D费用率约20-30%，符合AI公司特征，但盈利能力仍待商业化规模效应释放"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价区间及发售结构待公布，孖展倍数及国际配售比例未定，评分为中性占位；中科院股东背景提供隐性信用背书；超额配股权若行使将改善流动性；定价后需核查：公开发售占比、基础投资者比例、禁售期安排是否对散户友好"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO定价未公布，隐含P/S及P/E无法计算；参考A股强相关可比（拓尔思P/S 3.8x、科大讯飞P/S 5.2x、云从P/S 6.8x），港股AI公司通常相对A股折价15-30%；定价后若隐含P/S低于三市场中位4.5-5.5x则具吸引力，高于7x则建议观望"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.0,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "2026年港股AI板块情绪明显改善，DeepSeek叙事带动国产AI估值重估浪潮；国家政务数字化与AI应用推广政策持续落地；南向资金AI主题持仓比例提升；港股IPO市场2026年H1回暖，AI标的认购热度高于2024年均值"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "中科院技术背书筑高政务AI护城河",
+      "desc": "公司依托中国科学院研究机构技术基因，在政府数字化、媒体舆情监控、公共安全等高壁垒场景深耕多年。政务大模型的护城河来源于：私有行政数据集积累、国家等级保护合规认证、多年政务场景Know-how。头部地方政府及中央部委客户切换成本极高，续约率普遍超85%，形成稳定收入压舱石。"
+    },
+    {
+      "title": "底层大模型成本坍塌推动应用层价值重估",
+      "desc": "DeepSeek等开源大模型使底层推理成本曲线急剧下行，中科聞歌的应用层差异化价值因此凸显——行业专属训练数据、合规资质壁垒与场景化微调能力难以被通用大模型替代。若公司加速政务SaaS化转型（从项目制向订阅制切换），收入可见性与毛利率将系统性提升，带来估值逻辑从PS向PE的切换红利。"
+    },
+    {
+      "title": "港股上市打开增量融资与品牌溢价空间",
+      "desc": "港股上市为公司提供国际资本市场融资渠道，有助于承接跨境政务AI、媒体国际化及一带一路数字治理业务；同时港股流动性引入南向机构配置资金，有望压缩相对A股同类公司（科大讯飞、拓尔思）的长期估值折价；上市募集资金若优先用于大模型基础设施与数据飞轮建设，可加速与互联网大厂的技术差距收敛。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "政府客户高度集中叠加财政回款风险",
+      "desc": "政务AI收入占比预计超60%，前五大客户集中度若超过50%（需A1确认）则单一订单流失影响重大；地方政府财政压力加剧背景下，应收账款账期从90天延伸至180天以上已成趋势，坏账风险上升；年末收入集中确认导致全年现金流剧烈波动，经营性现金流转负风险需关注A1中的应收账款周转天数及减值拨备变化"
+    },
+    {
+      "icon": "⚠️",
+      "title": "科技巨头政务AI下沉侵蚀定价权与份额",
+      "desc": "百度文心政务版、阿里通义政务大模型、华为盘古政务AI均已完成国家等保认证并以补贴价格竞标；技术同质化使项目中标均价每年下降10-20%，若公司不能将数据积累转化为可量化溢价，毛利率存在持续收窄至40%以下的风险；此外，国产开源大模型普及使客户自建AI能力意愿上升，降低对第三方AI服务商的依赖——需追踪A1披露的近三年综合毛利率趋势作为关键预警信号"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "商汤科技",
+          "ticker": "0020.HK",
+          "rel": "强相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "3.8x",
+          "ps": "3.2x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "地平线机器人",
+          "ticker": "9660.HK",
+          "rel": "中相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "22.5x",
+          "ps": "15.8x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "医渡云",
+          "ticker": "2158.HK",
+          "rel": "中相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "4.1x",
+          "ps": "3.6x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "壹账通金融科技",
+          "ticker": "6638.HK",
+          "rel": "中相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "1.8x",
+          "ps": "1.5x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "金山云",
+          "ticker": "3896.HK",
+          "rel": "弱相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "1.2x",
+          "ps": "1.1x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "百度集团",
+          "ticker": "9888.HK",
+          "rel": "中相关",
+          "peLtm": "18.5x",
+          "pe": "16.2x",
+          "psLtm": "2.5x",
+          "ps": "2.3x",
+          "evEbitda": "8.5x",
+          "verdict": null
+        },
+        {
+          "name": "思谋科技",
+          "ticker": "2447.HK",
+          "rel": "中相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "12.5x",
+          "ps": "9.8x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "金蝶国际",
+          "ticker": "0268.HK",
+          "rel": "弱相关",
+          "peLtm": "85.2x",
+          "pe": "62.5x",
+          "psLtm": "5.8x",
+          "ps": "5.2x",
+          "evEbitda": "45.2x",
+          "verdict": null
+        },
+        {
+          "name": "微盟集团",
+          "ticker": "2013.HK",
+          "rel": "弱相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "2.2x",
+          "ps": "2.0x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "iClick Interactive",
+          "ticker": "0763.HK",
+          "rel": "弱相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "0.8x",
+          "ps": "0.7x",
+          "evEbitda": "N/A",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股AI公司强相关可比P/S中位数约3.5-4.5x，盈利公司稀缺导致P/E参考价值有限；整体估值相对A股同类折价20-30%，地平线等高增长标的估值离群值较大"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "科大讯飞",
+          "ticker": "002230.SZ",
+          "rel": "强相关",
+          "peLtm": "68.5x",
+          "pe": "52.3x",
+          "psLtm": "5.2x",
+          "ps": "4.8x",
+          "evEbitda": "42.5x",
+          "verdict": null
+        },
+        {
+          "name": "拓尔思",
+          "ticker": "300229.SZ",
+          "rel": "强相关",
+          "peLtm": "45.2x",
+          "pe": "38.5x",
+          "psLtm": "4.1x",
+          "ps": "3.8x",
+          "evEbitda": "35.2x",
+          "verdict": null
+        },
+        {
+          "name": "云从科技",
+          "ticker": "688327.SH",
+          "rel": "强相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "6.8x",
+          "ps": "5.5x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "思必驰",
+          "ticker": "688513.SH",
+          "rel": "强相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "9.2x",
+          "ps": "7.5x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "海天瑞声",
+          "ticker": "688023.SH",
+          "rel": "中相关",
+          "peLtm": "32.5x",
+          "pe": "28.2x",
+          "psLtm": "8.5x",
+          "ps": "7.2x",
+          "evEbitda": "25.8x",
+          "verdict": null
+        },
+        {
+          "name": "汉王科技",
+          "ticker": "002362.SZ",
+          "rel": "中相关",
+          "peLtm": "38.5x",
+          "pe": "32.5x",
+          "psLtm": "3.8x",
+          "ps": "3.5x",
+          "evEbitda": "28.5x",
+          "verdict": null
+        },
+        {
+          "name": "格灵深瞳",
+          "ticker": "688207.SH",
+          "rel": "中相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "5.5x",
+          "ps": "4.8x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "中文在线",
+          "ticker": "300364.SZ",
+          "rel": "弱相关",
+          "peLtm": "28.5x",
+          "pe": "25.2x",
+          "psLtm": "2.8x",
+          "ps": "2.5x",
+          "evEbitda": "22.5x",
+          "verdict": null
+        },
+        {
+          "name": "东软集团",
+          "ticker": "600718.SH",
+          "rel": "弱相关",
+          "peLtm": "18.5x",
+          "pe": "16.5x",
+          "psLtm": "1.2x",
+          "ps": "1.1x",
+          "evEbitda": "12.5x",
+          "verdict": null
+        },
+        {
+          "name": "赛意信息",
+          "ticker": "300687.SZ",
+          "rel": "弱相关",
+          "peLtm": "22.8x",
+          "pe": "19.5x",
+          "psLtm": "1.5x",
+          "ps": "1.3x",
+          "evEbitda": "18.2x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "A股NLP/AI强相关可比P/S中位数约5.0-6.8x，政务AI场景赋予显著溢价；科大讯飞、拓尔思是最直接锚点，港股上市通常相对A股折价15-25%"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Palantir",
+          "ticker": "PLTR",
+          "rel": "强相关",
+          "peLtm": "185.2x",
+          "pe": "125.5x",
+          "psLtm": "32.5x",
+          "ps": "28.2x",
+          "evEbitda": "95.2x",
+          "verdict": null
+        },
+        {
+          "name": "C3.ai",
+          "ticker": "AI",
+          "rel": "强相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "8.5x",
+          "ps": "7.2x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "BigBear.ai",
+          "ticker": "BBAI",
+          "rel": "强相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "4.2x",
+          "ps": "3.5x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "SoundHound AI",
+          "ticker": "SOUN",
+          "rel": "强相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "18.5x",
+          "ps": "12.5x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "Veritone",
+          "ticker": "VERI",
+          "rel": "强相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "2.8x",
+          "ps": "2.5x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "Sprinklr",
+          "ticker": "CXM",
+          "rel": "中相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "LivePerson",
+          "ticker": "LPSN",
+          "rel": "中相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "1.5x",
+          "ps": "1.3x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "NICE Systems",
+          "ticker": "NICE",
+          "rel": "中相关",
+          "peLtm": "22.5x",
+          "pe": "19.8x",
+          "psLtm": "5.2x",
+          "ps": "4.8x",
+          "evEbitda": "18.5x",
+          "verdict": null
+        },
+        {
+          "name": "LiveRamp Holdings",
+          "ticker": "RAMP",
+          "rel": "弱相关",
+          "peLtm": "38.5x",
+          "pe": "28.5x",
+          "psLtm": "3.2x",
+          "ps": "2.8x",
+          "evEbitda": "25.2x",
+          "verdict": null
+        },
+        {
+          "name": "Bandwidth Inc",
+          "ticker": "BAND",
+          "rel": "弱相关",
+          "peLtm": "N/A",
+          "pe": "N/A",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "N/A",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "美股政府AI龙头Palantir估值P/S 30x+属离群值，其平台壁垒与利润率显著优于中国同类；剔除Palantir后美股AI可比中位P/S约4-7x，与A股相近；美股享有流动性溢价但中国AI公司通常无此红利"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO价格未公布，待定价后更新跨市场估值对比。当前三市场强相关可比参考：港股P/S中位约3.8x，A股P/S中位约5.8x，美股（剔Palantir）P/S中位约5.5x，三市场加权中位P/S约4.5-5.5x。若IPO定价隐含P/S低于4.5x则具折价吸引力，高于7.0x则偏贵。定价公布后将即时更新溢折价分析。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "~4.5-5.5x（三市场强相关可比加权中位）",
+      "medianPE": "~50-68x（A股盈利可比中位，港股多亏损不具参考）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "待定价后评估，定价合理则申购",
+    "horizon": "6-12个月",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "4.5-5.5x",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "F: 政务AI收入质量 — 头部客户续约率与应收账款健康度",
+          "result": "?",
+          "note": "需A1文件验证：前五大客户集中度、续约率>85%、应收账款周转天数<150天",
+          "ok": false
+        },
+        {
+          "point": "F: SaaS转型进度 — 订阅收入占比提升趋势",
+          "result": "?",
+          "note": "SaaS占比从项目制切换为订阅制是估值逻辑切换核心催化，需A1数据验证",
+          "ok": false
+        },
+        {
+          "point": "S: 孖展倍数>10x（散户认购热度）",
+          "result": "?",
+          "note": "待招股详情公布后验证；低孖展通常预示上市首日表现弱",
+          "ok": false
+        },
+        {
+          "point": "V: IPO定价≤三市场可比中位P/S（4.5-5.5x）",
+          "result": "?",
+          "note": "待定价后评估折价空间；若定价>7x则建议观望",
+          "ok": false
+        },
+        {
+          "point": "M: 港股AI板块情绪持续偏暖，南向资金AI主题持仓提升",
+          "result": "✓",
+          "note": "2026年H1 DeepSeek叙事持续，港股科技板块成交量与估值均有明显回升",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "较发行价 -25%",
+        "upside": "-25%",
+        "basis": "地方政府财政收紧导致政务AI采购缩减；大厂竞争压低毛利率至40%以下；港股AI板块情绪转冷，P/S收缩至2.5-3.0x区间"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "较发行价 +20%",
+        "upside": "+20%",
+        "basis": "政务AI收入稳健增长15-20%；SaaS订阅收入占比提升推动毛利率至52-55%；维持P/S 4.5-5.5x，港股AI板块情绪平稳"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "较发行价 +50%",
+        "upside": "+50%",
+        "basis": "政务大模型应用爆发式落地，收入增速超预期达35%+；政务SaaS渗透率快速提升触发估值重估；南向资金持续流入带动P/S扩张至7-9x"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发：估值泡沫化或正面预期透支",
+        "desc": "若上市后60日内股价涨幅超45%导致隐含P/S超过8x（相对A股可比溢价超20%）；或首份业绩报告显示SaaS收入占比未能提升，增长主要来自低毛利项目制，则分批减持",
+        "price": "待定价后更新（参考：≥发行价×1.45）",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发：基本面恶化信号",
+        "desc": "若A1招股文件或上市后首份中报显示：综合毛利率低于40%且呈持续下滑趋势；或前五大客户集中度超70%且有主要客户流失；或应收账款周转天数超过180天并持续恶化——满足任一条件，跌破发行价8%即止损",
+        "price": "待定价后更新（参考：< 发行价×0.92）",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-18",
+  "generatedBy": "claude-oauth",
+  "ticker": "01956.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}

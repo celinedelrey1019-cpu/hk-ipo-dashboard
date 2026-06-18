@@ -1,0 +1,523 @@
+{
+  "name": "海光芯正",
+  "sector": "半导体 · 模拟/电源管理芯片",
+  "rating": "WATCH",
+  "score": 5.7,
+  "scoreColor": "var(--yellow)",
+  "tagline": "国产模拟IC进口替代标的，定价未公布，暂作观望",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A1招股文件数据未获取，基于行业知识估算：国产模拟/电源管理IC设计公司典型特征为毛利率45-60%、研发投入占比20-30%、收入规模2-10亿元人民币；国产替代背景下头部企业营收增速30-50% YoY；需核查盈利状态（多数处于亏损或刚盈利节点）、前三大客户占比及应收账款周转天数（行业均值90-120天）"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价区间及上市日期均未披露，无法评估基石投资者结构及超额认购情况；半导体类港股IPO超额认购中位数约8-20x；待A1文件公布后重点关注：保荐人资质、机构基石比例是否超40%、超额配售安排及管理层股权锁定期"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO定价未公布，无法计算隐含估值倍数；三市场强相关可比NTM P/S中位约6.5x（港股强相关~5.4x / A股强相关~7.8x / 美股强相关~5.5x）；若定价隐含NTM P/S低于3.5x且已盈利则具较强吸引力，超过8x且仍亏损则估值压力显著"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.5,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "2026年港股科技/半导体估值修复持续，中美科技博弈加速国产半导体采购替换；新能源汽车渗透率突破50%后对车规级模拟IC需求快速攀升；工业电气化、储能、光伏逆变器亦驱动需求结构性扩张；港股半导体打新情绪中性偏正，但需警惕A股溢价传导带来的破发风险"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "国产模拟IC进口替代——万亿赛道的结构性机会",
+      "desc": "中国模拟IC年需求规模超3000亿元人民币（2025E），TI/ADI/Maxim等美系厂商历史占据60-70%市场份额；中美贸易摩擦背景下华为、比亚迪、宁德时代等国内头部终端厂商加速采购替换，优先绑定国产供应商；头部国产模拟IC设计公司受益于此结构性红利，市占率有望从当前约15%在未来3-5年提升至25-35%"
+    },
+    {
+      "title": "港股半导体IC设计稀缺标的——南向资金配置价值突出",
+      "desc": "港股纯正模拟/电源管理IC设计标的极为稀缺，国内主要竞争对手（圣邦股份、纳芯微、芯朋微等）均在A股STAR板上市，南向资金通过港股无法直接参与；若海光芯正成功登陆港股，将填补这一稀缺性配置空白；南向资金对港股半导体板块持续增配，中小盘新股若获机构共识买入可产生显著股价催化效应"
+    },
+    {
+      "title": "新能源汽车与工业电气化驱动模拟IC需求升级",
+      "desc": "新能源汽车每辆搭载模拟IC价值量约为传统燃油车的3-5倍，2025年中国新能源渗透率突破50%后持续催化量价升级；工业自动化、储能逆变器、光伏并网等领域亦贡献大量增量需求；车规/工业级客户转换成本高、认证周期长（通常18-24个月），一旦进入供应链体系可提供稳定的收入能见度和毛利率支撑"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "大客户集中度过高导致营收断崖风险",
+      "desc": "国内模拟IC行业普遍存在前三大客户营收占比50-70%的客户集中现象；若主要客户（如某大型新能源或消费电子厂商）采购节奏延迟、芯片验证周期拉长或切换至替代供应商，将对当期收入产生断崖式冲击；大型客户（如华为系、比亚迪系）在供应链整合中议价权强势，可能持续压缩产品售价，历史上部分A股模拟IC公司因此出现毛利率连续3-4个季度收窄"
+    },
+    {
+      "icon": "⚠️",
+      "title": "成熟制程代工产能依赖与晶圆涨价挤压利润",
+      "desc": "国内模拟/电源IC公司普遍采用fabless模式，高度依赖华虹半导体、中芯国际等代工产能（主流制程0.18μm-28nm）；若代工成本上涨10-15%而终端售价传导滞后，将对45-60%的毛利率产生3-5百分点压缩影响；此外若部分工序依赖境外代工（台积电），面临地缘政治管制断供风险，备料及转移产能过渡期可能长达12-18个月"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "思特威-W",
+          "ticker": "2256.HK",
+          "rel": "强相关",
+          "peLtm": "亏损",
+          "pe": "60x",
+          "psLtm": "7.5x",
+          "ps": "6.0x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "泰凌微电子",
+          "ticker": "2243.HK",
+          "rel": "强相关",
+          "peLtm": "亏损",
+          "pe": "N/M",
+          "psLtm": "5.5x",
+          "ps": "4.8x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "黑芝麻智能",
+          "ticker": "2533.HK",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "亏损",
+          "psLtm": "11x",
+          "ps": "8.0x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "中芯国际",
+          "ticker": "0981.HK",
+          "rel": "中相关",
+          "peLtm": "45x",
+          "pe": "35x",
+          "psLtm": "4.2x",
+          "ps": "3.8x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "华虹半导体",
+          "ticker": "1347.HK",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "28x",
+          "psLtm": "3.0x",
+          "ps": "2.6x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "晶门科技",
+          "ticker": "2878.HK",
+          "rel": "中相关",
+          "peLtm": "14x",
+          "pe": "11x",
+          "psLtm": "0.8x",
+          "ps": "0.7x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "ASMPT",
+          "ticker": "0522.HK",
+          "rel": "弱相关",
+          "peLtm": "22x",
+          "pe": "17x",
+          "psLtm": "2.0x",
+          "ps": "1.8x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "瑞声科技",
+          "ticker": "2018.HK",
+          "rel": "弱相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "比亚迪电子",
+          "ticker": "0285.HK",
+          "rel": "弱相关",
+          "peLtm": "16x",
+          "pe": "13x",
+          "psLtm": "0.4x",
+          "ps": "0.35x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "高伟电子",
+          "ticker": "1415.HK",
+          "rel": "弱相关",
+          "peLtm": "12x",
+          "pe": "10x",
+          "psLtm": "0.7x",
+          "ps": "0.6x",
+          "evEbitda": "6x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股强相关IC设计标的（思特威NTM P/S 6.0x、泰凌微4.8x）较A股同类折价20-30%，整体估值fair；若海光芯正盈利且定价隐含NTM P/S在3.5-5.0x区间具备相对吸引力，超出6x则参照思特威估值体系无明显优势"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "圣邦股份",
+          "ticker": "300661.SZ",
+          "rel": "强相关",
+          "peLtm": "60x",
+          "pe": "48x",
+          "psLtm": "15x",
+          "ps": "13x",
+          "evEbitda": "40x",
+          "verdict": null
+        },
+        {
+          "name": "纳芯微",
+          "ticker": "688052.SH",
+          "rel": "强相关",
+          "peLtm": "亏损",
+          "pe": "55x",
+          "psLtm": "11x",
+          "ps": "9.0x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "芯朋微",
+          "ticker": "688508.SH",
+          "rel": "强相关",
+          "peLtm": "45x",
+          "pe": "36x",
+          "psLtm": "8.0x",
+          "ps": "7.0x",
+          "evEbitda": "28x",
+          "verdict": null
+        },
+        {
+          "name": "希荻微",
+          "ticker": "688173.SH",
+          "rel": "强相关",
+          "peLtm": "42x",
+          "pe": "35x",
+          "psLtm": "7.5x",
+          "ps": "6.5x",
+          "evEbitda": "26x",
+          "verdict": null
+        },
+        {
+          "name": "力芯微",
+          "ticker": "688601.SH",
+          "rel": "强相关",
+          "peLtm": "38x",
+          "pe": "30x",
+          "psLtm": "8.5x",
+          "ps": "7.5x",
+          "evEbitda": "25x",
+          "verdict": null
+        },
+        {
+          "name": "海光信息",
+          "ticker": "688041.SH",
+          "rel": "中相关",
+          "peLtm": "65x",
+          "pe": "50x",
+          "psLtm": "9.5x",
+          "ps": "8.0x",
+          "evEbitda": "40x",
+          "verdict": null
+        },
+        {
+          "name": "卓胜微",
+          "ticker": "300782.SZ",
+          "rel": "中相关",
+          "peLtm": "48x",
+          "pe": "38x",
+          "psLtm": "10x",
+          "ps": "8.5x",
+          "evEbitda": "30x",
+          "verdict": null
+        },
+        {
+          "name": "澜起科技",
+          "ticker": "688008.SH",
+          "rel": "中相关",
+          "peLtm": "38x",
+          "pe": "30x",
+          "psLtm": "6.0x",
+          "ps": "5.2x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "晶晨股份",
+          "ticker": "688099.SH",
+          "rel": "中相关",
+          "peLtm": "38x",
+          "pe": "30x",
+          "psLtm": "5.5x",
+          "ps": "4.8x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "芯原股份",
+          "ticker": "688233.SH",
+          "rel": "中相关",
+          "peLtm": "亏损",
+          "pe": "65x",
+          "psLtm": "5.2x",
+          "ps": "4.5x",
+          "evEbitda": "N/M",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "A股电源管理IC估值体系高位运行：强相关组NTM P/S中位约7.8x（圣邦13x为天花板），较港股溢价40-60%；若港股参照A股折价30-35%隐含NTM P/S约5-6x，价格公允但不便宜，需结合盈利状态综合判断"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Monolithic Power",
+          "ticker": "MPWR",
+          "rel": "强相关",
+          "peLtm": "65x",
+          "pe": "52x",
+          "psLtm": "16x",
+          "ps": "14x",
+          "evEbitda": "42x",
+          "verdict": null
+        },
+        {
+          "name": "Analog Devices",
+          "ticker": "ADI",
+          "rel": "强相关",
+          "peLtm": "32x",
+          "pe": "26x",
+          "psLtm": "7.5x",
+          "ps": "6.8x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "Texas Instruments",
+          "ticker": "TXN",
+          "rel": "强相关",
+          "peLtm": "30x",
+          "pe": "26x",
+          "psLtm": "9.5x",
+          "ps": "8.5x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "Power Integrations",
+          "ticker": "POWI",
+          "rel": "强相关",
+          "peLtm": "28x",
+          "pe": "22x",
+          "psLtm": "5.2x",
+          "ps": "4.6x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "Semtech",
+          "ticker": "SMTC",
+          "rel": "中相关",
+          "peLtm": "42x",
+          "pe": "32x",
+          "psLtm": "5.5x",
+          "ps": "4.8x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "MACOM Technology",
+          "ticker": "MTSI",
+          "rel": "中相关",
+          "peLtm": "38x",
+          "pe": "30x",
+          "psLtm": "8.5x",
+          "ps": "7.5x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "Silicon Labs",
+          "ticker": "SLAB",
+          "rel": "中相关",
+          "peLtm": "50x",
+          "pe": "38x",
+          "psLtm": "5.0x",
+          "ps": "4.5x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "Cirrus Logic",
+          "ticker": "CRUS",
+          "rel": "中相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "3.8x",
+          "ps": "3.2x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "Skyworks Solutions",
+          "ticker": "SWKS",
+          "rel": "中相关",
+          "peLtm": "14x",
+          "pe": "12x",
+          "psLtm": "3.5x",
+          "ps": "3.0x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "MaxLinear",
+          "ticker": "MXL",
+          "rel": "弱相关",
+          "peLtm": "亏损",
+          "pe": "45x",
+          "psLtm": "2.8x",
+          "ps": "2.4x",
+          "evEbitda": "N/M",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股模拟IC估值区间宽泛：MPWR因AI供电叙事享受14x NTM P/S超额溢价（参照价值有限），TXN/ADI规模效应支撑8.5x/6.8x，全组NTM P/S中位约4.8x；港股同类合理区间为美股中位60-80%（约3-4x NTM P/S）"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO定价未公布，待定价后计算三市场估值对比。参考框架：强相关组三市场NTM P/S中位约6.5x（港股~5.4x / A股~7.8x / 美股~5.5x）；若港股定价隐含NTM P/S低于4.5x（三市场中位折价约30%）且公司已实现盈利，则具备打新价值；超过7x则估值偏贵，建议回避",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "~6.5x（三市场强相关组NTM中位）",
+      "medianPE": "~35x（三市场强相关组NTM中位，剔除亏损标的）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "待定价后决策，暂定观望",
+    "horizon": "上市后3-6个月",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "~6.5x（三市场强相关NTM P/S中位）",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "F：A1文件确认毛利率>45%且亏损持续收窄",
+          "result": "✗",
+          "note": "未获取，需核查：毛利率趋势及盈利节点为基本门槛",
+          "ok": false
+        },
+        {
+          "point": "F：前三大客户收入占比<50%",
+          "result": "✗",
+          "note": "未获取，客户集中度直接影响营收稳定性评分",
+          "ok": false
+        },
+        {
+          "point": "S：孖展认购倍数≥10x",
+          "result": "✗",
+          "note": "未公布，为打新流动性核心指标，低于10x建议回避",
+          "ok": false
+        },
+        {
+          "point": "V：定价隐含NTM P/S<三市场中位（6.5x）",
+          "result": "✗",
+          "note": "未定价，定价公布后核对折溢价水平",
+          "ok": false
+        },
+        {
+          "point": "M：港股半导体板块处于上升通道",
+          "result": "✓",
+          "note": "2026年国产半导体主题持续有效，市场时机积极",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "IPO价格×0.85",
+        "upside": "-15%",
+        "basis": "定价偏贵（NTM P/S>7x）叠加A股破发效应传导，上市首日跌破发行价；或出现基本面负面信息（营收低于招股预期、大客户流失），估值回落至三市场中位下限"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "IPO价格×1.15",
+        "upside": "+15%",
+        "basis": "定价合理（NTM P/S 4-6x）叠加市场时机配合，上市后1-3个月估值向三市场中位收敛，南向资金小幅增配"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "IPO价格×1.45",
+        "upside": "+45%",
+        "basis": "定价保守（NTM P/S<3.5x）叠加国产半导体主题爆发，机构超额认购20x+，上市后享有稀缺性溢价，折价向A股同类快速收窄"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "分批减持触发",
+        "desc": "上市后股价超出IPO价格30-40%，估值接近或超越三市场强相关组NTM P/S中位（6.5x），建议分批兑现50%仓位",
+        "price": "≥ IPO价格×1.35",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "上市后股价跌破IPO价格10%，且孖展认购未达10x或出现基本面负面公告（营收低于A1预测超20%、核心客户流失），建议全部离场",
+        "price": "< IPO价格×0.90",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-18",
+  "generatedBy": "claude-oauth",
+  "ticker": "01191.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
