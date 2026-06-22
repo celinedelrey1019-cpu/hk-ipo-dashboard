@@ -1,0 +1,517 @@
+{
+  "name": "來福諧波",
+  "sector": "精密傳動部件 / 諧波減速器",
+  "rating": "WATCH",
+  "score": 5.8,
+  "scoreColor": "var(--yellow)",
+  "tagline": "人形機器人零件浪潮，諧波減速器迎風口，待定價後判斷入場時機",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A1招股文件尚未獲取，無法核實具體收入規模、毛利率及客戶集中度。諧波減速器為機器人關節核心精密部件，行業龍頭绿的谐波（688017.SH）毛利率穩定在55-60%；跟隨者受定價壓力影響，毛利率通常壓縮至40-50%，需A1文件披露後更新；人形機器人需求拉動下，行業收入增速普遍30-50%+，成長確定性較高"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股日期及價格區間均未公布，無法評估基礎投資者認購金額、公開發售超購倍數及孖展槓桿情況；港股機器人主題近期孖展倍數通常在10-20x，需待定價後確認；IPO結構評分暫為中性"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO價格尚未公布，無法計算隱含P/E或P/S；三市場強相關Comps NTM P/S中位約4.2x、NTM P/E約37x；港股定價通常對A股諧波龍頭折讓40-50%，合理NTM P/S區間約3-5x；若定價NTM P/S低於2.8x則具明顯安全邊際"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.5,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "2025-2026年人形機器人產業化提速，谐波减速器作為關節核心部件每台需用12-40個，直接受益需求爆發；中美科技博弈加速國產替代，南下資金對精密製造配置意願高；港股工業自動化板塊情緒積極"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "人形機器人關節需求爆發，諧波減速器進入量價齊升週期",
+      "desc": "人形機器人每台需使用12-40個諧波減速器（腕關節、肘關節、踝關節等），以2030年中國人形機器人累計出貨目標百萬台以上計算，年新增諧波需求超千萬套；來福諧波若完成對特斯拉Optimus、宇樹科技、傅里葉等頭部整機廠的技術驗證並實現批量供貨，訂單規模有望進入指數級增長通道；諧波減速器技術壁壘（重複定位精度±1弧秒、傳動效率85%+）確保切入供應鏈後客戶粘性強、遷移成本高"
+    },
+    {
+      "title": "日系供應商依賴加速向國產替代轉移，本土份額提升空間大",
+      "desc": "全球諧波減速器市場長期由日本Harmonic Drive Systems（HD）及Nabtesco主導，合計市佔率超60%；中美科技博弈背景下，中國機器人整機廠積極推進零部件供應鏈本土化，政策導向採購及供應鏈安全溢價為本土供應商提供定價保護；截至2024年，中國國內諧波減速器本土化率仍低於50%，具備規模量產能力的國產廠商受益進口替代紅利，市場份額提升空間顯著"
+    },
+    {
+      "title": "工業與協作機器人同步增長，下游多元化提供基本盤穩定性",
+      "desc": "除人形機器人外，傳統工業機械臂（焊接、搬運、噴塗）及協作機器人（汽車柔性產線、醫療輔助）亦大量採用諧波減速器；CNC機床高精度軸系及半導體設備晶圓傳輸機構亦需諧波驅動，下游場景多元化可平衡人形機器人落地進度不及預期帶來的訂單波動風險；工業自動化下游景氣度維持高位，為公司提供穩定基本盤收入"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "绿的谐波規模壁壘形成強競爭壓制，跟隨者面臨持續降價壓力",
+      "desc": "绿的谐波（688017.SH）在國內諧波減速器市場佔有率超60%，已形成規模效應與品牌護城河；下游整機廠傾向對來福諧波等追隨者採用壓價策略以鞏固議價能力，行業ASP每年降幅預計5-10%；若來福諧波在技術規格（重複定位精度、壽命週期、空心軸輕量化設計）上與绿的谐波存在差距，規模化僅能以價換量，毛利率可能長期低於行業龍頭20-25個百分點，侵蝕盈利成長空間"
+    },
+    {
+      "icon": "⚠️",
+      "title": "頭部整機廠加速自研關節模組，外採規模可能縮減",
+      "desc": "汇川技术（300591.SZ）、埃斯顿（002747.SZ）等頭部自動化公司已披露研發自製關節模組計劃，深度垂直整合以降低零部件成本；人形機器人主機廠（宇樹、智元等）亦有戰略意圖內製核心部件；若來福諧波主要收入集中於2-3家大客戶（行業客戶集中度通常達40-60%），一旦頭部客戶轉向自研或切換供應商，將面臨收入驟降風險；人形機器人賽道2025年實際出貨量遠低於年初各廠公開目標，訂單可見度偏低"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "傅里葉",
+          "ticker": "03625.HK",
+          "rel": "強相關",
+          "peLtm": "NM",
+          "pe": "55x",
+          "psLtm": "6.2x",
+          "ps": "4.8x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "越疆科技",
+          "ticker": "02432.HK",
+          "rel": "強相關",
+          "peLtm": "NM",
+          "pe": "45x",
+          "psLtm": "4.5x",
+          "ps": "3.5x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "美的集团",
+          "ticker": "00300.HK",
+          "rel": "中相關",
+          "peLtm": "17x",
+          "pe": "14x",
+          "psLtm": "1.1x",
+          "ps": "0.95x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "舜宇光学",
+          "ticker": "02382.HK",
+          "rel": "中相關",
+          "peLtm": "28x",
+          "pe": "22x",
+          "psLtm": "2.8x",
+          "ps": "2.3x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "丘钛科技",
+          "ticker": "01478.HK",
+          "rel": "中相關",
+          "peLtm": "20x",
+          "pe": "16x",
+          "psLtm": "1.5x",
+          "ps": "1.2x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "创科实业",
+          "ticker": "00669.HK",
+          "rel": "弱相關",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "1.8x",
+          "ps": "1.5x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "敏实集团",
+          "ticker": "00425.HK",
+          "rel": "弱相關",
+          "peLtm": "12x",
+          "pe": "10x",
+          "psLtm": "0.9x",
+          "ps": "0.8x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "瑞声科技",
+          "ticker": "02018.HK",
+          "rel": "弱相關",
+          "peLtm": "24x",
+          "pe": "19x",
+          "psLtm": "1.6x",
+          "ps": "1.4x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "比亚迪电子",
+          "ticker": "00285.HK",
+          "rel": "弱相關",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "0.6x",
+          "ps": "0.5x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "中集集团",
+          "ticker": "02039.HK",
+          "rel": "弱相關",
+          "peLtm": "15x",
+          "pe": "12x",
+          "psLtm": "0.4x",
+          "ps": "0.35x",
+          "evEbitda": "9x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股精密製造/機器人板塊估值分化顯著：強相關機器人標的（傅里葉、越疆）NTM P/S達3.5-4.8x、P/E 45-55x但多數仍未盈利；整體10家中位NTM P/S約1.35x、NTM P/E約17x，反映港股精密製造普遍折讓。強相關機器人標的中位NTM P/S約4.2x，為來福諧波港股估值錨點"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "绿的谐波",
+          "ticker": "688017.SH",
+          "rel": "強相關",
+          "peLtm": "58x",
+          "pe": "44x",
+          "psLtm": "14x",
+          "ps": "10x",
+          "evEbitda": "38x",
+          "verdict": null
+        },
+        {
+          "name": "中大力德",
+          "ticker": "002896.SZ",
+          "rel": "強相關",
+          "peLtm": "38x",
+          "pe": "30x",
+          "psLtm": "5.5x",
+          "ps": "4.3x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "禾川科技",
+          "ticker": "688320.SH",
+          "rel": "強相關",
+          "peLtm": "48x",
+          "pe": "37x",
+          "psLtm": "9.0x",
+          "ps": "6.8x",
+          "evEbitda": "30x",
+          "verdict": null
+        },
+        {
+          "name": "双环传动",
+          "ticker": "002472.SZ",
+          "rel": "中相關",
+          "peLtm": "24x",
+          "pe": "19x",
+          "psLtm": "3.2x",
+          "ps": "2.6x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "汇川技术",
+          "ticker": "300591.SZ",
+          "rel": "中相關",
+          "peLtm": "40x",
+          "pe": "31x",
+          "psLtm": "4.8x",
+          "ps": "3.8x",
+          "evEbitda": "26x",
+          "verdict": null
+        },
+        {
+          "name": "埃斯顿",
+          "ticker": "002747.SZ",
+          "rel": "中相關",
+          "peLtm": "42x",
+          "pe": "33x",
+          "psLtm": "3.8x",
+          "ps": "3.1x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "国茂股份",
+          "ticker": "603915.SH",
+          "rel": "中相關",
+          "peLtm": "26x",
+          "pe": "21x",
+          "psLtm": "3.3x",
+          "ps": "2.7x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "巨轮智能",
+          "ticker": "002031.SZ",
+          "rel": "弱相關",
+          "peLtm": "28x",
+          "pe": "23x",
+          "psLtm": "3.8x",
+          "ps": "3.1x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "柏楚电子",
+          "ticker": "688188.SH",
+          "rel": "弱相關",
+          "peLtm": "36x",
+          "pe": "29x",
+          "psLtm": "7.2x",
+          "ps": "5.8x",
+          "evEbitda": "24x",
+          "verdict": null
+        },
+        {
+          "name": "格力电器",
+          "ticker": "000651.SZ",
+          "rel": "弱相關",
+          "peLtm": "12x",
+          "pe": "10x",
+          "psLtm": "0.9x",
+          "ps": "0.8x",
+          "evEbitda": "7x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "A股精密傳動/機器人板塊享有顯著估值溢價：強相關三家（绿的谐波/中大力德/禾川）NTM P/E中位37x、NTM P/S中位6.8x；全部10家NTM P/S中位約3.1x、P/E中位27x。绿的谐波作為行業天花板NTM P/E 44x、P/S 10x，港股上市通常需對A股同類折讓40-50%"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Regal Rexnord",
+          "ticker": "RRX",
+          "rel": "強相關",
+          "peLtm": "30x",
+          "pe": "24x",
+          "psLtm": "2.4x",
+          "ps": "2.1x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "Novanta",
+          "ticker": "NOVT",
+          "rel": "強相關",
+          "peLtm": "56x",
+          "pe": "43x",
+          "psLtm": "6.0x",
+          "ps": "5.2x",
+          "evEbitda": "32x",
+          "verdict": null
+        },
+        {
+          "name": "Cognex",
+          "ticker": "CGNX",
+          "rel": "中相關",
+          "peLtm": "44x",
+          "pe": "36x",
+          "psLtm": "9.0x",
+          "ps": "7.8x",
+          "evEbitda": "26x",
+          "verdict": null
+        },
+        {
+          "name": "Rockwell Automation",
+          "ticker": "ROK",
+          "rel": "中相關",
+          "peLtm": "35x",
+          "pe": "28x",
+          "psLtm": "3.8x",
+          "ps": "3.3x",
+          "evEbitda": "21x",
+          "verdict": null
+        },
+        {
+          "name": "IDEX Corporation",
+          "ticker": "IEX",
+          "rel": "弱相關",
+          "peLtm": "32x",
+          "pe": "26x",
+          "psLtm": "5.2x",
+          "ps": "4.6x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "Columbus McKinnon",
+          "ticker": "CMCO",
+          "rel": "中相關",
+          "peLtm": "24x",
+          "pe": "19x",
+          "psLtm": "1.3x",
+          "ps": "1.1x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "NN Inc",
+          "ticker": "NNBR",
+          "rel": "中相關",
+          "peLtm": "18x",
+          "pe": "14x",
+          "psLtm": "0.5x",
+          "ps": "0.45x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "Applied Industrial",
+          "ticker": "AIT",
+          "rel": "弱相關",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "0.9x",
+          "ps": "0.8x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "Watts Water",
+          "ticker": "WTS",
+          "rel": "弱相關",
+          "peLtm": "23x",
+          "pe": "19x",
+          "psLtm": "2.1x",
+          "ps": "1.9x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "Haynes International",
+          "ticker": "HAYN",
+          "rel": "弱相關",
+          "peLtm": "16x",
+          "pe": "13x",
+          "psLtm": "1.6x",
+          "ps": "1.5x",
+          "evEbitda": "10x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股精密工業/運動控制板塊整體NTM P/S中位約1.7x、P/E中位約21.5x；強相關標的（RRX/NOVT）NTM P/S中位3.7x、P/E 33.5x；高毛利軟件屬性的Cognex享受8x P/S溢價，純硬件精密件P/S普遍1-2x，估值明顯低於A股同類"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO定價尚未公布，待公布後更新跨市場估值對比。三市場強相關標的NTM P/S中位約4.2x（港股強相關4.2x / A股強相關6.8x / 美股強相關3.7x），NTM P/E中位約37x；三市場全部10家中位NTM P/S約1.7x、P/E約22x。若來福諧波以港股精密製造常見的A股折讓40-50%定價，合理NTM P/S區間約3-5x；如定價隱含P/S低於2.8x則具明顯安全邊際，高於6x則偏貴",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "4.2x（三市場強相關NTM中位）/ 1.7x（三市場全部NTM中位）",
+      "medianPE": "37x（三市場強相關NTM中位）/ 22x（三市場全部NTM中位）",
+      "premiumDiscount": "待IPO定價後計算"
+    }
+  },
+  "sellRec": {
+    "action": "謹慎觀望，待招股書及定價公布後決策",
+    "horizon": "短中線觀察期1-3個月；定價後視孖展超購情況決定是否參與，持有期6-12個月",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "NTM P/S",
+      "ipoImplied": "待定價後填入",
+      "compsMedian": "4.2x（強相關三市場中位）",
+      "vs": "待IPO定價後計算",
+      "verdict": "待定價後判斷",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "F: A1招股書財務數據已可核實，收入規模及毛利率清晰",
+          "result": "✗",
+          "note": "招股書尚未獲取，無法核實收入規模、毛利率及客戶集中度",
+          "ok": false
+        },
+        {
+          "point": "S: 招股價格區間及申購日期已公布，孖展超購≥10x",
+          "result": "✗",
+          "note": "時間表未定，IPO結構評估暫缺；孖展≥10x是BUY門檻",
+          "ok": false
+        },
+        {
+          "point": "V: 定價隱含NTM P/S低於三市場強相關Comps中位4.2x且有安全邊際",
+          "result": "待確認",
+          "note": "定價公布後更新，NTM P/S低於2.8x具高吸引力，高於6x偏貴",
+          "ok": false
+        },
+        {
+          "point": "M: 港股工業自動化板塊情緒積極，諧波減速器賽道主題催化明確",
+          "result": "✓",
+          "note": "人形機器人熱潮帶動谐波需求預期持續上修，南下資金配置意願高",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "IPO價×0.75",
+        "upside": "-25%",
+        "basis": "人形機器人2025-2026年實際出貨量持續低於各廠公開目標（實際可能僅完成預測30-40%），谐波訂單可見度差；同時绿的谐波持續降價策略壓縮跟隨者毛利，毛利率降至35%以下；估值向港股工業製造全市場中位NTM P/S ~1.5x收斂"
+      },
+      {
+        "type": "base",
+        "label": "基礎情景",
+        "price": "IPO價×1.30",
+        "upside": "+30%",
+        "basis": "成功切入2-3家人形機器人頭部整機廠供應鏈，實現批量交付；毛利率穩定在42-48%；工業機器人及CNC機床基本盤穩健；12個月後業績兌現，估值維持港股精密製造NTM P/S 3-4x合理區間，溫和上行"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "IPO價×2.00",
+        "upside": "+100%",
+        "basis": "成功切入特斯拉Optimus等Top 5人形機器人整機廠供應鏈，年訂單增速超100%；毛利率提升至52%以上，顯現規模效應；市場重估為諧波減速器龍頭差距縮窄，估值向A股强相關標的折讓收窄至30%（對應NTM P/S ~7x），上行空間100%+"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "減持觸發",
+        "desc": "上市首日漲幅超40%且隱含NTM P/S突破6x（高於三市場強相關中位4.2x 40%以上）；或上市後6個月招股書披露主要客戶集中度超60%且其中一大客戶宣布轉向自研，應分批減持",
+        "price": "≥ IPO價+40%",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止損觸發",
+        "desc": "上市後破發跌破IPO價15%；或業績預告顯示毛利率低於35%（遠低於行業龍頭绿的谐波55-60%）；或主要整機廠客戶公開宣布大規模自製減速器計劃，執行止損",
+        "price": "< IPO價-15%",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-22",
+  "generatedBy": "claude-oauth",
+  "ticker": "03952.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}

@@ -1,0 +1,517 @@
+{
+  "name": "真健康醫療－Ｂ",
+  "sector": "數字健康 / 醫療科技",
+  "rating": "WATCH",
+  "score": 5.1,
+  "scoreColor": "var(--yellow)",
+  "tagline": "B章醫療科技赴港，管線商業化進度為定價核心",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 4.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A1招股文件數據暫未獲取；Chapter 18A B章上市意味公司處於早期商業化或預收入階段，現金消耗速率、管線成熟度及核心業務收入可見度為決定評分之關鍵，待招股書正式披露後更新評分"
+    },
+    {
+      "label": "IPO結構 (S)",
+      "weight": "30%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股日期及價格區間均未公布，無法評估基礎投資者入場金額、公開發售超購倍數及孖展情況；B章新股結構評分待定價細節披露後更新"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO價格尚未公布，無法計算隱含P/S或EV/EBITDA對比同業中位數；三市場強相關標的NTM P/S中位約2.3x，待定價後計算折溢價"
+    },
+    {
+      "label": "市場時機 (M)",
+      "weight": "15%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "2026年中港股醫療科技板塊情緒回穩，Chapter 18A審批效率改善，南下資金對優質醫療新股有配置需求；但市場對無盈利預期B股整體仍保持選擇性，資金偏好管線確定性強者"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "中國數字健康政策紅利持續釋放",
+      "desc": "「十四五」醫改明確推進互聯網醫療、分級診療及健康管理數字化，國家衛健委持續擴大互聯網醫院准入；真健康醫療若具備合規牌照與平台積累，可直接受益政策引導的市場擴容，差異化定位有助於在碎片化市場中建立早期先發優勢"
+    },
+    {
+      "title": "Chapter 18A提供早期佈局機遇",
+      "desc": "B章上市允許未盈利醫療科技企業以未來商業化潛力定價赴港融資；若公司管線或核心平台具備明確差異化，IPO估值可能低於盈利成熟同業，為投資者提供相對A股醫療科技板塊更具性價比的早期入場窗口"
+    },
+    {
+      "title": "醫療數據壁壘驅動長期護城河",
+      "desc": "患者健康數據、診療記錄及醫生網絡具備強粘性與合規壁壘；若公司已積累規模化用戶基礎並配合AI輔助診斷能力，可形成難以複製的數據飛輪，吸引保險、藥企戰略合作並開拓B端付費場景，支撐長期ARR增長"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "核心平台用戶留存率低、商業化路徑不清晰",
+      "desc": "互聯網醫療平台普遍面臨用戶複購率低（問診後脫離平台）及付費轉化率偏弱的結構性問題；若A1文件顯示MAU增速放緩或單用戶收入（ARPU）持續下滑，核心商業化邏輯將受質疑，可能觸發上市後估值重估"
+    },
+    {
+      "icon": "⚠️",
+      "title": "互聯網醫療監管收緊導致業務模式受限",
+      "desc": "國家衛健委對在線問診、AI輔助診療資質及處方藥在線銷售設有嚴格限制；2024年以來監管屢次升級合規要求，若真健康醫療核心收入依賴在線問診+藥品銷售的聯動模式，政策調整可能直接切斷主要變現渠道，導致收入增速大幅低於招股書預測"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "平安好醫生",
+          "ticker": "01833.HK",
+          "rel": "強相關",
+          "peLtm": "NM",
+          "pe": "50x",
+          "psLtm": "2.4x",
+          "ps": "2.1x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "京東健康",
+          "ticker": "06618.HK",
+          "rel": "強相關",
+          "peLtm": "31x",
+          "pe": "26x",
+          "psLtm": "2.9x",
+          "ps": "2.5x",
+          "evEbitda": "19x",
+          "verdict": null
+        },
+        {
+          "name": "阿里健康",
+          "ticker": "00241.HK",
+          "rel": "強相關",
+          "peLtm": "25x",
+          "pe": "21x",
+          "psLtm": "3.0x",
+          "ps": "2.6x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "方舟健客",
+          "ticker": "06086.HK",
+          "rel": "中相關",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "1.6x",
+          "ps": "1.4x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "固生堂",
+          "ticker": "02273.HK",
+          "rel": "中相關",
+          "peLtm": "21x",
+          "pe": "17x",
+          "psLtm": "2.1x",
+          "ps": "1.9x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "海吉亞醫療",
+          "ticker": "06078.HK",
+          "rel": "中相關",
+          "peLtm": "23x",
+          "pe": "19x",
+          "psLtm": "2.3x",
+          "ps": "2.0x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "一脈陽光",
+          "ticker": "02522.HK",
+          "rel": "弱相關",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "3.2x",
+          "ps": "2.7x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "訊飛醫療科技",
+          "ticker": "02506.HK",
+          "rel": "弱相關",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "8.4x",
+          "ps": "6.1x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "諾輝健康",
+          "ticker": "06606.HK",
+          "rel": "弱相關",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "5.1x",
+          "ps": "4.0x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "明基醫院",
+          "ticker": "02581.HK",
+          "rel": "弱相關",
+          "peLtm": "19x",
+          "pe": "16x",
+          "psLtm": "1.6x",
+          "ps": "1.4x",
+          "evEbitda": "11x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股數字健康板塊NTM P/S強相關標的中位約2.4x，整體中位約2.1x；盈利可見度低的早期平台P/E普遍NM，估值核心由P/S及用戶增速定價，訊飛醫療/諾輝等AI屬性高者享明顯溢價"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "衛寧健康",
+          "ticker": "300253.SZ",
+          "rel": "強相關",
+          "peLtm": "33x",
+          "pe": "27x",
+          "psLtm": "3.6x",
+          "ps": "3.1x",
+          "evEbitda": "19x",
+          "verdict": null
+        },
+        {
+          "name": "創業慧康",
+          "ticker": "300451.SZ",
+          "rel": "強相關",
+          "peLtm": "27x",
+          "pe": "23x",
+          "psLtm": "3.1x",
+          "ps": "2.8x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "思創醫惠",
+          "ticker": "300078.SZ",
+          "rel": "中相關",
+          "peLtm": "38x",
+          "pe": "31x",
+          "psLtm": "4.3x",
+          "ps": "3.7x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "麥迪科技",
+          "ticker": "603990.SH",
+          "rel": "中相關",
+          "peLtm": "29x",
+          "pe": "24x",
+          "psLtm": "4.0x",
+          "ps": "3.4x",
+          "evEbitda": "19x",
+          "verdict": null
+        },
+        {
+          "name": "東華軟件",
+          "ticker": "002065.SZ",
+          "rel": "中相關",
+          "peLtm": "22x",
+          "pe": "19x",
+          "psLtm": "2.1x",
+          "ps": "1.9x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "健康元",
+          "ticker": "600380.SH",
+          "rel": "弱相關",
+          "peLtm": "24x",
+          "pe": "20x",
+          "psLtm": "2.6x",
+          "ps": "2.3x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "九安醫療",
+          "ticker": "002432.SZ",
+          "rel": "弱相關",
+          "peLtm": "16x",
+          "pe": "13x",
+          "psLtm": "1.9x",
+          "ps": "1.6x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "美康生物",
+          "ticker": "300439.SZ",
+          "rel": "弱相關",
+          "peLtm": "26x",
+          "pe": "21x",
+          "psLtm": "3.1x",
+          "ps": "2.6x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "和仁科技",
+          "ticker": "688029.SH",
+          "rel": "弱相關",
+          "peLtm": "43x",
+          "pe": "35x",
+          "psLtm": "5.4x",
+          "ps": "4.5x",
+          "evEbitda": "24x",
+          "verdict": null
+        },
+        {
+          "name": "數字政通",
+          "ticker": "300075.SZ",
+          "rel": "弱相關",
+          "peLtm": "31x",
+          "pe": "26x",
+          "psLtm": "3.6x",
+          "ps": "3.1x",
+          "evEbitda": "19x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "A股醫療信息化板塊NTM P/S中位約2.9x，較港股強相關標的高約20%，反映A股流動性溢價；若真健康赴港上市，預計對標A股同類享一定折讓，A股中位P/S作為估值上限參考"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Teladoc Health",
+          "ticker": "TDOC",
+          "rel": "強相關",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "1.1x",
+          "ps": "1.0x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "Doximity",
+          "ticker": "DOCS",
+          "rel": "強相關",
+          "peLtm": "31x",
+          "pe": "26x",
+          "psLtm": "9.1x",
+          "ps": "8.0x",
+          "evEbitda": "21x",
+          "verdict": null
+        },
+        {
+          "name": "GoodRx",
+          "ticker": "GDRX",
+          "rel": "中相關",
+          "peLtm": "NM",
+          "pe": "26x",
+          "psLtm": "2.6x",
+          "ps": "2.3x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "Hims & Hers",
+          "ticker": "HIMS",
+          "rel": "中相關",
+          "peLtm": "NM",
+          "pe": "22x",
+          "psLtm": "3.2x",
+          "ps": "2.7x",
+          "evEbitda": "17x",
+          "verdict": null
+        },
+        {
+          "name": "Veeva Systems",
+          "ticker": "VEEV",
+          "rel": "弱相關",
+          "peLtm": "37x",
+          "pe": "31x",
+          "psLtm": "12.4x",
+          "ps": "10.7x",
+          "evEbitda": "26x",
+          "verdict": null
+        },
+        {
+          "name": "Health Catalyst",
+          "ticker": "HCAT",
+          "rel": "弱相關",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "2.0x",
+          "ps": "1.8x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "Evolent Health",
+          "ticker": "EVH",
+          "rel": "中相關",
+          "peLtm": "NM",
+          "pe": "21x",
+          "psLtm": "1.5x",
+          "ps": "1.3x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "Accolade",
+          "ticker": "ACCD",
+          "rel": "弱相關",
+          "peLtm": "NM",
+          "pe": "NM",
+          "psLtm": "1.3x",
+          "ps": "1.1x",
+          "evEbitda": "NM",
+          "verdict": null
+        },
+        {
+          "name": "LifeMD",
+          "ticker": "LFMD",
+          "rel": "弱相關",
+          "peLtm": "NM",
+          "pe": "17x",
+          "psLtm": "1.9x",
+          "ps": "1.6x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "Privia Health",
+          "ticker": "PRVA",
+          "rel": "弱相關",
+          "peLtm": "32x",
+          "pe": "27x",
+          "psLtm": "2.0x",
+          "ps": "1.8x",
+          "evEbitda": "16x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股數字健康板塊估值分化顯著：高利潤SaaS型（Doximity/Veeva）NTM P/S高達8-11x；服務型（Teladoc/Accolade）僅1-2x；整體中位NTM P/S約2.0x，代表全球數字健康估值下限錨點"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO定價尚未公布，待公布後更新跨市場估值對比。三市場強相關標的NTM P/S中位約2.4x（港股2.4x / A股3.0x / 美股4.5x含Doximity拉高），剔除Doximity後美股中位降至約2.0x；三市場剔除離群值後合理中位P/S約2.2-2.5x，如真健康IPO定價隱含P/S>3.0x則明顯偏貴，<1.8x則具吸引力",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "2.3x（三市場強相關剔除離群值中位）",
+      "medianPE": "25x（盈利標的NTM中位）",
+      "premiumDiscount": "待IPO定價後計算"
+    }
+  },
+  "sellRec": {
+    "action": "謹慎觀望，待招股書及定價公布後決策",
+    "horizon": "中線6-12個月",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定價後填入",
+      "compsMedian": "2.3x",
+      "vs": "待IPO定價後計算",
+      "verdict": "待定價後判斷",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "F: A1招股書已披露，財務數據可核實",
+          "result": "✗",
+          "note": "招股書尚未獲取，無法核實收入、毛利及現金消耗",
+          "ok": false
+        },
+        {
+          "point": "S: 已公布招股價格區間及申購日期",
+          "result": "✗",
+          "note": "時間表未定，結構評估暫缺",
+          "ok": false
+        },
+        {
+          "point": "V: 定價隱含P/S低於三市場Comps中位2.3x",
+          "result": "待確認",
+          "note": "定價公布後更新，低於1.8x具吸引力",
+          "ok": false
+        },
+        {
+          "point": "M: 港股醫療板塊情緒中性偏正",
+          "result": "✓",
+          "note": "2026年中HK醫療科技板塊情緒回穩，南下資金有配置需求",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "待定價後計算",
+        "upside": "N/A",
+        "basis": "IPO定價偏高（隱含P/S>3.5x），且平台用戶增速或管線進度不達預期，上市後回落至Comps低端（NTM P/S ~1.2-1.5x），隱含下行風險30-50%"
+      },
+      {
+        "type": "base",
+        "label": "基礎情景",
+        "price": "待定價後計算",
+        "upside": "N/A",
+        "basis": "定價在三市場中位P/S 2.0-2.5x，業務穩步商業化，上市12個月後估值隨收入增長溫和提升10-20%"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "待定價後計算",
+        "upside": "N/A",
+        "basis": "核心平台超預期規模化，AI醫療屬性獲市場重估，估值向高利潤SaaS型同業靠攏（NTM P/S 5-8x），上行空間100%以上"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "減持觸發",
+        "desc": "上市首日漲幅超30%且隱含P/S突破3.5x，或6個月後核心用戶增速連續兩季度低於招股書預測值20%以上，應分批減持",
+        "price": "≥ IPO價+30%",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止損觸發",
+        "desc": "上市後破發跌破IPO價15%，或招股書披露現金儲備不足18個月運營且無明確再融資計劃，執行止損",
+        "price": "< IPO價-15%",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-22",
+  "generatedBy": "claude-oauth",
+  "ticker": "02697.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}

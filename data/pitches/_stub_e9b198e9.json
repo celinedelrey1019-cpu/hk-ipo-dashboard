@@ -1,0 +1,517 @@
+{
+  "name": "鱘龍科技",
+  "sector": "水產養殖 / 鱘魚與魚子醬",
+  "rating": "WATCH",
+  "score": 5.4,
+  "scoreColor": "var(--yellow)",
+  "tagline": "中国鱼子酱规模化龙头候选，稀缺赛道高溢价，待A1数据与定价验证",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A1招股文件数据待取，基于行业知识：鱘鱼养殖周期7-15年（caviar出品），属高壁垒高溢价产品（全球售价200-8000美元/公斤）；中国已超越伊朗跃升全球最大鱼子酱产国（年产≥200吨），优质企业鱼子酱段毛利率可达45-60%，综合毛利率35-50%；核心不确定性：HKFRS生物资产公允价值计量引发盈利波动，资本密集度高且现金回收周期极长，待A1数据验证收入规模及增长率"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价区间及日期均未公布，无法评估基础投资者锁定规模、孖展超购倍数及公开认购情况；港股消费/食品板块近期IPO孖展倍数通常5-15x区间，弱于科技/AI主题；待定价信息公布后更新结构评分"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO价格未公布，无法计算隐含P/E或P/S；港股+A股强/中相关水产养殖Comps NTM P/S中位约1.3x、NTM P/E中位约18x；若定价隐含NTM P/S<1.5x则具备折价吸引力，若>2.5x则存在显著溢价风险；待定价后判断"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "港股IPO市场2026年整体复苏，但南向资金配置偏好科技/AI/新能源，消费食品板块吸引力中性；鱼子酱属稀缺赛道，ESG（濒危物种保护性人工繁育）叙事具独特性；港股缺乏直接可比标的，定价参考系相对复杂增加定价不确定性"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "中国跻身全球最大鱼子酱产国，头部企业享受定价权与国际品牌溢价",
+      "desc": "中国已超越伊朗、法国成为全球最大鱼子酱生产国，年产量超过200吨（占全球约60-70%），主要出口欧盟、日本、美国等高端市场。具备规模化养殖与品控能力的头部企业已建立国际品牌知名度及欧盟HACCP/BRC等食品安全认证体系，在全球高端餐饮渠道积累稳定客群。相比伊朗/俄罗斯竞争对手，中国头部企业受地缘政治影响更小，供应链稳定性更高，西方市场渗透率持续提升，定价权逐步强化。"
+    },
+    {
+      "title": "鱘鱼全产业链多元化产品组合，摊薄单一caviar风险并提升资产综合回报",
+      "desc": "鱘鱼整体具极高商业价值：鱼子酱为核心高毛利品类，鱼肉可作高端食材（售价高于普通淡水鱼5-10倍），鱼皮可制作皮革制品，鱼骨胶原蛋白在美妆/医疗领域有应用前景。多元产品矩阵允许企业在等待caviar成熟期（7-15年）通过鱼肉、幼鱼销售产生现金流，平滑长周期养殖风险；产品线延伸至护肤品、保健品等高附加值领域可进一步提升整体EBITDA Margin，降低对单一caviar价格周期的敏感性。"
+    },
+    {
+      "title": "国内高端消费崛起，内销市场从边际起步进入快速成长期",
+      "desc": "鱼子酱在中国消费长期依赖出口，但随高净值人群扩大、西餐文化普及及直播/新零售渠道兴起，国内消费量近年以20-30% CAGR增长。头部企业开拓国内高端酒店、Michelin餐厅供货及礼品装市场，内销毛利率通常高于出口（中间商环节减少）。若公司成功实现内外销均衡，盈利质量有望显著提升，同时可对冲人民币升值对出口利润的侵蚀，收入结构更加健康。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "生物资产集中损失风险：疫病或环境灾害可致多年投资瞬间归零",
+      "desc": "鱘鱼养殖周期长达7-15年，成熟鱼群代表公司数年资本积累；一旦发生大规模鱼病（弹状病毒、溃疡病）、上游水体污染（工业排放）或极端气候事件（持续高温导致水体缺氧），大量生物资产可能数天内损失殆尽。历史参照：獐子岛（002069.SZ）2014年及2019年因气候异常损失虾夷扇贝，市值数度腰斩。HKFRS下生物资产按公允价值计量，损失发生时当期利润将承受灾难性冲击，且此类风险无法完全通过保险覆盖。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "出口单一市场依赖与食品安全监管风险：欧盟/日本标准趋严可快速中断营收",
+      "desc": "高端鱼子酱依赖欧盟、日本、美国市场，上述市场对重金属含量（汞、镉）、抗生素残留、防腐剂标准极为严苛。若欧盟修订Regulation (EC) No 853/2004或日本厚生劳动省收紧进口标准，公司可能面临产品被暂停进口的尾部风险。同时出口收入高度集中于少数大客户（高端食材分销商、酒店集团），前五大客户集中度为A1关键验证点；若核心客户因采购策略调整削减订单，将造成收入骤降且替代周期漫长。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "中国飞鹤",
+          "ticker": "6186.HK",
+          "rel": "中相关",
+          "peLtm": "11x",
+          "pe": "10x",
+          "psLtm": "1.5x",
+          "ps": "1.3x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "农夫山泉",
+          "ticker": "9633.HK",
+          "rel": "弱相关",
+          "peLtm": "24x",
+          "pe": "22x",
+          "psLtm": "5.2x",
+          "ps": "4.8x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "周黑鸭",
+          "ticker": "1458.HK",
+          "rel": "中相关",
+          "peLtm": "18x",
+          "pe": "16x",
+          "psLtm": "1.6x",
+          "ps": "1.4x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "华润啤酒",
+          "ticker": "291.HK",
+          "rel": "弱相关",
+          "peLtm": "17x",
+          "pe": "15x",
+          "psLtm": "1.3x",
+          "ps": "1.2x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "海底捞",
+          "ticker": "6862.HK",
+          "rel": "弱相关",
+          "peLtm": "14x",
+          "pe": "13x",
+          "psLtm": "0.8x",
+          "ps": "0.7x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "同仁堂国药",
+          "ticker": "8138.HK",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "20x",
+          "psLtm": "2.5x",
+          "ps": "2.3x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "康师傅控股",
+          "ticker": "322.HK",
+          "rel": "弱相关",
+          "peLtm": "14x",
+          "pe": "13x",
+          "psLtm": "0.9x",
+          "ps": "0.8x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "旺旺控股",
+          "ticker": "151.HK",
+          "rel": "弱相关",
+          "peLtm": "15x",
+          "pe": "14x",
+          "psLtm": "1.9x",
+          "ps": "1.8x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "绿茶集团",
+          "ticker": "6911.HK",
+          "rel": "弱相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "0.7x",
+          "ps": "0.6x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "百胜中国",
+          "ticker": "9987.HK",
+          "rel": "弱相关",
+          "peLtm": "19x",
+          "pe": "17x",
+          "psLtm": "1.2x",
+          "ps": "1.1x",
+          "evEbitda": "9x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股食品/消费Comps NTM P/S中位约1.3x，NTM P/E中位约15x；强相关水产标的港股流动性差不具代表性；中相关标的（飞鹤、周黑鸭、同仁堂）均为已建立品牌溢价的龙头企业；待IPO定价后对比隐含倍数，若P/S<1.5x则存在入场价值"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "大湖股份",
+          "ticker": "600257.SH",
+          "rel": "强相关",
+          "peLtm": "26x",
+          "pe": "23x",
+          "psLtm": "2.6x",
+          "ps": "2.4x",
+          "evEbitda": "17x",
+          "verdict": null
+        },
+        {
+          "name": "好当家",
+          "ticker": "600467.SH",
+          "rel": "强相关",
+          "peLtm": "23x",
+          "pe": "21x",
+          "psLtm": "1.9x",
+          "ps": "1.7x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "东方海洋",
+          "ticker": "002086.SZ",
+          "rel": "中相关",
+          "peLtm": "32x",
+          "pe": "28x",
+          "psLtm": "2.1x",
+          "ps": "1.9x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "国联水产",
+          "ticker": "300094.SZ",
+          "rel": "中相关",
+          "peLtm": "20x",
+          "pe": "18x",
+          "psLtm": "1.0x",
+          "ps": "0.9x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "獐子岛",
+          "ticker": "002069.SZ",
+          "rel": "中相关",
+          "peLtm": "N/M",
+          "pe": "38x",
+          "psLtm": "1.1x",
+          "ps": "1.0x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "通威股份",
+          "ticker": "600438.SH",
+          "rel": "弱相关",
+          "peLtm": "8x",
+          "pe": "7x",
+          "psLtm": "0.5x",
+          "ps": "0.5x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "百洋股份",
+          "ticker": "002696.SZ",
+          "rel": "中相关",
+          "peLtm": "19x",
+          "pe": "17x",
+          "psLtm": "0.9x",
+          "ps": "0.8x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "中水渔业",
+          "ticker": "000798.SZ",
+          "rel": "弱相关",
+          "peLtm": "15x",
+          "pe": "14x",
+          "psLtm": "0.4x",
+          "ps": "0.4x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "洽洽食品",
+          "ticker": "002557.SZ",
+          "rel": "弱相关",
+          "peLtm": "22x",
+          "pe": "20x",
+          "psLtm": "2.3x",
+          "ps": "2.1x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "圣农发展",
+          "ticker": "002299.SZ",
+          "rel": "弱相关",
+          "peLtm": "17x",
+          "pe": "15x",
+          "psLtm": "0.7x",
+          "ps": "0.6x",
+          "evEbitda": "8x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "A股水产养殖/高端食品Comps NTM P/S中位约1.35x，NTM P/E中位约19x；强相关标的大湖股份、好当家为淡水养殖龙头，P/S 1.7-2.4x区间；若鱘龙科技赴港上市定价低于A股强相关标的同等倍数，折价具吸引力；獐子岛因历史丑闻估值受压，需排除使用"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "AquaBounty Technologies",
+          "ticker": "AQB",
+          "rel": "强相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "2.2x",
+          "ps": "1.6x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Vital Farms",
+          "ticker": "VITL",
+          "rel": "中相关",
+          "peLtm": "31x",
+          "pe": "28x",
+          "psLtm": "2.1x",
+          "ps": "1.9x",
+          "evEbitda": "19x",
+          "verdict": null
+        },
+        {
+          "name": "Hain Celestial Group",
+          "ticker": "HAIN",
+          "rel": "弱相关",
+          "peLtm": "N/M",
+          "pe": "22x",
+          "psLtm": "0.6x",
+          "ps": "0.5x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "Fresh Del Monte Produce",
+          "ticker": "FDP",
+          "rel": "弱相关",
+          "peLtm": "12x",
+          "pe": "11x",
+          "psLtm": "0.2x",
+          "ps": "0.2x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "Calavo Growers",
+          "ticker": "CVGW",
+          "rel": "弱相关",
+          "peLtm": "21x",
+          "pe": "19x",
+          "psLtm": "0.5x",
+          "ps": "0.4x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "SpartanNash Company",
+          "ticker": "SPTN",
+          "rel": "弱相关",
+          "peLtm": "11x",
+          "pe": "10x",
+          "psLtm": "0.1x",
+          "ps": "0.1x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "John B. Sanfilippo & Son",
+          "ticker": "JBSS",
+          "rel": "弱相关",
+          "peLtm": "16x",
+          "pe": "15x",
+          "psLtm": "0.7x",
+          "ps": "0.6x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "TreeHouse Foods",
+          "ticker": "THS",
+          "rel": "弱相关",
+          "peLtm": "14x",
+          "pe": "13x",
+          "psLtm": "0.2x",
+          "ps": "0.2x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "MGP Ingredients",
+          "ticker": "MGPI",
+          "rel": "中相关",
+          "peLtm": "13x",
+          "pe": "12x",
+          "psLtm": "1.1x",
+          "ps": "1.0x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "Natural Health Trends",
+          "ticker": "NHTC",
+          "rel": "弱相关",
+          "peLtm": "11x",
+          "pe": "10x",
+          "psLtm": "0.5x",
+          "ps": "0.5x",
+          "evEbitda": "5x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股缺乏直接可比鱘鱼养殖标的，AquaBounty（GMO三文鱼）最相关但处于早期亏损阶段参考价值有限；中相关高端食品品牌（Vital Farms、MGP Ingredients）NTM P/S约1.0-1.9x；美股Comps参考权重偏低，定价锚应以港股+A股为主"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO价格尚未公布，待定价公布后更新跨市场估值对比。三市场综合分析：港股+A股强/中相关Comps NTM P/S加权中位约1.3x，NTM P/E约18x；美股参考价值较弱（无直接标的）。若鱘龍科技最终定价隐含NTM P/S低于1.5x（相对中位折价约15%），则具备入场价值；若超过2.5x则估值偏贵，建议SKIP或等待上市后估值回调。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "1.3x（港股+A股加权中位）",
+      "medianPE": "18x（港股+A股加权中位）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "待定价后确认，现阶段持观望",
+    "horizon": "6-12个月（首日至首次半年报公布后）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "1.3x（港股+A股中位）",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "基本面 (F)：A1数据确认收入增长与毛利率",
+          "result": "⏳",
+          "note": "需验证收入规模（预期≥RMB 3亿）、caviar段毛利率（≥45%）及生物资产公允价值变动的盈利影响幅度",
+          "ok": false
+        },
+        {
+          "point": "IPO结构 (S)：基石投资者及孖展超购倍数",
+          "result": "⏳",
+          "note": "待定价信息公布，目标孖展≥10x为入场基本门槛，基石需覆盖≥30%发行量",
+          "ok": false
+        },
+        {
+          "point": "估值 (V)：IPO隐含P/S vs Comps中位1.3x",
+          "result": "⏳",
+          "note": "若隐含NTM P/S<1.5x则吸引力强（BUY方向）；若>2.5x建议回避（SKIP方向）",
+          "ok": false
+        },
+        {
+          "point": "市场时机 (M)：港股消费板块资金流向",
+          "result": "⚠️",
+          "note": "2026年南向资金偏好科技/AI，消费食品板块情绪中性；鱼子酱稀缺性叙事有助于差异化，但需关注IPO窗口期整体市场气氛",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "IPO价×0.70",
+        "upside": "-30%",
+        "basis": "定价后机构减持叠加市场情绪恶化，生物资产减值公告或A1数据不达预期，NTM P/S压缩至0.9x以下"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "IPO价×1.20",
+        "upside": "+20%",
+        "basis": "半年报确认收入增长15-25%及毛利率稳定，出口订单改善，NTM P/S维持1.5-2.0x"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "IPO价×1.80",
+        "upside": "+80%",
+        "basis": "国际高端食材集团战略入股+国内高端消费快速放量，NTM P/S扩张至2.5-3.0x，媲美A股好当家/大湖股份高位估值"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发：涨幅≥50%且NTM P/S>2.5x",
+        "desc": "若IPO后股价涨幅超过50%且NTM P/S突破2.5x（超越A股强相关标的上轨），泡沫化风险上升，建议分批减仓至半仓并持续追踪出口数据及生物资产公告",
+        "price": "≥ IPO价×1.5",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发：破发或A1数据揭示收入增速/毛利率不达预期",
+        "desc": "若上市首日收盘价低于IPO价85%，或A1数据显示收入增速<10%、综合毛利率<30%、前五大客户集中度>70%，论点根基动摇，建议全数止损",
+        "price": "< IPO价×0.85",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-22",
+  "generatedBy": "claude-oauth",
+  "ticker": "06715.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
