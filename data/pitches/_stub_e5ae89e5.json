@@ -1,0 +1,517 @@
+{
+  "name": "安克創新",
+  "sector": "消费电子 / 智能硬件",
+  "rating": "WATCH",
+  "score": 6.8,
+  "scoreColor": "var(--yellow)",
+  "tagline": "全球充电配件龙头赴港二次上市，AH折价幅度决定配置价值",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 7.5,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "2023年营收约199亿元（+35% YoY），毛利率约40%，净利率约12%；多品牌矩阵（Anker/Soundcore/Eufy/Nebula）协同成效显著，音频与智能家居高速增长降低单一品类集中风险；A股上市以来连续四年稳定增长，研发投入占比约7%，持续构建品类护城河"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "A股（300866.SZ）二次上市，财务信息透明度高，但新股认购溢价有限；二次上市缺乏首次上市的稀缺性驱动力，散户认购热情通常低于纯新股；基石投资者阵容及资金用途待招股书披露；港股上市为QFII及海外机构提供合规配置渠道，具有战略意义"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO定价未公布，无法计算隐含倍数；A股当前约25–35x NTM P/E，港股二次上市通常享有15–30%折价；若最终定价对应NTM P/E 20–25x、NTM P/S 1.8–2.5x，具备相对吸引力；若对标A股折价<10%，则缺乏跨市场配置价值"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.0,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "港股2024–2025年科技消费板块回暖，南向资金持续净流入；AI配件（AI Hub/充电管家/AI音箱）概念催化消费电子估值重估；美联储降息周期利好成长股流动性；中美贸易摩擦持续为外部压制，但安克海外多元化布局（东南亚产能落地）部分对冲"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "全球多品牌消费电子生态协同",
+      "desc": "安克旗下四大品牌各司其职：Anker主攻充电/移动电源（2023年约占营收55%），Soundcore覆盖真无线耳机/音箱，Eufy深耕智能家居安防摄像头，Nebula专注便携投影，四者共享研发平台、东南亚产能和亚马逊渠道资源，形成规模效应与品类对冲双重优势。随着充电品类日趋标准化，Soundcore与Eufy的高速增长正在优化收入结构，降低均值回归风险。"
+    },
+    {
+      "title": "亚马逊生态深度绑定构成竞争壁垒",
+      "desc": "安克是Amazon.com消费电子类目长期头部卖家，深度参与Amazon Vine评测体系、Prime专属入口及Alexa语音生态，历年积累数百万条真实UGC评价，形成搜索排名正向飞轮。这一渠道壁垒对中国新晋品牌（Baseus、Ugreen等）几乎不可快速复制，是安克维持美国市场溢价定价能力的核心基础。其直客电商（官网+独立站）及零售渠道（百思买、沃尔玛）的同步布局，进一步分散了纯平台依赖。"
+    },
+    {
+      "title": "港股上市为国际资本提供低摩擦配置入口",
+      "desc": "安克A股历史最高估值曾超过80x P/E，国际机构因QFII额度及沪深港通限制难以充分配置；港股上市若提供15–25%的AH折价，为海外基金以更具成本效益的方式参与中国消费电子出海龙头提供窗口。同时，港元融资有助于安克推进海外并购（如收购欧美本地品牌）和海外产能建设，与其全球化战略深度契合。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "亚马逊平台集中度风险（超过60%营收依赖单一渠道）",
+      "desc": "安克全球营收中超过60%通过Amazon平台实现，其中美国站占比最高。亚马逊可随时调整第三方卖家算法权重、提高FBA仓储费用、收紧评价获取规则，或加速推广自有品牌Amazon Basics在充电配件品类的竞争——安克在平台议价中处于结构性弱势地位。一旦遭遇搜索降权或类目政策收紧，短期内无法通过其他渠道弥补流量损失，将直接冲击营收增长和毛利率表现。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "美国301条款关税持续升级压缩制造利润",
+      "desc": "安克90%以上产品在中国大陆生产，美国301条款现行关税对充电配件/消费电子为25–145%区间。若关税进一步升级，安克面临两难：涨价承压需求（充电品类价格弹性较高）或自行承担关税压缩约40%的毛利率空间。向越南/印度转移产能需要2–3年建设周期与大额资本支出，短期内难以完全对冲关税冲击；越南/印尼产能爬坡进度及良率是核心跟踪指标，需在季报中重点关注。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "小米集团",
+          "ticker": "9999.HK",
+          "rel": "强相关",
+          "peLtm": "25x",
+          "pe": "20x",
+          "psLtm": "0.9x",
+          "ps": "0.8x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "创科实业",
+          "ticker": "0669.HK",
+          "rel": "强相关",
+          "peLtm": "22x",
+          "pe": "20x",
+          "psLtm": "1.5x",
+          "ps": "1.3x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "VTech Holdings",
+          "ticker": "0303.HK",
+          "rel": "中相关",
+          "peLtm": "12x",
+          "pe": "11x",
+          "psLtm": "1.0x",
+          "ps": "0.9x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "联想集团",
+          "ticker": "0992.HK",
+          "rel": "中相关",
+          "peLtm": "15x",
+          "pe": "13x",
+          "psLtm": "0.3x",
+          "ps": "0.3x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "美的集团",
+          "ticker": "0300.HK",
+          "rel": "中相关",
+          "peLtm": "17x",
+          "pe": "15x",
+          "psLtm": "1.0x",
+          "ps": "0.9x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "海尔智家",
+          "ticker": "6690.HK",
+          "rel": "中相关",
+          "peLtm": "14x",
+          "pe": "13x",
+          "psLtm": "0.5x",
+          "ps": "0.5x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "比亚迪电子",
+          "ticker": "0285.HK",
+          "rel": "中相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "0.4x",
+          "ps": "0.4x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "中兴通讯",
+          "ticker": "0763.HK",
+          "rel": "弱相关",
+          "peLtm": "18x",
+          "pe": "16x",
+          "psLtm": "0.9x",
+          "ps": "0.8x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "TCL电子",
+          "ticker": "1070.HK",
+          "rel": "弱相关",
+          "peLtm": "8x",
+          "pe": "7x",
+          "psLtm": "0.1x",
+          "ps": "0.1x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "德昌电机",
+          "ticker": "0179.HK",
+          "rel": "弱相关",
+          "peLtm": "11x",
+          "pe": "10x",
+          "psLtm": "0.8x",
+          "ps": "0.8x",
+          "evEbitda": "7x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股强相关comp（小米、创科）NTM P/E中位约20x、NTM P/S中位约1.1x；剔除TCL等低估值拖累后，中高相关组合中位NTM P/S约0.9–1.3x。安克品牌溢价和增长速度均优于港股大多数消费电子同行，应享受溢价；若HK定价对应NTM P/S 1.8–2.5x，相对港股comps偏贵但成长逻辑可支撑"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "绿联科技",
+          "ticker": "301606.SZ",
+          "rel": "强相关",
+          "peLtm": "30x",
+          "pe": "25x",
+          "psLtm": "2.5x",
+          "ps": "2.1x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "公牛集团",
+          "ticker": "603195.SH",
+          "rel": "强相关",
+          "peLtm": "24x",
+          "pe": "21x",
+          "psLtm": "4.2x",
+          "ps": "3.8x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "石头科技",
+          "ticker": "688606.SH",
+          "rel": "中相关",
+          "peLtm": "32x",
+          "pe": "26x",
+          "psLtm": "4.0x",
+          "ps": "3.5x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "科沃斯",
+          "ticker": "603486.SH",
+          "rel": "中相关",
+          "peLtm": "25x",
+          "pe": "22x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "小熊电器",
+          "ticker": "002959.SZ",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "19x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "飞科电器",
+          "ticker": "603360.SH",
+          "rel": "中相关",
+          "peLtm": "20x",
+          "pe": "18x",
+          "psLtm": "3.5x",
+          "ps": "3.2x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "漫步者",
+          "ticker": "002351.SZ",
+          "rel": "中相关",
+          "peLtm": "30x",
+          "pe": "25x",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "苏泊尔",
+          "ticker": "002032.SZ",
+          "rel": "弱相关",
+          "peLtm": "22x",
+          "pe": "20x",
+          "psLtm": "2.3x",
+          "ps": "2.1x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "九阳股份",
+          "ticker": "002242.SZ",
+          "rel": "弱相关",
+          "peLtm": "18x",
+          "pe": "16x",
+          "psLtm": "1.2x",
+          "ps": "1.1x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "移远通信",
+          "ticker": "603236.SH",
+          "rel": "弱相关",
+          "peLtm": "38x",
+          "pe": "30x",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "25x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "A股消费电子/智能硬件板块享有显著溢价，强相关comp（绿联科技、公牛集团）NTM P/E约21–25x、NTM P/S约2.1–3.8x；安克自身A股（300866.SZ）约25–35x NTM P/E，若港股以15–25% AH折价定价则对应HK NTM P/E约19–27x；A股comps整体偏贵，港股定价若享折价则具备跨市场套利吸引力"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Logitech",
+          "ticker": "LOGI",
+          "rel": "强相关",
+          "peLtm": "18x",
+          "pe": "16x",
+          "psLtm": "2.2x",
+          "ps": "2.0x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "ZAGG Inc",
+          "ticker": "ZAGG",
+          "rel": "强相关",
+          "peLtm": "12x",
+          "pe": "10x",
+          "psLtm": "0.5x",
+          "ps": "0.5x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "Energizer Holdings",
+          "ticker": "ENR",
+          "rel": "中相关",
+          "peLtm": "14x",
+          "pe": "12x",
+          "psLtm": "0.7x",
+          "ps": "0.7x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "Corsair Gaming",
+          "ticker": "CRSR",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "0.9x",
+          "ps": "0.8x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "Sonos",
+          "ticker": "SONO",
+          "rel": "中相关",
+          "peLtm": "N/M",
+          "pe": "28x",
+          "psLtm": "1.4x",
+          "ps": "1.3x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Turtle Beach",
+          "ticker": "HEAR",
+          "rel": "中相关",
+          "peLtm": "N/M",
+          "pe": "15x",
+          "psLtm": "0.5x",
+          "ps": "0.5x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "GoPro",
+          "ticker": "GPRO",
+          "rel": "弱相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "0.6x",
+          "ps": "0.6x",
+          "evEbitda": "N/M",
+          "verdict": null
+        },
+        {
+          "name": "Knowles Corp",
+          "ticker": "KN",
+          "rel": "弱相关",
+          "peLtm": "25x",
+          "pe": "20x",
+          "psLtm": "2.0x",
+          "ps": "1.8x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "Universal Electronics",
+          "ticker": "UEIC",
+          "rel": "弱相关",
+          "peLtm": "15x",
+          "pe": "13x",
+          "psLtm": "0.4x",
+          "ps": "0.4x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "Fossil Group",
+          "ticker": "FOSL",
+          "rel": "弱相关",
+          "peLtm": "N/M",
+          "pe": "N/M",
+          "psLtm": "0.2x",
+          "ps": "0.2x",
+          "evEbitda": "N/M",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "cheap",
+        "text": "美股最强相关comp Logitech（LOGI）NTM P/S 2.0x、NTM P/E 16x，是安克最直接的全球对标；ZAGG（移动配件）估值偏低但规模体量不可比；剔除N/M后强/中相关comp中位NTM P/S约0.9x、NTM P/E约16x；安克凭借更高增速（20%+ vs Logitech低单位数）和更强品牌溢价，应在美股comp基础上享受50–80%的成长溢价，对应合理NTM P/S约1.5–2.0x"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO定价未公布，待IPO定价公布后更新跨市场估值对比。三市场强/中相关comp参考中位：NTM P/E约18–22x，NTM P/S约1.3–2.1x。安克2024E营收约230亿元人民币，若港股以NTM P/S 2.0x定价，隐含市值约460亿元人民币（约HKD 500亿），对应A股合理AH折价约20–25%为参考区间。若定价高于NTM P/S 2.5x，相对三市场comps中位出现明显溢价，性价比减弱。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "~1.8x（三市场强/中相关NTM中位）",
+      "medianPE": "~19x（三市场强/中相关NTM中位）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "定价公布后决策，核心看AH折价幅度",
+    "horizon": "6–12个月",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "NTM P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "~1.8x",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "基本面 (F)：营收增长>20%、毛利率>38%可持续",
+          "result": "✓",
+          "note": "2023年营收199亿元+35%，毛利率约40%，近三年稳定；Eufy/Soundcore高增长优化收入结构，支撑成长溢价",
+          "ok": true
+        },
+        {
+          "point": "IPO结构 (S)：基石投资者覆盖及资金用途清晰",
+          "result": "?",
+          "note": "招股书未正式披露，基石阵容和超购倍数将是散户情绪核心观察指标，待招股期间跟踪",
+          "ok": false
+        },
+        {
+          "point": "估值 (V)：HK定价相对A股折价≥15%",
+          "result": "?",
+          "note": "折价<10%则套利空间不足，吸引力大幅下降；折价>25%则估值具备强配置吸引力，升级为BUY",
+          "ok": false
+        },
+        {
+          "point": "市场时机 (M)：港股消费科技板块情绪正向",
+          "result": "✓",
+          "note": "2024–2025年南向资金活跃，AI配件叙事催化板块估值，窗口期相对有利",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "IPO价×0.80",
+        "upside": "-20%",
+        "basis": "AH折价不足10%且关税压力超预期，亚马逊份额被侵蚀，市场重新定价NTM P/E 15–18x、NTM P/S 1.2–1.5x；充电品类毛利率跌破35%触发盈利警告"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "IPO价×1.20",
+        "upside": "+20%",
+        "basis": "AH折价维持20–25%合理区间，2024年营收增长20%如期兑现，NTM P/E 20–24x、NTM P/S 1.8–2.2x；港股流动性稳定，估值温和修复"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "IPO价×1.50",
+        "upside": "+50%",
+        "basis": "Eufy智能安防及AI音箱超预期增长，市场给予AI硬件生态溢价重估，NTM P/E 28–32x、NTM P/S 2.5–3.0x；南向资金大规模扫货推升港股流动性溢价"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发",
+        "desc": "上市后30日内股价涨幅超过30%，且AH溢价收窄至5%以内；或NTM P/E突破30x而增长未加速；或亚马逊Q报告显示安克品类市占率连续两季下滑",
+        "price": "≥ IPO价 × 1.30",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "美国宣布对充电配件新增专项关税导致安克紧急发布盈利预警；或亚马逊以违反平台规则为由下架安克品牌核心SKU；或股价较IPO价格回调超15%",
+        "price": "< IPO价 × 0.85",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-23",
+  "generatedBy": "claude-oauth",
+  "ticker": "00668.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
