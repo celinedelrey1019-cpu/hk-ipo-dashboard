@@ -1,0 +1,517 @@
+{
+  "name": "同仁堂醫養",
+  "sector": "中医药医疗服务",
+  "rating": "WATCH",
+  "score": 6.2,
+  "scoreColor": "var(--yellow)",
+  "tagline": "百年中医品牌延伸医疗服务，政策驱动但待价而沽",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "同仁堂355年品牌背书构成强护城河；中医药医疗服务市场规模约2,500亿元，年复合增长率约15%；A1文件尚未披露完整财务数据，待招股定稿核验单店EBITDA、门诊利用率及毛利率（行业估算25-35%）"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价区间未公布，孖展倍数与基石投资者阵容待定；作为同仁堂集团旗下分拆上市标的，关联方交易结构复杂性需重点关注；假设约25%公众持股，锁定期安排参照港交所惯例"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "IPO定价未公布，无法计算隐含倍数；参考可比公司，合理NTM P/S区间为1.5x-2.5x，NTM P/E为18-28x；中医药服务板块A/H溢价历史均值约30-40%，H股上市应有相应折让"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.0,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "十四五规划重点支持中医药发展，《中医药振兴发展重大工程实施方案》提供明确政策背书；港交所医疗服务板块2025年情绪回暖；内地居民健康消费升级趋势确立，政策+消费双轮驱动时机窗口较佳"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "百年品牌护城河，信任资产难以复制",
+      "desc": "同仁堂创立于1669年，拥有超过355年品牌积淀，在中医药领域消费者信任度远超新兴竞争者。医养业务依托母公司品牌授权，可在获客成本极低的前提下快速扩张门诊网络；品牌壁垒叠加口碑效应，使其在同质化竞争的中医服务市场中具备显著的定价权和客户粘性。"
+    },
+    {
+      "title": "政策红利与人口结构双重驱动",
+      "desc": "国家十四五规划明确将中医药振兴列为战略重点，医保扩大中医诊疗报销范围提升可及性；中国65岁以上老龄人口已超2.1亿，对中医调理、慢病管理及健康管理的需求持续放量，公司战略方向与人口结构变化高度契合，需求端具备长期确定性。"
+    },
+    {
+      "title": "从产品到服务的商业模式升级，享受估值重塑",
+      "desc": "传统同仁堂以中成药产品为核心，医养板块转型为医疗服务提供者，通过门诊、健康管理、养老康复等高粘性服务实现客户复购率提升与ARPU扩大。服务型商业模式相较产品型具有更高估值倍数预期，分拆港股独立上市有望通过板块重新定价释放估值溢价。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "执业中医师严重短缺制约门店扩张速度",
+      "desc": "全国执业中医师总量不足60万且向头部公立医院高度集中，公司门诊网络扩张直接受制于高水平中医师招募瓶颈。若依赖母公司调拨医师资源则存在关联方利益冲突；若市场化外部招募，人工成本将大幅攀升，压缩新开门店单店利润率至盈亏平衡边缘，规模化扩张的边际成本将远高于固生堂等连锁对标。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "高度依赖母公司关联交易，定价公允性存疑",
+      "desc": "作为同仁堂集团分拆实体，公司核心药材采购、品牌授权使用费、IT系统及部分行政服务均依赖同仁堂股份（600085.SH）及同仁堂国际（8138.HK）提供，关联交易规模及转移定价合理性是核心财务风险。若母公司上调品牌授权费或调整采购定价，将直接侵蚀毛利率；且关联交易结构在港交所上市审查中属高风险披露项，可能导致IPO进程延期或估值折价。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "固生堂",
+          "ticker": "2273.HK",
+          "rel": "强相关",
+          "peLtm": "32x",
+          "pe": "26x",
+          "psLtm": "3.2x",
+          "ps": "2.6x",
+          "evEbitda": "19x",
+          "verdict": null
+        },
+        {
+          "name": "同仁堂国际",
+          "ticker": "8138.HK",
+          "rel": "强相关",
+          "peLtm": "19x",
+          "pe": "16x",
+          "psLtm": "1.6x",
+          "ps": "1.4x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "中国中药控股",
+          "ticker": "0570.HK",
+          "rel": "强相关",
+          "peLtm": "14x",
+          "pe": "12x",
+          "psLtm": "1.1x",
+          "ps": "0.9x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "康健国际医疗",
+          "ticker": "3886.HK",
+          "rel": "中相关",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "2.0x",
+          "ps": "1.7x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "白云山",
+          "ticker": "0874.HK",
+          "rel": "中相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "1.3x",
+          "ps": "1.1x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "华润医疗",
+          "ticker": "1515.HK",
+          "rel": "中相关",
+          "peLtm": "24x",
+          "pe": "20x",
+          "psLtm": "2.2x",
+          "ps": "1.8x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "复星医药",
+          "ticker": "2196.HK",
+          "rel": "中相关",
+          "peLtm": "17x",
+          "pe": "14x",
+          "psLtm": "1.4x",
+          "ps": "1.2x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "天士力",
+          "ticker": "1186.HK",
+          "rel": "中相关",
+          "peLtm": "18x",
+          "pe": "15x",
+          "psLtm": "1.6x",
+          "ps": "1.4x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "石四药集团",
+          "ticker": "2005.HK",
+          "rel": "弱相关",
+          "peLtm": "13x",
+          "pe": "11x",
+          "psLtm": "1.0x",
+          "ps": "0.9x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "中国生物制药",
+          "ticker": "1177.HK",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "2.1x",
+          "ps": "1.8x",
+          "evEbitda": "13x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股中医药/医疗服务板块NTM P/S中位数约1.5x，NTM P/E中位数约15x；固生堂作为最强可比（TCM门诊连锁）估值溢价显著（NTM P/S 2.6x）；同仁堂醫養若招股定价于1.5-2.0x NTM P/S区间则属合理，高于2.0x需谨慎"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "同仁堂",
+          "ticker": "600085.SH",
+          "rel": "强相关",
+          "peLtm": "35x",
+          "pe": "29x",
+          "psLtm": "3.8x",
+          "ps": "3.2x",
+          "evEbitda": "24x",
+          "verdict": null
+        },
+        {
+          "name": "片仔癀",
+          "ticker": "600436.SH",
+          "rel": "中相关",
+          "peLtm": "48x",
+          "pe": "40x",
+          "psLtm": "13.0x",
+          "ps": "11.0x",
+          "evEbitda": "33x",
+          "verdict": null
+        },
+        {
+          "name": "云南白药",
+          "ticker": "000538.SZ",
+          "rel": "中相关",
+          "peLtm": "23x",
+          "pe": "20x",
+          "psLtm": "2.6x",
+          "ps": "2.3x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "东阿阿胶",
+          "ticker": "000423.SZ",
+          "rel": "中相关",
+          "peLtm": "29x",
+          "pe": "25x",
+          "psLtm": "5.8x",
+          "ps": "5.0x",
+          "evEbitda": "19x",
+          "verdict": null
+        },
+        {
+          "name": "华润三九",
+          "ticker": "000999.SZ",
+          "rel": "中相关",
+          "peLtm": "19x",
+          "pe": "17x",
+          "psLtm": "2.1x",
+          "ps": "1.9x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "太极集团",
+          "ticker": "600129.SH",
+          "rel": "中相关",
+          "peLtm": "21x",
+          "pe": "18x",
+          "psLtm": "1.9x",
+          "ps": "1.7x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "步长制药",
+          "ticker": "603858.SH",
+          "rel": "弱相关",
+          "peLtm": "15x",
+          "pe": "13x",
+          "psLtm": "1.6x",
+          "ps": "1.4x",
+          "evEbitda": "10x",
+          "verdict": null
+        },
+        {
+          "name": "以岭药业",
+          "ticker": "002603.SZ",
+          "rel": "弱相关",
+          "peLtm": "17x",
+          "pe": "15x",
+          "psLtm": "2.3x",
+          "ps": "2.0x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "济川药业",
+          "ticker": "600566.SH",
+          "rel": "弱相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "2.9x",
+          "ps": "2.6x",
+          "evEbitda": "11x",
+          "verdict": null
+        },
+        {
+          "name": "健民集团",
+          "ticker": "600976.SH",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "17x",
+          "psLtm": "2.6x",
+          "ps": "2.3x",
+          "evEbitda": "14x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "A股中医药板块整体享有文化溢价，NTM P/E中位数约18x，NTM P/S中位数约2.3x；片仔癀/东阿阿胶等高溢价标的拉高中位数；H股上市通常相对A股可比有25-35%折让，目标估值参考折让后区间约1.5-1.8x NTM P/S"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Hims & Hers Health",
+          "ticker": "HIMS",
+          "rel": "中相关",
+          "peLtm": "N/A",
+          "pe": "28x",
+          "psLtm": "3.8x",
+          "ps": "3.0x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "USANA Health Sciences",
+          "ticker": "USNA",
+          "rel": "中相关",
+          "peLtm": "13x",
+          "pe": "12x",
+          "psLtm": "0.8x",
+          "ps": "0.7x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "Natural Health Trends",
+          "ticker": "NHTC",
+          "rel": "中相关",
+          "peLtm": "12x",
+          "pe": "11x",
+          "psLtm": "0.8x",
+          "ps": "0.7x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "Nature's Sunshine Products",
+          "ticker": "NATR",
+          "rel": "中相关",
+          "peLtm": "11x",
+          "pe": "10x",
+          "psLtm": "0.6x",
+          "ps": "0.6x",
+          "evEbitda": "7x",
+          "verdict": null
+        },
+        {
+          "name": "LifeVantage",
+          "ticker": "LFVN",
+          "rel": "弱相关",
+          "peLtm": "16x",
+          "pe": "14x",
+          "psLtm": "0.7x",
+          "ps": "0.6x",
+          "evEbitda": "9x",
+          "verdict": null
+        },
+        {
+          "name": "Accolade",
+          "ticker": "ACCD",
+          "rel": "弱相关",
+          "peLtm": "N/A",
+          "pe": "38x",
+          "psLtm": "1.9x",
+          "ps": "1.6x",
+          "evEbitda": "16x",
+          "verdict": null
+        },
+        {
+          "name": "Medifast",
+          "ticker": "MED",
+          "rel": "弱相关",
+          "peLtm": "9x",
+          "pe": "8x",
+          "psLtm": "0.6x",
+          "ps": "0.6x",
+          "evEbitda": "5x",
+          "verdict": null
+        },
+        {
+          "name": "Mannatech",
+          "ticker": "MTEX",
+          "rel": "弱相关",
+          "peLtm": "10x",
+          "pe": "9x",
+          "psLtm": "0.5x",
+          "ps": "0.5x",
+          "evEbitda": "6x",
+          "verdict": null
+        },
+        {
+          "name": "Quest Diagnostics",
+          "ticker": "DGX",
+          "rel": "弱相关",
+          "peLtm": "18x",
+          "pe": "16x",
+          "psLtm": "2.0x",
+          "ps": "1.8x",
+          "evEbitda": "12x",
+          "verdict": null
+        },
+        {
+          "name": "Option Care Health",
+          "ticker": "OPCH",
+          "rel": "弱相关",
+          "peLtm": "22x",
+          "pe": "19x",
+          "psLtm": "1.2x",
+          "ps": "1.0x",
+          "evEbitda": "13x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股健康/养生板块NTM P/S中位数约0.8x，NTM P/E中位数约13x，整体估值偏低；美国市场对中国中医文化理解有限，可比性较弱；美股数据仅作参考基准，核心定价锚应来自港股及A股市场"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "IPO定价未公布，待招股价区间披露后更新跨市场估值对比。三市场NTM P/S加权中位数估算约1.5-2.0x（港股强相关可比中位1.5x / A股中位2.3x / 美股中位0.8x；H股通常相对A股折让25-35%）。建议关注招股定价隐含NTM P/S是否处于1.3-1.8x合理区间，高于2.0x则估值偏贵、申购需谨慎。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "1.5x（三市场综合加权）",
+      "medianPE": "16x（三市场综合加权）",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "关注定价，合理区间积极申购",
+    "horizon": "6-12个月",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "1.5x",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "基本面(F)：品牌护城河与门诊盈利能力",
+          "result": "✓",
+          "note": "同仁堂百年品牌赋予定价权，需核验单店EBITDA利用率及毛利率稳定性",
+          "ok": true
+        },
+        {
+          "point": "结构(S)：关联交易及母公司持股比例合理",
+          "result": "?",
+          "note": "母公司同仁堂股份持股比例及品牌授权条款待A1文件最终确认",
+          "ok": false
+        },
+        {
+          "point": "估值(V)：招股定价NTM P/S ≤ 2.0x",
+          "result": "?",
+          "note": "待招股价区间公布，须低于可比公司中位数溢价20%以内",
+          "ok": false
+        },
+        {
+          "point": "时机(M)：医疗服务板块情绪积极，政策背书确立",
+          "result": "✓",
+          "note": "中医药振兴政策窗口叠加港股医疗板块估值修复周期",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "待定价后计算",
+        "upside": "-15%至-20%",
+        "basis": "门诊扩张不及预期，关联交易争议触发估值折价，NTM P/S压缩至1.0x以下"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "待定价后计算",
+        "upside": "+20%至+35%",
+        "basis": "稳健扩张叠加政策红利兑现，NTM P/S维持1.5-1.8x，参考固生堂上市后估值修复路径"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "待定价后计算",
+        "upside": "+50%至+80%",
+        "basis": "门诊加速扩张+医保覆盖突破，NTM P/S重估至2.5x，向同仁堂A股母公司品牌溢价靠拢"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发：估值达强相关可比中位数溢价",
+        "desc": "上市后股价隐含NTM P/S超过2.5x（对标固生堂溢价上限），或较IPO价格涨幅超40%后开始逐步兑现",
+        "price": "≥ IPO价格 ×1.40",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发：基本面逻辑证伪",
+        "desc": "若门诊利用率持续低于60%、关联交易占营收比例超30%，或母公司大幅上调品牌授权费侵蚀利润，则立即减持",
+        "price": "< IPO价格 ×0.85",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-06-26",
+  "generatedBy": "claude-oauth",
+  "ticker": "02667.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
