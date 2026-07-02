@@ -1,0 +1,522 @@
+{
+  "name": "珞石機器人",
+  "sector": "工业机器人/协作机器人（含手术机器人）",
+  "rating": "WATCH",
+  "score": 6.0,
+  "scoreColor": "var(--yellow)",
+  "tagline": "力控协作机器人稀缺标的，惟定价未明、赛道价格战胶着",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 6.3,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "本次招股文件未披露具体财务数据；公司为国内较早布局力控/协作机器人技术的厂商之一，产品覆盖六轴工业机器人、协作机器人本体、控制器及运动控制软件，并延伸至骨科手术机器人等医疗场景，客户集中于3C电子、新能源汽车、精密装配等下游；但国产工业/协作机器人行业整体仍处于集体亏损或微利阶段，规模化盈利能力有待验证"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 5.8,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "已进入认购阶段（预计2026-07-09挂牌），距上市仅剩数日，但本次可获取数据中招股价、集资规模、基石投资者阵容仍未披露，发行结构吸引力需待正式定价公告后重新评估"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价区间未公布，暂无法计算隐含P/S、P/E；参考A股埃斯顿、绿的谐波、新松机器人等工业机器人产业链公司估值普遍偏高（NTM P/S多在3-8x区间），若公司定价参照A股逻辑，估值合理性有待定价后重新判断"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.0,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "具身智能、人形机器人及工业自动化主题2025-2026年持续获资金追捧，港股18C科技股IPO窗口活跃，稀缺协作机器人标的有望获资金关注；但需留意行业价格战及下游资本开支波动对认购热度的制约"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "力控协作机器人技术稀缺性",
+      "desc": "公司较早在国内布局力控/柔顺控制技术，产品覆盖工业机器人本体、协作机器人及自研控制器/运动控制软件，在精密装配、力控打磨等对力反馈精度要求较高的场景具备差异化技术壁垒，区别于单纯代工型机器人厂商"
+    },
+    {
+      "title": "3C电子+新能源双轮驱动的应用场景",
+      "desc": "公司产品广泛应用于3C电子精密组装、新能源汽车电池/电驱产线等高景气下游领域，受益于消费电子换机周期回暖与新能源制造自动化渗透率提升带来的资本开支增量"
+    },
+    {
+      "title": "医疗机器人打开第二增长曲线",
+      "desc": "公司依托力控技术积累延伸至骨科手术机器人等医疗应用场景，若相关产品注册审批与商业化进度顺利，有望在工业机器人主业之外形成估值溢价更高的第二增长曲线"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "国产协作/工业机器人赛道价格战",
+      "desc": "埃斯顿、汇川技术、新时达、新松机器人、节卡机器人、越疆科技等本土厂商在中低端工业机器人及协作机器人市场持续降价抢占份额，行业整体毛利率承压，若公司无法通过力控技术差异化维持溢价，将面临份额与利润的双重挤压"
+    },
+    {
+      "icon": "🧩",
+      "title": "核心零部件对外依存度风险",
+      "desc": "高精度谐波减速器、RV减速器、伺服电机及驱动器等核心零部件仍部分依赖绿的谐波、汇川技术等国内供应商及日本哈默纳科（Harmonic Drive）、纳博特斯克（Nabtesco）等国际厂商，供应稳定性与采购成本波动直接影响整机毛利率"
+    },
+    {
+      "icon": "🏥",
+      "title": "手术机器人集采控费风险",
+      "desc": "若骨科手术机器人业务已进入商业化阶段，需面对国家及地方高值医用耗材/器械集中带量采购政策对定价的持续压制，叠加天智航、微创机器人、键嘉医疗等先发者的竞争，医疗机器人板块短期难以贡献稳定利润"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "優必選 UBTECH",
+          "ticker": "9880.HK",
+          "rel": "中相关",
+          "peLtm": "n/a",
+          "pe": "n/a",
+          "psLtm": "18x",
+          "ps": "12x",
+          "evEbitda": "n/a",
+          "verdict": null
+        },
+        {
+          "name": "微創機器人-B",
+          "ticker": "2252.HK",
+          "rel": "中相关",
+          "peLtm": "n/a",
+          "pe": "n/a",
+          "psLtm": "20x",
+          "ps": "15x",
+          "evEbitda": "n/a",
+          "verdict": null
+        },
+        {
+          "name": "鍵嘉醫療-B",
+          "ticker": "2251.HK",
+          "rel": "中相关",
+          "peLtm": "n/a",
+          "pe": "n/a",
+          "psLtm": "25x",
+          "ps": "18x",
+          "evEbitda": "n/a",
+          "verdict": null
+        },
+        {
+          "name": "地平線機器人-W",
+          "ticker": "9660.HK",
+          "rel": "弱相关",
+          "peLtm": "n/a",
+          "pe": "n/a",
+          "psLtm": "15x",
+          "ps": "10x",
+          "evEbitda": "n/a",
+          "verdict": null
+        },
+        {
+          "name": "黑芝麻智能",
+          "ticker": "2533.HK",
+          "rel": "弱相关",
+          "peLtm": "n/a",
+          "pe": "n/a",
+          "psLtm": "20x",
+          "ps": "12x",
+          "evEbitda": "n/a",
+          "verdict": null
+        },
+        {
+          "name": "ASMPT",
+          "ticker": "0522.HK",
+          "rel": "弱相关",
+          "peLtm": "30x",
+          "pe": "22x",
+          "psLtm": "2.2x",
+          "ps": "2.0x",
+          "evEbitda": "15x",
+          "verdict": null
+        },
+        {
+          "name": "創科實業",
+          "ticker": "0669.HK",
+          "rel": "弱相关",
+          "peLtm": "20x",
+          "pe": "18x",
+          "psLtm": "2.0x",
+          "ps": "1.8x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "舜宇光學科技",
+          "ticker": "2382.HK",
+          "rel": "弱相关",
+          "peLtm": "28x",
+          "pe": "22x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "比亞迪電子",
+          "ticker": "0285.HK",
+          "rel": "弱相关",
+          "peLtm": "15x",
+          "pe": "13x",
+          "psLtm": "0.5x",
+          "ps": "0.45x",
+          "evEbitda": "8x",
+          "verdict": null
+        },
+        {
+          "name": "富智康集團",
+          "ticker": "2038.HK",
+          "rel": "弱相关",
+          "peLtm": "n/a",
+          "pe": "18x",
+          "psLtm": "0.2x",
+          "ps": "0.18x",
+          "evEbitda": "8x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "港股机器人相关标的多集中于人形/服务机器人及手术机器人等尚未盈利的高成长赛道，中相关标的（优必选、微创机器人、键嘉医疗）NTM P/S中位数高达15x以上，反映市场对具身智能/医疗机器人主题给予显著溢价，若公司参照此类逻辑定价，估值中枢明显偏高"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "埃斯頓",
+          "ticker": "002747.SZ",
+          "rel": "强相关",
+          "peLtm": "n/a",
+          "pe": "45x",
+          "psLtm": "3.5x",
+          "ps": "3.0x",
+          "evEbitda": "25x",
+          "verdict": null
+        },
+        {
+          "name": "埃夫特",
+          "ticker": "688165.SH",
+          "rel": "强相关",
+          "peLtm": "n/a",
+          "pe": "n/a",
+          "psLtm": "4.5x",
+          "ps": "3.8x",
+          "evEbitda": "n/a",
+          "verdict": null
+        },
+        {
+          "name": "新時達",
+          "ticker": "002527.SZ",
+          "rel": "强相关",
+          "peLtm": "n/a",
+          "pe": "50x",
+          "psLtm": "3.0x",
+          "ps": "2.6x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "新鬆機器人",
+          "ticker": "300024.SZ",
+          "rel": "强相关",
+          "peLtm": "60x",
+          "pe": "45x",
+          "psLtm": "3.8x",
+          "ps": "3.3x",
+          "evEbitda": "24x",
+          "verdict": null
+        },
+        {
+          "name": "綠的諧波",
+          "ticker": "688017.SH",
+          "rel": "强相关",
+          "peLtm": "55x",
+          "pe": "42x",
+          "psLtm": "12.0x",
+          "ps": "9.5x",
+          "evEbitda": "32x",
+          "verdict": null
+        },
+        {
+          "name": "匯川技術",
+          "ticker": "300124.SZ",
+          "rel": "中相关",
+          "peLtm": "32x",
+          "pe": "27x",
+          "psLtm": "4.5x",
+          "ps": "3.9x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "拓斯達",
+          "ticker": "300607.SZ",
+          "rel": "中相关",
+          "peLtm": "n/a",
+          "pe": "35x",
+          "psLtm": "2.5x",
+          "ps": "2.1x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "大族激光",
+          "ticker": "002008.SZ",
+          "rel": "中相关",
+          "peLtm": "25x",
+          "pe": "20x",
+          "psLtm": "1.8x",
+          "ps": "1.6x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "天準科技",
+          "ticker": "688003.SH",
+          "rel": "中相关",
+          "peLtm": "n/a",
+          "pe": "38x",
+          "psLtm": "5.0x",
+          "ps": "4.2x",
+          "evEbitda": "22x",
+          "verdict": null
+        },
+        {
+          "name": "雙環傳動",
+          "ticker": "002472.SZ",
+          "rel": "弱相关",
+          "peLtm": "22x",
+          "pe": "18x",
+          "psLtm": "2.0x",
+          "ps": "1.8x",
+          "evEbitda": "12x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "A股工业机器人及核心零部件（谐波减速器）标的享受高成长溢价，强相关公司NTM P/S中位数约3.5x、绿的谐波等核心零部件龙头更高达9x以上，反映市场对国产机器人核心技术自主可控的高预期，估值中枢明显高于港股同类可比公司的传统制造估值逻辑"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "ABB Ltd",
+          "ticker": "ABBNY",
+          "rel": "强相关",
+          "peLtm": "26x",
+          "pe": "22x",
+          "psLtm": "2.8x",
+          "ps": "2.5x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "Fanuc Corp (ADR)",
+          "ticker": "FANUY",
+          "rel": "强相关",
+          "peLtm": "30x",
+          "pe": "25x",
+          "psLtm": "5.5x",
+          "ps": "5.0x",
+          "evEbitda": "18x",
+          "verdict": null
+        },
+        {
+          "name": "Yaskawa Electric (ADR)",
+          "ticker": "YASKY",
+          "rel": "强相关",
+          "peLtm": "28x",
+          "pe": "24x",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "14x",
+          "verdict": null
+        },
+        {
+          "name": "Teradyne (Universal Robots)",
+          "ticker": "TER",
+          "rel": "强相关",
+          "peLtm": "30x",
+          "pe": "24x",
+          "psLtm": "5.5x",
+          "ps": "5.0x",
+          "evEbitda": "17x",
+          "verdict": null
+        },
+        {
+          "name": "Intuitive Surgical",
+          "ticker": "ISRG",
+          "rel": "中相关",
+          "peLtm": "65x",
+          "pe": "55x",
+          "psLtm": "18.0x",
+          "ps": "15.0x",
+          "evEbitda": "40x",
+          "verdict": null
+        },
+        {
+          "name": "Rockwell Automation",
+          "ticker": "ROK",
+          "rel": "中相关",
+          "peLtm": "35x",
+          "pe": "28x",
+          "psLtm": "4.5x",
+          "ps": "4.0x",
+          "evEbitda": "20x",
+          "verdict": null
+        },
+        {
+          "name": "Symbotic",
+          "ticker": "SYM",
+          "rel": "弱相关",
+          "peLtm": "n/a",
+          "pe": "n/a",
+          "psLtm": "3.5x",
+          "ps": "2.8x",
+          "evEbitda": "n/a",
+          "verdict": null
+        },
+        {
+          "name": "Cognex",
+          "ticker": "CGNX",
+          "rel": "弱相关",
+          "peLtm": "45x",
+          "pe": "35x",
+          "psLtm": "6.5x",
+          "ps": "6.0x",
+          "evEbitda": "24x",
+          "verdict": null
+        },
+        {
+          "name": "Zebra Technologies",
+          "ticker": "ZBRA",
+          "rel": "弱相关",
+          "peLtm": "24x",
+          "pe": "20x",
+          "psLtm": "2.5x",
+          "ps": "2.2x",
+          "evEbitda": "13x",
+          "verdict": null
+        },
+        {
+          "name": "Stryker Corp",
+          "ticker": "SYK",
+          "rel": "弱相关",
+          "peLtm": "32x",
+          "pe": "27x",
+          "psLtm": "5.5x",
+          "ps": "5.0x",
+          "evEbitda": "19x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "全球工业机器人四大家族中ABB、Fanuc、Yaskawa及协作机器人龙头Universal Robots母公司Teradyne NTM P/S中位数约3.75x，反映成熟市场对稳健工业自动化资产的合理定价；Intuitive Surgical代表手术机器人赛道的高估值天花板，可作为公司医疗业务想象空间的参照"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "招股价及集资规模在本次可获取数据中尚未披露，暂无法计算IPO隐含P/S、P/E倍数。综合港股/A股/美股三市场NTM P/S中位数（港股因多为人形/手术机器人明星股偏高，约12x；A股工业机器人产业链约3.5x；美股成熟工业自动化龙头约3.75x），三地中位数分化显著，反映不同市场对机器人赛道的定价逻辑差异极大；若公司按A股/美股工业机器人本体逻辑定价，安全边际相对充足，若参照港股具身智能主题溢价定价则估值风险较高。待正式招股文件公布定价后更新跨市场折溢价分析",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "约3.75x（A股/美股工业机器人本体中位数，剔除港股主题股极值）",
+      "medianPE": "约27x（剔除亏损公司后三地中位数）",
+      "premiumDiscount": "待IPO定价公布后计算"
+    }
+  },
+  "sellRec": {
+    "action": "观望，待正式招股价与基石投资者阵容公布后重新评估",
+    "horizon": "待定价后确定（预计上市后6-12个月观察订单放量与毛利率走势）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "约3.75x（A股/美股工业机器人本体中位数）",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "F - 力控/协作机器人技术差异化能否维持",
+          "result": "✓",
+          "note": "在力控技术及骨科手术机器人延伸应用上具备一定先发优势，区别于纯代工型机器人厂商",
+          "ok": true
+        },
+        {
+          "point": "S - 基石投资者与发行结构是否具吸引力",
+          "result": "✗",
+          "note": "本次可获取数据中招股价、集资规模及基石投资者阵容均未披露，需待正式公告确认",
+          "ok": false
+        },
+        {
+          "point": "V - 定价是否较可比公司中位数有折让",
+          "result": "✗",
+          "note": "招股价区间未公布，暂无法判断是否具备安全边际",
+          "ok": false
+        },
+        {
+          "point": "M - 具身智能/机器人主题热度能否延续至上市窗口",
+          "result": "✓",
+          "note": "2025-2026年具身智能、人形机器人及工业自动化主题持续获资金追捧，港股稀缺标的有望受益",
+          "ok": true
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "待定价（预计发行价下方15%-25%）",
+        "upside": "N/A",
+        "basis": "若国产协作机器人价格战加剧、下游3C/新能源资本开支收缩，叠加港股新股情绪转弱，存在破发风险"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "待定价（参考发行价±10%波动）",
+        "upside": "N/A",
+        "basis": "按A股/美股工业机器人本体NTM P/S中位数约3.75x附近定价，上市后随行业景气度及大盘波动"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "待定价（预计发行价上方25%-40%）",
+        "upside": "N/A",
+        "basis": "若具身智能主题持续发酵、手术机器人商业化进度超预期，估值有望向港股优必选、微创机器人等高成长机器人股估值中枢靠拢"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发",
+        "desc": "若上市后估值向港股具身智能/手术机器人主题股（优必选、微创机器人）估值中枢靠拢，或较发行价明显溢价，可考虑逐步兑现",
+        "price": "待定价后确定（预计发行价+25%以上）",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "若核心下游客户订单大幅收缩、行业价格战导致毛利率持续下滑，或手术机器人业务商业化进度大幅低于预期，应及时止损离场",
+        "price": "待定价后确定（预计发行价-15%以下）",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-07-02",
+  "generatedBy": "claude-oauth",
+  "ticker": "03752.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
