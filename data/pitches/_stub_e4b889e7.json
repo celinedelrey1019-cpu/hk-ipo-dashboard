@@ -1,0 +1,511 @@
+{
+  "name": "三環集團",
+  "sector": "电子陶瓷元件/被动元件（MLCC陶瓷插芯封装/光纤陶瓷插芯/半导体精密陶瓷部件/SOFC燃料电池）",
+  "rating": "WATCH",
+  "score": 6.9,
+  "scoreColor": "var(--yellow)",
+  "tagline": "电子陶瓷隐形冠军拟A+H上市，基本面优但定价未公布",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 7.6,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "A股母公司300408.SZ为全球领先的电子陶瓷元件企业，产品覆盖MLCC陶瓷插芯/插座、光纤陶瓷插芯（全球市占率领先）、半导体设备用精密陶瓷部件、燃料电池(SOFC)电堆部件及氧化锆陶瓷等多元产品线。历史毛利率长期维持在35%-45%区间、净利率约25%-30%左右，显著高于一般消费电子组装类企业，ROE维持在15%-20%区间，资产负债表稳健、现金充裕。核心弱点是传统指纹识别陶瓷盖板及部分消费电子相关业务受下游技术路线变化（屏下光学指纹替代电容式方案）影响呈现结构性下滑，需半导体材料/SOFC等新业务接续增长。因未取得实际A1文件数据，以上为基于公开财报与行业认知的估算区间。"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 7.0,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "拟采用A+H二次上市结构（A股母公司300408.SZ已为电子陶瓷/被动元件行业龙头），2025-2026年多家A股细分领域龙头通过同类结构赴港上市、机制成熟，高毛利、高质量制造业标的基石认购意愿普遍较强。但本次发行股数、募资规模、基石阵容及具体招股价区间均未公布，结构细节存在不确定性，暂不能给满分。"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价区间未公布（HK$None – HK$None），无法计算隐含P/E/P/S并与三地comps对比。参考A股300408.SZ历史P/E多在20-35倍区间波动（受半导体材料国产替代及SOFC题材估值溢价影响），若H股按同类A+H案例惯例给予10-20%的发行折让，估值大致合理，但缺乏确定发行价前无法验证是否留有安全边际，暂给中性偏保守评分。"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.5,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "2025-2026年港股A+H二次上市热潮持续，南向及国际长线资金对高毛利、稀缺性电子材料/半导体国产替代龙头配置需求旺盛；叠加SOFC固态氧化物燃料电池/氢能源等题材热度上升，整体市场时机偏有利，但需警惕消费电子及电信资本开支周期性波动对认购情绪的扰动。"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "全球电子陶瓷隐形冠军，多业务线协同布局",
+      "desc": "公司为MLCC陶瓷插芯/插座及光纤陶瓷插芯的全球领先制造商，同时切入半导体设备用精密陶瓷部件（受益半导体设备国产替代）及氧化锆陶瓷等高附加值材料，客户与应用场景多元，抗单一行业周期波动能力强于纯消费电子组装类企业。"
+    },
+    {
+      "title": "SOFC固态氧化物燃料电池构成第二增长曲线",
+      "desc": "公司前瞻布局分布式能源/氢能源发电赛道的核心部件——SOFC电堆及相关陶瓷材料，具备先发的材料与工艺积累，虽当前收入体量尚小，但随着国内分布式能源政策推进，中长期成长空间较大。"
+    },
+    {
+      "title": "高毛利+现金牛属性支撑穿越周期与多元化扩张",
+      "desc": "公司历史毛利率长期维持较高水平、资产负债表稳健，为半导体材料、SOFC等新兴业务的持续研发投入及产能扩张提供充足自有资金支持，降低依赖外部融资的稀释风险。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "光纤陶瓷插芯及指纹识别陶瓷等传统优势业务增长动能趋缓",
+      "desc": "公司在光纤陶瓷插芯领域全球市占率领先，但海外电信运营商FTTH资本开支存在周期性波动，叠加日本村田、京瓷等国际巨头潜在价格竞争；同时电容式指纹识别陶瓷盖板业务随手机厂商全面转向屏下光学指纹方案持续萎缩，传统业务对整体收入的边际拉动作用趋弱。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "半导体材料与SOFC燃料电池新业务仍处培育期，短期难以对冲传统业务放缓",
+      "desc": "半导体设备用精密陶瓷部件客户认证周期长，若下游半导体设备资本开支放缓或核心客户验证进度不及预期，将拖累该板块放量节奏；SOFC电堆业务当前收入占比仍较小、尚未形成稳定盈利贡献，第二增长曲线兑现存在时间上的不确定性。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "瑞声科技",
+          "ticker": "2018.HK",
+          "rel": "中相关",
+          "peLtm": "~23x",
+          "pe": "~20x",
+          "psLtm": "~1.5x",
+          "ps": "~1.4x",
+          "evEbitda": "~11x",
+          "verdict": null
+        },
+        {
+          "name": "舜宇光学科技",
+          "ticker": "2382.HK",
+          "rel": "中相关",
+          "peLtm": "~28x",
+          "pe": "~24x",
+          "psLtm": "~2.0x",
+          "ps": "~1.8x",
+          "evEbitda": "~14x",
+          "verdict": null
+        },
+        {
+          "name": "比亚迪电子",
+          "ticker": "0285.HK",
+          "rel": "弱相关",
+          "peLtm": "~13x",
+          "pe": "~12x",
+          "psLtm": "~0.5x",
+          "ps": "~0.5x",
+          "evEbitda": "~8x",
+          "verdict": null
+        },
+        {
+          "name": "丘钛科技",
+          "ticker": "1478.HK",
+          "rel": "弱相关",
+          "peLtm": "~17x",
+          "pe": "~15x",
+          "psLtm": "~0.5x",
+          "ps": "~0.5x",
+          "evEbitda": "~9x",
+          "verdict": null
+        },
+        {
+          "name": "京信通信",
+          "ticker": "2342.HK",
+          "rel": "中相关",
+          "peLtm": "N/A(近年波动)",
+          "pe": "~18x",
+          "psLtm": "~0.6x",
+          "ps": "~0.5x",
+          "evEbitda": "N/A",
+          "verdict": null
+        },
+        {
+          "name": "建滔积层板",
+          "ticker": "1888.HK",
+          "rel": "弱相关",
+          "peLtm": "~9x",
+          "pe": "~9x",
+          "psLtm": "~0.8x",
+          "ps": "~0.7x",
+          "evEbitda": "~6x",
+          "verdict": null
+        },
+        {
+          "name": "ASMPT(先进半导体科技)",
+          "ticker": "0522.HK",
+          "rel": "中相关",
+          "peLtm": "~20x",
+          "pe": "~17x",
+          "psLtm": "~1.3x",
+          "ps": "~1.2x",
+          "evEbitda": "~10x",
+          "verdict": null
+        },
+        {
+          "name": "中兴通讯",
+          "ticker": "0763.HK",
+          "rel": "弱相关",
+          "peLtm": "~15x",
+          "pe": "~13x",
+          "psLtm": "~0.9x",
+          "ps": "~0.8x",
+          "evEbitda": "~7x",
+          "verdict": null
+        },
+        {
+          "name": "高伟电子(Cowell e Holdings)",
+          "ticker": "1415.HK",
+          "rel": "弱相关",
+          "peLtm": "~18x",
+          "pe": "~16x",
+          "psLtm": "~0.9x",
+          "ps": "~0.8x",
+          "evEbitda": "~10x",
+          "verdict": null
+        },
+        {
+          "name": "比亚迪股份",
+          "ticker": "1211.HK",
+          "rel": "弱相关",
+          "peLtm": "~20x",
+          "pe": "~18x",
+          "psLtm": "~0.8x",
+          "ps": "~0.7x",
+          "evEbitda": "~9x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股同业以精密电子元件/连接器/半导体设备制造商为主，多数估值处于10-20倍P/E、0.5-1.5倍P/S区间，反映市场对精密制造环节的常规估值中枢；三环若参考此区间定价，属合理偏低估值，若显著高于该区间则偏贵。"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "风华高科",
+          "ticker": "000636.SZ",
+          "rel": "强相关",
+          "peLtm": "~35x",
+          "pe": "~28x",
+          "psLtm": "~3.5x",
+          "ps": "~3.0x",
+          "evEbitda": "~18x",
+          "verdict": null
+        },
+        {
+          "name": "洁美科技",
+          "ticker": "002859.SZ",
+          "rel": "强相关",
+          "peLtm": "~40x",
+          "pe": "~32x",
+          "psLtm": "~5.0x",
+          "ps": "~4.2x",
+          "evEbitda": "~22x",
+          "verdict": null
+        },
+        {
+          "name": "火炬电子",
+          "ticker": "603678.SH",
+          "rel": "强相关",
+          "peLtm": "~30x",
+          "pe": "~25x",
+          "psLtm": "~3.0x",
+          "ps": "~2.6x",
+          "evEbitda": "~16x",
+          "verdict": null
+        },
+        {
+          "name": "国瓷材料",
+          "ticker": "300285.SZ",
+          "rel": "强相关",
+          "peLtm": "~32x",
+          "pe": "~27x",
+          "psLtm": "~3.5x",
+          "ps": "~3.0x",
+          "evEbitda": "~17x",
+          "verdict": null
+        },
+        {
+          "name": "中航光电",
+          "ticker": "002179.SZ",
+          "rel": "中相关",
+          "peLtm": "~25x",
+          "pe": "~22x",
+          "psLtm": "~2.5x",
+          "ps": "~2.2x",
+          "evEbitda": "~14x",
+          "verdict": null
+        },
+        {
+          "name": "信维通信",
+          "ticker": "300136.SZ",
+          "rel": "中相关",
+          "peLtm": "~28x",
+          "pe": "~24x",
+          "psLtm": "~2.0x",
+          "ps": "~1.8x",
+          "evEbitda": "~13x",
+          "verdict": null
+        },
+        {
+          "name": "生益科技",
+          "ticker": "600183.SH",
+          "rel": "中相关",
+          "peLtm": "~22x",
+          "pe": "~19x",
+          "psLtm": "~1.5x",
+          "ps": "~1.3x",
+          "evEbitda": "~11x",
+          "verdict": null
+        },
+        {
+          "name": "江丰电子",
+          "ticker": "300666.SZ",
+          "rel": "中相关",
+          "peLtm": "~38x",
+          "pe": "~30x",
+          "psLtm": "~4.0x",
+          "ps": "~3.4x",
+          "evEbitda": "~20x",
+          "verdict": null
+        },
+        {
+          "name": "东山精密",
+          "ticker": "002384.SZ",
+          "rel": "弱相关",
+          "peLtm": "~20x",
+          "pe": "~17x",
+          "psLtm": "~0.8x",
+          "ps": "~0.7x",
+          "evEbitda": "~9x",
+          "verdict": null
+        },
+        {
+          "name": "大族激光",
+          "ticker": "002008.SZ",
+          "rel": "弱相关",
+          "peLtm": "~24x",
+          "pe": "~20x",
+          "psLtm": "~1.2x",
+          "ps": "~1.1x",
+          "evEbitda": "~10x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "A股被动元件/先进陶瓷材料同业估值普遍高于港股同类公司（P/E多在25-40倍，P/S多在2-5倍），反映A股对稀缺性电子材料国产替代龙头给予的流动性与成长性溢价；三环A股本体（300408.SZ）历史估值亦大致落于此区间，是H股定价的重要参照锚。"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Kyocera Corp",
+          "ticker": "KYOCY",
+          "rel": "强相关",
+          "peLtm": "~18x",
+          "pe": "~16x",
+          "psLtm": "~1.2x",
+          "ps": "~1.1x",
+          "evEbitda": "~9x",
+          "verdict": null
+        },
+        {
+          "name": "Murata Manufacturing",
+          "ticker": "MRAAY",
+          "rel": "强相关",
+          "peLtm": "~22x",
+          "pe": "~19x",
+          "psLtm": "~2.5x",
+          "ps": "~2.2x",
+          "evEbitda": "~11x",
+          "verdict": null
+        },
+        {
+          "name": "TDK Corp",
+          "ticker": "TTDKY",
+          "rel": "强相关",
+          "peLtm": "~20x",
+          "pe": "~17x",
+          "psLtm": "~1.5x",
+          "ps": "~1.3x",
+          "evEbitda": "~9x",
+          "verdict": null
+        },
+        {
+          "name": "Vishay Intertechnology",
+          "ticker": "VSH",
+          "rel": "中相关",
+          "peLtm": "~16x",
+          "pe": "~14x",
+          "psLtm": "~1.0x",
+          "ps": "~0.9x",
+          "evEbitda": "~8x",
+          "verdict": null
+        },
+        {
+          "name": "Corning Inc",
+          "ticker": "GLW",
+          "rel": "中相关",
+          "peLtm": "~28x",
+          "pe": "~22x",
+          "psLtm": "~2.5x",
+          "ps": "~2.2x",
+          "evEbitda": "~13x",
+          "verdict": null
+        },
+        {
+          "name": "Coherent Corp",
+          "ticker": "COHR",
+          "rel": "中相关",
+          "peLtm": "~35x",
+          "pe": "~25x",
+          "psLtm": "~3.0x",
+          "ps": "~2.6x",
+          "evEbitda": "~16x",
+          "verdict": null
+        },
+        {
+          "name": "Rogers Corporation",
+          "ticker": "ROG",
+          "rel": "中相关",
+          "peLtm": "~30x",
+          "pe": "~24x",
+          "psLtm": "~2.8x",
+          "ps": "~2.4x",
+          "evEbitda": "~14x",
+          "verdict": null
+        },
+        {
+          "name": "Amphenol Corp",
+          "ticker": "APH",
+          "rel": "弱相关",
+          "peLtm": "~33x",
+          "pe": "~29x",
+          "psLtm": "~5.0x",
+          "ps": "~4.5x",
+          "evEbitda": "~20x",
+          "verdict": null
+        },
+        {
+          "name": "TE Connectivity",
+          "ticker": "TEL",
+          "rel": "弱相关",
+          "peLtm": "~21x",
+          "pe": "~19x",
+          "psLtm": "~3.0x",
+          "ps": "~2.8x",
+          "evEbitda": "~13x",
+          "verdict": null
+        },
+        {
+          "name": "Bloom Energy Corp",
+          "ticker": "BE",
+          "rel": "中相关",
+          "peLtm": "N/A(未稳定盈利)",
+          "pe": "~50x(预期)",
+          "psLtm": "~2.5x",
+          "ps": "~2.0x",
+          "evEbitda": "N/A",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "美股被动元件/先进陶瓷龙头（京瓷、村田、TDK）享受全球化下游及技术壁垒溢价，P/E与P/S中枢显著高于亚洲同业；Bloom Energy等纯SOFC标的估值波动大、盈利尚未稳定，可比性需谨慎看待。整体美股comps中位数高于港股、接近或略高于A股同业。"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "招股价区间未公布，暂无法计算IPO隐含P/S与P/E并与三市场中位数比较。待港交所公布具体发售价后，应重点比较H股隐含估值相对A股300408.SZ现价的折让幅度，以及相对港股同类精密电子元件公司（估值中枢明显低于A股与美股）的定价合理性。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "港股~0.8x / A股~2.6x / 美股~2.4x",
+      "medianPE": "港股~17x / A股~26x / 美股~22x",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "待定价后评估，暂列观望",
+    "horizon": "建议持有6-12个月（视H股相对A股折让及新业务放量节奏动态调整）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "港股~0.8x / A股~2.6x",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "电子陶瓷元件龙头地位 (F)",
+          "result": "✓",
+          "note": "MLCC陶瓷插芯/光纤陶瓷插芯全球市占率领先，半导体设备精密陶瓷部件受益国产替代，基本面支撑较强",
+          "ok": true
+        },
+        {
+          "point": "第二增长曲线兑现 (F/M)",
+          "result": "✓",
+          "note": "半导体材料与SOFC燃料电池业务处于培育期，收入占比逐步提升但尚需时间验证放量节奏",
+          "ok": true
+        },
+        {
+          "point": "发行定价折让 (V)",
+          "result": "✗",
+          "note": "招股价区间未公布，无法验证是否较A股/港股同业留有安全边际，是当前最大不确定性",
+          "ok": false
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "待定价后测算",
+        "upside": "N/A",
+        "basis": "若发行定价对标A股无折让甚至溢价，且传统指纹识别/光纤陶瓷业务下滑超预期、新业务放量不及预期，估值向港股同业中枢（P/S~0.5-0.8x）回归，存在破发风险"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "待定价后测算",
+        "upside": "N/A",
+        "basis": "参照A+H惯例给予A股10-20%折让定价，叠加半导体材料与SOFC业务稳步放量，估值大致维持发行价至温和上涨"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "待定价后测算",
+        "upside": "N/A",
+        "basis": "若南向及国际资金对稀缺电子陶瓷/半导体材料龙头给予明显估值重估，叠加SOFC/氢能源题材超预期发酵，估值向A股300408.SZ现价靠拢"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发",
+        "desc": "H股相对A股300408.SZ折让收窄至5%以内，或估值显著高于港股同业中枢（P/S明显超过1.5x）时，建议获利了结",
+        "price": "待定价后确定",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "若半导体材料/SOFC新业务放量大幅低于预期，或传统指纹识别陶瓷/光纤陶瓷插芯业务下滑超预期导致整体毛利率持续下滑，建议止损离场",
+        "price": "待定价后确定",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-07-03",
+  "generatedBy": "claude-oauth",
+  "ticker": "06951.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}

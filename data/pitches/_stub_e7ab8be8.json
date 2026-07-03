@@ -1,0 +1,511 @@
+{
+  "name": "立訊精密",
+  "sector": "消费电子精密制造/连接器（果链+汽车电子+通信）",
+  "rating": "WATCH",
+  "score": 6.9,
+  "scoreColor": "var(--yellow)",
+  "tagline": "果链龙头拟A+H上市，基本面稳健但定价未公布待观察",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 7.3,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "A股母公司002475.SZ 2024年收入约人民币2600-2700亿元，同比双位数增长，消费电子（声学/连接器/精密组件，含AirPods、Apple Watch及iPhone结构件组装）占比约70-75%；汽车互联产品与精密组件业务（收购德国莱尼Leoni线束业务后）及通信/数据中心连接器业务增速显著更快。毛利率约10-12%、净利率约5%左右，属组装/精密制造行业正常偏薄水平。核心弱点是对苹果单一大客户的高集中度（估计长期贡献收入50%以上）。因未取得实际A1文件数据，以上为基于公开财报与行业认知的估算区间。"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 7.0,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "属于典型的A+H二次上市结构（A股母公司002475.SZ已是精密制造龙头），2025-2026年多家A股大盘蓝筹（如美的、三一重工、宁德时代等）通过同类结构成功赴港，机制成熟、基石投资者认购活跃度高。但本次发行股数、募资规模、基石阵容及具体招股价区间尚未公布，结构细节存在不确定性，暂不能给满分。"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.5,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价区间未公布（HK$None – HK$None），无法计算隐含P/E/P/S并与三地comps对比。参考A股002475.SZ历史P/E多在20-30倍区间波动（受苹果新品周期及汽车电子进展影响），若H股按同类A+H案例惯例给予10-20%的发行折让，估值大致合理，但缺乏确定发行价前无法验证是否留有安全边际，暂给中性偏保守评分。"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 7.8,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "2025-2026年港股迎来大型A+H二次上市热潮，南向资金与国际长线资金对稀缺性大盘制造业蓝筹配置需求旺盛；同时AI服务器连接器/液冷、汽车电子等题材热度高，果链龙头具备较强的资金关注度和认购基础，整体市场时机偏有利。"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "果链核心地位持续深化",
+      "desc": "从AirPods/Apple Watch组装延伸至iPhone精密结构件乃至部分整机组装环节，绑定全球最大消费电子品牌的产品周期与出货增长，短期业绩确定性较强。"
+    },
+    {
+      "title": "汽车电子与通信/数据中心构成第二增长曲线",
+      "desc": "通过收购德国莱尼(Leoni)汽车线束业务及国内布局，公司汽车连接器/线束收入快速放量；同时AI服务器高速连接器、液冷等通信基础设施相关产品受益算力资本开支周期，有望逐步降低对单一消费电子客户的依赖。"
+    },
+    {
+      "title": "稀缺A+H精密制造龙头的估值重定价窗口",
+      "desc": "作为千亿级营收规模、少数具备全球化产能布局的精密制造/连接器A股龙头企业赴港上市，若发行定价留有合理折让，有望吸引南向资金及国际配置型资金带来的估值重定价机会。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "苹果客户集中度风险",
+      "desc": "苹果长期为公司最大单一客户，估算贡献收入比例维持在较高水平；若苹果调整组装/供应链份额分配（转向富士康/和硕等竞争对手）或iPhone、AirPods出货不及预期，将直接冲击公司收入与产能利用率。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "组装环节毛利率结构性偏低且并购整合存不确定性",
+      "desc": "消费电子代工组装业务毛利率长期维持在10-12%的低位，公司依赖持续并购（如莱尼线束业务）向高附加值环节延伸以提升盈利质量，但跨境整合进度、协同效应释放节奏及并购商誉减值风险，均可能压制净利率改善速度。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "比亚迪电子",
+          "ticker": "0285.HK",
+          "rel": "强相关",
+          "peLtm": "~13x",
+          "pe": "~12x",
+          "psLtm": "~0.5x",
+          "ps": "~0.5x",
+          "evEbitda": "~8x",
+          "verdict": null
+        },
+        {
+          "name": "鴻騰精密(FIT Hon Teng)",
+          "ticker": "6088.HK",
+          "rel": "强相关",
+          "peLtm": "~17x",
+          "pe": "~15x",
+          "psLtm": "~0.8x",
+          "ps": "~0.7x",
+          "evEbitda": "~9x",
+          "verdict": null
+        },
+        {
+          "name": "瑞声科技",
+          "ticker": "2018.HK",
+          "rel": "中相关",
+          "peLtm": "~23x",
+          "pe": "~20x",
+          "psLtm": "~1.5x",
+          "ps": "~1.4x",
+          "evEbitda": "~11x",
+          "verdict": null
+        },
+        {
+          "name": "舜宇光学科技",
+          "ticker": "2382.HK",
+          "rel": "中相关",
+          "peLtm": "~28x",
+          "pe": "~24x",
+          "psLtm": "~2.0x",
+          "ps": "~1.8x",
+          "evEbitda": "~14x",
+          "verdict": null
+        },
+        {
+          "name": "信利国际",
+          "ticker": "0732.HK",
+          "rel": "中相关",
+          "peLtm": "~12x",
+          "pe": "~11x",
+          "psLtm": "~0.4x",
+          "ps": "~0.4x",
+          "evEbitda": "~7x",
+          "verdict": null
+        },
+        {
+          "name": "Cowell e Holdings(丘钛/科威尔)",
+          "ticker": "1415.HK",
+          "rel": "中相关",
+          "peLtm": "~18x",
+          "pe": "~16x",
+          "psLtm": "~0.9x",
+          "ps": "~0.8x",
+          "evEbitda": "~10x",
+          "verdict": null
+        },
+        {
+          "name": "丘钛科技",
+          "ticker": "1478.HK",
+          "rel": "中相关",
+          "peLtm": "~17x",
+          "pe": "~15x",
+          "psLtm": "~0.5x",
+          "ps": "~0.5x",
+          "evEbitda": "~9x",
+          "verdict": null
+        },
+        {
+          "name": "建滔积层板",
+          "ticker": "1888.HK",
+          "rel": "弱相关",
+          "peLtm": "~9x",
+          "pe": "~9x",
+          "psLtm": "~0.8x",
+          "ps": "~0.7x",
+          "evEbitda": "~6x",
+          "verdict": null
+        },
+        {
+          "name": "伟易达",
+          "ticker": "0303.HK",
+          "rel": "弱相关",
+          "peLtm": "~13x",
+          "pe": "~13x",
+          "psLtm": "~0.9x",
+          "ps": "~0.9x",
+          "evEbitda": "~8x",
+          "verdict": null
+        },
+        {
+          "name": "京信通信",
+          "ticker": "2342.HK",
+          "rel": "弱相关",
+          "peLtm": "N/A(近年波动/亏损)",
+          "pe": "~18x",
+          "psLtm": "~0.6x",
+          "ps": "~0.5x",
+          "evEbitda": "N/A",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股同业以EMS/精密组件公司为主，估值普遍偏低（P/E多在10-20倍、P/S多低于1倍），反映市场对代工组装环节议价能力有限的一贯折价；立讯若在此区间定价，属合理估值，若显著高于此区间则偏贵。"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "歌尔股份",
+          "ticker": "002241.SZ",
+          "rel": "强相关",
+          "peLtm": "~27x",
+          "pe": "~23x",
+          "psLtm": "~1.2x",
+          "ps": "~1.1x",
+          "evEbitda": "~13x",
+          "verdict": null
+        },
+        {
+          "name": "蓝思科技",
+          "ticker": "300433.SZ",
+          "rel": "强相关",
+          "peLtm": "~30x",
+          "pe": "~25x",
+          "psLtm": "~2.0x",
+          "ps": "~1.8x",
+          "evEbitda": "~15x",
+          "verdict": null
+        },
+        {
+          "name": "领益智造",
+          "ticker": "002600.SZ",
+          "rel": "强相关",
+          "peLtm": "~22x",
+          "pe": "~19x",
+          "psLtm": "~1.5x",
+          "ps": "~1.3x",
+          "evEbitda": "~12x",
+          "verdict": null
+        },
+        {
+          "name": "长盈精密",
+          "ticker": "300115.SZ",
+          "rel": "强相关",
+          "peLtm": "~28x",
+          "pe": "~24x",
+          "psLtm": "~1.6x",
+          "ps": "~1.4x",
+          "evEbitda": "~14x",
+          "verdict": null
+        },
+        {
+          "name": "闻泰科技",
+          "ticker": "600745.SH",
+          "rel": "中相关",
+          "peLtm": "~35x",
+          "pe": "~28x",
+          "psLtm": "~1.0x",
+          "ps": "~0.9x",
+          "evEbitda": "~16x",
+          "verdict": null
+        },
+        {
+          "name": "德赛电池",
+          "ticker": "000049.SZ",
+          "rel": "中相关",
+          "peLtm": "~20x",
+          "pe": "~18x",
+          "psLtm": "~0.7x",
+          "ps": "~0.6x",
+          "evEbitda": "~10x",
+          "verdict": null
+        },
+        {
+          "name": "深科技",
+          "ticker": "000021.SZ",
+          "rel": "中相关",
+          "peLtm": "~25x",
+          "pe": "~22x",
+          "psLtm": "~1.0x",
+          "ps": "~0.9x",
+          "evEbitda": "~11x",
+          "verdict": null
+        },
+        {
+          "name": "欣旺达",
+          "ticker": "300207.SZ",
+          "rel": "中相关",
+          "peLtm": "~23x",
+          "pe": "~20x",
+          "psLtm": "~0.8x",
+          "ps": "~0.7x",
+          "evEbitda": "~11x",
+          "verdict": null
+        },
+        {
+          "name": "京东方A",
+          "ticker": "000725.SZ",
+          "rel": "弱相关",
+          "peLtm": "~22x",
+          "pe": "~19x",
+          "psLtm": "~1.0x",
+          "ps": "~0.9x",
+          "evEbitda": "~9x",
+          "verdict": null
+        },
+        {
+          "name": "TCL科技",
+          "ticker": "000100.SZ",
+          "rel": "弱相关",
+          "peLtm": "~17x",
+          "pe": "~16x",
+          "psLtm": "~0.5x",
+          "ps": "~0.5x",
+          "evEbitda": "~8x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "A股精密制造/果链同业估值普遍高于港股同类公司（P/E多在20-30倍以上），反映A股整体流动性溢价及市场对国产替代、汽车电子转型故事的更高预期；立讯精密A股本体历史P/E亦大致落于此区间，是H股定价的重要参照锚。"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "TE Connectivity",
+          "ticker": "TEL",
+          "rel": "强相关",
+          "peLtm": "~21x",
+          "pe": "~19x",
+          "psLtm": "~3.0x",
+          "ps": "~2.8x",
+          "evEbitda": "~13x",
+          "verdict": null
+        },
+        {
+          "name": "Amphenol",
+          "ticker": "APH",
+          "rel": "强相关",
+          "peLtm": "~33x",
+          "pe": "~29x",
+          "psLtm": "~5.0x",
+          "ps": "~4.5x",
+          "evEbitda": "~20x",
+          "verdict": null
+        },
+        {
+          "name": "Jabil",
+          "ticker": "JBL",
+          "rel": "强相关",
+          "peLtm": "~19x",
+          "pe": "~17x",
+          "psLtm": "~0.8x",
+          "ps": "~0.7x",
+          "evEbitda": "~10x",
+          "verdict": null
+        },
+        {
+          "name": "Flex Ltd",
+          "ticker": "FLEX",
+          "rel": "中相关",
+          "peLtm": "~15x",
+          "pe": "~13x",
+          "psLtm": "~0.5x",
+          "ps": "~0.5x",
+          "evEbitda": "~9x",
+          "verdict": null
+        },
+        {
+          "name": "Sanmina",
+          "ticker": "SANM",
+          "rel": "中相关",
+          "peLtm": "~17x",
+          "pe": "~15x",
+          "psLtm": "~0.6x",
+          "ps": "~0.5x",
+          "evEbitda": "~9x",
+          "verdict": null
+        },
+        {
+          "name": "Celestica",
+          "ticker": "CLS",
+          "rel": "中相关",
+          "peLtm": "~24x",
+          "pe": "~20x",
+          "psLtm": "~1.1x",
+          "ps": "~1.0x",
+          "evEbitda": "~13x",
+          "verdict": null
+        },
+        {
+          "name": "Corning",
+          "ticker": "GLW",
+          "rel": "弱相关",
+          "peLtm": "~28x",
+          "pe": "~24x",
+          "psLtm": "~2.5x",
+          "ps": "~2.3x",
+          "evEbitda": "~14x",
+          "verdict": null
+        },
+        {
+          "name": "Skyworks Solutions",
+          "ticker": "SWKS",
+          "rel": "弱相关",
+          "peLtm": "~16x",
+          "pe": "~15x",
+          "psLtm": "~3.0x",
+          "ps": "~2.8x",
+          "evEbitda": "~10x",
+          "verdict": null
+        },
+        {
+          "name": "Qorvo",
+          "ticker": "QRVO",
+          "rel": "弱相关",
+          "peLtm": "~22x",
+          "pe": "~18x",
+          "psLtm": "~2.0x",
+          "ps": "~1.8x",
+          "evEbitda": "~11x",
+          "verdict": null
+        },
+        {
+          "name": "Fabrinet",
+          "ticker": "FN",
+          "rel": "中相关",
+          "peLtm": "~27x",
+          "pe": "~23x",
+          "psLtm": "~3.0x",
+          "ps": "~2.7x",
+          "evEbitda": "~16x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "美股连接器龙头（TE、Amphenol）享受多元化下游及品牌溢价，P/E与P/S显著高于亚洲同业；纯EMS代工商（Jabil、Flex、Sanmina）估值与港股/A股果链公司更接近。整体美股comps中位数显著高于港股与部分A股同业，主要反映流动性、下游多元化程度及AI服务器题材溢价差异，可比性需谨慎看待业务结构差异。"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "招股价区间未公布，暂无法计算IPO隐含P/S与P/E并与三市场中位数比较。待港交所公布具体发售价后，应重点比较H股隐含估值相对A股002475.SZ现价的折让幅度，以及相对港股同类EMS/精密制造公司（估值中枢明显低于A股与美股）的定价合理性。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "港股~0.7x / A股~1.0x / 美股~2.3x",
+      "medianPE": "港股~16x / A股~23x / 美股~20x",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "待定价后评估，暂列观望",
+    "horizon": "建议持有6-12个月（视H股相对A股折让及基本面兑现情况动态调整）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "港股~0.7x / A股~1.0x",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "果链核心地位 (F)",
+          "result": "✓",
+          "note": "AirPods/Apple Watch组装份额及iPhone结构件业务持续扩张，基本面支撑较强",
+          "ok": true
+        },
+        {
+          "point": "第二增长曲线兑现 (F/M)",
+          "result": "✓",
+          "note": "汽车电子(莱尼线束整合)与通信/数据中心连接器收入占比提升，但整合节奏需跟踪季度数据验证",
+          "ok": true
+        },
+        {
+          "point": "发行定价折让 (V)",
+          "result": "✗",
+          "note": "招股价区间未公布，无法验证是否较A股/港股同业留有安全边际，是当前最大不确定性",
+          "ok": false
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "待定价后测算",
+        "upside": "N/A",
+        "basis": "若发行定价对标A股无折让甚至溢价，且苹果订单或汽车电子整合不及预期，估值向港股同业中枢（P/S~0.5-0.7x）回归，存在破发风险"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "待定价后测算",
+        "upside": "N/A",
+        "basis": "参照A+H惯例给予A股10-20%折让定价，叠加果链稳定订单与汽车电子稳步放量，估值大致维持发行价至温和上涨"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "待定价后测算",
+        "upside": "N/A",
+        "basis": "若南向及国际资金对稀缺A+H精密制造龙头给予明显估值重估，叠加AI服务器连接器/液冷业务超预期放量，估值向A股002475.SZ现价靠拢"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发",
+        "desc": "H股相对A股002475.SZ折让收窄至5%以内，或估值显著高于港股同业中枢（P/S明显超过1.5x）时，建议获利了结",
+        "price": "待定价后确定",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "若苹果核心订单份额被明确下调，或汽车电子/通信业务整合进度大幅低于预期导致毛利率持续下滑，建议止损离场",
+        "price": "待定价后确定",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-07-03",
+  "generatedBy": "claude-oauth",
+  "ticker": "02475.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
