@@ -1,44 +1,6 @@
 {
-  "lastUpdated": "2026-07-07",
+  "lastUpdated": "2026-07-08",
   "activeSubscription": [
-    {
-      "key": "_stub_e699b6e5",
-      "name": "晶合集成",
-      "ticker": "02249.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-07-10",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-07-07"
-    },
-    {
-      "key": "_stub_e6bfb1e5",
-      "name": "濱化股份",
-      "ticker": "06745.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-07-10",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-07-07"
-    },
     {
       "key": "_stub_e6b0b8e5",
       "name": "永康控股 ",
@@ -54,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-07-07"
+      "sourceDate": "2026-07-08"
     }
   ],
   "hearingPassed": [
@@ -75,9 +37,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新派息公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-07-07"
+      "sourceDate": "2026-07-08"
     },
     {
       "key": "_stub_e7a6bee8",
@@ -94,28 +56,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後除淨",
+      "statusLabel": "2日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-07-07"
+      "sourceDate": "2026-07-08"
     },
     {
-      "key": "_stub_e4b889e8",
-      "name": "三花智控",
-      "ticker": "02050.HK",
+      "key": "_stub_e99b99e7",
+      "name": "雙登股份",
+      "ticker": "06960.HK",
       "aShare": "",
       "sector": "",
       "phase": "pipeline",
       "hearingDate": "",
       "subStart": "",
       "subEnd": "",
-      "listingDate": "2025-06-23",
+      "listingDate": "2025-08-26",
       "ipoLow": null,
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日除淨",
+      "statusLabel": "今日派送",
       "source": "etnet",
-      "sourceDate": "2026-07-07"
+      "sourceDate": "2026-07-08"
     },
     {
       "key": "_stub_e694bfe5",
@@ -134,26 +96,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-07-07"
-    },
-    {
-      "key": "_stub_e5beb7e7",
-      "name": "德翔海運",
-      "ticker": "02510.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2024-11-01",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-07-07"
+      "sourceDate": "2026-07-08"
     },
     {
       "key": "_stub_e88fafe6",
@@ -170,9 +113,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-07-07"
+      "sourceDate": "2026-07-08"
     },
     {
       "key": "_stub_e6a6aee5",
@@ -189,9 +132,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新派息公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-07-07"
+      "sourceDate": "2026-07-08"
     }
   ],
   "archived": [
@@ -1985,6 +1928,20 @@
       "name": "三環集團",
       "ticker": "06951.HK",
       "listingDate": "2026-07-09",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e699b6e5",
+      "name": "晶合集成",
+      "ticker": "02249.HK",
+      "listingDate": "2026-07-10",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e6bfb1e5",
+      "name": "濱化股份",
+      "ticker": "06745.HK",
+      "listingDate": "2026-07-10",
       "result": "待更新"
     }
   ]

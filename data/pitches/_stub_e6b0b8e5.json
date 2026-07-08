@@ -1,0 +1,511 @@
+{
+  "name": "永康控股 ",
+  "sector": "五金工具/日用小家电制造（据公司名称及所在产业带——浙江永康「中国五金之都」——推断，具体主营业务及品类结构待招股书/公开定价资料确认）",
+  "rating": "WATCH",
+  "score": 5.6,
+  "scoreColor": "var(--yellow)",
+  "tagline": "永康五金产业带资产，招股价与具体主业未公布前难判断安全边际",
+  "scorecard": [
+    {
+      "label": "基本面质量 (F)",
+      "weight": "35%",
+      "score": 6.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "公司未公布具体主营品类、历史营收/毛利率/净利率等财务数据，无法基于实际A1文件数字打分。若按永康当地五金/工具/小家电制造商的行业普遍特征估算，此类企业通常呈现中低毛利率（15%-25%区间，视品牌自有度而定）、以OEM/ODM代工出口为主、资本开支集中于模具与自动化产线，现金流波动与订单季节性较明显。在获得实际财务报表前，该项评分带有较大不确定性，暂按行业中性水平估计。"
+    },
+    {
+      "label": "IPO结构 (S)",
+      "weight": "30%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价区间、发售股数、基石投资者阵容及保荐人信息均未公布，孖展倍数尚无数据，无法验证是否触及一票否决红灯（孖展<10x）。结构性信息缺失是当前最大的不确定因素，暂按中性评分，待招股书细节公布后需重新评估。"
+    },
+    {
+      "label": "估值合理性 (V)",
+      "weight": "20%",
+      "score": 5.0,
+      "max": 10,
+      "color": "var(--yellow)",
+      "note": "招股价区间未公布（HK$None – HK$None），无法计算隐含P/E/P/S并与三地comps比较，也无法判断是否留有发行折让安全边际。参考永康产业带同类五金工具/小家电制造商A股估值多在15-30倍P/E区间，若H股按惯例给予折让定价则相对合理，但缺乏确定发行价前无法验证，暂给中性评分。"
+    },
+    {
+      "label": "市场时机 (M)",
+      "weight": "15%",
+      "score": 6.5,
+      "max": 10,
+      "color": "var(--green)",
+      "note": "2026年上半年港股新股市场整体活跃度回暖，具备出口制造属性、受益于产业链外迁及东南亚/中东新兴市场渠道拓展叙事的五金工具类公司仍具备一定认购吸引力；但需关注中美贸易政策及关税节奏变化对此类出口导向型企业估值情绪的扰动。"
+    }
+  ],
+  "thesis": [
+    {
+      "title": "背靠永康五金产业集群，具备规模与成本优势",
+      "desc": "浙江永康是中国五金制品/工具/日用小家电核心产业带，产业链配套（模具、五金配件、物流）高度成熟，若公司为当地代表性制造商，理论上具备成本控制与快速交付能力，但具体产能规模、市占率、核心客户结构等均待招股书披露确认。"
+    },
+    {
+      "title": "港股上市拓宽融资渠道，支持产能与渠道扩张",
+      "desc": "赴港上市所募资金若用于自动化产线升级、自有品牌建设或海外仓/渠道布局，有助于对冲单一出口市场关税及汇率波动风险，但募资用途及具体规模尚未公布，该逻辑目前仍属推断性质。"
+    },
+    {
+      "title": "潜在自有品牌/内销转型空间",
+      "desc": "永康产业带企业普遍存在从纯代工（OEM/ODM）向自有品牌及内销市场转型的行业趋势，若公司已在此方向取得进展，将有助于提升毛利率与议价能力，但需招股书披露具体品牌收入占比数据加以验证。"
+    }
+  ],
+  "keyRisks": [
+    {
+      "icon": "⚠️",
+      "title": "出口导向型五金/工具制造商普遍面临美国加征关税及贸易政策变动风险",
+      "desc": "永康产业带五金工具类企业历来以出口欧美DIY零售渠道（如家得宝、劳氏等大型连锁）代工为主，若公司收入结构中对美出口占比较高，将直接暴露于美国301条款关税税率调整及供应链转移压力之下，且此类风险难以通过短期内部措施完全对冲。"
+    },
+    {
+      "icon": "⚠️",
+      "title": "原材料（钢材/锌合金/铝）价格波动叠加大型OEM/ODM客户集中度风险",
+      "desc": "五金/工具制造成本中钢材、锌合金压铸件、铝材等原材料占比较高，价格波动直接侵蚀代工业务本就偏薄的毛利率；同时若前五大客户（多为海外连锁零售商或品牌商）收入占比过高，一旦核心客户订单转移或压价，将对整体盈利能力造成显著冲击。"
+    }
+  ],
+  "comps": {
+    "hk": {
+      "rows": [
+        {
+          "name": "创科实业",
+          "ticker": "0669.HK",
+          "rel": "中相关",
+          "peLtm": "~24x",
+          "pe": "~21x",
+          "psLtm": "~2.2x",
+          "ps": "~2.0x",
+          "evEbitda": "~15x",
+          "verdict": null
+        },
+        {
+          "name": "德昌电机集团",
+          "ticker": "0179.HK",
+          "rel": "中相关",
+          "peLtm": "~16x",
+          "pe": "~14x",
+          "psLtm": "~1.0x",
+          "ps": "~0.9x",
+          "evEbitda": "~8x",
+          "verdict": null
+        },
+        {
+          "name": "美的集团-H",
+          "ticker": "0300.HK",
+          "rel": "弱相关",
+          "peLtm": "~14x",
+          "pe": "~12x",
+          "psLtm": "~1.2x",
+          "ps": "~1.1x",
+          "evEbitda": "~9x",
+          "verdict": null
+        },
+        {
+          "name": "海尔智家",
+          "ticker": "6690.HK",
+          "rel": "弱相关",
+          "peLtm": "~15x",
+          "pe": "~13x",
+          "psLtm": "~1.0x",
+          "ps": "~0.9x",
+          "evEbitda": "~8x",
+          "verdict": null
+        },
+        {
+          "name": "海信家电",
+          "ticker": "0921.HK",
+          "rel": "弱相关",
+          "peLtm": "~10x",
+          "pe": "~9x",
+          "psLtm": "~0.6x",
+          "ps": "~0.5x",
+          "evEbitda": "~6x",
+          "verdict": null
+        },
+        {
+          "name": "敏华控股",
+          "ticker": "1999.HK",
+          "rel": "弱相关",
+          "peLtm": "~9x",
+          "pe": "~8x",
+          "psLtm": "~1.3x",
+          "ps": "~1.2x",
+          "evEbitda": "~7x",
+          "verdict": null
+        },
+        {
+          "name": "力劲科技",
+          "ticker": "0558.HK",
+          "rel": "弱相关",
+          "peLtm": "~8x",
+          "pe": "~7x",
+          "psLtm": "~0.7x",
+          "ps": "~0.6x",
+          "evEbitda": "~6x",
+          "verdict": null
+        },
+        {
+          "name": "中国忠旺",
+          "ticker": "1333.HK",
+          "rel": "弱相关",
+          "peLtm": "~7x",
+          "pe": "~6x",
+          "psLtm": "~0.5x",
+          "ps": "~0.5x",
+          "evEbitda": "~5x",
+          "verdict": null
+        },
+        {
+          "name": "高伟电子",
+          "ticker": "1415.HK",
+          "rel": "弱相关",
+          "peLtm": "~18x",
+          "pe": "~16x",
+          "psLtm": "~0.9x",
+          "ps": "~0.8x",
+          "evEbitda": "~10x",
+          "verdict": null
+        },
+        {
+          "name": "中国联塑",
+          "ticker": "2128.HK",
+          "rel": "弱相关",
+          "peLtm": "~6x",
+          "pe": "~6x",
+          "psLtm": "~0.4x",
+          "ps": "~0.4x",
+          "evEbitda": "~5x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "港股缺乏与永康五金/工具产业带直接对标的纯正标的，列出的家电/电机/材料类公司多数估值处于6-18倍P/E、0.4-2.2倍P/S区间，整体估值中枢偏低，反映港股对传统制造/家电类资产给予的常规折价；仅供方向性参考，相关性普遍偏弱。"
+      }
+    },
+    "a": {
+      "rows": [
+        {
+          "name": "巨星科技",
+          "ticker": "002444.SZ",
+          "rel": "强相关",
+          "peLtm": "~18x",
+          "pe": "~16x",
+          "psLtm": "~2.5x",
+          "ps": "~2.2x",
+          "evEbitda": "~12x",
+          "verdict": null
+        },
+        {
+          "name": "好太太",
+          "ticker": "603848.SH",
+          "rel": "强相关",
+          "peLtm": "~20x",
+          "pe": "~17x",
+          "psLtm": "~2.8x",
+          "ps": "~2.4x",
+          "evEbitda": "~13x",
+          "verdict": null
+        },
+        {
+          "name": "中坚科技",
+          "ticker": "002779.SZ",
+          "rel": "强相关",
+          "peLtm": "~22x",
+          "pe": "~19x",
+          "psLtm": "~2.0x",
+          "ps": "~1.8x",
+          "evEbitda": "~13x",
+          "verdict": null
+        },
+        {
+          "name": "巨力索具",
+          "ticker": "002342.SZ",
+          "rel": "中相关",
+          "peLtm": "~25x",
+          "pe": "~21x",
+          "psLtm": "~1.8x",
+          "ps": "~1.6x",
+          "evEbitda": "~14x",
+          "verdict": null
+        },
+        {
+          "name": "苏泊尔",
+          "ticker": "002032.SZ",
+          "rel": "中相关",
+          "peLtm": "~24x",
+          "pe": "~21x",
+          "psLtm": "~2.2x",
+          "ps": "~2.0x",
+          "evEbitda": "~15x",
+          "verdict": null
+        },
+        {
+          "name": "老板电器",
+          "ticker": "002508.SZ",
+          "rel": "中相关",
+          "peLtm": "~15x",
+          "pe": "~13x",
+          "psLtm": "~2.0x",
+          "ps": "~1.8x",
+          "evEbitda": "~10x",
+          "verdict": null
+        },
+        {
+          "name": "三花智控",
+          "ticker": "002050.SZ",
+          "rel": "弱相关",
+          "peLtm": "~30x",
+          "pe": "~26x",
+          "psLtm": "~3.5x",
+          "ps": "~3.0x",
+          "evEbitda": "~18x",
+          "verdict": null
+        },
+        {
+          "name": "正泰电器",
+          "ticker": "601877.SH",
+          "rel": "弱相关",
+          "peLtm": "~16x",
+          "pe": "~14x",
+          "psLtm": "~1.2x",
+          "ps": "~1.1x",
+          "evEbitda": "~10x",
+          "verdict": null
+        },
+        {
+          "name": "春风动力",
+          "ticker": "603129.SH",
+          "rel": "中相关",
+          "peLtm": "~28x",
+          "pe": "~24x",
+          "psLtm": "~2.5x",
+          "ps": "~2.2x",
+          "evEbitda": "~17x",
+          "verdict": null
+        },
+        {
+          "name": "永创智能",
+          "ticker": "603381.SH",
+          "rel": "弱相关",
+          "peLtm": "~20x",
+          "pe": "~18x",
+          "psLtm": "~1.8x",
+          "ps": "~1.6x",
+          "evEbitda": "~11x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "rich",
+        "text": "A股永康本地及浙江产业带五金工具类公司（巨星科技、好太太、中坚科技）估值普遍在18-22倍P/E、2-2.8倍P/S，明显高于港股同类标的，反映A股对区域产业集群及自主品牌溢价的定价；若H股参考此区间给予折让发行，是判断安全边际的重要锚点。"
+      }
+    },
+    "us": {
+      "rows": [
+        {
+          "name": "Stanley Black & Decker",
+          "ticker": "SWK",
+          "rel": "中相关",
+          "peLtm": "~20x",
+          "pe": "~15x",
+          "psLtm": "~0.9x",
+          "ps": "~0.9x",
+          "evEbitda": "~11x",
+          "verdict": null
+        },
+        {
+          "name": "Snap-on Inc",
+          "ticker": "SNA",
+          "rel": "中相关",
+          "peLtm": "~17x",
+          "pe": "~16x",
+          "psLtm": "~3.2x",
+          "ps": "~3.0x",
+          "evEbitda": "~11x",
+          "verdict": null
+        },
+        {
+          "name": "Fortune Brands Innovations",
+          "ticker": "FBIN",
+          "rel": "中相关",
+          "peLtm": "~18x",
+          "pe": "~15x",
+          "psLtm": "~2.0x",
+          "ps": "~1.8x",
+          "evEbitda": "~11x",
+          "verdict": null
+        },
+        {
+          "name": "Allegion plc",
+          "ticker": "ALLE",
+          "rel": "中相关",
+          "peLtm": "~22x",
+          "pe": "~19x",
+          "psLtm": "~3.5x",
+          "ps": "~3.2x",
+          "evEbitda": "~14x",
+          "verdict": null
+        },
+        {
+          "name": "Whirlpool Corp",
+          "ticker": "WHR",
+          "rel": "弱相关",
+          "peLtm": "~12x",
+          "pe": "~10x",
+          "psLtm": "~0.3x",
+          "ps": "~0.3x",
+          "evEbitda": "~7x",
+          "verdict": null
+        },
+        {
+          "name": "Middleby Corp",
+          "ticker": "MIDD",
+          "rel": "弱相关",
+          "peLtm": "~14x",
+          "pe": "~12x",
+          "psLtm": "~1.8x",
+          "ps": "~1.6x",
+          "evEbitda": "~9x",
+          "verdict": null
+        },
+        {
+          "name": "Helen of Troy",
+          "ticker": "HELE",
+          "rel": "弱相关",
+          "peLtm": "~10x",
+          "pe": "~9x",
+          "psLtm": "~0.6x",
+          "ps": "~0.6x",
+          "evEbitda": "~7x",
+          "verdict": null
+        },
+        {
+          "name": "Newell Brands",
+          "ticker": "NWL",
+          "rel": "弱相关",
+          "peLtm": "~11x",
+          "pe": "~9x",
+          "psLtm": "~0.5x",
+          "ps": "~0.5x",
+          "evEbitda": "~7x",
+          "verdict": null
+        },
+        {
+          "name": "SharkNinja Inc",
+          "ticker": "SN",
+          "rel": "弱相关",
+          "peLtm": "~26x",
+          "pe": "~22x",
+          "psLtm": "~2.5x",
+          "ps": "~2.2x",
+          "evEbitda": "~16x",
+          "verdict": null
+        },
+        {
+          "name": "Emerson Electric",
+          "ticker": "EMR",
+          "rel": "弱相关",
+          "peLtm": "~24x",
+          "pe": "~21x",
+          "psLtm": "~3.8x",
+          "ps": "~3.4x",
+          "evEbitda": "~15x",
+          "verdict": null
+        }
+      ],
+      "verdict": {
+        "type": "fair",
+        "text": "美股工具/五金/锁具类公司（SWK、SNA、FBIN、ALLE）估值中枢在15-22倍NTM P/E、1.8-3.5倍P/S，高于港股同类标的但与A股永康本地公司区间大致接近；大型白电及消费品牌（WHR、NWL、HELE）估值明显偏低，反映品类成熟度与增长预期差异，可比性需结合具体产品线判断。"
+      }
+    },
+    "crossMarketVerdict": {
+      "text": "招股价区间未公布，暂无法计算IPO隐含P/S与P/E并与三市场中位数比较。待港交所公布具体发售价及公司实际主营品类后，应重点比较H股隐含估值相对A股永康本地五金工具类公司（巨星科技、好太太、中坚科技，P/S中枢~2.0-2.8x）的折让幅度。",
+      "ipoImpliedPS": null,
+      "ipoImpliedPE": null,
+      "medianPS": "港股~0.8x / A股~2.1x / 美股~1.9x",
+      "medianPE": "港股~13x / A股~19x / 美股~15x",
+      "premiumDiscount": "待IPO定价后计算"
+    }
+  },
+  "sellRec": {
+    "action": "待定价及主营业务信息公布后评估，暂列观望",
+    "horizon": "建议持有6-12个月（视H股相对A股永康本地同业折让幅度及出口关税政策演变动态调整）",
+    "actionColor": "var(--yellow)",
+    "ipoPrice": 0.0,
+    "thesisVsPrice": {
+      "metric": "P/S",
+      "ipoImplied": "待定价后填入",
+      "compsMedian": "A股~2.1x / 港股~0.8x",
+      "vs": "待IPO定价后计算",
+      "verdict": "待定价后判断",
+      "verdictClass": "fair",
+      "checks": [
+        {
+          "point": "永康产业带成本与规模优势 (F)",
+          "result": "⚠",
+          "note": "公司具体主营品类、产能规模及市占率尚未公布，产业带优势逻辑目前仅为基于地域推断，需招股书数据验证",
+          "ok": null
+        },
+        {
+          "point": "发行定价折让 (V)",
+          "result": "✗",
+          "note": "招股价区间未公布，无法验证是否较A股永康同业留有安全边际，是当前最大不确定性",
+          "ok": false
+        },
+        {
+          "point": "孖展及基石认购情况 (S)",
+          "result": "✗",
+          "note": "孖展倍数、基石投资者及保荐人信息均未公布，无法排除一票否决红灯情形",
+          "ok": false
+        }
+      ]
+    },
+    "scenarios": [
+      {
+        "type": "bear",
+        "label": "熊市情景",
+        "price": "待定价后测算",
+        "upside": "N/A",
+        "basis": "若发行定价对标A股永康同业无折让甚至溢价，且出口业务受关税政策冲击导致订单/毛利率超预期下滑，估值向港股传统制造类同业中枢（P/S~0.4-0.6x）回归，存在破发风险"
+      },
+      {
+        "type": "base",
+        "label": "基础情景",
+        "price": "待定价后测算",
+        "upside": "N/A",
+        "basis": "参照同类产业带公司惯例给予A股同业10-20%折让定价，出口业务保持稳健，估值大致维持发行价至温和上涨"
+      },
+      {
+        "type": "bull",
+        "label": "牛市情景",
+        "price": "待定价后测算",
+        "upside": "N/A",
+        "basis": "若自有品牌/内销转型超预期兑现，叠加港股新股市场情绪回暖及南向资金对稀缺产业带资产的重估，估值向A股巨星科技/好太太现价靠拢"
+      }
+    ],
+    "triggers": [
+      {
+        "icon": "🎯",
+        "title": "减持触发",
+        "desc": "H股相对A股永康本地同业（巨星科技、好太太、中坚科技）估值折让收窄至5%以内，或P/S明显超过港股传统制造类同业中枢1.5倍以上时，建议获利了结",
+        "price": "待定价后确定",
+        "priceClass": "stp-sell"
+      },
+      {
+        "icon": "🛑",
+        "title": "止损触发",
+        "desc": "若美国对相关五金/工具品类加征关税税率超预期上调导致核心出口订单大幅萎缩，或原材料成本持续大幅上涨压缩毛利率，建议止损离场",
+        "price": "待定价后确定",
+        "priceClass": "stp-sell"
+      }
+    ]
+  },
+  "generatedAt": "2026-07-08",
+  "generatedBy": "claude-oauth",
+  "ticker": "02523.HK",
+  "exchange": "香港主板",
+  "subStart": "",
+  "subEnd": ""
+}
