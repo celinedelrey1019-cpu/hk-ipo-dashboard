@@ -1,46 +1,7 @@
 {
-  "lastUpdated": "2026-07-08",
-  "activeSubscription": [
-    {
-      "key": "_stub_e6b0b8e5",
-      "name": "永康控股 ",
-      "ticker": "02523.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-07-13",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-07-08"
-    }
-  ],
+  "lastUpdated": "2026-07-09",
+  "activeSubscription": [],
   "hearingPassed": [
-    {
-      "key": "_stub_e98791e8",
-      "name": "金葉國際集團",
-      "ticker": "08549.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-10-10",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-07-08"
-    },
     {
       "key": "_stub_e7a6bee8",
       "name": "禾賽－Ｗ",
@@ -56,28 +17,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後除淨",
+      "statusLabel": "1日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-07-08"
-    },
-    {
-      "key": "_stub_e99b99e7",
-      "name": "雙登股份",
-      "ticker": "06960.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-08-26",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-07-08"
+      "sourceDate": "2026-07-09"
     },
     {
       "key": "_stub_e694bfe5",
@@ -96,7 +38,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-07-08"
+      "sourceDate": "2026-07-09"
     },
     {
       "key": "_stub_e88fafe6",
@@ -113,28 +55,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "5日後除淨",
+      "statusLabel": "4日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-07-08"
-    },
-    {
-      "key": "_stub_e6a6aee5",
-      "name": "榮利營造",
-      "ticker": "09639.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2024-10-09",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-07-08"
+      "sourceDate": "2026-07-09"
     }
   ],
   "archived": [
@@ -1942,6 +1865,13 @@
       "name": "濱化股份",
       "ticker": "06745.HK",
       "listingDate": "2026-07-10",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e6b0b8e5",
+      "name": "永康控股 ",
+      "ticker": "02523.HK",
+      "listingDate": "2026-07-13",
       "result": "待更新"
     }
   ]
