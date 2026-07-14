@@ -1,26 +1,7 @@
 {
-  "lastUpdated": "2026-07-13",
+  "lastUpdated": "2026-07-14",
   "activeSubscription": [],
   "hearingPassed": [
-    {
-      "key": "_stub_e5bba3e5",
-      "name": "廣和通",
-      "ticker": "00638.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-10-22",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-07-13"
-    },
     {
       "key": "_stub_e694bfe5",
       "name": "政府基債二七一二",
@@ -38,26 +19,26 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-07-13"
+      "sourceDate": "2026-07-14"
     },
     {
-      "key": "_stub_e88fafe6",
-      "name": "華潤飲料",
-      "ticker": "02460.HK",
+      "key": "_stub_e99b86e4",
+      "name": "集信國控",
+      "ticker": "08629.HK",
       "aShare": "",
       "sector": "",
       "phase": "pipeline",
       "hearingDate": "",
       "subStart": "",
       "subEnd": "",
-      "listingDate": "2024-10-23",
+      "listingDate": "2024-09-06",
       "ipoLow": null,
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日除淨",
+      "statusLabel": "今日派送",
       "source": "etnet",
-      "sourceDate": "2026-07-13"
+      "sourceDate": "2026-07-14"
     }
   ],
   "archived": [
