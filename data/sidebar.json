@@ -1,7 +1,26 @@
 {
-  "lastUpdated": "2026-07-14",
+  "lastUpdated": "2026-07-15",
   "activeSubscription": [],
   "hearingPassed": [
+    {
+      "key": "_stub_e6898be5",
+      "name": "手回集團",
+      "ticker": "02621.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-05-30",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "今日派送",
+      "source": "etnet",
+      "sourceDate": "2026-07-15"
+    },
     {
       "key": "_stub_e694bfe5",
       "name": "政府基債二七一二",
@@ -19,26 +38,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-07-14"
-    },
-    {
-      "key": "_stub_e99b86e4",
-      "name": "集信國控",
-      "ticker": "08629.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2024-09-06",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-07-14"
+      "sourceDate": "2026-07-15"
     }
   ],
   "archived": [
