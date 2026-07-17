@@ -1,7 +1,26 @@
 {
-  "lastUpdated": "2026-07-16",
+  "lastUpdated": "2026-07-17",
   "activeSubscription": [],
   "hearingPassed": [
+    {
+      "key": "_stub_e58d97e5",
+      "name": "南山鋁業國際",
+      "ticker": "02610.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-03-25",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "今日派送",
+      "source": "etnet",
+      "sourceDate": "2026-07-17"
+    },
     {
       "key": "_stub_e694bfe5",
       "name": "政府基債二七一二",
@@ -19,7 +38,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-07-16"
+      "sourceDate": "2026-07-17"
     }
   ],
   "archived": [
