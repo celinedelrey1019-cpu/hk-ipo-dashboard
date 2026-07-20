@@ -1,25 +1,25 @@
 {
-  "lastUpdated": "2026-07-17",
+  "lastUpdated": "2026-07-20",
   "activeSubscription": [],
   "hearingPassed": [
     {
-      "key": "_stub_e58d97e5",
-      "name": "南山鋁業國際",
-      "ticker": "02610.HK",
+      "key": "_stub_e5afa7e5",
+      "name": "寧德時代",
+      "ticker": "03750.HK",
       "aShare": "",
       "sector": "",
       "phase": "pipeline",
       "hearingDate": "",
       "subStart": "",
       "subEnd": "",
-      "listingDate": "2025-03-25",
+      "listingDate": "2025-05-20",
       "ipoLow": null,
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日派送",
+      "statusLabel": "4日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-07-17"
+      "sourceDate": "2026-07-20"
     },
     {
       "key": "_stub_e694bfe5",
@@ -38,7 +38,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-07-17"
+      "sourceDate": "2026-07-20"
     }
   ],
   "archived": [
