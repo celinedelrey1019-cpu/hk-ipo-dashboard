@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20",
+  "lastUpdated": "2026-07-21",
   "activeSubscription": [],
   "hearingPassed": [
     {
@@ -17,9 +17,47 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後業績公布",
+      "statusLabel": "3日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-07-20"
+      "sourceDate": "2026-07-21"
+    },
+    {
+      "key": "_stub_e7b6a0e8",
+      "name": "綠茶集團",
+      "ticker": "06831.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-05-16",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "今日派送",
+      "source": "etnet",
+      "sourceDate": "2026-07-21"
+    },
+    {
+      "key": "_stub_e58fa4e8",
+      "name": "古茗",
+      "ticker": "01364.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-02-12",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "7日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-07-21"
     },
     {
       "key": "_stub_e694bfe5",
@@ -38,7 +76,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-07-20"
+      "sourceDate": "2026-07-21"
     }
   ],
   "archived": [
