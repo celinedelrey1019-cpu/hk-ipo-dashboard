@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-07-23",
   "activeSubscription": [
     {
       "key": "_stub_e4b8ade9",
@@ -16,31 +16,12 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "5日後截止",
+      "statusLabel": "4日後截止",
       "source": "etnet",
-      "sourceDate": "2026-07-22"
+      "sourceDate": "2026-07-23"
     }
   ],
   "hearingPassed": [
-    {
-      "key": "_stub_e4b8ade5",
-      "name": "中偉新材",
-      "ticker": "02579.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-11-17",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-07-22"
-    },
     {
       "key": "_stub_e5afa7e5",
       "name": "寧德時代",
@@ -56,9 +37,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-07-22"
+      "sourceDate": "2026-07-23"
     },
     {
       "key": "_stub_e58fa4e8",
@@ -75,9 +56,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-07-22"
+      "sourceDate": "2026-07-23"
     },
     {
       "key": "_stub_e694bfe5",
@@ -96,7 +77,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-07-22"
+      "sourceDate": "2026-07-23"
     }
   ],
   "archived": [
