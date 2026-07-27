@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24",
+  "lastUpdated": "2026-07-27",
   "activeSubscription": [
     {
       "key": "_stub_e4b8ade9",
@@ -16,30 +16,30 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-07-24"
+      "sourceDate": "2026-07-27"
     }
   ],
   "hearingPassed": [
     {
-      "key": "_stub_e9a699e6",
-      "name": "香江電器",
-      "ticker": "02619.HK",
+      "key": "_stub_e6bbb4e6",
+      "name": "滴普科技",
+      "ticker": "01384.HK",
       "aShare": "",
       "sector": "",
       "phase": "pipeline",
       "hearingDate": "",
       "subStart": "",
       "subEnd": "",
-      "listingDate": "2025-06-25",
+      "listingDate": "2025-10-28",
       "ipoLow": null,
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日派送",
+      "statusLabel": "3日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-07-24"
+      "sourceDate": "2026-07-27"
     },
     {
       "key": "_stub_e5afa7e5",
@@ -56,9 +56,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-07-24"
+      "sourceDate": "2026-07-27"
+    },
+    {
+      "key": "_stub_e6bbace4",
+      "name": "滬上阿姨",
+      "ticker": "02589.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-05-08",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-07-27"
     },
     {
       "key": "_stub_e58fa4e8",
@@ -75,9 +94,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後除淨",
+      "statusLabel": "1日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-07-24"
+      "sourceDate": "2026-07-27"
     },
     {
       "key": "_stub_e694bfe5",
@@ -96,7 +115,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-07-24"
+      "sourceDate": "2026-07-27"
     }
   ],
   "archived": [
