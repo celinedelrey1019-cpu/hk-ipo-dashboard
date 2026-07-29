@@ -1,7 +1,26 @@
 {
-  "lastUpdated": "2026-07-28",
+  "lastUpdated": "2026-07-29",
   "activeSubscription": [],
   "hearingPassed": [
+    {
+      "key": "_stub_e98187e8",
+      "name": "遇見小麵",
+      "ticker": "02408.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-12-05",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "今日派送",
+      "source": "etnet",
+      "sourceDate": "2026-07-29"
+    },
     {
       "key": "_stub_e6bbb4e6",
       "name": "滴普科技",
@@ -17,9 +36,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-07-28"
+      "sourceDate": "2026-07-29"
     },
     {
       "key": "_stub_e5afa7e5",
@@ -38,7 +57,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-07-28"
+      "sourceDate": "2026-07-29"
     },
     {
       "key": "_stub_e6bbace4",
@@ -55,28 +74,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-07-28"
-    },
-    {
-      "key": "_stub_e58fa4e8",
-      "name": "古茗",
-      "ticker": "01364.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-02-12",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日除淨",
-      "source": "etnet",
-      "sourceDate": "2026-07-28"
+      "sourceDate": "2026-07-29"
     },
     {
       "key": "_stub_e694bfe5",
@@ -95,7 +95,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-07-28"
+      "sourceDate": "2026-07-29"
     }
   ],
   "archived": [
