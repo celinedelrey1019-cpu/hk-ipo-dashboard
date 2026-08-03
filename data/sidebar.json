@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31",
+  "lastUpdated": "2026-08-03",
   "activeSubscription": [
     {
       "key": "_stub_e68bbfe6",
@@ -16,12 +16,31 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後截止",
+      "statusLabel": "明午截止",
       "source": "etnet",
-      "sourceDate": "2026-07-31"
+      "sourceDate": "2026-08-03"
     }
   ],
   "hearingPassed": [
+    {
+      "key": "_stub_e6988ee5",
+      "name": "明基醫院",
+      "ticker": "02581.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-12-22",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "3日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-03"
+    },
     {
       "key": "_stub_e6bbb4e6",
       "name": "滴普科技",
@@ -37,28 +56,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新業績公布",
+      "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-07-31"
-    },
-    {
-      "key": "_stub_464f5254",
-      "name": "FORTIOR",
-      "ticker": "01304.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-07-09",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-07-31"
+      "sourceDate": "2026-08-03"
     },
     {
       "key": "_stub_e5afa7e5",
@@ -75,9 +75,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "3日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-07-31"
+      "sourceDate": "2026-08-03"
     },
     {
       "key": "_stub_e6bbace4",
@@ -94,9 +94,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-07-31"
+      "sourceDate": "2026-08-03"
     },
     {
       "key": "_stub_e694bfe5",
@@ -115,26 +115,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-07-31"
-    },
-    {
-      "key": "_stub_e58da1e7",
-      "name": "卡羅特",
-      "ticker": "02549.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2024-10-02",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-07-31"
+      "sourceDate": "2026-08-03"
     }
   ],
   "archived": [
