@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03",
+  "lastUpdated": "2026-08-04",
   "activeSubscription": [
     {
       "key": "_stub_e68bbfe6",
@@ -16,12 +16,31 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-08-03"
+      "sourceDate": "2026-08-04"
     }
   ],
   "hearingPassed": [
+    {
+      "key": "_stub_e69db1e9",
+      "name": "東鵬飲料",
+      "ticker": "09980.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-02-03",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "最新派息公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-04"
+    },
     {
       "key": "_stub_e6988ee5",
       "name": "明基醫院",
@@ -37,9 +56,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-03"
+      "sourceDate": "2026-08-04"
     },
     {
       "key": "_stub_e6bbb4e6",
@@ -58,7 +77,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-03"
+      "sourceDate": "2026-08-04"
     },
     {
       "key": "_stub_e5afa7e5",
@@ -75,9 +94,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後除淨",
+      "statusLabel": "2日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-08-03"
+      "sourceDate": "2026-08-04"
     },
     {
       "key": "_stub_e6bbace4",
@@ -94,9 +113,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新業績公布",
+      "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-03"
+      "sourceDate": "2026-08-04"
     },
     {
       "key": "_stub_e694bfe5",
@@ -115,7 +134,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-08-03"
+      "sourceDate": "2026-08-04"
     }
   ],
   "archived": [
