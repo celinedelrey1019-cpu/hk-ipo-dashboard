@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12",
+  "lastUpdated": "2026-08-13",
   "activeSubscription": [],
   "hearingPassed": [
     {
@@ -19,7 +19,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-12"
+      "sourceDate": "2026-08-13"
     },
     {
       "key": "_stub_e58d93e6",
@@ -36,9 +36,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-12"
+      "sourceDate": "2026-08-13"
     },
     {
       "key": "_stub_e4ba94e4",
@@ -57,7 +57,26 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-12"
+      "sourceDate": "2026-08-13"
+    },
+    {
+      "key": "_stub_e7bfb0e6",
+      "name": "翰思艾泰－Ｂ",
+      "ticker": "03378.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-12-23",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-13"
     },
     {
       "key": "_stub_e88fafe8",
@@ -74,9 +93,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-12"
+      "sourceDate": "2026-08-13"
     },
     {
       "key": "_stub_e6988ee5",
@@ -93,9 +112,47 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新派息公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-12"
+      "sourceDate": "2026-08-13"
+    },
+    {
+      "key": "_stub_e58d97e8",
+      "name": "南華期貨股份",
+      "ticker": "02691.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-12-22",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-13"
+    },
+    {
+      "key": "_stub_e58db0e8",
+      "name": "印象大紅袍",
+      "ticker": "02695.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-12-22",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-13"
     },
     {
       "key": "_stub_e5b88ce8",
@@ -114,7 +171,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-12"
+      "sourceDate": "2026-08-13"
     },
     {
       "key": "_stub_e4baace6",
@@ -131,9 +188,47 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-12"
+      "sourceDate": "2026-08-13"
+    },
+    {
+      "key": "_stub_e98187e8",
+      "name": "遇見小麵",
+      "ticker": "02408.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-12-05",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-13"
+    },
+    {
+      "key": "_stub_e589b5e6",
+      "name": "創新實業",
+      "ticker": "02788.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-11-24",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-13"
     },
     {
       "key": "_stub_e69687e9",
@@ -150,9 +245,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-12"
+      "sourceDate": "2026-08-13"
+    },
+    {
+      "key": "_stub_e691afe9",
+      "name": "摯達科技",
+      "ticker": "02650.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-10-10",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-13"
     },
     {
       "key": "_stub_e7b4abe9",
@@ -169,9 +283,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-12"
+      "sourceDate": "2026-08-13"
     },
     {
       "key": "_stub_e5a5a7e5",
@@ -188,9 +302,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-08-12"
+      "sourceDate": "2026-08-13"
+    },
+    {
+      "key": "_stub_e59089e5",
+      "name": "吉宏股份",
+      "ticker": "02603.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-05-27",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-13"
     },
     {
       "key": "_stub_e6bbace4",
@@ -207,9 +340,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-08-12"
+      "sourceDate": "2026-08-13"
     },
     {
       "key": "_stub_e5b883e9",
@@ -226,9 +359,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-12"
+      "sourceDate": "2026-08-13"
     },
     {
       "key": "_stub_e5b08fe8",
@@ -245,9 +378,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-12"
+      "sourceDate": "2026-08-13"
     },
     {
       "key": "_stub_e694bfe5",
@@ -266,7 +399,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-08-12"
+      "sourceDate": "2026-08-13"
     },
     {
       "key": "_stub_e5a49ae9",
@@ -283,9 +416,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-12"
+      "sourceDate": "2026-08-13"
+    },
+    {
+      "key": "_stub_e5908ce6",
+      "name": "同源康醫藥－Ｂ",
+      "ticker": "02410.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2024-08-20",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-13"
     }
   ],
   "archived": [
