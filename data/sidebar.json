@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26",
+  "lastUpdated": "2026-08-27",
   "activeSubscription": [
     {
       "key": "_stub_e5b88ce9",
@@ -16,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e6a285e5",
@@ -35,9 +35,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     }
   ],
   "hearingPassed": [
@@ -58,7 +58,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e6b283e7",
@@ -77,7 +77,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e58588e5",
@@ -94,9 +94,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e6a882e6",
@@ -113,9 +113,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e780bee8",
@@ -132,9 +132,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e789a7e5",
@@ -153,7 +153,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e5a4a7e6",
@@ -172,7 +172,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e59c8be6",
@@ -189,9 +189,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e9b3b4e9",
@@ -210,7 +210,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e9be8de6",
@@ -227,9 +227,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e7b485e6",
@@ -246,28 +246,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
-    },
-    {
-      "key": "_stub_e58586e6",
-      "name": "兆易創新",
-      "ticker": "03986.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-01-13",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_42425342",
@@ -284,9 +265,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e8b1aae5",
@@ -305,7 +286,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_4d494e49",
@@ -322,9 +303,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e98791e6",
@@ -341,9 +322,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e7919ee5",
@@ -360,9 +341,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
+    },
+    {
+      "key": "_stub_e699bae8",
+      "name": "智譜",
+      "ticker": "02513.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-01-08",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e7b2bee9",
@@ -379,9 +379,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e5a4a9e6",
@@ -400,7 +400,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e5a381e4",
@@ -417,9 +417,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
+    },
+    {
+      "key": "_stub_e69e97e6",
+      "name": "林清軒",
+      "ticker": "02657.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-12-30",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e7be8ee8",
@@ -438,7 +457,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e8bf85e7",
@@ -457,7 +476,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e88bb1e7",
@@ -474,9 +493,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e887a5e5",
@@ -493,9 +512,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e8abbee6",
@@ -514,7 +533,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e8bc95e9",
@@ -533,7 +552,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e699bae5",
@@ -550,9 +569,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_48415348",
@@ -569,9 +588,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e69e9ce4",
@@ -590,7 +609,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e5afb6e6",
@@ -607,9 +626,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e7b48de8",
@@ -626,9 +645,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e58d93e8",
@@ -645,9 +664,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e5a4a9e5",
@@ -664,28 +683,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
-    },
-    {
-      "key": "_stub_e6a882e6",
-      "name": "樂摩科技",
-      "ticker": "02539.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-12-03",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e98791e5",
@@ -702,9 +702,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e6b5b7e5",
@@ -721,9 +721,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新業績公布",
+      "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e9878fe5",
@@ -740,9 +740,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e4b8ade5",
@@ -761,7 +761,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e6a882e8",
@@ -778,9 +778,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e59d87e5",
@@ -797,28 +797,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新業績公布",
+      "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
-    },
-    {
-      "key": "_stub_e5b08fe9",
-      "name": "小馬智行－Ｗ",
-      "ticker": "02026.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-11-06",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e697bae5",
@@ -835,9 +816,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e8b3bde5",
@@ -854,9 +835,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新派息公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
+    },
+    {
+      "key": "_stub_e6988ee7",
+      "name": "明略科技－Ｗ",
+      "ticker": "02718.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-11-03",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e4b889e4",
@@ -873,9 +873,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e58a8de6",
@@ -894,26 +894,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
-    },
-    {
-      "key": "_stub_e585abe9",
-      "name": "八馬茶業",
-      "ticker": "06980.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-10-28",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e5bba3e5",
@@ -930,9 +911,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e8819ae6",
@@ -949,9 +930,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e6b5b7e8",
@@ -968,9 +949,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e99bb2e8",
@@ -989,7 +970,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e8bb92e7",
@@ -1006,9 +987,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
+    },
+    {
+      "key": "_stub_e995b7e9",
+      "name": "長風藥業",
+      "ticker": "02652.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-10-08",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e7b4abe9",
@@ -1025,9 +1025,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e8a5bfe6",
@@ -1044,9 +1044,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
+    },
+    {
+      "key": "_stub_e58d9ae6",
+      "name": "博泰車聯",
+      "ticker": "02889.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-09-30",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e5a587e7",
@@ -1065,7 +1084,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e4b88de5",
@@ -1082,9 +1101,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e58b81e6",
@@ -1103,7 +1122,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e581a5e5",
@@ -1120,28 +1139,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
-    },
-    {
-      "key": "_stub_e7a6bee8",
-      "name": "禾賽－Ｗ",
-      "ticker": "02525.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-09-16",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e5a4a7e8",
@@ -1158,9 +1158,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
+    },
+    {
+      "key": "_stub_e99b99e7",
+      "name": "雙登股份",
+      "ticker": "06960.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-08-26",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "最新派息公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e5a4a9e5",
@@ -1177,9 +1196,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新派息公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e98a80e8",
@@ -1196,9 +1215,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新業績公布",
+      "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
+    },
+    {
+      "key": "_stub_e7b6ade7",
+      "name": "維立志博－Ｂ",
+      "ticker": "09887.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-07-25",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_464f5254",
@@ -1215,9 +1253,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e6a5b5e6",
@@ -1234,9 +1272,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
+    },
+    {
+      "key": "_stub_e8a88ae7",
+      "name": "訊眾通信",
+      "ticker": "02597.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-07-09",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e5a4a7e7",
@@ -1253,9 +1310,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e8978de6",
@@ -1274,7 +1331,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e5af8ce8",
@@ -1291,9 +1348,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新業績公布",
+      "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e5ae89e4",
@@ -1312,7 +1369,26 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
+    },
+    {
+      "key": "_stub_e692a5e5",
+      "name": "撥康視雲－Ｂ",
+      "ticker": "02592.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-07-03",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e6b3b0e5",
@@ -1329,9 +1405,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_49464248",
@@ -1348,9 +1424,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e99bb2e7",
@@ -1367,9 +1443,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
+    },
+    {
+      "key": "_stub_e88196e8",
+      "name": "聖貝拉",
+      "ticker": "02508.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-06-26",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e591a8e5",
@@ -1386,9 +1481,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e9a699e6",
@@ -1405,9 +1500,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e69bb9e6",
@@ -1424,9 +1519,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e4b889e8",
@@ -1443,9 +1538,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e4bdb0e6",
@@ -1462,9 +1557,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e897a5e6",
@@ -1481,9 +1576,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e6b5b7e5",
@@ -1500,9 +1595,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e696b0e7",
@@ -1519,9 +1614,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新業績公布",
+      "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_4d455441",
@@ -1538,9 +1633,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e6898be5",
@@ -1557,9 +1652,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新業績公布",
+      "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e6b4bee6",
@@ -1578,7 +1673,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e68192e7",
@@ -1595,9 +1690,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新派息公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e7b6a0e8",
@@ -1616,7 +1711,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e9889ee9",
@@ -1635,7 +1730,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e58d9ae9",
@@ -1652,9 +1747,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e698a0e6",
@@ -1671,9 +1766,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
+    },
+    {
+      "key": "_stub_e6ada3e5",
+      "name": "正力新能",
+      "ticker": "03677.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-04-14",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e6b19fe8",
@@ -1690,9 +1804,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e88892e5",
@@ -1709,9 +1823,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e58d97e5",
@@ -1728,9 +1842,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新派息公布",
+      "statusLabel": "7日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e7b6ade6",
@@ -1747,9 +1861,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e8b5a4e5",
@@ -1766,9 +1880,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e89c9ce9",
@@ -1785,9 +1899,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e58fa4e8",
@@ -1804,9 +1918,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e8b3bde7",
@@ -1823,9 +1937,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新業績公布",
+      "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
+    },
+    {
+      "key": "_stub_e696b0e5",
+      "name": "新吉奧房車",
+      "ticker": "00805.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-01-13",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e5ae9ce8",
@@ -1842,9 +1975,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e7b490e6",
@@ -1861,9 +1994,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e6b5b7e8",
@@ -1880,9 +2013,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e58cafe8",
@@ -1899,9 +2032,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e885a6e5",
@@ -1918,28 +2051,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
-    },
-    {
-      "key": "_stub_e8a88ae9",
-      "name": "訊飛醫療科技",
-      "ticker": "02506.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2024-12-30",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e88bb1e8",
@@ -1956,9 +2070,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e581a5e5",
@@ -1975,9 +2089,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e4bd91e9",
@@ -1994,9 +2108,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e8b68ae7",
@@ -2015,7 +2129,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e5b08fe8",
@@ -2032,9 +2146,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e88d89e5",
@@ -2051,9 +2165,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新業績公布",
+      "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e694bfe5",
@@ -2072,7 +2186,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e6af9be6",
@@ -2089,9 +2203,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e9878de5",
@@ -2108,9 +2222,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e5a4a2e9",
@@ -2129,7 +2243,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e4b99de6",
@@ -2146,9 +2260,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新派息公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e9a086e8",
@@ -2165,9 +2279,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e59c8be5",
@@ -2184,9 +2298,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e582b2e5",
@@ -2203,9 +2317,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e699b6e7",
@@ -2222,9 +2336,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "最新業績公布",
+      "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e5beb7e7",
@@ -2243,7 +2357,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e88fafe6",
@@ -2260,9 +2374,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e9be8de8",
@@ -2279,9 +2393,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
+    },
+    {
+      "key": "_stub_e59cb0e5",
+      "name": "地平線機器人－Ｗ",
+      "ticker": "09660.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2024-10-24",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e88fafe6",
@@ -2298,9 +2431,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e4b883e7",
@@ -2317,9 +2450,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e5a4aae7",
@@ -2336,9 +2469,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e58da1e7",
@@ -2355,9 +2488,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     },
     {
       "key": "_stub_e7be8ee7",
@@ -2374,28 +2507,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-08-26"
-    },
-    {
-      "key": "_stub_e99b86e4",
-      "name": "集信國控",
-      "ticker": "08629.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2024-09-06",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-08-26"
+      "sourceDate": "2026-08-27"
     }
   ],
   "archived": [
