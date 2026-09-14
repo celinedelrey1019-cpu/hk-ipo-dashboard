@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11",
+  "lastUpdated": "2026-09-14",
   "activeSubscription": [
     {
       "key": "_stub_e6989fe7",
@@ -16,31 +16,50 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "5日後截止",
+      "statusLabel": "2日後截止",
       "source": "etnet",
-      "sourceDate": "2026-09-11"
-    }
-  ],
-  "hearingPassed": [
+      "sourceDate": "2026-09-14"
+    },
     {
-      "key": "_stub_42425342",
-      "name": "BBSB INTL",
-      "ticker": "08610.HK",
+      "key": "_stub_e59b9be6",
+      "name": "四方精創",
+      "ticker": "06700.HK",
       "aShare": "",
       "sector": "",
-      "phase": "pipeline",
+      "phase": "subscribe",
       "hearingDate": "",
       "subStart": "",
       "subEnd": "",
-      "listingDate": "2026-01-13",
+      "listingDate": "2026-09-22",
       "ipoLow": null,
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日除淨",
+      "statusLabel": "3日後截止",
       "source": "etnet",
-      "sourceDate": "2026-09-11"
+      "sourceDate": "2026-09-14"
     },
+    {
+      "key": "_stub_e7b48de7",
+      "name": "納真科技",
+      "ticker": "09856.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "subscribe",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-09-22",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "3日後截止",
+      "source": "etnet",
+      "sourceDate": "2026-09-14"
+    }
+  ],
+  "hearingPassed": [
     {
       "key": "_stub_e5a4a9e6",
       "name": "天數智芯",
@@ -56,9 +75,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後除淨",
+      "statusLabel": "1日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-11"
+      "sourceDate": "2026-09-14"
     },
     {
       "key": "_stub_e58a8de6",
@@ -75,9 +94,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-11"
+      "sourceDate": "2026-09-14"
     },
     {
       "key": "_stub_e5a4a7e8",
@@ -94,47 +113,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "3日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-11"
-    },
-    {
-      "key": "_stub_e4bdb3e9",
-      "name": "佳鑫國際資源",
-      "ticker": "03858.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-08-28",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日除淨",
-      "source": "etnet",
-      "sourceDate": "2026-09-11"
-    },
-    {
-      "key": "_stub_e8978de6",
-      "name": "藍思科技",
-      "ticker": "06613.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-07-09",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日除淨",
-      "source": "etnet",
-      "sourceDate": "2026-09-11"
+      "sourceDate": "2026-09-14"
     },
     {
       "key": "_stub_e7a98ee9",
@@ -151,9 +132,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-11"
+      "sourceDate": "2026-09-14"
     },
     {
       "key": "_stub_e694bfe5",
@@ -172,7 +153,26 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-09-11"
+      "sourceDate": "2026-09-14"
+    },
+    {
+      "key": "_stub_e6af9be6",
+      "name": "毛戈平",
+      "ticker": "01318.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2024-12-10",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "7日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-09-14"
     }
   ],
   "archived": [
