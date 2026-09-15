@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14",
+  "lastUpdated": "2026-09-15",
   "activeSubscription": [
     {
       "key": "_stub_e6989fe7",
@@ -16,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後截止",
+      "statusLabel": "明午截止",
       "source": "etnet",
-      "sourceDate": "2026-09-14"
+      "sourceDate": "2026-09-15"
     },
     {
       "key": "_stub_e59b9be6",
@@ -35,9 +35,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後截止",
+      "statusLabel": "2日後截止",
       "source": "etnet",
-      "sourceDate": "2026-09-14"
+      "sourceDate": "2026-09-15"
     },
     {
       "key": "_stub_e7b48de7",
@@ -54,9 +54,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後截止",
+      "statusLabel": "2日後截止",
       "source": "etnet",
-      "sourceDate": "2026-09-14"
+      "sourceDate": "2026-09-15"
     }
   ],
   "hearingPassed": [
@@ -75,28 +75,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-14"
+      "sourceDate": "2026-09-15"
     },
     {
-      "key": "_stub_e58a8de6",
-      "name": "劍橋科技",
-      "ticker": "06166.HK",
+      "key": "_stub_e69e97e6",
+      "name": "林清軒",
+      "ticker": "02657.HK",
       "aShare": "",
       "sector": "",
       "phase": "pipeline",
       "hearingDate": "",
       "subStart": "",
       "subEnd": "",
-      "listingDate": "2025-10-28",
+      "listingDate": "2025-12-30",
       "ipoLow": null,
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日除淨",
+      "statusLabel": "7日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-14"
+      "sourceDate": "2026-09-15"
     },
     {
       "key": "_stub_e5a4a7e8",
@@ -113,28 +113,47 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後除淨",
+      "statusLabel": "2日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-14"
+      "sourceDate": "2026-09-15"
     },
     {
-      "key": "_stub_e7a98ee9",
-      "name": "穎通控股",
-      "ticker": "06883.HK",
+      "key": "_stub_e4b889e8",
+      "name": "三花智控",
+      "ticker": "02050.HK",
       "aShare": "",
       "sector": "",
       "phase": "pipeline",
       "hearingDate": "",
       "subStart": "",
       "subEnd": "",
-      "listingDate": "2025-06-26",
+      "listingDate": "2025-06-23",
       "ipoLow": null,
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日除淨",
+      "statusLabel": "7日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-14"
+      "sourceDate": "2026-09-15"
+    },
+    {
+      "key": "_stub_e5b08fe8",
+      "name": "小菜園",
+      "ticker": "00999.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2024-12-20",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "今日派送",
+      "source": "etnet",
+      "sourceDate": "2026-09-15"
     },
     {
       "key": "_stub_e694bfe5",
@@ -153,7 +172,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-09-14"
+      "sourceDate": "2026-09-15"
     },
     {
       "key": "_stub_e6af9be6",
@@ -170,9 +189,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-14"
+      "sourceDate": "2026-09-15"
     }
   ],
   "archived": [
