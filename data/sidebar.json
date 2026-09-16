@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15",
+  "lastUpdated": "2026-09-16",
   "activeSubscription": [
     {
       "key": "_stub_e6989fe7",
@@ -16,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-09-15"
+      "sourceDate": "2026-09-16"
     },
     {
       "key": "_stub_e59b9be6",
@@ -35,9 +35,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後截止",
+      "statusLabel": "明午截止",
       "source": "etnet",
-      "sourceDate": "2026-09-15"
+      "sourceDate": "2026-09-16"
     },
     {
       "key": "_stub_e7b48de7",
@@ -54,31 +54,12 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後截止",
+      "statusLabel": "明午截止",
       "source": "etnet",
-      "sourceDate": "2026-09-15"
+      "sourceDate": "2026-09-16"
     }
   ],
   "hearingPassed": [
-    {
-      "key": "_stub_e5a4a9e6",
-      "name": "天數智芯",
-      "ticker": "09903.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-01-08",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日除淨",
-      "source": "etnet",
-      "sourceDate": "2026-09-15"
-    },
     {
       "key": "_stub_e69e97e6",
       "name": "林清軒",
@@ -94,9 +75,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
+      "statusLabel": "6日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-09-16"
+    },
+    {
+      "key": "_stub_e99bb2e8",
+      "name": "雲迹",
+      "ticker": "02670.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-10-16",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
       "statusLabel": "7日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-15"
+      "sourceDate": "2026-09-16"
     },
     {
       "key": "_stub_e5a4a7e8",
@@ -113,9 +113,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後除淨",
+      "statusLabel": "1日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-15"
+      "sourceDate": "2026-09-16"
+    },
+    {
+      "key": "_stub_e5a4a7e7",
+      "name": "大眾口腔",
+      "ticker": "02651.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-07-09",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "7日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-09-16"
     },
     {
       "key": "_stub_e4b889e8",
@@ -132,28 +151,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-15"
-    },
-    {
-      "key": "_stub_e5b08fe8",
-      "name": "小菜園",
-      "ticker": "00999.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2024-12-20",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-09-15"
+      "sourceDate": "2026-09-16"
     },
     {
       "key": "_stub_e694bfe5",
@@ -172,7 +172,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-09-15"
+      "sourceDate": "2026-09-16"
     },
     {
       "key": "_stub_e6af9be6",
@@ -189,9 +189,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-15"
+      "sourceDate": "2026-09-16"
     }
   ],
   "archived": [
