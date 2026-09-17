@@ -1,25 +1,6 @@
 {
-  "lastUpdated": "2026-09-16",
+  "lastUpdated": "2026-09-17",
   "activeSubscription": [
-    {
-      "key": "_stub_e6989fe7",
-      "name": "星環科技",
-      "ticker": "06727.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-09-21",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-09-16"
-    },
     {
       "key": "_stub_e59b9be6",
       "name": "四方精創",
@@ -35,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-09-16"
+      "sourceDate": "2026-09-17"
     },
     {
       "key": "_stub_e7b48de7",
@@ -54,9 +35,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-09-16"
+      "sourceDate": "2026-09-17"
     }
   ],
   "hearingPassed": [
@@ -75,9 +56,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-16"
+      "sourceDate": "2026-09-17"
+    },
+    {
+      "key": "_stub_e4b8ade5",
+      "name": "中偉新材",
+      "ticker": "02579.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-11-17",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "7日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-09-17"
     },
     {
       "key": "_stub_e99bb2e8",
@@ -94,9 +94,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-16"
+      "sourceDate": "2026-09-17"
     },
     {
       "key": "_stub_e5a4a7e8",
@@ -113,9 +113,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-16"
+      "sourceDate": "2026-09-17"
     },
     {
       "key": "_stub_e5a4a7e7",
@@ -132,9 +132,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-16"
+      "sourceDate": "2026-09-17"
     },
     {
       "key": "_stub_e4b889e8",
@@ -151,9 +151,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-16"
+      "sourceDate": "2026-09-17"
     },
     {
       "key": "_stub_e694bfe5",
@@ -172,7 +172,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-09-16"
+      "sourceDate": "2026-09-17"
     },
     {
       "key": "_stub_e6af9be6",
@@ -189,9 +189,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "5日後除淨",
+      "statusLabel": "4日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-16"
+      "sourceDate": "2026-09-17"
     }
   ],
   "archived": [
@@ -2048,6 +2048,13 @@
       "name": "江波龍",
       "ticker": "09976.HK",
       "listingDate": "2026-09-08",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e6989fe7",
+      "name": "星環科技",
+      "ticker": "06727.HK",
+      "listingDate": "2026-09-21",
       "result": "待更新"
     }
   ]
