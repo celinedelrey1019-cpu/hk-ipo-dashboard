@@ -1,46 +1,26 @@
 {
-  "lastUpdated": "2026-09-17",
-  "activeSubscription": [
-    {
-      "key": "_stub_e59b9be6",
-      "name": "四方精創",
-      "ticker": "06700.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-09-22",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-09-17"
-    },
-    {
-      "key": "_stub_e7b48de7",
-      "name": "納真科技",
-      "ticker": "09856.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-09-22",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-09-17"
-    }
-  ],
+  "lastUpdated": "2026-09-18",
+  "activeSubscription": [],
   "hearingPassed": [
+    {
+      "key": "_stub_e780bee8",
+      "name": "瀾起科技",
+      "ticker": "06809.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-02-09",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "7日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-09-18"
+    },
     {
       "key": "_stub_e69e97e6",
       "name": "林清軒",
@@ -56,9 +36,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "5日後除淨",
+      "statusLabel": "4日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-17"
+      "sourceDate": "2026-09-18"
     },
     {
       "key": "_stub_e4b8ade5",
@@ -75,9 +55,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-17"
+      "sourceDate": "2026-09-18"
+    },
+    {
+      "key": "_stub_e6a882e8",
+      "name": "樂舒適",
+      "ticker": "02698.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-11-10",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "今日派送",
+      "source": "etnet",
+      "sourceDate": "2026-09-18"
     },
     {
       "key": "_stub_e99bb2e8",
@@ -94,28 +93,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-17"
-    },
-    {
-      "key": "_stub_e5a4a7e8",
-      "name": "大行科工",
-      "ticker": "02543.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-09-09",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日除淨",
-      "source": "etnet",
-      "sourceDate": "2026-09-17"
+      "sourceDate": "2026-09-18"
     },
     {
       "key": "_stub_e5a4a7e7",
@@ -132,9 +112,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "5日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-17"
+      "sourceDate": "2026-09-18"
     },
     {
       "key": "_stub_e4b889e8",
@@ -151,9 +131,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "5日後除淨",
+      "statusLabel": "4日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-17"
+      "sourceDate": "2026-09-18"
+    },
+    {
+      "key": "_stub_e6898be5",
+      "name": "手回集團",
+      "ticker": "02621.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-05-30",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "7日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-09-18"
     },
     {
       "key": "_stub_e694bfe5",
@@ -172,7 +171,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-09-17"
+      "sourceDate": "2026-09-18"
     },
     {
       "key": "_stub_e6af9be6",
@@ -189,9 +188,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後除淨",
+      "statusLabel": "3日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-17"
+      "sourceDate": "2026-09-18"
     }
   ],
   "archived": [
@@ -2055,6 +2054,20 @@
       "name": "星環科技",
       "ticker": "06727.HK",
       "listingDate": "2026-09-21",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e59b9be6",
+      "name": "四方精創",
+      "ticker": "06700.HK",
+      "listingDate": "2026-09-22",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e7b48de7",
+      "name": "納真科技",
+      "ticker": "09856.HK",
+      "listingDate": "2026-09-22",
       "result": "待更新"
     }
   ]
