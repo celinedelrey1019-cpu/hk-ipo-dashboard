@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23",
+  "lastUpdated": "2026-09-24",
   "activeSubscription": [
     {
       "key": "_stub_e699afe6",
@@ -16,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-09-23"
+      "sourceDate": "2026-09-24"
     },
     {
       "key": "_stub_e7be85e5",
@@ -35,9 +35,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-09-23"
+      "sourceDate": "2026-09-24"
     },
     {
       "key": "_stub_e69cace6",
@@ -54,9 +54,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-09-23"
+      "sourceDate": "2026-09-24"
     },
     {
       "key": "_stub_e5bda4e7",
@@ -73,9 +73,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-09-23"
+      "sourceDate": "2026-09-24"
     },
     {
       "key": "_stub_e6ada1e5",
@@ -92,9 +92,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後截止",
+      "statusLabel": "明午截止",
       "source": "etnet",
-      "sourceDate": "2026-09-23"
+      "sourceDate": "2026-09-24"
     }
   ],
   "hearingPassed": [
@@ -113,9 +113,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後除淨",
+      "statusLabel": "1日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-23"
+      "sourceDate": "2026-09-24"
+    },
+    {
+      "key": "_stub_e98791e6",
+      "name": "金潯資源",
+      "ticker": "03636.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-01-09",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "最新派息公布",
+      "source": "etnet",
+      "sourceDate": "2026-09-24"
     },
     {
       "key": "_stub_e4b8ade5",
@@ -132,47 +151,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
-      "source": "etnet",
-      "sourceDate": "2026-09-23"
-    },
-    {
-      "key": "_stub_e99bb2e8",
-      "name": "雲迹",
-      "ticker": "02670.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-10-16",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
       "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-23"
-    },
-    {
-      "key": "_stub_e5a4a7e7",
-      "name": "大眾口腔",
-      "ticker": "02651.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-07-09",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日除淨",
-      "source": "etnet",
-      "sourceDate": "2026-09-23"
+      "sourceDate": "2026-09-24"
     },
     {
       "key": "_stub_e591a8e5",
@@ -189,9 +170,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "5日後除淨",
+      "statusLabel": "4日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-23"
+      "sourceDate": "2026-09-24"
     },
     {
       "key": "_stub_e6898be5",
@@ -208,9 +189,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後除淨",
+      "statusLabel": "1日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-23"
+      "sourceDate": "2026-09-24"
+    },
+    {
+      "key": "_stub_e5b883e9",
+      "name": "布魯可",
+      "ticker": "00325.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-01-10",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "今日派送",
+      "source": "etnet",
+      "sourceDate": "2026-09-24"
     },
     {
       "key": "_stub_e694bfe5",
@@ -229,7 +229,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-09-23"
+      "sourceDate": "2026-09-24"
     }
   ],
   "archived": [
