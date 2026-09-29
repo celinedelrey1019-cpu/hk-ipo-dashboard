@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28",
+  "lastUpdated": "2026-09-29",
   "activeSubscription": [
     {
       "key": "_stub_e5a595e6",
@@ -16,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "8日後截止",
+      "statusLabel": "7日後截止",
       "source": "etnet",
-      "sourceDate": "2026-09-28"
+      "sourceDate": "2026-09-29"
     }
   ],
   "hearingPassed": [
@@ -39,26 +39,26 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-09-28"
+      "sourceDate": "2026-09-29"
     },
     {
-      "key": "_stub_e591a8e5",
-      "name": "周六福",
-      "ticker": "06168.HK",
+      "key": "_stub_e6bbace4",
+      "name": "滬上阿姨",
+      "ticker": "02589.HK",
       "aShare": "",
       "sector": "",
       "phase": "pipeline",
       "hearingDate": "",
       "subStart": "",
       "subEnd": "",
-      "listingDate": "2025-06-26",
+      "listingDate": "2025-05-08",
       "ipoLow": null,
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日除淨",
+      "statusLabel": "今日派送",
       "source": "etnet",
-      "sourceDate": "2026-09-28"
+      "sourceDate": "2026-09-29"
     },
     {
       "key": "_stub_e89c9ce9",
@@ -75,9 +75,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-28"
+      "sourceDate": "2026-09-29"
     },
     {
       "key": "_stub_e694bfe5",
@@ -96,7 +96,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-09-28"
+      "sourceDate": "2026-09-29"
     }
   ],
   "archived": [
