@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30",
+  "lastUpdated": "2026-10-01",
   "activeSubscription": [
     {
       "key": "_stub_e5a595e6",
@@ -16,50 +16,12 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後截止",
+      "statusLabel": "5日後截止",
       "source": "etnet",
-      "sourceDate": "2026-09-30"
+      "sourceDate": "2026-10-01"
     }
   ],
   "hearingPassed": [
-    {
-      "key": "_stub_42425342",
-      "name": "BBSB INTL",
-      "ticker": "08610.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-01-13",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-09-30"
-    },
-    {
-      "key": "_stub_e7a98ee9",
-      "name": "穎通控股",
-      "ticker": "06883.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-06-26",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-09-30"
-    },
     {
       "key": "_stub_e89c9ce9",
       "name": "蜜雪集團",
@@ -75,9 +37,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "5日後除淨",
+      "statusLabel": "4日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-09-30"
+      "sourceDate": "2026-10-01"
     },
     {
       "key": "_stub_e694bfe5",
@@ -96,7 +58,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-09-30"
+      "sourceDate": "2026-10-01"
     }
   ],
   "archived": [
