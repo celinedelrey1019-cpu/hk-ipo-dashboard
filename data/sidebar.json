@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01",
+  "lastUpdated": "2026-10-02",
   "activeSubscription": [
     {
       "key": "_stub_e5a595e6",
@@ -16,12 +16,31 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "5日後截止",
+      "statusLabel": "4日後截止",
       "source": "etnet",
-      "sourceDate": "2026-10-01"
+      "sourceDate": "2026-10-02"
     }
   ],
   "hearingPassed": [
+    {
+      "key": "_stub_e59089e5",
+      "name": "吉宏股份",
+      "ticker": "02603.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-05-27",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "7日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-10-02"
+    },
     {
       "key": "_stub_e89c9ce9",
       "name": "蜜雪集團",
@@ -37,9 +56,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後除淨",
+      "statusLabel": "3日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-10-01"
+      "sourceDate": "2026-10-02"
     },
     {
       "key": "_stub_e694bfe5",
@@ -58,7 +77,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-10-01"
+      "sourceDate": "2026-10-02"
     }
   ],
   "archived": [
