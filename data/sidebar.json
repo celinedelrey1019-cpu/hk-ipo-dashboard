@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08",
+  "lastUpdated": "2026-10-09",
   "activeSubscription": [
     {
       "key": "_stub_e582b3e9",
@@ -16,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後截止",
+      "statusLabel": "3日後截止",
       "source": "etnet",
-      "sourceDate": "2026-10-08"
+      "sourceDate": "2026-10-09"
     }
   ],
   "hearingPassed": [
@@ -37,28 +37,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-10-08"
-    },
-    {
-      "key": "_stub_e5a4a7e7",
-      "name": "大眾口腔",
-      "ticker": "02651.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-07-09",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-10-08"
+      "sourceDate": "2026-10-09"
     },
     {
       "key": "_stub_e59089e5",
@@ -75,9 +56,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-10-08"
+      "sourceDate": "2026-10-09"
     },
     {
       "key": "_stub_e694bfe5",
@@ -96,7 +77,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-10-08"
+      "sourceDate": "2026-10-09"
     }
   ],
   "archived": [
