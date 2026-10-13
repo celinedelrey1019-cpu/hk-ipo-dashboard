@@ -1,26 +1,6 @@
 {
-  "lastUpdated": "2026-10-12",
-  "activeSubscription": [
-    {
-      "key": "_stub_e582b3e9",
-      "name": "傳音控股",
-      "ticker": "02636.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-10-15",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-10-12"
-    }
-  ],
+  "lastUpdated": "2026-10-13",
+  "activeSubscription": [],
   "hearingPassed": [
     {
       "key": "_stub_e98791e6",
@@ -37,9 +17,47 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後除淨",
+      "statusLabel": "2日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-10-12"
+      "sourceDate": "2026-10-13"
+    },
+    {
+      "key": "_stub_e5ae89e4",
+      "name": "安井食品",
+      "ticker": "02648.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-07-04",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "今日派送",
+      "source": "etnet",
+      "sourceDate": "2026-10-13"
+    },
+    {
+      "key": "_stub_e58d97e5",
+      "name": "南山鋁業國際",
+      "ticker": "02610.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-03-25",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "今日派送",
+      "source": "etnet",
+      "sourceDate": "2026-10-13"
     },
     {
       "key": "_stub_e694bfe5",
@@ -58,7 +76,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-10-12"
+      "sourceDate": "2026-10-13"
     }
   ],
   "archived": [
@@ -1978,6 +1996,13 @@
       "name": "奕斯偉計算",
       "ticker": "01256.HK",
       "listingDate": "2026-10-09",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e582b3e9",
+      "name": "傳音控股",
+      "ticker": "02636.HK",
+      "listingDate": "2026-10-15",
       "result": "待更新"
     }
   ]
