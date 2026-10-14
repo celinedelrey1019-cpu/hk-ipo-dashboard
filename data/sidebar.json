@@ -1,6 +1,26 @@
 {
-  "lastUpdated": "2026-10-13",
-  "activeSubscription": [],
+  "lastUpdated": "2026-10-14",
+  "activeSubscription": [
+    {
+      "key": "_stub_e798a6e8",
+      "name": "瘦西湖文旅",
+      "ticker": "06157.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "subscribe",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-10-23",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "6日後截止",
+      "source": "etnet",
+      "sourceDate": "2026-10-14"
+    }
+  ],
   "hearingPassed": [
     {
       "key": "_stub_e98791e6",
@@ -17,47 +37,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後除淨",
+      "statusLabel": "1日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-10-13"
-    },
-    {
-      "key": "_stub_e5ae89e4",
-      "name": "安井食品",
-      "ticker": "02648.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-07-04",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-10-13"
-    },
-    {
-      "key": "_stub_e58d97e5",
-      "name": "南山鋁業國際",
-      "ticker": "02610.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-03-25",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-10-13"
+      "sourceDate": "2026-10-14"
     },
     {
       "key": "_stub_e694bfe5",
@@ -76,7 +58,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-10-13"
+      "sourceDate": "2026-10-14"
     }
   ],
   "archived": [
