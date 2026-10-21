@@ -1,25 +1,6 @@
 {
-  "lastUpdated": "2026-10-20",
+  "lastUpdated": "2026-10-21",
   "activeSubscription": [
-    {
-      "key": "_stub_e798a6e8",
-      "name": "瘦西湖文旅",
-      "ticker": "06157.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-10-23",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-10-20"
-    },
     {
       "key": "_stub_e69db1e5",
       "name": "東山精密",
@@ -35,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後截止",
+      "statusLabel": "2日後截止",
       "source": "etnet",
-      "sourceDate": "2026-10-20"
+      "sourceDate": "2026-10-21"
     },
     {
       "key": "_stub_e5beaee5",
@@ -54,12 +35,31 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後截止",
+      "statusLabel": "2日後截止",
       "source": "etnet",
-      "sourceDate": "2026-10-20"
+      "sourceDate": "2026-10-21"
     }
   ],
   "hearingPassed": [
+    {
+      "key": "_stub_e780bee8",
+      "name": "瀾起科技",
+      "ticker": "06809.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-02-09",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "今日派送",
+      "source": "etnet",
+      "sourceDate": "2026-10-21"
+    },
     {
       "key": "_stub_e5a4a7e6",
       "name": "大族數控",
@@ -75,9 +75,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-20"
+      "sourceDate": "2026-10-21"
     },
     {
       "key": "_stub_e8a5bfe6",
@@ -94,9 +94,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-10-20"
+      "sourceDate": "2026-10-21"
     },
     {
       "key": "_stub_e5a4a9e5",
@@ -113,9 +113,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-20"
+      "sourceDate": "2026-10-21"
     },
     {
       "key": "_stub_e8978de6",
@@ -132,9 +132,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
+      "statusLabel": "2日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-10-21"
+    },
+    {
+      "key": "_stub_e6898be5",
+      "name": "手回集團",
+      "ticker": "02621.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-05-30",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
       "statusLabel": "今日派送",
       "source": "etnet",
-      "sourceDate": "2026-10-20"
+      "sourceDate": "2026-10-21"
     },
     {
       "key": "_stub_e5afa7e5",
@@ -151,9 +170,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-20"
+      "sourceDate": "2026-10-21"
     },
     {
       "key": "_stub_e9889ee9",
@@ -170,9 +189,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-20"
+      "sourceDate": "2026-10-21"
     },
     {
       "key": "_stub_e8b5a4e5",
@@ -189,9 +208,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-20"
+      "sourceDate": "2026-10-21"
     },
     {
       "key": "_stub_e694bfe5",
@@ -210,26 +229,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-10-20"
-    },
-    {
-      "key": "_stub_e6af9be6",
-      "name": "毛戈平",
-      "ticker": "01318.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2024-12-10",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-10-20"
+      "sourceDate": "2026-10-21"
     }
   ],
   "archived": [
@@ -2156,6 +2156,13 @@
       "name": "傳音控股",
       "ticker": "02636.HK",
       "listingDate": "2026-10-15",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e798a6e8",
+      "name": "瘦西湖文旅",
+      "ticker": "06157.HK",
+      "listingDate": "2026-10-23",
       "result": "待更新"
     }
   ]
