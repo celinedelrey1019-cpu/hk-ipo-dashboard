@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26",
+  "lastUpdated": "2026-10-27",
   "activeSubscription": [],
   "hearingPassed": [
     {
@@ -17,9 +17,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e58b9de5",
@@ -36,9 +36,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e59c8be6",
@@ -55,9 +55,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e5bba3e5",
@@ -74,9 +74,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e7be8ee6",
@@ -93,9 +93,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e58586e5",
@@ -112,9 +112,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e59f83e6",
@@ -131,9 +131,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e6b283e7",
@@ -150,9 +150,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e58588e5",
@@ -169,9 +169,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e780bee8",
@@ -188,9 +188,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e789a7e5",
@@ -207,9 +207,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e5a4a7e6",
@@ -228,7 +228,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e59c8be6",
@@ -245,9 +245,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e69db1e9",
@@ -264,9 +264,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e9be8de6",
@@ -283,9 +283,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e58586e6",
@@ -302,9 +302,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e8b1aae5",
@@ -321,9 +321,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
+    },
+    {
+      "key": "_stub_e98791e6",
+      "name": "金潯資源",
+      "ticker": "03636.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-01-09",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "今日派送",
+      "source": "etnet",
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e58d97e8",
@@ -340,9 +359,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e7b48de8",
@@ -359,9 +378,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e4b8ade5",
@@ -378,9 +397,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e59d87e5",
@@ -397,9 +416,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e8b3bde5",
@@ -416,9 +435,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後業績公布",
+      "statusLabel": "3日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e4b889e4",
@@ -435,9 +454,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e58a8de6",
@@ -454,9 +473,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後業績公布",
+      "statusLabel": "3日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e5bba3e5",
@@ -473,9 +492,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e8a5bfe6",
@@ -492,9 +511,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e5a587e7",
@@ -511,9 +530,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後業績公布",
+      "statusLabel": "3日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e5a4a9e5",
@@ -532,7 +551,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_464f5254",
@@ -549,9 +568,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e8978de6",
@@ -570,7 +589,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e5ae89e4",
@@ -587,9 +606,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e4b889e8",
@@ -606,9 +625,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後業績公布",
+      "statusLabel": "1日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e6b5b7e5",
@@ -625,9 +644,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e59089e5",
@@ -644,9 +663,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e68192e7",
@@ -663,9 +682,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e5afa7e5",
@@ -684,7 +703,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e7b6a0e8",
@@ -701,9 +720,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "7日後除淨",
+      "statusLabel": "6日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e9889ee9",
@@ -722,7 +741,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e8b5a4e5",
@@ -741,7 +760,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e694bfe5",
@@ -760,7 +779,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e9a086e8",
@@ -777,9 +796,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     },
     {
       "key": "_stub_e9be8de8",
@@ -796,9 +815,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後業績公布",
+      "statusLabel": "3日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-10-26"
+      "sourceDate": "2026-10-27"
     }
   ],
   "archived": [
