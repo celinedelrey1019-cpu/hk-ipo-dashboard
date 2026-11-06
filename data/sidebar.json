@@ -1,44 +1,6 @@
 {
-  "lastUpdated": "2026-11-05",
+  "lastUpdated": "2026-11-06",
   "activeSubscription": [
-    {
-      "key": "_stub_e88aafe5",
-      "name": "芯德半導體",
-      "ticker": "07672.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-11-10",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-11-05"
-    },
-    {
-      "key": "_stub_e799bbe8",
-      "name": "登臨科技－Ｐ",
-      "ticker": "09917.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-11-10",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-11-05"
-    },
     {
       "key": "_stub_e696b0e8",
       "name": "新荷花",
@@ -54,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e4b880e5",
@@ -73,9 +35,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後截止",
+      "statusLabel": "3日後截止",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e5ae8fe8",
@@ -92,9 +54,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "4日後截止",
+      "statusLabel": "3日後截止",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e59c8be6",
@@ -111,31 +73,12 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "5日後截止",
+      "statusLabel": "4日後截止",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     }
   ],
   "hearingPassed": [
-    {
-      "key": "_stub_e98281e5",
-      "name": "邁威生物－Ｂ",
-      "ticker": "02493.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-04-28",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-11-05"
-    },
     {
       "key": "_stub_e58b9de5",
       "name": "勝宏科技",
@@ -153,7 +96,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e6809de6",
@@ -172,26 +115,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
-    },
-    {
-      "key": "_stub_e58586e5",
-      "name": "兆威機電",
-      "ticker": "02692.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-03-09",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e59f83e6",
@@ -210,7 +134,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e58588e5",
@@ -229,7 +153,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e780bee8",
@@ -248,7 +172,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e789a7e5",
@@ -267,7 +191,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e69db1e9",
@@ -286,7 +210,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e9be8de6",
@@ -305,7 +229,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e58586e6",
@@ -324,26 +248,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
-    },
-    {
-      "key": "_stub_e8b1aae5",
-      "name": "豪威集團",
-      "ticker": "00501.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-01-12",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e4b8ade5",
@@ -362,7 +267,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e8b3bde5",
@@ -381,7 +286,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e4b889e4",
@@ -400,7 +305,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e58a8de6",
@@ -419,7 +324,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e5bba3e5",
@@ -438,7 +343,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e5a587e7",
@@ -457,7 +362,26 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
+    },
+    {
+      "key": "_stub_e7a6bee8",
+      "name": "禾賽－Ｗ",
+      "ticker": "02525.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-09-16",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_464f5254",
@@ -476,45 +400,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
-    },
-    {
-      "key": "_stub_e5ae89e4",
-      "name": "安井食品",
-      "ticker": "02648.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-07-04",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-11-05"
-    },
-    {
-      "key": "_stub_e4b889e8",
-      "name": "三花智控",
-      "ticker": "02050.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-06-23",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e6b5b7e5",
@@ -533,7 +419,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e59089e5",
@@ -552,7 +438,26 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
+    },
+    {
+      "key": "_stub_e89c9ce9",
+      "name": "蜜雪集團",
+      "ticker": "02097.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-03-03",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "今日派送",
+      "source": "etnet",
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e694bfe5",
@@ -571,7 +476,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     },
     {
       "key": "_stub_e9a086e8",
@@ -590,7 +495,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-05"
+      "sourceDate": "2026-11-06"
     }
   ],
   "archived": [
@@ -2552,6 +2457,20 @@
       "name": "遠信儲能",
       "ticker": "09621.HK",
       "listingDate": "2026-11-09",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e88aafe5",
+      "name": "芯德半導體",
+      "ticker": "07672.HK",
+      "listingDate": "2026-11-10",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e799bbe8",
+      "name": "登臨科技－Ｐ",
+      "ticker": "09917.HK",
+      "listingDate": "2026-11-10",
       "result": "待更新"
     }
   ]
