@@ -1,44 +1,6 @@
 {
-  "lastUpdated": "2026-11-09",
+  "lastUpdated": "2026-11-10",
   "activeSubscription": [
-    {
-      "key": "_stub_e4b880e5",
-      "name": "一微科技",
-      "ticker": "02065.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-11-12",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-11-09"
-    },
-    {
-      "key": "_stub_e5ae8fe8",
-      "name": "宏芯宇",
-      "ticker": "02681.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-11-12",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-11-09"
-    },
     {
       "key": "_stub_e59c8be6",
       "name": "國星宇航",
@@ -54,69 +16,12 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "明午截止",
+      "statusLabel": "今午截止",
       "source": "etnet",
-      "sourceDate": "2026-11-09"
+      "sourceDate": "2026-11-10"
     }
   ],
   "hearingPassed": [
-    {
-      "key": "_stub_e8b3bde5",
-      "name": "賽力斯",
-      "ticker": "09927.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-11-05",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-11-09"
-    },
-    {
-      "key": "_stub_e58a8de6",
-      "name": "劍橋科技",
-      "ticker": "06166.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-10-28",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-11-09"
-    },
-    {
-      "key": "_stub_e5a587e7",
-      "name": "奇瑞汽車",
-      "ticker": "09973.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-09-25",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "最新業績公布",
-      "source": "etnet",
-      "sourceDate": "2026-11-09"
-    },
     {
       "key": "_stub_e7a6bee8",
       "name": "禾賽－Ｗ",
@@ -132,9 +37,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-09"
+      "sourceDate": "2026-11-10"
     },
     {
       "key": "_stub_e694bfe5",
@@ -153,7 +58,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-11-09"
+      "sourceDate": "2026-11-10"
     }
   ],
   "archived": [
@@ -2136,6 +2041,20 @@
       "name": "新荷花",
       "ticker": "02206.HK",
       "listingDate": "2026-11-11",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e4b880e5",
+      "name": "一微科技",
+      "ticker": "02065.HK",
+      "listingDate": "2026-11-12",
+      "result": "待更新"
+    },
+    {
+      "key": "_stub_e5ae8fe8",
+      "name": "宏芯宇",
+      "ticker": "02681.HK",
+      "listingDate": "2026-11-12",
       "result": "待更新"
     }
   ]
