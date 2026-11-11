@@ -1,26 +1,6 @@
 {
-  "lastUpdated": "2026-11-10",
-  "activeSubscription": [
-    {
-      "key": "_stub_e59c8be6",
-      "name": "國星宇航",
-      "ticker": "06935.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "subscribe",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2026-11-13",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今午截止",
-      "source": "etnet",
-      "sourceDate": "2026-11-10"
-    }
-  ],
+  "lastUpdated": "2026-11-11",
+  "activeSubscription": [],
   "hearingPassed": [
     {
       "key": "_stub_e7a6bee8",
@@ -37,9 +17,28 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "今日業績公布",
+      "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-10"
+      "sourceDate": "2026-11-11"
+    },
+    {
+      "key": "_stub_e4bdb3e9",
+      "name": "佳鑫國際資源",
+      "ticker": "03858.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-08-28",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "今日派送",
+      "source": "etnet",
+      "sourceDate": "2026-11-11"
     },
     {
       "key": "_stub_e694bfe5",
@@ -58,7 +57,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-11-10"
+      "sourceDate": "2026-11-11"
     }
   ],
   "archived": [
