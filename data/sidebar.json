@@ -1,7 +1,26 @@
 {
-  "lastUpdated": "2026-11-11",
+  "lastUpdated": "2026-11-12",
   "activeSubscription": [],
   "hearingPassed": [
+    {
+      "key": "_stub_e6809de6",
+      "name": "思格新能",
+      "ticker": "06656.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-04-16",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "7日後除淨",
+      "source": "etnet",
+      "sourceDate": "2026-11-12"
+    },
     {
       "key": "_stub_e7a6bee8",
       "name": "禾賽－Ｗ",
@@ -19,26 +38,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-11"
-    },
-    {
-      "key": "_stub_e4bdb3e9",
-      "name": "佳鑫國際資源",
-      "ticker": "03858.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-08-28",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-11-11"
+      "sourceDate": "2026-11-12"
     },
     {
       "key": "_stub_e694bfe5",
@@ -57,7 +57,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-11-11"
+      "sourceDate": "2026-11-12"
     }
   ],
   "archived": [
