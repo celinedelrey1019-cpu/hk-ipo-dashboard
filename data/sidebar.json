@@ -1,7 +1,46 @@
 {
-  "lastUpdated": "2026-11-13",
-  "activeSubscription": [],
+  "lastUpdated": "2026-11-16",
+  "activeSubscription": [
+    {
+      "key": "_stub_e58588e9",
+      "name": "先通醫藥－Ｂ",
+      "ticker": "09941.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "subscribe",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-11-24",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "3日後截止",
+      "source": "etnet",
+      "sourceDate": "2026-11-16"
+    }
+  ],
   "hearingPassed": [
+    {
+      "key": "_stub_e58fafe5",
+      "name": "可孚醫療",
+      "ticker": "01187.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2026-05-06",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "今日派送",
+      "source": "etnet",
+      "sourceDate": "2026-11-16"
+    },
     {
       "key": "_stub_e6809de6",
       "name": "思格新能",
@@ -17,9 +56,47 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "6日後除淨",
+      "statusLabel": "3日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-11-13"
+      "sourceDate": "2026-11-16"
+    },
+    {
+      "key": "_stub_e69687e9",
+      "name": "文遠知行－Ｗ",
+      "ticker": "00800.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-11-06",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "4日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-11-16"
+    },
+    {
+      "key": "_stub_e5b08fe9",
+      "name": "小馬智行－Ｗ",
+      "ticker": "02026.HK",
+      "aShare": "",
+      "sector": "",
+      "phase": "pipeline",
+      "hearingDate": "",
+      "subStart": "",
+      "subEnd": "",
+      "listingDate": "2025-11-06",
+      "ipoLow": null,
+      "ipoHigh": null,
+      "ipoPrice": null,
+      "mktCapNote": "",
+      "statusLabel": "2日後業績公布",
+      "source": "etnet",
+      "sourceDate": "2026-11-16"
     },
     {
       "key": "_stub_e7a6bee8",
@@ -38,7 +115,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-13"
+      "sourceDate": "2026-11-16"
     },
     {
       "key": "_stub_e694bfe5",
@@ -57,7 +134,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-11-13"
+      "sourceDate": "2026-11-16"
     }
   ],
   "archived": [
