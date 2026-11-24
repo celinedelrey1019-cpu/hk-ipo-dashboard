@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23",
+  "lastUpdated": "2026-11-24",
   "activeSubscription": [
     {
       "key": "_stub_e5beaee5",
@@ -16,9 +16,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "8日後截止",
+      "statusLabel": "7日後截止",
       "source": "etnet",
-      "sourceDate": "2026-11-23"
+      "sourceDate": "2026-11-24"
     }
   ],
   "hearingPassed": [
@@ -39,7 +39,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-23"
+      "sourceDate": "2026-11-24"
     },
     {
       "key": "_stub_e5b08fe9",
@@ -58,7 +58,7 @@
       "mktCapNote": "",
       "statusLabel": "最新業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-23"
+      "sourceDate": "2026-11-24"
     },
     {
       "key": "_stub_e8819ae6",
@@ -75,9 +75,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後除淨",
+      "statusLabel": "今日除淨",
       "source": "etnet",
-      "sourceDate": "2026-11-23"
+      "sourceDate": "2026-11-24"
     },
     {
       "key": "_stub_e98791e8",
@@ -94,9 +94,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "3日後業績公布",
+      "statusLabel": "2日後業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-23"
+      "sourceDate": "2026-11-24"
     },
     {
       "key": "_stub_e7a98ee9",
@@ -113,28 +113,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "1日後業績公布",
+      "statusLabel": "今日業績公布",
       "source": "etnet",
-      "sourceDate": "2026-11-23"
-    },
-    {
-      "key": "_stub_e7b6a0e8",
-      "name": "綠茶集團",
-      "ticker": "06831.HK",
-      "aShare": "",
-      "sector": "",
-      "phase": "pipeline",
-      "hearingDate": "",
-      "subStart": "",
-      "subEnd": "",
-      "listingDate": "2025-05-16",
-      "ipoLow": null,
-      "ipoHigh": null,
-      "ipoPrice": null,
-      "mktCapNote": "",
-      "statusLabel": "今日派送",
-      "source": "etnet",
-      "sourceDate": "2026-11-23"
+      "sourceDate": "2026-11-24"
     },
     {
       "key": "_stub_e58fa4e8",
@@ -151,9 +132,9 @@
       "ipoHigh": null,
       "ipoPrice": null,
       "mktCapNote": "",
-      "statusLabel": "2日後除淨",
+      "statusLabel": "1日後除淨",
       "source": "etnet",
-      "sourceDate": "2026-11-23"
+      "sourceDate": "2026-11-24"
     },
     {
       "key": "_stub_e5b08fe8",
@@ -172,7 +153,7 @@
       "mktCapNote": "",
       "statusLabel": "最新派息公布",
       "source": "etnet",
-      "sourceDate": "2026-11-23"
+      "sourceDate": "2026-11-24"
     },
     {
       "key": "_stub_e694bfe5",
@@ -191,7 +172,7 @@
       "mktCapNote": "",
       "statusLabel": "政府債券",
       "source": "etnet",
-      "sourceDate": "2026-11-23"
+      "sourceDate": "2026-11-24"
     }
   ],
   "archived": [
